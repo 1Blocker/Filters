@@ -1012,6 +1012,7 @@ $script,third-party,domain=lafa-site.com
 /files/banner/*$domain=biokrasota.ru|gazeta19.ru|spbdnevnik.ru|xakac.info|orenday.ru
 /files/bannerfile
 /files/episodes/*-RU.mp4|
+/files/series/*-RU.mp4|
 /flickr/photo?url=$script,third-party
 /forum/images/*_banner_$domain=nnmclub.to
 /fotostrana_partners_
@@ -6455,6 +6456,7 @@ liveangarsk.ru###sidebar-right img[width="235"]
 liveangarsk.ru##div[style^="width:690px; height:90px;"]
 liveangarsk.ru##img[width="720"][height="70"]
 liveangarsk.ru##img[width="970"][height="70"]
+liveball.click,liveball.to,liveball.*###custom_brand
 liveball.sx###brandContainerGeo
 liveball.sx###fullscreen
 liveball.sx##.catfish_sec
@@ -7042,6 +7044,7 @@ moneytimes.ru##.articles-group:has(> div.tr-ad)
 moneytimes.ru##.tr-ad
 moneytimes.ru,politonline.ru,pravda.ru##div[id^="div_sf_"]
 monkrus.ws###HTML4
+monkrus.ws##center > a[href^="http://got.by/"]
 monna2.top##body div[id^="tatus"]
 monna2.top,tvtorrent.me##center > a[href^="/go.php?url="] > img
 montecarlo.ru##.partner-bg
@@ -7091,7 +7094,6 @@ mp3party.net##.advf-top
 mp3party.net##.justify-content-center
 mp3party.net##div[class^="advf-"]
 mp3xa.cc##.media_block
-mpg.com/movie/files/episodes/*-RU.mp4|
 mport.ua##.mtbottom_priceua
 mql5.com##div[id][class*=" ff"]
 mr-build.ru##.custom_block
@@ -9581,6 +9583,7 @@ sports.ru##.mc-layout__top-ads
 sports.ru##.nav-left-banner
 sports.ru##.navigation-right-column-banner
 sports.ru##.news-ad-inreads
+sports.ru##.news-layout__branding
 sports.ru##.news-list > article.document-card:has(> a[href^="https://sirena.world/"])
 sports.ru##.news-page__branding
 sports.ru##.online-layout__aside-content > div.widget:has(> div.widget__content > div.sports-meter)
@@ -10659,11 +10662,13 @@ vk.com,vk.ru###feed_rows > div[class="feed_row "]:has(div[class^="PostHeaderTitl
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div.page_block > div._post_content div.ads_ad_snippet)
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div.page_block > div._post_content span.ads_ad_avatar)
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div[class*="ads_block_data"])
+vk.com,vk.ru###l_invite_promo
 vk.com,vk.ru###system_msg
 vk.com,vk.ru##._ads_promoted_post
 vk.com,vk.ru##.post_marked_as_ads
 vk.com,vk.ru##div#left_ads
 vk.com,vk.ru##div[data-ad]
+vk.com,vk.ru##div[data-testid="feed_main_container"] > div[class^="vkit-"]:has(div.vkuiBanner__content)
 vk.com,vk.ru##div[role="feed"] > article:has(div.vkuiRootComponent__host > span.vkuiCaption__sizeYCompact > span)
 vk.com,vk.ru##div[role="feed"] > article:has(span[aria-label="Реклама"])
 vk.com,vk.ru##div[role="feed"] > article:has(span[class^="AdBlockProtector__noVisible--"])
@@ -13590,6 +13595,7 @@ zz.te.ua##div[class^="advads"]
 ||kuban24.tv/res/files/*/1140x240-*.html
 ||kuban24.tv/res/files/*/index-*.html
 ||kubik3.ru/js/adbs.js
+||kudlavasta.link^
 ||kupibonus.ru/*partner=$third-party
 ||kupichic.ru/scotuny.js
 ||kurkul.com/media/banner/
