@@ -232,6 +232,7 @@ app.famitsu.com##div[style^="position: absolute; z-index: 1000; width: 100%;"][s
 app.koofr.net##div[role="dialog"]:has(> .l-mobile-offer)
 app.slack.com##.p-download_modal
 app.slack.com##.p-ia__workspace_banner
+app.watchduty.org##div[data-testid="download-app-banner"]
 appbrain.com###pwa-install
 appleinsider.ru###ioimedia_app_banner
 appletips.nl##.atapp
@@ -2623,6 +2624,7 @@ pixiv.net##dialog.app-dialog-for-first-user
 pixlr.com###mobile-variant
 pixnet.net##.pixnet-happix-pilot__launcher-bar__button-container
 pizzahut.jp,noin.shop##.promote-app
+pizzahut.ru###__next > div > div > div[class]:has(a[href^="https://pizzan-ru.toppen.dev/app/"])
 pizzaroni.ru##.fpsmart
 place.line.me###floating-root + nav[class^="_"][style="bottom: 0px;"] > div:not([id])[style="bottom: 0px;"]
 planefinder.net###flight-advert
@@ -2719,6 +2721,7 @@ qrius.com##.sidebar-info > div.s-widget > p + div.store-btn
 qu.la##.downcode
 quicksigorta.com##body > header > div.MuiBox-root:has(> div > div > img[src^="https://quicksigorta.com/img/logos"])
 quillbot.com##.MuiGrid-root > div.MuiGrid-item:has(> div.MuiCollapse-root div[style*="/chrome-ext-"])
+quince.com##div[class^="app-push-banner"]
 quora.com##.OpenInAppBanner
 quora.com##.ViewInAppLink
 quora.com##.q-box > div[class^="CssComponent-"][style*="height: 50px;"]
@@ -3724,9 +3727,9 @@ xprimehub.bond,rogmovies.cv,vegamovies.navy,xprimehub.*,rogmovies.*,vegamovies.*
 xs26.com##.show-app2
 y2mate.*###adInstallAndroid
 ya.ru###search-result > div.serp-item:has(> div.Organic-App)
-ya.ru##div[id^="search-"] > div[class*="Organic"]:has(> div.Root div[class*="-Ad"] > span)
 ya.ru,yandex.*##.serp-list__page > div.serp-item:has(a[noredirecturl^="https://play.google.com/store/apps/details?"])
 ya.ru,yandex.*##div[class^="DistrSmartbanner"]
+ya.ru,yandex.*##div[id^="search-"] > div[class*="Organic"]:has(> div.Root div[class*="-Ad"] > span)
 yahoo.co.jp###Appinfo
 yahoo.co.jp###bnr_app
 yahoo.co.jp###bosaiapp
