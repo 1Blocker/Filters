@@ -1052,6 +1052,7 @@
 @@||giga.de^$generichide
 @@||gipfelbuch.ch^$generichide
 @@||givee.club/adsense.js$domain=givee.club
+@@||global.proper.io/salon.min.js$domain=salon.com
 @@||gmuender-tagespost.de^$generichide
 @@||gmx.at^$generichide
 @@||gmx.net/image^
@@ -5102,6 +5103,7 @@ mopo.de##a[data-teaser-view="300x300"][target="_blank"][href*="utm_source="]
 mopo.de##a[href*="advertorial"]
 mopo.de##a[href*="advertorial"] ~ [class^="teaser_social_block"]
 mopo.de##a[href*="campaign"][target="_blank"]
+mopo.de##article:has(> a[href*="/advertorial/"])
 mopo.de##body > div[style*="margin: 0 0 0 160px;"]
 mopo.de##div[id^="nativendo-home"]
 mopo.de##img[referrerpolicy="unsafe-url"][src^="/image/"]
@@ -5475,6 +5477,7 @@ nydus.org##div[style="height:90px;overflow:hidden;text-align:center;"]
 nydus.org##div[style="overflow:hidden;border: 1px solid #ccc;background:#f7f7f7;border-radius:3px;"]
 nzz.ch##.resor
 nzz.ch##.teaser--sponsored
+nzz.ch##div[data-source-element-widget]:has(> div[id^="adnz_native"]:only-child)
 oberberg-aktuell.de##.adv-indicator
 oberberg-aktuell.de##.bnrad
 oberberg-aktuell.de##.right-leaderboard
@@ -6748,6 +6751,7 @@ t-online.de##a[href^="http://im.banner.t-online.de/adlink"]
 t-online.de##a[href^="http://www.t-online.de/wirtschaft/immobiliensuche"]
 t-online.de##article > div > div:has( > div[data-testid^="Nativendo"])
 t-online.de##article div[class*="buttonwidgetv"]
+t-online.de##aside[aria-label="Anzeige"]
 t-online.de##aside[data-testid="StageLayout.StreamItem"]
 t-online.de##div:has(> div[data-commercial-format]:only-child)
 t-online.de##div[class]:has(> .z-commercial-nativendo:only-child)

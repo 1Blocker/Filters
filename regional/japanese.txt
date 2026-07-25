@@ -176,6 +176,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 .click/product_details?id=$document
 .click/product_tag?id=$document
 .click/tag_collect.html?id=$document
+.club/jmp?x=|$document
 .cn/RSV_P/smart_index.htm$document
 .cn/WebDesk/www/index.php$document
 .cn/ap/signin?openid.*&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp$document
@@ -856,6 +857,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||geo.de^$generichide
 @@||gfinityesports.com/js/googleadsense.js
 @@||givee.club/adsense.js$domain=givee.club
+@@||global.proper.io/salon.min.js$domain=salon.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=ib-game.jp
 @@||googleads.g.doubleclick.net/pagead/id?slf_rd=1$domain=texture-packs.com
 @@||googleads.g.doubleclick.net/pagead/id|$domain=texture-packs.com
@@ -2985,6 +2987,7 @@ dic.pixiv.net###d_toparticle_flux_ad
 dic.pixiv.net##.d_header
 dic.pixiv.net##.d_header_not_spa
 dic.pixiv.net##.h-\[90px\]
+dic.pixiv.net##article > div.mt-\[36px\].h-\[200px\]
 dic.pixiv.net##aside > div.mt-\[32px\].h-\[240px\].screen3\:h-\[154px\]
 dic.pixiv.net##div[class*="h-["]:has(> div[id^="adsdk-"])
 dic.pixiv.net##div[data-header-id] > div.my-\[36px\].justify-center
@@ -4784,6 +4787,7 @@ japanjournals.com##.custom:has(> div[class^="bg_g"]> div[class^="clm"] > a[targe
 japanjournals.com##.slidebanner
 japanjournals.com##.t3-banner-top
 japanjournals.com##.t3-sidebar-right .bannergroup
+japanmapcode.com##.flex-col > div:not([class]):has(> ins.adsbygoogle)
 japanmetal.com##.main > p[style="text-align:center;font-size: 80%;color: #a9a9a9;"]
 japanmetal.com##.side_box:has(> div.font07 > div.g > div.g-col > a.gofollow)
 japannewsnavi.com##.douga-ads
@@ -5002,6 +5006,7 @@ kagua.biz##.kizi > div > p > a[href^="//www.amazon.co.jp/"]
 kagua.biz##.rakubtn
 kagua.biz##.yahoobtn
 kahoku.news###footer-container:has(> div.kahoku_pc_top_footeroverlay)
+kahoku.news###kahoku_pc_article_footeroverlay
 kahoku.news##.conteiner__main > div[style="line-height:1; border-bottom:1px solid #ccc; padding:8px;"]
 kahoku.news##.conteiner__main > div[style="min-width:686px;min-height:557px;"]
 kahoku.news##.page_hedding
