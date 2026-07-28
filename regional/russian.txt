@@ -2597,6 +2597,7 @@ $script,third-party,domain=lafa-site.com
 [$path=/maps]yandex.*##.search-business-snippet-view__content > div.search-business-snippet-view__badge:has(span[data-nosnippet="true"] > span[class$="_advert-text"])
 [$path=/maps]yandex.*##.toponym-card-view__overview > div.toponym-card-view__section:has(> div[aria-live] > div > .toponym-card-view__advert)
 [$path=/maps]yandex.*##div[class^="business"][class*="advert-"]
+[$path=/maps]yandex.*##div[class^="business-card-direct-"]
 [$path=/maps]yandex.*##div[class^="masstransit-"][class*="-panel-view_"] ~ div[style^="padding: 16px 0px;"][style*="position: relative;"]
 [$path=/media]dzen.ru##div[class$="__ad-content"]
 [$path=/pogoda]dzen.ru##.adv_type_rtb
@@ -6275,6 +6276,7 @@ kurgan.ru##.banner-adds
 kurgan.ru,incrussia.ru##.mediametrics
 kurs.com.ru##a[style*="width: 728px; height: 90px;"]
 kurs.com.ua##.advertising-top
+kurs.com.ua##.advertising:not(#bottomWrap)
 kurs.com.ua##.cAlpariBanner
 kurs.com.ua##body > div#catfishWrap
 kurs.com.ua##div[data-display-before="РЕКЛАМА"]
@@ -9782,6 +9784,7 @@ syzran-small.ru##div[class^="partnews"]
 t-444.ru##a[href^="http://www.aliexpress.com"]
 t-do.ru##a.btn + div > a:not([href^="tg://"])
 t-do.ru##body > footer
+t-j.ru##div[class*="_container_"]:has(> div[class^="_placement_"])
 t.ks.ua##.full_top_ad
 t.ks.ua##img[style="width: 300px; height: 300px;"]
 t24.su##.header_banner_top
@@ -14702,6 +14705,7 @@ zz.te.ua##div[class^="advads"]
 ||rb*.design.ru^
 ||rb.rfn.ru^
 ||rb.sport-express.ru^
+||rbc.ru/api/rbcnews/v*/topline-branding
 ||rbcdn.com^$third-party
 ||rbfive.bid^
 ||rbfour.bid^
@@ -15261,6 +15265,7 @@ zz.te.ua##div[class^="advads"]
 ||static.wmbcdn.com/uniweb/js/modern/YandexAds.client.*.js
 ||static.xakep.ru/advert/
 ||static.zakon.kz/static_zakon/img/branding_
+||static2.tinkoffjournal.ru/creatives-core/v*/dist/index.js
 ||staticcontent.fxstreet.com/website/ads_popup/
 ||staticflickr.com^$domain=павлоград.dp.ua
 ||statics.dmclk.ru/web-ui-library/images/topline/banners/
