@@ -2246,6 +2246,7 @@ $script,third-party,domain=lafa-site.com
 @@||outschool.com^$generichide
 @@||overclockers.ru/static/js/app-pip.js$domain=overclockers.ru,important
 @@||pagead2.googlesyndication.com/getconfig/sodar?sv=$domain=tipsmake.com
+@@||pagead2.googlesyndication.com/pagead/$domain=mtgcardsmith.com
 @@||pagead2.googlesyndication.com/pagead/js/$domain=rr4farmtrof.com
 @@||pagead2.googlesyndication.com/pagead/js/*/rum_fy2019.js$domain=tipsmake.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=techsolutiontips.com
@@ -2597,7 +2598,6 @@ $script,third-party,domain=lafa-site.com
 [$path=/maps]yandex.*##.search-business-snippet-view__content > div.search-business-snippet-view__badge:has(span[data-nosnippet="true"] > span[class$="_advert-text"])
 [$path=/maps]yandex.*##.toponym-card-view__overview > div.toponym-card-view__section:has(> div[aria-live] > div > .toponym-card-view__advert)
 [$path=/maps]yandex.*##div[class^="business"][class*="advert-"]
-[$path=/maps]yandex.*##div[class^="business-card-direct-"]
 [$path=/maps]yandex.*##div[class^="masstransit-"][class*="-panel-view_"] ~ div[style^="padding: 16px 0px;"][style*="position: relative;"]
 [$path=/media]dzen.ru##div[class$="__ad-content"]
 [$path=/pogoda]dzen.ru##.adv_type_rtb
@@ -4286,7 +4286,7 @@ economistua.com##center > a[class="gofollow"] > img
 eda.ru##.ad_branding_header > section:has(> div[style] div#billboard)
 eda.ru##.css-1kzbhcl
 eda.ru##.first-banner
-eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div > div > button + div div[role="button"] > button[aria-label="Акция"] > div > img[src*="get-market-adv"])
+eda.yandex.ru##main > div[style^="margin-bottom:"]:has(> div > div > button + div div[role="button"] > button[aria-label] > div > img[src*="get-market-adv"])
 edadeal.ru##div[class*="ads"]
 edimdoma.ru##.card_commercial
 edu.ru##.side-navi__banner
