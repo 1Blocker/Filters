@@ -3462,7 +3462,7 @@ famitsu.com##a[class*="ArticleDetailBody_buttonForEC"]
 famitsu.com##amp-iframe[width="382"][height="700"]
 famitsu.com##aside[class^="SponsorLink_sponsorLinkContainer_"]
 famitsu.com##div[class^="ArticleDetailBanner_container_"]
-famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_"]
+famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_commonPartsContainer"]:has(a[href^="https://amzn.to"])
 famitsu.com##div[class^="ArticleDetail_leftColumn"] > section:has(> div > div.swiper div[class^="AmazonCard_card_"])
 famitsu.com##div[class^="FooterRectangle_container_"]
 famitsu.com##div[class^="HalfPageBottomOrLargeRectangle_container_"]
@@ -4882,7 +4882,7 @@ jj-jj.net###global-wrapper > div[style="text-align:center;"] > div[style="displa
 jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
 jm1xtk.com##.web_adber-1
 jma.go.jp,jma-net.go.jp##.adClear
-jmanga.care##div[style^="max-width:700px"]
+jmanga.loan##div[style^="max-width:700px"]
 jmty.jp##.p-adsense-in-list
 jmty.jp##.p-adsense-list-right-column-high-block
 jmty.jp##.p-custom-search-ad
@@ -8663,8 +8663,9 @@ wwdjapan.com##.sp-infeed-ad
 wwdjapan.com##.wwd-ad-manager-widget-feature-feed
 wwdjapan.com##.wwdj-ad
 wws-channel.com##.main_banner_container
-wws-channel.com##.side_banner:has(> #_popIn_recommend_image_right)
+wws-channel.com##.side_banner > a:not([href*="wws-channel.com"], [href*="line.me"])
 wws-channel.com##.sidebar-kyujin-box
+wws-channel.com##.tver-ranking-module
 www-creators.com##.adsense-placeholder
 www.exblog.jp##[class*="list" i] > .ss
 www.ne.jp##p > table[width="10%"][cellspacing="10"] > tbody > tr > td[valign="top"] > div[align="center"] > font[size="-1"]
@@ -10056,6 +10057,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||navitime.jp/data/cms/advertisement/
 ||navitime.jp/scripts/media/web/widget/
 ||nazology.kusuguru.co.jp/wp-content/themes/*/js/adb/
+||nazology.kusuguru.co.jp/wp-json/nazology/v1/oembed/amazon
 ||nend.net^$third-party
 ||neofield.click^$third-party
 ||new-adtest.pages.dev^$third-party
@@ -10208,6 +10210,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||sb-hip-happy.ourservice.jp^$all
 ||scadnet.com^$third-party
 ||script1.kakaku.k-img.com/script/itemview/RdmReviewAd.js
+||scrollpop.online^$third-party
 ||sda.seesaa.jp^
 ||sdqoi2d.com^$third-party
 ||search.jword.jp^$third-party
