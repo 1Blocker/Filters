@@ -1974,6 +1974,7 @@ $script,third-party,domain=lafa-site.com
 @@||eurofurence.org/*_banner.gif$domain=gdakon.org
 @@||eurovision.de/common/mediaplayer/branding/eurovision/style.branding.css
 @@||faberlic.ru/images/banners/
+@@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||fastspring.com/images/bn/
 @@||ferr-um.ucoz.ru^$generichide
 @@||fightnews.info^$generichide
@@ -2104,7 +2105,6 @@ $script,third-party,domain=lafa-site.com
 @@||itog.info^$generichide
 @@||jackbox.in.ua/banners.json
 @@||jkanime.net/ads.js
-@@||jn.pt/common/scripts/ads.js
 @@||joblib.ru/js/
 @@||journalstar.com^$generichide
 @@||js.estat.com/js/mu-7.0.min.js$domain=rmcbfmplay.com
@@ -2343,6 +2343,7 @@ $script,third-party,domain=lafa-site.com
 @@||remont-aud.net/js/pagead2.ads.js
 @@||remoteshaman.com/*/ads.js
 @@||reversing.cc/styles/*/Banner.swf
+@@||richmond.com^$generichide
 @@||ringside24.com/static/js/ad*.js
 @@||ritsatv.ru^$generichide
 @@||rl0.ru/widget/js/ticketmanager.js
@@ -2560,7 +2561,6 @@ $script,third-party,domain=lafa-site.com
 @@||wowjp.net/scripts/library/adRotator.js$domain=wowjp.net
 @@||wpnice.ru/wp-content/themes/jannah/js/advertisement.js
 @@||x.instreamatic.com/mark/idsync.js$domain=newradio.ru
-@@||x18.xxx/img/adblock.gif
 @@||x5.ru/_layouts/15/X5.PublicSite/Branding/
 @@||x5.ru/assets/Branding/
 @@||xataka.com^$generichide
@@ -11119,7 +11119,7 @@ ya.ru##[id^="search-"] > [data-fast="2"]
 ya.ru##aside[aria-label="Блоки информации"] + div[class*="-"]:has(> div > div[class*="content"] > div[class*="_state_"] > button[aria-label="Действия с рекламой"])
 ya.ru##div[data-hydration-id] > style + div[style^="--image-aspect-ratio:"]
 ya.ru##form[role="search"] div[id^="suggest-list-"] > div[class*="__group "]:has(> div[data-suggest-counter] [data-clps-id] > div[class$="__item-warning_disclaimer"])
-ya.ru##ul[id^="search-"] > li[class*="Organic"]:has(> div.Root div[class*="-HeaderAd"] > span)
+ya.ru##ul[id] > li[class*="Organic"]:has(> div.Root div[class*="-HeaderAd"] > span)
 ya.ru,yandex.*###search-result > [class]:has(> div.Organic > div a[href*="_crpd"])
 ya.ru,yandex.*###search-result > li:has(> div.Bno_isPromoSnippet)
 ya.ru,yandex.*###search-result-aside > div[class*="_right_yes"] > div[data-cid] div[data-vnl*="R-I-"]
@@ -11142,10 +11142,6 @@ ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="http://yabs."][href*="/count/
 ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="http://yandex"][href*="/clck/"]
 ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="https://yabs."][href*="/count/"]
 ya.ru,yandex.*##div[style^="max-width:"] > svg[width="100%"]
-ya.ru,yandex.*##ul[id^="search-"] > li:has(> div.Organic > div.Organic-ContentWrapper ~ div[class*=" Organic"] > span[class$="-Text"])
-ya.ru,yandex.*##ul[id^="search-"] > li:has(> div.Organic > div.Organic-Subtitle > div.Organic-Path ~ div[class*=" Organic"] > span[class$="-Text"])
-ya.ru,yandex.*##ul[id^="search-"] > li:has(> div.Root_inited > div[class*="Organic"] > div[class$="-Header"] > h2 + div > span)
-ya.ru,yandex.*##ul[id^="search-"] > li[class*="Organic"]:has(> div.Root a[href*="_crpd"] > div.Organic-OfferThumbWrap)
 yablor.ru##.benner_footer
 yablor.ru##.well_right_blogs
 yablyk.com##.yandex-ad

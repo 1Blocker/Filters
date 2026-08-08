@@ -591,6 +591,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 ://apple-*.com/account_int/$document
 ://bla.*/top.php^$document
 ://blu.*/top.php^$document
+://chat.*.com/gen_token.php?_=$xmlhttprequest,~third-party
 ://dhl-*/portal_login_exp/getQuoteTab/$document
 ://eki*.*.com/Personal/member/Login/index.php?oneTimeAccessID=$document
 ://eki-*.*/Perosnal_member/$document,domain=cn|com
@@ -822,6 +823,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||es-navi.com/img/ads/$~third-party
 @@||faq-widget.nakanohito.jp/faqwidget.js$domain=keio-passport.co.jp
 @@||fashionpost.jp/article/wp-content/themes/fashionpost/assets/php/ads.php
+@@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||fe-siken.com^$generichide
 @@||fightnews.info^$generichide
 @@||file.blog.fc2.com/motimoti3d/audiojs/audio.min.js|$domain=motimoti3d.jp
@@ -927,7 +929,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||jal.co.jp/affiliate/$image,domain=warau.jp
 @@||jiji.com/ad/img/$~third-party
 @@||jkanime.net/ads.js
-@@||jn.pt/common/scripts/ads.js
 @@||journalstar.com^$generichide
 @@||js.ad-stir.com/js/adstir.js$domain=contents-group.work
 @@||js.ad-stir.com/js/adstir_magnify.js$domain=h-ken.net
@@ -1068,6 +1069,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||realtime-chart.info^$generichide
 @@||repeat-drama.info^$generichide
 @@||res.ads.nicovideo.jp/assets/js/ads2.js$domain=sp.seiga.nicovideo.jp
+@@||richmond.com^$generichide
 @@||rmp.rakuten.co.jp/ads/$domain=edy.rakuten.co.jp
 @@||rocketnews24.com/wp-content/themes/rocketnews/js/prebid.js$domain=rocketnews24.com|youpouch.com
 @@||rocketnews24.com^$generichide
@@ -1194,7 +1196,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||worldvision.jp/img/topSP/topFootBana_ad.gif|
 @@||wowma.net/market/linkshare/$image,domain=chobirich.com|gendama.jp|moppy.jp|point.i2i.jp|t-mall.tsite.jp
 @@||ws-fe.assoc-amazon.com/widgets/cm?*&asins=$domain=disneymaniax.com|doitsuiroiro.blog.fc2.com|haseakio.hatenablog.com|norimune.net|tottemoyasashiibitcoin.net|yayoi-meister.com
-@@||x18.xxx/img/adblock.gif
 @@||xataka.com^$generichide
 @@||yads.c.yimg.jp/js/yads-async.js$domain=hoyme.jp
 @@||yads.c.yimg.jp/js/yads.js$domain=eiga.com
