@@ -570,6 +570,8 @@
 11889.com###sticky-aside
 11freunde.de##.ad_below-nav
 11freunde.de##.ad_wrap--desktop-wide
+11freunde.de##[data-advertisement]
+11freunde.de##div[x-data*="adSlot"]
 11freunde.de,amazona.de,charivari.de,dialo.de,dynamo-dresden.de,fruchtportal.de,jetztspielen.de,ligaportal.at,rheintaler.ch,spielen.de##.skyscraper
 1200grad.com##.banneruntermenu
 1200grad.com##.footerbanner
@@ -1342,7 +1344,6 @@
 @@||primamedia.ru/media/js/reklama.js
 @@||profil.at^$generichide
 @@||profiseller.de/shop-banner/dsl/468x60.html$domain=adhs-zentrum.de
-@@||programiz.com/ads.js
 @@||programiz.com/imads.js
 @@||promiflash.de/static/js/pf-web-*.js$domain=promiflash.de
 @@||promobil.de^$generichide
@@ -2573,6 +2574,7 @@ chip.de###hp-neongelb .copy-sm > a[href]:not([href*=".chip.de"])
 chip.de##.Ad-hor-height
 chip.de##.Article__Section > .Article__ChapterButton
 chip.de##.BC-Content
+chip.de##.BestCheck
 chip.de##.Boost
 chip.de##.Button--Clickout
 chip.de##.ButtonAuswahl.mb-xs + div
@@ -2599,8 +2601,8 @@ chip.de##.l-Downloads__Sidebar--TopShifter > .fb-cell-footer + div:not([class]):
 chip.de##.teaser-headline-gray
 chip.de##.vjs-relatedteaser
 chip.de##.wrapper-safe > .fb > .fb-col-md-4 > aside > .is-hidden-sm[style="min-height: 250px;"]
-chip.de##a[href*="chip.de/downloads/"] img[src*="hash"]:not([class], [data-src])
-chip.de##a[href*="chip.de/downloads/"]:has(img[src*="hash"]:not([class], [data-src]))
+chip.de##a[href*="chip.de/downloads/"] img[src*="hash"]:not([class], [data-src], [alt])
+chip.de##a[href*="chip.de/downloads/"]:has(img[src*="hash"]:not([class], [data-src], [alt]))
 chip.de##a[href^="http://adx.chip.de/www/delivery/ck.php"]
 chip.de##a[href^="https://branded-story.chip.de"]
 chip.de##a[href^="https://clkde.tradedoubler.com"]
