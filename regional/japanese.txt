@@ -1032,7 +1032,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||pdn.adingo.jp/asset/close-interstitial.svg$domain=dailynewsonline.jp
 @@||pdn.adingo.jp/p.js$domain=contents-group.work
 @@||pia.jp/uploads5/files/*/300_250.$image,domain=moppy.jp
-@@||pips.taboola.com^|$xmlhttprequest,domain=lephoceen.fr
 @@||pm-siken.com^$generichide
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*/300_250_$~third-party
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300x250$image,~third-party
@@ -2818,6 +2817,7 @@ courrier.jp##.sponser_drink_area
 craftbeer-tokyo.info###execphp-39
 craftbeer-tokyo.info###execphp-40
 crank-in.net###bannerin
+crank-in.net###taboola-container
 crank-in.net##.ad-area-list
 crank-in.net##.ad-area_pr:has(> figure.ad > p[style^="display: inline-block"])
 crank-in.net##.ad-area_trend_small
@@ -5086,6 +5086,8 @@ kakijun.jp###kakijun_books
 kakijun.jp##.gadcenter
 kako.5ch.io##div[style^="position: relative;width: 100%;height: 250px;"]
 kako.5ch.io,roote.ekispert.net##div[style="width: 300px; height: 250px;"]
+kako.futakuro.com##body > a[href][rel="noopener sponsored"]
+kako.futakuro.com##body > iframe[src^="https://chobit.cc/embed/"]
 kakomonn.com##.ctr_ad
 kakuren-bo.com###entry_li_body:has(#ninja-blog-inactive)
 kakuyomu.jp##div[class^=" Gap_size"] > div[class^="Layout_"]:has(> div[class^="Ad_ad_"])
@@ -6752,6 +6754,7 @@ openload.mov###main > div[style^="margin: 0 auto 60px auto;"]
 openworldnews.net###maintext > blockquote:has(> div.AmaQuick-box)
 openworldnews.net##.aban
 openworldnews.net##.amz-2col
+openworldnews.net##.plugin-memo:has(> div.side > a[href^="https://cleaning-nino.com"])
 openworldnews.net##blockquote:has(> div.amazon)
 openworldnews.net,figsoku.net,moeasia.net,kuraberu.com,animanch.com##.abox
 openworldnews.net,ocsoku.com,nwknews.jp,akb48matomemory.com,kitizawa.com,vipnews.jp,ldblog.jp,news-buzz1.com,kyousoku.net,oumaga-times.com,paranormal-ch.com,shuraba-matome.com,2chblog.jp,blog.jp,blog.livedoor.jp,blogo.jp,doorblog.jp,livedoor.biz,livedoor.blog##.plugin-memo:has(> div.side > div[id^="gad-fixed"])
@@ -7893,6 +7896,7 @@ taruo.net##br + center:last-child
 taxisite.com##.sp_sponsor
 taxisite.com##.sponsor_ext
 taxtax.hatenablog.jp##.size_b12
+tbs.co.jp###TND_pc_article_billboard
 tbs.co.jp##.ad_pc_article_undertitle
 tbsradio.jp##.articles-single__article__ad__underarticle
 tbsradio.jp##.articles-single__aside__ad
@@ -9365,6 +9369,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||chil-chil.net/cpAdShow/
 ||chil-chil.net/restGetAdBanner/
 ||chixi.jp/img.php?filename=b_
+||chobit.cc/embed/$domain=kako.futakuro.com
 ||chosunonline.com/*_criteo_article_300_250.
 ||chosunonline.com/*_google_728.
 ||chosunonline.com/common/ifr01/
@@ -9787,6 +9792,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||img.cityheaven.net/youtube/thum/banner.png
 ||img.cross-system.com/banner.$third-party
 ||img.dev-dev.net/?u=ad_amazon/
+||img.dlsite.jp/modpub/images2/work/doujin/RJ0*_img_main.jpg
 ||img.duga.jp^$domain=daibouken.jp
 ||img.gigafree.net/kanpo.png
 ||img.happymail.co.jp^$image,third-party
@@ -10222,7 +10228,6 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||response.jp/feature/adb/
 ||reuters.com/pf/resources/dist/reuters-japan/js/index.js
 ||richlink.blogsys.jp/embed/62d64654-4a35-31d5-9559-60a3dcd65ece$domain=nwknews.jp
-||rise.enhance.co.jp/adu.js
 ||rkd3.dev/dab.js
 ||rmp.rakuten.co.jp/js/aa.js
 ||rokemoba.com/smartphone/wp-content/uploads/2024/04/rakuten-
