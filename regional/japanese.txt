@@ -211,6 +211,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 .com/ibg/client/*.php|$document
 .com/index/category?category_id=*&coll_id=$document
 .com/index/detail.html?sno=$document
+.com/login/smbc-card/index.html/$document
 .com/mart/detail/m*?zenid=$document
 .com/mart/pri/m*.html?zenid=$document
 .com/reg_new^$document
@@ -4984,7 +4985,10 @@ jumpsokuhou.com##p + table[cellpadding="5"]
 juniorsoccer-news.com##.pos-top.container-widget-area
 juniorsoccer-news.com,rezv.net##.infeed.loop-article
 juno-beauty-pe.com##.js-coupon-modal
-jutaku-s.com##div[class*="BannerSlot-module__"]
+jutaku-s.com###headbnr
+jutaku-s.com##div[class$="_inlineAds"]
+jutaku-s.com##div[class^="HeaderBannerSlot-"]
+jutaku-s.com##div[class^="Sidebar-module"] > div[class^="BannerSlot-module_"][class$="_compact"]
 jwing.net##.sub > div[style="width:200px; margin: 20px auto 20px;"]
 jyn.jp,multirecommend.com,juantonto.official.jp,mayukitchen.com,zatsugaku-company.com,yugioh-resaler.com##p[style="color:#666;margin-bottom:5px;"]
 jyoshianaguguru.com##.readmoreWrap > center
@@ -5422,6 +5426,7 @@ leaked.jp##a[href^="https://leaked.jp/event"]
 leaked.jp##a[href^="https://leaked.jp/fc2ppv"]
 leaked.jp##a[href^="https://leaked.jp/series"]
 leaked.jp,studentwalker.com,avtokutei.com,murakichi.net,teyvatsokuho.com,bridgebook.jp,gambatimes.com,macsoft.jp,vapejp.net,neo-blood.co.jp,nijisenmon.work##.post-widgets-top
+ledge.ai##.flex-col > img[src*="EXPO_AUTUMN_bnr"]
 ledge.ai##article > p > a[target="“_blank”"] > img
 lefty322.com##.cps-post-main center
 legacy.aipictors.com##div[style="height: 296px;"]
@@ -9107,6 +9112,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||adpicker.net^
 ||adplushome.com^$third-party
 ||adreq.eagle-insight.com^
+||adring.net^$third-party
 ||ads-connect.com^
 ||ads-lite.net^$third-party
 ||ads-lite2.net^$third-party
@@ -9356,7 +9362,6 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||cdn.asagei.com/asagei/uploads/sp/images/bn/
 ||cdn.contentful.com/spaces/*/environments/master/entries?content_type=ad&$domain=tokyoartbeat.com
 ||cdn.dap.dmm.co.jp^$third-party,domain=~dmm.com
-||cdn.jutaku-s.com/banner-oblong-
 ||cdn.jutaku-s.com/banner-square-
 ||cdn.lodeo.io^
 ||cdn.mixx-ad.net^$third-party
