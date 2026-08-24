@@ -659,6 +659,7 @@
 ##.pccb > .ng-star-inserted
 ##.pcd_ad
 ##.pcgg
+##.pg-body > div[class^="gg_"]
 ##.pggb > .ng-star-inserted
 ##.pggc > .ng-star-inserted
 ##.pggd > .ng-star-inserted
@@ -842,6 +843,7 @@
 ##a[href*=".com?intr="]
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".gaimin.gg/cn"]
+##a[href*=".holesg.xyz"]
 ##a[href*=".hongguotuiguang."]
 ##a[href*=".jmtybc.com"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
@@ -1336,7 +1338,7 @@ $websocket,domain=wap.yushuwu.cloud
 /Static/Home/GongGao/img/kaiyuan.gif
 /V.aspx?Bln=$script,third-party
 /View/img/b72890.jpg
-/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|waguwk.cc|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
+/\.[a-z]+[\:\/]/$~image,third-party,domain=bijiyd.com|7zhens.com|wamuku.cc|scmmxs.com|jinduxs.com|buhesw.com|luenbook.cc|zahubook.com|heciwk.com|quhesw.com|erzuwk.com|bowoxs.com|guashuge.com|mudanxs.com|mzbook.cc|haduks.com|caimozw.com|zaaizw.com|bogeks.com|haxu8.com|pucixs.com|tuqisw.com|xueyisw.com|zuye8.com|yawoxs.com|guwoxs.com|jiufuzw.com|beianxs.com|shuying6.com|mafusw.com|cule9.com|riquzw.com|xingksw.com|enbusw.com|ruyisw.com|zuxiku.com|jinmusb.com|hunshuge.com|puyewk.com|kaaiwk.com|hadu520.com|qubosw.com|meisibook.com|cuaizw.cc|boxue8.cc|cipubook.com|ququsk.cc|yiyezao.com|shanhuxs.com|jiutusw.com|chahuax.com|hanziwen.com|haduzw.com|modaoshu.com|nipubook.com|puquz.com|wuwusk.com
 /\/[a-z0-9]+$/$script,third-party,domain=gimy1.com|gimy.com.tw
 /^https:\/\/(www\.)?zxzjhd\.com\/[0-9]+\.gif/$domain=zxzjhd.com
 /^https:\/\/m\.2shuqu\.net\/static\/[a-z0-9]+\/[a-z0-9]+\.js/$script,domain=m.2shuqu.net
@@ -3952,6 +3954,9 @@ $websocket,domain=wap.yushuwu.cloud
 @@||myshows.me^$generichide
 @@||myssl.com/scripts/analyze.js
 @@||mytvsuper.com^$generichide
+@@||nam.veta.naver.com/call|$xmlhttprequest,domain=chzzk.naver.com
+@@||nam.veta.naver.com/gfp$xmlhttprequest,domain=chzzk.naver.com
+@@||nam.veta.naver.com/vas|$xmlhttprequest,domain=chzzk.naver.com
 @@||nceea.cn/Content/images/ad/
 @@||neowin.net^$generichide
 @@||netded.com/plus/ad_js.php?aid=3|
@@ -4246,6 +4251,7 @@ $websocket,domain=wap.yushuwu.cloud
 @@||threatbook.cn/public/asset/js/zhugeIo.
 @@||tianxun.com/min/f=
 @@||timvision.it^$generichide
+@@||titulky.com/aclib.js
 @@||tkec.com.tw/api/ad/
 @@||tmall.com/add?
 @@||tmall.com/go/*/banner.php
@@ -6232,10 +6238,10 @@ ft.com,ftchinese.com##.bn-ph
 ftvnews.com.tw##div[id^="div_gpt_"]
 fububu.com###wendibu
 fujieace.com##.single-goods
-fuliba.net##.article-topbanner
 fuliba2021.net,ypojie.com##.orbui-post-footer
 fuliba2022.net###focusslide
 fuliba2022.net##li[style="margin-top:5px; "] > a[target="_blank"][rel="noopener"]:not([href$=".html"]) > img
+fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 fuliba2025.net##.content > a[href][target="_blank"]
 fuliba2025.net##a[href^="https://www.kezyw.com/"] > img
 fulibl.cc##.widget_text:last-child
@@ -11226,6 +11232,7 @@ zzzyk.com###Tinfo
 ||5k1cyldc9.com^
 ||5kjpa028wo.com^
 ||5kmqy60r7.com^
+||5knltyfcfy.com^
 ||5lf5cujc5.com^
 ||5lu8.com^$popup,third-party
 ||5lz3u8s5uq.com^
@@ -11359,6 +11366,7 @@ zzzyk.com###Tinfo
 ||6park.com/parks/$script
 ||6pctuhriw.com^
 ||6q77vsjez1.com^
+||6ql83wy90f.com^
 ||6s0zo8jzbb.com^
 ||6s78n1rj4r.com^
 ||6s8w2ck1g.com^
@@ -12489,7 +12497,6 @@ zzzyk.com###Tinfo
 ||baidu.com/event/img/zwdzjs.jpg
 ||baidu.com/fanyiapp/image/wise_banner_
 ||baidu.com/feproxy/ad/list?
-||baidu.com/forum/pic/item/0bd162d9f2d3572cef1c4acdcc13632762d0c322.
 ||baidu.com/game/asset/common/performance.
 ||baidu.com/gamebox?
 ||baidu.com/img/iknow/wenku*85.
@@ -13198,6 +13205,7 @@ zzzyk.com###Tinfo
 ||cdntxt.com/node/doit.
 ||cdntxt.com/t1/
 ||cdntxt.com/t2/
+||cdvnogrvt.com^
 ||cdxyb.cn^$third-party
 ||cdyee.com/external/5070.files/ad/
 ||ce.wlaoc.cn^$third-party
@@ -13903,6 +13911,7 @@ zzzyk.com###Tinfo
 ||dm1.ddwk8.cn^
 ||dm1.zjydt.com^
 ||dm5900.com/piao/
+||dmdcstsyv3.com^
 ||dmg-dd.oss-accelerate.aliyuncs.com^
 ||dmm.aizhan.com^
 ||dmr.cnhoney.com^
@@ -13981,6 +13990,7 @@ zzzyk.com###Tinfo
 ||dpuhlinevz.com^
 ||dpxadf.icu^
 ||dq827txpz.com^
+||dqgrr623c.com^
 ||dqnajb.icu^
 ||dqzooska.icu^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
@@ -16243,6 +16253,7 @@ zzzyk.com###Tinfo
 ||k3vgy6hf7.com^
 ||k5705bn39u.com^
 ||k5qdqwgjit.com^
+||k5s3263xhu.com^
 ||k5w06v2yzh.com^
 ||k69wes8q8.com^
 ||k6d.falang.net^
@@ -17953,6 +17964,7 @@ zzzyk.com###Tinfo
 ||ppxqhx.icu^
 ||pq8hypyajn.com^
 ||pqhtjn.icu^
+||pqpauhtkbh.icu^
 ||pqruoaz4co.com^
 ||pqurxlh7xk.com^
 ||praairfo.com^
@@ -18039,6 +18051,7 @@ zzzyk.com###Tinfo
 ||pvgcyyh.icu^
 ||pvhbhnqip.com^
 ||pvino9yhp3.com^
+||pvjuzdikhrbblo.com^
 ||pvtd.cn^
 ||pw321.com/bulu/
 ||pw321.com^*.gif
@@ -18090,6 +18103,7 @@ zzzyk.com###Tinfo
 ||qcs6kxekav.com^
 ||qcuncolm.com^
 ||qcvf.ifeng.com^
+||qczg1nsnvo.com^
 ||qd.x4399.com^
 ||qd38xgoin9.com^
 ||qdaily.com/mount_details/pc/
@@ -19195,7 +19209,6 @@ zzzyk.com###Tinfo
 ||thisav.com/player/video-js-banner/
 ||thisav.video/v3/nb/
 ||thj36m3dm.com^
-||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||thpvrn.icu^
 ||thragmoth.com^
 ||thraittidz.com^
@@ -19614,6 +19627,7 @@ zzzyk.com###Tinfo
 ||umbrella6.top^
 ||umini.shujupie.com^
 ||umqigvethe.com^
+||umrd62a7zy.com^
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
 ||un8hlx.com^
@@ -20404,6 +20418,7 @@ zzzyk.com###Tinfo
 ||xiu8.com/baidu-tieba/*&forum_name=
 ||xiyouence.com^$popup,third-party
 ||xizi.com/js/rotator.js
+||xj380euzh.com^
 ||xj63rov3m.com^
 ||xj8z427gxz.com^
 ||xjh4uvv1ew.com^
@@ -20812,7 +20827,7 @@ zzzyk.com###Tinfo
 ||yun.baidu.com/act/api/activityentry?
 ||yundaquan.com/data/attachment/portal/
 ||yunsennet.com^$popup
-||yuntu68.com/imgcimo/
+||yuntu68.com/img
 ||yuntue.com/zb_users/plugin/MoreLinks*.php
 ||yunupload.net/jsa/
 ||yunzuowen.com^$third-party
