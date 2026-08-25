@@ -154,7 +154,7 @@
 ##img[src^="//i.moshimo.com/af/i/impression?"]
 $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=motimoti3d.jp
 &p=*&_mi|$document,domain=top
-*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|alicdn.com,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com|rawkuma.net|rawjx.net|rawmiu.net|rawkuro.net|momon-ga.com
+*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|alicdn.com|zeala.link,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com|rawkuma.net|rawjx.net|rawmiu.net|rawkuro.net|momon-ga.com
 *ad.durasite.net^$third-party
 -co-jp-*.*/$document,domain=cfd|sbs|site
 -co-jp.*.*/$document,domain=cfd|sbs|site
@@ -1143,6 +1143,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||static.pushsquare.com/javascript/popunder2.js
 @@||static.rebates.jp/img/*_300x250.
 @@||static.tvmaze.com/css/ads.css
+@@||static.wmbcdn.com/uniweb/images/ad-banner.png$domain=mamba.ru
 @@||statika.mpsuadv.ru/scripts/6384.js$domain=trychatgpt.ru
 @@||stats.hprofits.com/advertisement.js
 @@||storage.aeonshop.com/assets/file/pages/img/AD/$domain=moppy.jp
@@ -1276,7 +1277,6 @@ ac-illust.com,photo-ac.com##.flux-all-footer.ac-z-index-999.position-fixed.bg-li
 ac-illust.com,photo-ac.com##.raksul-fixed-banner
 ac-illust.com,photo-ac.com##div[id^="search-result-"] div.bg-light.ac-p-2
 achikochi-data.com###ranking-table-0 > tbody > tr:has(> td > div > ins.adsbygoogle)
-achikochi-data.com,spread-sports.jp,mwed.jp,mi-mollet.com,financial-field.com##div[style^="min-height: 250px;"]
 active.nikkeibp.co.jp##.l-asideSection_featured
 active.nikkeibp.co.jp,bio.nikkeibp.co.jp,nfm.nikkeibp.co.jp,woman.nikkei.com##.dag_banner
 activitv.com##.cont_campaign
@@ -1955,6 +1955,7 @@ benesse.ne.jp##[id^="div-M_MD_inf_fluid_"]
 benesse.ne.jp##div[style^="height: 250px"]
 benesse.ne.jp##section > div.bannar_area:only-child
 bengo4.com##div[class^="p-dfp-banner-area"]
+bengo4.com##div[class^="p-static-banner-area"]
 bengo4.com##li.p-topics-list__item--ad-ranking
 benricho.org##.article > div.no_print.mt10
 benricho.org##.side_adarea1
@@ -4606,6 +4607,7 @@ imgs.a.la9.jp##td[colspan="3"][valign=top] > table[style="width:950; height:270;
 impress.co.jp##.ad-wrapper-in-content
 in-jpn.com##.sk-popup-window
 inakadaisuki.com##aside > .author ~ a[href^="https://amzn.to/"]
+inakadaisuki.com,achikochi-data.com,spread-sports.jp,mwed.jp,mi-mollet.com,financial-field.com##div[style^="min-height: 250px;"]
 inazumanews2.com##.check
 inazumanews2.com##.kkk
 indiegamekoryaku.com###imobile-interstitial
@@ -4828,6 +4830,7 @@ javfan.one##div[style="width: 100%; margin: 50px auto 50px auto;"]
 javfan.one##div[style^="max-width: 1"][style*="margin: 100px auto"]
 javfan.one##div[style^="max-width: 480px"][style*="margin"]
 javfan.one,doujinantena.top,momon-ga.com##.tablink
+javmix.tv##.pop--excl
 javmix.tv##div[style$="background: repeating-linear-gradient(45deg, #fff 0, #fff 10px, #eee 10px, #eee 20px); border: 1px solid #eee;"]
 javmix.tv##div[style^="width: 728px; height: 90px"]
 javstore.net##a[title="Banner"]
@@ -5966,7 +5969,7 @@ momoiroadult.com##div[class$="-header"]
 momoiroadult.com##div[class$="-home"] > div[style$="margin: auto;"][style*="width:"]
 momoiroadult.com##div[class$="-single"]
 momoiroadult.com##div[id^="myplace-"] > a[target="_blank"][rel="nofollow noopener"] > img
-momon-ga.com,javmix.tv##.pop--excl
+momon-ga.com##.pop--excl:has(div[id^="bnc_ad"])
 momoniji.com##div.sp[style]
 mona-news.com###sub div.plugin-memo
 mona-news.com##div[class^="infeed-article-"]
@@ -7056,6 +7059,7 @@ portal.circle.ms##.side-menu-top:has(> ul.ad-list)
 portal.connectedgamestore.com###subHeader_leaderboard
 posfie.com,togetter.com##.ad_custom
 posfie.com,togetter.com##.ad_list_top
+posfie.com,togetter.com##.amazon_bulk_box
 posfie.com,togetter.com##.list_box.type_amazon
 posfie.com,togetter.com##.tweet_box > div[class="list_box"]:not([data-index]):has(> div > a[href^="https://www.amazon.co.jp/"])
 post.tv-asahi.co.jp##.pc-ad1
@@ -9282,6 +9286,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||beikokukabu-etf-matome.com/wp-content/uploads/2025/03/moomoo02.png
 ||bellemaison.jp/pc/premoni/ad/
 ||benesse.jp/teikitest/common/js/floatad.js
+||bengo4.com/img/topics/article/banner/static-banner-ads/
 ||benricho.org/2017js/ad_*.js
 ||benricho.org/2017js/mobile_ad-bottom_ad.js
 ||benricho.org/2017js/sidebar-amazon.js
