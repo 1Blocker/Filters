@@ -867,7 +867,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||geo.de^$generichide
 @@||gfinityesports.com/js/googleadsense.js
 @@||givee.club/adsense.js$domain=givee.club
-@@||global.proper.io/salon.min.js$domain=salon.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=ib-game.jp
 @@||googleads.g.doubleclick.net/pagead/id?slf_rd=1$domain=texture-packs.com
 @@||googleads.g.doubleclick.net/pagead/id|$domain=texture-packs.com
@@ -3065,6 +3064,7 @@ dorama9.com###mobile_text-4
 dorama9.com##.widget-below-toc
 dorosoku.com###pcArticleAds
 dorosoku.com,kazokuchannel.doorblog.jp,kijyomita.com,kijonotakuhaibin.com##div[id^="articleAd"]
+doshinsports.com##.sidebar__ads-box
 dosports.yahoo-net.jp##.advertising
 dot.asahi.com##.a-ad
 dot.asahi.com##.g-ad-side
@@ -4777,7 +4777,9 @@ j-cia.com###amazon-products
 j-oosk.com,ghibli-tosidensetu.com##.al-c
 j-town.net##section[class$="_job_box" i]
 j-wave.co.jp##ad_bnr
+jacom.or.jp##div.block > div.w-full > section:has(> div.border-dashed > .gap-banner-gap > div[data-banner-slug])
 jacom.or.jp##div[class^="banner"] > a:not([href*="://www.ja"])
+jacom.or.jp##div[data-banner-slug]
 jafmate.jp##a[id^="ad_"][id$="01"]
 jafmate.jp##a[id^="ad_"][id$="03"]
 jah.ne.jp##body > center > table[cellspacing="3"] > tbody > tr:last-child
@@ -4830,7 +4832,7 @@ javfan.one##div[style="width: 100%; margin: 50px auto 50px auto;"]
 javfan.one##div[style^="max-width: 1"][style*="margin: 100px auto"]
 javfan.one##div[style^="max-width: 480px"][style*="margin"]
 javfan.one,doujinantena.top,momon-ga.com##.tablink
-javmix.tv##.pop--excl
+javmix.tv###main > div.pop--excl > div[style*="margin: 0 auto 50px auto;"]
 javmix.tv##div[style$="background: repeating-linear-gradient(45deg, #fff 0, #fff 10px, #eee 10px, #eee 20px); border: 1px solid #eee;"]
 javmix.tv##div[style^="width: 728px; height: 90px"]
 javstore.net##a[title="Banner"]
@@ -4901,7 +4903,7 @@ jj-jj.net###global-wrapper > div[style="text-align:center;"] > div[style="displa
 jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
 jm1xtk.com##.web_adber-1
 jma.go.jp,jma-net.go.jp##.adClear
-jmanga.land##div[style^="max-width:700px"]
+jmanga.help##div[style^="max-width:700px"]
 jmty.jp##.p-adsense-in-list
 jmty.jp##.p-adsense-list-right-column-high-block
 jmty.jp##.p-custom-search-ad
@@ -5746,6 +5748,7 @@ matome.f-book.net##.section_ad:not(.kiji + .section_ad)
 matome.f-book.net##.section_adbox
 matomeantena.com###latest-feeds > ul.list-group > li.list-group-item:is(:has(a[href^="https://bit.ly/"]),:has(a[href^="http://bit.ly/"]))
 matomeantena.com##.main-box > ul.list > li:has(> span.text > a[href^="https://bit.ly/"])
+matomeantennahub.com###banner_popup
 matomeblade.com,gundamlog.com,ge-sewa-news.blog.jp,sunri2525.blog.jp##.plugin-memo:last-of-type
 matomecup.com##.ently_text > table[style]
 matomecup.com##.menuLineDouble:first-child
@@ -5969,7 +5972,7 @@ momoiroadult.com##div[class$="-header"]
 momoiroadult.com##div[class$="-home"] > div[style$="margin: auto;"][style*="width:"]
 momoiroadult.com##div[class$="-single"]
 momoiroadult.com##div[id^="myplace-"] > a[target="_blank"][rel="nofollow noopener"] > img
-momon-ga.com##.pop--excl:has(div[id^="bnc_ad"])
+momon-ga.com,javmix.tv##.pop--excl:has(div[id^="bnc_ad"])
 momoniji.com##div.sp[style]
 mona-news.com###sub div.plugin-memo
 mona-news.com##div[class^="infeed-article-"]
@@ -7153,6 +7156,7 @@ qiita.com##.style-uaiz0z
 qiita.com##article ~ div > section[class^="style-"]:has(div[id^="logly-lift-"])
 qiita.com##div[id^="ArticleSearchSearchPage-"] > main > div[class^="style-"] > div[class^="style-"]:has(> div[id^="div-gpt-ad-"])
 qiita.com##div[id^="PersonalArticlePage-react-component-"] > div[data-testid^="popup-"][data-testid$="-signup"]
+qiita.com##div[id^="TagAdvertisement-"]
 qjweb.jp##.ad_detail_box
 qjweb.jp##.l-aside_ad
 qjweb.jp##.l-aside_ad-has-fixed

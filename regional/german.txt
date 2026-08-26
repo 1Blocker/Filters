@@ -416,6 +416,7 @@
 /WerbungPlatzhalter/*
 /Widgets/Werbung/*
 /\/[0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/$xmlhttprequest,script,third-party,domain=kinoger.*
+/^https:\/\/www\.igorslab\.de\/[0-9a-z]+\/[\/0-9A-Z_a-z-]+$/$image,~third-party,match-case
 /_werbung/*
 /aaa-werbung/*
 /ad-rahmen-
@@ -1057,7 +1058,6 @@
 @@||giga.de^$generichide
 @@||gipfelbuch.ch^$generichide
 @@||givee.club/adsense.js$domain=givee.club
-@@||global.proper.io/salon.min.js$domain=salon.com
 @@||gmuender-tagespost.de^$generichide
 @@||gmx.at^$generichide
 @@||gmx.net/image^
@@ -4303,6 +4303,8 @@ ifun.de,iphone-ticker.de###verbraucherhinweis-970
 ifun.de,iphone-ticker.de###verbraucherhinweis-970x250
 ifun.de,iphone-ticker.de###verbraucherhinweis-latest
 ifun.de,iphone-ticker.de###verbraucherhinweis-single-300x250
+igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
+igorslab.de##.herald-sticky
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top
@@ -4951,13 +4953,9 @@ medizin-und-technik.industrie.de##.ad-disclaimer + div[style*="width: 300px; hei
 meedia.de##.section-banner-fullwidth
 meedia.de##header[class="ad-info-title"]
 meerwasser-lexikon.de##.anzeigeInfo
-meetingpoint-brandenburg.de###myspacerinner
-meetingpoint-brandenburg.de###myspacerright
-meetingpoint-brandenburg.de###wobra-suche
-meetingpoint-brandenburg.de##.ads_mobile
-meetingpoint-brandenburg.de##.span > .white_bg[style="width: 100%; padding-right: 5px;"]
-meetingpoint-brandenburg.de##.span.white_bg[style="padding: 7px 2px; margin-left: 5px;"]
-meetingpoint-brandenburg.de##.span[style="width: 160px; margin-left: 5px;"]
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.ad-live
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.p-notify
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.tile > .tile-body:has(.tile-meta-ad)
 meetingpoint-jl.de##.p-adcol > div.weather-widget ~ [class^="ad-"]
 meetingpoint-jl.de##.p-adcol:not(:has(> div.weather-widget))
 mein--mmo-de.cdn.ampproject.org##.amp-ad-wrapper
@@ -5106,8 +5104,10 @@ mobile.de##div[class^="GptSlotWithFallback-module__"]
 mobile.de##div[data-testid="VIP_BODY_1"]
 mobile.de##div[data-testid="VIP_BODY_CONTACT"]
 mobile.de##div[data-testid="page-1-ads-container"]
+mobile.de##div[data-testid="result-list"] > article:has(span[data-testid="sponsored-badge"])
 mobile.de##div[data-testid^="m_srp_slot_"]
 mobile.de##div[style="min-height:250px"]:has(#SRP_BILLBOARD_ADSENSE)
+mobile.de##div[style="min-height:250px"]:has(div[data-testid="SRP_BILLBOARD-container"])
 mobile.de,focus.de##div[data-label="Anzeige"]
 mobilegeeks.de##.ha-header > div[style="background:#000000;"]
 mobilegeeks.de##a[data-eventcategory="Kooperation"]
@@ -5722,7 +5722,6 @@ pff.de##.porscheMarketAdContainer
 pharmazeutische-zeitung.de##.superbanner-frame
 photaq.com##div[style="height:90px"]
 photografix-magazin.de##.herald-da
-photografix-magazin.de##.herald-sticky
 photografix-magazin.de##.platzreservieren
 photographie.de##.post.type-post.status-publish:has(.anzeige-box)
 photovoltaikforum.com###pf_incontent_2
@@ -9066,14 +9065,12 @@ zwischengas.com##.zgsky
 ||mediaforum.ch/banner/
 ||mediaforum.ch/banner_
 ||medipreis.de/partner/$third-party
-||meetingpoint-brandenburg.de/bilder/*/kunden/
-||meetingpoint-brandenburg.de/bilder/*/werbung/
-||meetingpoint-brandenburg.de/upload/ads_
 ||meetingpoint-jl.de/uploads/*/ads/
 ||mega-ad.de^$third-party
 ||megadeliveryn.com^$third-party
 ||megawerbung.de^$third-party
 ||mein-klagenfurt.at/fileadmin/banner/
+||meinecloud.io/cms-standort-brb/ads/
 ||meinyouporn.com/img/linklist2/
 ||meinyouporn.com^*==/
 ||melodieundrhythmus.com^*/Granma-Abo.png
@@ -9115,7 +9112,7 @@ zwischengas.com##.zgsky
 ||moonsault.de/menu/amazon_
 ||morgenpost.de/bin/src-115530370.png
 ||morgenweb.de/adbdetect/$script
-||mothor.de/webbanner/
+||mothor.de^*/webbanner/
 ||motorrad2000.de/wp-content/uploads/*-Banner_
 ||motorrad2000.de/wp-content/uploads/*/0801_motorrad2000_bueffel_animation.gif
 ||motorrad2000.de/wp-content/uploads/*/8fa952cba73b0d4fbf043e9be45cb366.gif
@@ -9986,6 +9983,7 @@ zwischengas.com##.zgsky
 ||web-ads.10sq.net^
 ||web.de/image/180/32817180,pd=1.gif
 ||web20-traffic-system.de^$third-party
+||webbanner.mothor.de^$third-party
 ||websc.org^$popup,third-party
 ||websc.org^$third-party
 ||websingles.at/pages/site/de/images/logos/
