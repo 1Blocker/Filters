@@ -3135,11 +3135,14 @@ avito.ru##.avito-ads-placeholder
 avito.ru##.context-flyer.js-catalog-item-enum
 avito.ru##.item-price-banner
 avito.ru##.main-page-promo
+avito.ru##div[class*="advMain-"]
+avito.ru##div[class*="advRootWidgetSlot"]
 avito.ru##div[class*="avito-ads-container"] > div
 avito.ru##div[class*="index-advRootWidgetNoStories"]
 avito.ru##div[class^="advert-mimicry-"]
 avito.ru##div[class^="advert-serp-block-wrapper-"]
 avito.ru##div[class^="items-ads-"]
+avito.ru##div[class^="wrapper-"][class*="adv-"]
 avto-dny.ru##div[class^="rkl-box"]
 avto-dny.ru##div[class^="teaser_block-"]
 avtoblog.ua##.bannerDev
@@ -3386,6 +3389,7 @@ blackhacker.ru##img[width="410"][height="60"]
 blik.ua##.sadse
 blisch.by##.b_ads_link
 blisch.by##.menu > li.menu-item > a[href*="utm_medium"]
+blitz-commander.by##.yandex-ad
 blitz.*##.block-smi24-code-block
 blitz.*##div[data-ad-xofda]
 blitz.center##.smi24-wrap
@@ -10274,6 +10278,7 @@ tv-torrent.org###toolbar.container
 tv-torrent.org##a[href^="http://tv-torrent.org/clear"] > img
 tv.mail.ru##.rb_body
 tv.mail.ru##.rb_right
+tv.mail.ru##div:has(> div[data-rb-slot]:only-child)
 tv.planeta.ru##.broadcast-stream-ads
 tv.pokaz.me,online.viks.tv###reclamanemoya
 tv.rambler.ru##body > div:has(> div[class] > div[id^="lex"])
@@ -10717,9 +10722,9 @@ vk.com,vk.ru###system_msg
 vk.com,vk.ru##.ConvoList__scrollbar-content > div[style]
 vk.com,vk.ru##._ads_promoted_post
 vk.com,vk.ru##.post_marked_as_ads
+vk.com,vk.ru##.vkuiBanner__host
 vk.com,vk.ru##div#left_ads
 vk.com,vk.ru##div[data-ad]
-vk.com,vk.ru##div[data-testid="feed_main_container"] > div[class^="vkit-"]:has(div.vkuiBanner__content)
 vk.com,vk.ru##div[role="feed"] > article:has(div.vkuiRootComponent__host > span.vkuiCaption__sizeYCompact > span)
 vk.com,vk.ru##div[role="feed"] > article:has(span[aria-label="Реклама"])
 vk.com,vk.ru##div[role="feed"] > article:has(span[class^="AdBlockProtector__noVisible--"])
@@ -11170,7 +11175,6 @@ ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="https://yabs."][href*="/count
 ya.ru,yandex.*##div[style^="max-width:"] > svg[width="100%"]
 yablor.ru##.benner_footer
 yablor.ru##.well_right_blogs
-yablyk.com##.yandex-ad
 yablyk.com,trucoteca.com,deep-review.com##div[class^="code-block code-block-"][style*="margin: 8px auto; text-align: center;"]
 yagramotniy.ru###specialitem
 yamal-media.ru##aside[class^="articlePartnerNews_"]
