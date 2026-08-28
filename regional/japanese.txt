@@ -727,6 +727,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||amazonaws.com/affiliate-img.docomo.ne.jp/banner/$image,domain=chobirich.com|moppy.jp|point.i2i.jp
 @@||amazonaws.com/img.point.i2i.jp/banner/*/300x250_$image,domain=point.i2i.jp
 @@||amazonaws.com/img.point.i2i.jp/banner/*_300x250.$image,domain=point.i2i.jp
+@@||android-hilfe-down.blogspot.com^$generichide
 @@||androidplanet.nl/*/ads.js
 @@||anymedia.lv/js/adblocker.js
 @@||anymind360.com/js/*/ats.js
@@ -2467,6 +2468,8 @@ chaberi.com##.panel-default > div.hidden-xs.row
 chakuero-jyo-ho-koukanjyo.cafeblog.jp###extra div.plugin-memo > div.plugin-memo
 chance.enjoy.point.auone.jp###quiz_sp_banner_footer
 chance.enjoy.point.auone.jp###quiz_sp_contents
+channel.rakuten.co.jp##div[data-ratid="click_banner"]
+channel.rakuten.co.jp##rch-app > div[class]:first-child:has(> div[class] > div#mkdiv_header_pitari)
 chanto.jp.net###wrapper > div[style^="margin:0 auto;width: auto; min-height"][style$="text-align: center;"]
 chanto.jp.net##.cha_sp_all_header
 chanto.jp.net##.cha_sp_photo_header
@@ -2667,6 +2670,7 @@ city.meguro.tokyo.jp##.banner-box
 city.mikasa.hokkaido.jp,virgintriumph.com,h2ch.com,pref.hokkaido.lg.jp,booksprivilege.com,repsoku.net,atrain3d.com,dq5clear.com,wpclear.com,city.shinagawa.tokyo.jp,html-css-javascript.com,pref.nagasaki.jp,okinawaokuyami.com,illust-ai.com,ntv.co.jp,my-terrace.com,travel.rakuten.co.jp,conciergedesk.jp###ad
 city.minami-alps.yamanashi.jp###adBnrArea
 city.mishima.shizuoka.jp###sponsor-banner
+city.mishima.shizuoka.jp,m-s-y.com###random-banner
 city.mitaka.lg.jp###BannerArea
 city.miyakonojo.miyazaki.jp###top_photo_banner
 city.miyawaka.lg.jp,city.yatsushiro.lg.jp,city.kumamoto.jp###adinfo
@@ -2773,6 +2777,7 @@ comic.nan-net.com##.side-ninki
 comic.nan-net.com##.top-siko
 comione.com##.p-post__adPostBlock
 comix.fyi###main-content .grid > div[id^="ad-"]
+comix.fyi,sports.tv.rakuten.co.jp##div[id^="ad-banner-"]
 community.kanphoto.net##.deai-banner
 community.kanphoto.net##.dti-banner
 community2.fmworld.net##.articleDeleteButtonWrap
@@ -2980,7 +2985,6 @@ detail.chiebukuro.yahoo.co.jp##[id*="-ad-parent-"]
 detailtext-aucfan.com,aucfan.com,aucview.com##div[class*="adBnrBox"]
 dev-dev.net##div[style="width:100%;height:90px;"]
 dev-dev.net##div[style="width:336px;height:280px;"]
-deview.co.jp##.banner-area-rs
 deview.co.jp##.pc-break-ad-text
 deview.co.jp##.recruitment-box-advertisement-section-bottom
 deview.co.jp##div[style="text-align:center; min-height:257px;"]
@@ -3480,8 +3484,7 @@ famitsu.com##amp-iframe[width="382"][height="700"]
 famitsu.com##aside[class^="SponsorLink_sponsorLinkContainer_"]
 famitsu.com##div[class^="ArticleDetailBanner_container_"]
 famitsu.com##div[class^="ArticleDetailBody_adContentItem"]
-famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_commonPartsContainer"]:has(a[href^="https://amzn.to"])
-famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_commonPartsContainer"]:has(a[href^="https://link.amazon"])
+famitsu.com##div[class^="ArticleDetail_articleMainFooter"] > div[class^="CommonParts_commonPartsContainer"]:has(a[target="_blank"])
 famitsu.com##div[class^="ArticleDetail_leftColumn"] > section:has(> div > div.swiper div[class^="AmazonCard_card_"])
 famitsu.com##div[class^="FooterRectangle_container_"]
 famitsu.com##div[class^="HalfPageBottomOrLargeRectangle_container_"]
@@ -3635,6 +3638,7 @@ fob.jp###sidebar > div.widget_custom_html:has(> div.textwidget > div.p-blogParts
 fob.jp##.post_content > div.wp-block-columns.u-mb-40 > div.wp-block-column:has(> figure[id^="https\:\/\/al\."])
 fob.jp##.tadaima
 fob.jp##.tadaima + div.wp-block-column[style="flex-basis:100px"]
+fob.jp,overwatch2-news.apexlegends-leaksnews.com,metyayaba.com,game-chan.net,gazlog.jp,yosk8.com,koikatsu-portal.com,gamestlike.com,adtechmanagement.com,game-oruhachiv.com,shellbys.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 football-2ch.com###sub > div.plugin-memo:first-child
 football-zone.net##a[id*="side_banner_abema_"]
 football-zone.net,hint-pot.jp##.box-top
@@ -4134,8 +4138,8 @@ golfsapuri.com##.sideBanner2:first-child
 golfsapuri.com##div[style^="width: 100%; text-align: center"][style$="height:250px;"]
 goo-net.com##.adlode-cls
 goo-net.com##.footer_img_ssp_banner_under
-good-apps.jp###custom_html-5
 good-apps.jp##div[class^="gmossp_core_"]
+good-apps.jp,irodorich.com,rekishi-shizitsu.jp,romptn.com,mauyas.com,sekamaji-blog.com,zokeisha.co.jp,tech-biz-eng.com,erokune.com,multilingualtraveler.com,blog.hisway306.jp,blog.ko31.com,coffee-station.fun,cosmetics-trial.com,fgsk8.com,pocketwifi-hikaku.info,saorerin.com,studiosero.net,sukesuke-mile-kojiki.net,blog.katsubemakito.net,pcmanabu.com,carrozzeria-cdl.jp,eigo.plus,sanabo.com,anitubu.com,talking-english.net,4thsight.xyz,tohaz.com,erogamemod.com,kimootoko.net###custom_html-5
 good-summary.com###inner-footer .last .widget_custom_html
 goodend.xyz##.textwidget > p:has(> ins.adsbygoogle)
 goodfreefonts.com###titleunder-ads
@@ -4875,7 +4879,6 @@ jiji.com###sp-overlay:not(#style_important)
 jiji.com##.ArticleInnerAD
 jiji.com##.Rectangle2:not(.PhotoPageScroll ~ .Rectangle2)
 jiji.com##.jobs-widget
-jiji.com##.sticky > aside.banner
 jin115.com###other_news_website
 jin115.com###side_left
 jin115.com###side_right > .plugin-memo:first-child
@@ -5212,7 +5215,7 @@ kimamamatome.doorblog.jp###sidebar-inner > div:has(> div.right-container-ads)
 kimamamatome.doorblog.jp##.kotei
 kimootoko.net###custom_html-58
 kimootoko.net##.shortcode_widget_2
-kimootoko.net##div[class^="koukoku"]
+kimootoko.net,topjav.tv,syosetu.com,nan-net.com,adacomi.com##div[class^="koukoku"]
 kin-katsu.net,iqossan.com##.elAds
 kindou.info##.adad2
 kingdom-hearts.net,dragon-quest.jp,final-fantasy.cc###sidebar > .contents
@@ -5575,7 +5578,6 @@ lyrical-nonsense.com##.playblockbtmcon
 lyrical-nonsense.com##.playblocktop
 lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 m-apps.qoo-app.com##.tpa-box
-m-s-y.com###random-banner
 m-s-y.com##.adsense-in-article
 m.kuku.lu##div[style$="min-height:90px;"]
 m.kuku.lu##div[style="height:100px;max-height:100px;overflow:hidden;"]
@@ -6889,7 +6891,6 @@ ourage.jp##.sidebar__yahoo
 oursounds.net##.kijinai_ad
 overjoyed.info##.dfad:has(> ins.adsbygoogle)
 overseas.antenam.info##.header.clearfix
-overwatch2-news.apexlegends-leaksnews.com,metyayaba.com,game-chan.net,gazlog.jp,yosk8.com,koikatsu-portal.com,gamestlike.com,adtechmanagement.com,game-oruhachiv.com,shellbys.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 ovo.kyodo.co.jp##.gunosy-ads-spot
 ovo.kyodo.co.jp,tvfan.kyodo.co.jp##.textwidget > div.box > a[target="_blank"][rel="noopener"] > img[width="300"]
 ox-tv.co.jp,mantan-web.jp,macaro-ni.jp##.yadsOverlay
@@ -7749,7 +7750,6 @@ sportiva.shueisha.co.jp##article.group-content + ul.list-basic-a:has(> li.c-box 
 sports.smt.docomo.ne.jp###smt_rec_dcmatch_1
 sports.smt.docomo.ne.jp##.dgame
 sports.tv.rakuten.co.jp##.swiper-container > div.swiper-wrapper > div.swiper-slide:has(> a[href="https://fumakilla.jp/playactive/momofuma/"])
-sports.tv.rakuten.co.jp##div[id^="ad-banner-"]
 sports.yahoo.co.jp###cp_bnr
 sports.yahoo.co.jp##.cm-videoEmbedSub__banner
 sports.yahoo.co.jp##.hr-lrec
