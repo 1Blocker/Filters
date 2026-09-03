@@ -824,6 +824,7 @@ $script,third-party,domain=lafa-site.com
 /Rotator/ads/*
 /TeaserBlock.site.js
 /\.s\/src\/[a-z0-9]*.js/$domain=plasma.3dn.ru
+/^2.59.219.121/
 /^https:\/\/[a-z]+\.[a-z]+\.com\/api-integration\/[a-z]+\?[a-z]+=[a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9]-/
 /__ads_left.php
 /_banner_.gif
@@ -1674,6 +1675,7 @@ $script,third-party,domain=lafa-site.com
 ://www.*.xyz/*?*&key=$popup,third-party
 ?bid=$domain=womanonly.ru
 ?cp.host=*&cp.token=$xmlhttprequest,third-party
+?fre=*&nocredentials=1^$xmlhttprequest,third-party
 ?frm=script&se_referrer=
 ?sid=*&t=*&jsD=$xmlhttprequest,third-party
 ?surfer_uuid=*&block_uuid=$xmlhttprequest
@@ -6158,10 +6160,13 @@ klerk.ru###__layout > div > div.flex:has(> div.promotion)
 klerk.ru##.adv-cell > noindex #classifieds
 klerk.ru##.banner-block-title
 klerk.ru##.banner-empty
+klerk.ru##.fixed.right-0 > button > svg:has(> path[d^="M6.59 6.35v3.76a3.39 3.39 0 0 1"])
 klerk.ru##.promotion
 klerk.ru##a[href="/about/adv/"]
 klerk.ru##div[data-klad="1"]
+klerk.ru##main > a[target="_blank"]
 klerk.ru##main article ~ div.col-span-full:has(article.advertising-text-block)
+klerk.ru##ul[role="menu"] > li:has(> a[rel="nofollow noopener"])
 klops.ru##.banner-down
 klops.ru##.supercover-banner-header
 klops.ru##div[style^="margin-bottom: 20px;"][style*="min-height: 280px;"]
@@ -15078,6 +15083,7 @@ zz.te.ua##div[class^="advads"]
 ||sellaction.net^$third-party
 ||semi-cod.nnmclub.ch^
 ||semmi.ru^$script,domain=losst.ru
+||sentry.rstprgapipt.com^
 ||seo-monster.ru/img_
 ||seo-sport.ru^$third-party
 ||seo.arxua.com^$third-party
@@ -15798,6 +15804,7 @@ zz.te.ua##div[class^="advads"]
 ||versii.if.ua/wp-content/uploads/*/levada-kupyty-kvartyru-if.gif
 ||verstka.media/widget.html
 ||vertelka.ru^$third-party
+||vertiguzha.link^
 ||vesti.az/upload/rebans/
 ||vestiprim.ru/reimg
 ||veyszc.com^
