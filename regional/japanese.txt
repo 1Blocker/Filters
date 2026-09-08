@@ -1150,7 +1150,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||static.irk.ru/static/js/apps-js/adv/*.js
 @@||static.pushsquare.com/javascript/popunder2.js
 @@||static.rebates.jp/img/*_300x250.
-@@||static.tvmaze.com/css/ads.css
 @@||static.wmbcdn.com/uniweb/images/ad-banner.png$domain=mamba.ru
 @@||statika.mpsuadv.ru/scripts/6384.js$domain=trychatgpt.ru
 @@||stats.hprofits.com/advertisement.js
@@ -1488,6 +1487,8 @@ anal.bbsnet.info,ms.bbsnet.info###lcBox > div#centerBox > h2:has(+ div.contentfr
 ananweb.jp##.ad-banner:not([data-name="single-2-soken"])
 ananweb.jp##.gamAdBanner
 ananweb.jp##.styles_sideAd__S_Ted
+ananweb.jp##div[class]:has(> div[class^="styles_adBlock"])
+ananweb.jp##div[class^="styles_articleContainer"] > div[class]:has(> div[class^="styles_articleItem"] > div[class*="articleItemAdImage"])
 andgirl.jp##.kyujin-box-wrap
 android-smart.com###abar
 android-smart.com###abox
@@ -3764,6 +3765,7 @@ fumumu.net,sirabee.com###rectangle
 funny-ai.com##.ads-isolation-wrapper
 funny-ai.com##.main-frp-ads
 funny-ai.com##.main-header-ads
+fusetter.com##.min-h-screen > div.p-2.border-b.border-bg-line:has(> div[id^="div-gpt-"])
 futabaforest.net###mvbx
 futabaforest.net##.c11-2
 futabaforest.net##.c11-3
@@ -5723,6 +5725,7 @@ mangaraw.fish##body > div[style="height:250px"]
 mangaraw24.net,city.kagoshima-izumi.lg.jp,kk-bestsellers.com,gaming-city.com,shimotsuke.co.jp,gunma-kanko.jp##.top-banner
 mangaz.com###scroll-adv
 mangaz.com##.amazonLinkMod
+mania-of-football.com##.category-mlb > div.kizi-under-box:has(> div.textwidget ins.adsbygoogle)
 maniacture.com##.ently_thumbnail + div.video
 maniacture.com##.post > a[href^="https://rcv.ixd.dmm.com/api/surl"] + div.video-bottom-widget-area
 manimax.com###sidebar > div.widget_text
@@ -6118,7 +6121,6 @@ mukuu.herokuapp.com,patriot-e.com,the-3rd.net,tyoieronews.blog.jp,2ch-c.net##a[h
 munesada.com##aside[class^="ads-"]
 muragon.com##.ad-video
 muragon.com##div[class^="adarea"]
-muragon.com,live.nicovideo.jp,360life.shinyusha.co.jp,wealthadvisor.co.jp,might-co.com,retty.me,hentai-covers.site,109cinemas.net,4545.to,bunshun.jp,eikaiwa.dmm.com,gizmodo.jp,hanakomama.jp,jetstar.com,techno-edge.net##.ad-banner
 murakichi.net###text-21
 muromin.jp##.bnr li:has([alt*="[PR]"])
 muromin.jp##.bnr-area-e
@@ -6177,6 +6179,7 @@ n-seikei.jp###submenubar
 n-seikei.jp##.google3
 n-styles.com##.entry center
 n.lat/login|$document
+na2ka4.blog.fc2.com###inner2 > div.section2:has(> div.ninja-recommend-block)
 nadarenews.com##.first-article > a[border="0"][target="_blank"][href^="https://al.dmm.co"]
 nadarenews.com##.right-container > .plugin-memo
 naga-ken.info##.card02
@@ -7151,6 +7154,7 @@ president.jp##.area-billboard
 president.jp##.article-triple:has(> div[id^="pc_pol_woman_recommend"])
 president.jp##.g-ad-billboard
 president.jp##.g-ad-rectangle
+pricemap.s-otk.com,muragon.com,live.nicovideo.jp,360life.shinyusha.co.jp,wealthadvisor.co.jp,might-co.com,retty.me,hentai-covers.site,109cinemas.net,4545.to,bunshun.jp,eikaiwa.dmm.com,gizmodo.jp,hanakomama.jp,jetstar.com,techno-edge.net##.ad-banner
 print-gakufu.com,kyoko-np.net,jglobal.jst.go.jp##.advert
 print-kids.net##.sponsor-responsive
 print-kids.net##div[id$="-rectangle"]
@@ -8464,6 +8468,7 @@ virtualgorillaplus.com##li[class="type2 border_radius"]
 visualshoxx.net###EntryBlock > .w1:has(#ninja-blog-inactive)
 vitup.jp##.mh-posts-1
 vk.sportsbull.jp##.sec-bannerArea
+vogue.co.jp##div[class^="RecommendationsWrapper-"]
 voisjp.me##div[id^="yads"]
 voisjp.me,teller.jp##div[id^="im-"]
 voltechno.com###top-container-widget
@@ -10175,6 +10180,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||nijie.net/*/banner/
 ||nijigen-erogazou.com^$script,third-party
 ||nikaidou.com/images/imb/imb-
+||nikkansports.com/mod2015/js/advertising/ssi/
 ||nikkei.com/.resources/static/nad/
 ||nikkeiyosoku.com/img/bn-nkyosou0219.png$third-party
 ||nishinippon.co.jp/api/v2/job_offers/
