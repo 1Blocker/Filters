@@ -815,7 +815,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||db-siken.com^$generichide
 @@||dejure.org/jcg/_advertisement.js
 @@||dell.com/images/jp/banners/*_300x250.$image,domain=chobirich.com
-@@||detectadblock.com/*.js$~third-party
 @@||developpez.com/show_i.php?$~image
 @@||diariodenavarra.es/MODULOS/global/publico/interfaces/web/dn/img/dn_plus.png?v=*&trackingserver=trackserver&adserver=adserver
 @@||dietnavi.com/ad_images/$image,domain=dietnavi.com
@@ -1218,7 +1217,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||yandex.ru/ads/system/header-bidding.js$domain=rg.ru
 @@||yimg.jp/images/account/nuxt/activity/*/pages/access/ad/index.$script,stylesheet,domain=accounts.yahoo.co.jp
 @@||yorkshirepost.co.uk^$generichide
-@@||yorumbudur.com/*/javascript/ads.js
 @@||yoshidakenkou.net^$generichide
 @@||youpouch.com^$generichide
 @@||zeit.de^$generichide
@@ -3169,6 +3167,7 @@ e-mansion.co.jp##.main_present_thread > div.padding > div.right.column
 e-mansion.co.jp,baby-calendar.jp,npn.co.jp,afpbb.com,hamakei.com,keizai.biz,minkei.net,shibukei.com##.bnr
 e-nenpi.com##.gadget_ad
 e-rumoi.jp##.site_bottom_banner
+e-talentbank.co.jp##.etb-photo--item--ad
 e-typing.ne.jp##.ad200x200
 e-typing.ne.jp##div[class^="adbox_"]
 e-venz.com##.kijishita_ranking
@@ -3657,10 +3656,11 @@ fob.jp##.tadaima
 fob.jp##.tadaima + div.wp-block-column[style="flex-basis:100px"]
 fob.jp,overwatch2-news.apexlegends-leaksnews.com,metyayaba.com,game-chan.net,gazlog.jp,yosk8.com,koikatsu-portal.com,gamestlike.com,adtechmanagement.com,game-oruhachiv.com,shellbys.com,frozen.analyst.jp,5app-ch.com,genshinnews.apexlegends-leaksnews.com###fix_sidebar
 football-2ch.com###sub > div.plugin-memo:first-child
-football-zone.net###c2_click_endofarticle_JFA_adidas_pc
-football-zone.net###c2_click_pc_side_banner_JFA_adidas
-football-zone.net###c2_click_pc_side_banner_JFC
+football-zone.net##.side-trend
 football-zone.net##a[id*="side_banner_abema_"]
+football-zone.net##a[id^="c2_click_endofarticle_abema_gakuwari_"]
+football-zone.net##div[style^="width: 100%; max-width: 600px; min-height: 100px;"]
+football-zone.net##section[style="text-align: center; padding: 16px 12px; background-color: #343a40; color: #fff;"]
 football-zone.net,hint-pot.jp##.box-top
 football-zone.net,tosonline.jp,39mag.benesse.ne.jp,estate.nikkan.co.jp,marieclairejapon.com,daily.co.jp,post.tv-asahi.co.jp,milk-key.com,fujinkoron.jp##.recommend
 footballchannel.jp###head_btm_ad
@@ -4290,7 +4290,6 @@ happycampus.co.jp##div[style="width: 100%; height: 90px; clear: both;"]
 happycampus.co.jp##div[style^="width: 160px; height: 600px"]
 happycampus.co.jp##div[style^="width: 250px; height: 250px"]
 happycampus.co.jp##div[style^="width: 728px;"]
-harpersbazaar.com##div[aria-labelledby="recirc-heading"]
 haryu-korea.net##.article-body > .mb12:has(> .uz-2-haryu-korea_pc)
 haryu-korea.net##.s-side.mb0[style^="position: fixed"]
 hashirou.com##.ad-relation
@@ -5189,6 +5188,7 @@ kantangame.com##.ad_rectangle
 kantsuri.com##.featured.section-inverse
 karameter.com##.px-md-4 > aside:has(> a[target="_blank"] > *)
 karapaia.com##.ad-sticky-top
+karapaia.com##.wordp-entity-placement
 karapaia.com##aside.front-section:has(> header.section-title__header + div.sldr > div > div[id^="logly-"])
 karapaia.com##aside[aria-label="広告"]
 karapaia.com##div[style="height: 90px; margin-top: 10px;"]
@@ -5393,6 +5393,7 @@ kurofuku.com###EB:has(a[href=""])
 kurofuku.com###EiB2:has(#ninja-blog-inactive)
 kurokawa707.com##.widget_text:nth-last-child(-n+2)
 kuroyonhon.com###commodity_ul
+kurukura.jp###im_interstitial_b
 kuruma-news.jp###banner-box:has(> a[href*="?"][data-click-pos][rel="noopener"])
 kuruma-news.jp###side-column-float
 kuruma-news.jp##.custom-link-button[href*="?"]
@@ -6634,6 +6635,7 @@ nnn.co.jp##div[class^="ad-nnn"]
 no-one-no.net##.article-middle-ad
 no-one-no.net,reddit-matome.com##.amazon-sidebar
 no-one-no.net,reddit-matome.com##.article-affiliate
+nobico.php.co.jp##div[style="margin: 0 auto 20px auto;"]
 nocturne-tokyo.com##.fr-adpon
 nogizaka-46bunno1.blog.jp###more > table[border="0"] + br
 nogizaka-46bunno1.blog.jp##.article-body-more > table:has(> tbody > tr > td > div[style] > a[href^="https://hb.afl.rakuten.co.jp/"])
@@ -7875,6 +7877,7 @@ sun-tv.co.jp##.-ad
 sun-tv.co.jp##.m-postList_itemAds
 sundaygamer.net##.widget_text.ad
 sundryst.com##.ad-instream
+sundryst.com##.ad-top-area
 sunri2525.blog.jp##.left-column-inner > div.plugin-rakuten + div.plugin-memo
 sunri2525.blog.jp##.right-column-inner > .plugin-recent_comments + div.plugin-memo
 supari.jp##.AfiBigText

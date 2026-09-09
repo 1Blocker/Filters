@@ -943,7 +943,6 @@
 @@||derivates.kicker.de/image
 @@||derstandard.at/MetaAdServer/MAS.aspx
 @@||des.smartclip.net/ads?type=$domain=spiele.rtl.de
-@@||detectadblock.com/*.js$~third-party
 @@||developpez.com/show_i.php?$~image
 @@||diariodenavarra.es/MODULOS/global/publico/interfaces/web/dn/img/dn_plus.png?v=*&trackingserver=trackserver&adserver=adserver
 @@||dieblaue24.com^$generichide
@@ -1651,7 +1650,6 @@
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru|rutube.ru
 @@||yandex.ru/ads/system/header-bidding.js$domain=rg.ru
 @@||yorkshirepost.co.uk^$generichide
-@@||yorumbudur.com/*/javascript/ads.js
 @@||yospace.com/csm/builder/*,proxy$domain=joyn.de
 @@||zdnet.de/wp-content/themes/*/assets/js/advertising.js^
 @@||ze.tt/image/
@@ -2574,7 +2572,10 @@ chemnitzerfc.de,deutsche-mittelstands-nachrichten.de,games.ch###sponsor
 cherry.ch##.bannerListPremium
 cherry.ch##.bannerListPremiumTop
 chilloutzone.net###superreplacement
+china-gadgets.de###trimexa-ads_d_footer-wrapper
+china-gadgets.de###trimexa-ads_d_top
 china-gadgets.de##.TMX_Werbeplatz_adblocker
+china-gadgets.de##div[id^="trimexa-ads_d_incontent-rec"]
 chinahandys.net##a[href^="https://www.banggood.com/marketing-"]
 chinamobilemag.de###sp-ad1
 chinamobilemag.de##.ja-promo-bar
@@ -4326,13 +4327,14 @@ igorslab.de##.herald-sidebar-right > div[id][class*=" "]
 igorslab.de##.herald-sticky
 igorslab.de##.row  div[id][class]:not([class^="col-"]):is([class*=" "], [class*="-"]):has(> div[class*="-"] span[style^="display:block;position:relative;width"])
 igorslab.de##.row > div[id][class*=" "]:has(> .herald-txt-module div[id*="-"][class])
-igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##body > #content + div[class*=" "][class*="-"]:has(> div[id] span[style^="display:block;position:relative;width"])
 igorslab.de##body > div[class*=" "][class*="-"]:not([style]):has(> div[id] div[style^="display:block;position:relative;width"])
 igorslab.de##div[id][class*=" "]:has(> .herald-txt-module  div[id][class*=" "] > div[class*=" "][style^="position:relative;display:inline-block;max-width"])
 igorslab.de##div[id][class*=" "]:has(> div[id][class*=" "] > div[class*=" "][style^="position:relative;display:inline-block;max-width"])
+igorslab.de##img[src^="blob:http"][style*="display"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
+igorslab.de##svg image[href^="data:image/"]
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top
@@ -6688,6 +6690,7 @@ stuttgarter-zeitung.de##.sponsored-by
 stuttgarter-zeitung.de##.sponsored-by ~ *
 stuttgarter-zeitung.de##.trf-declaration-container
 stuttgarter-zeitung.de##a[data-tags="Ad-Kennung"]
+stuttgarter-zeitung.de,swp.de##.u-adSlot
 stylebook.de##.af-widget.is-style-advertisement-mark
 stylebook.de##.article__content > #inpage
 stylebook.de##.my-3:has(> div#billboard_btf)
@@ -6770,7 +6773,6 @@ swoodoo.com##.Flights-Results-FlightRightRail
 swp.de##.edge-ad
 swp.de##.plistaWidget
 swp.de##.swp-adbox-container
-swp.de##.u-adSlot
 swp.de,lr-online.de###ms-edgeAd
 swz.it##.pr
 syfy.com##.tile--ad
@@ -7610,6 +7612,7 @@ windowspro.de##.spost
 windowspro.de##.sppost
 windowspro.de##.view-idcontent:has(a[href^="/sponsored/"])
 windowspro.de##.view-sponsoredcontent
+windowspro.de##.wip-ad-block
 windowspro.de##article.node-teaser:not(.node-promoted)
 windowspro.de##div[style]:has(a[onclick])
 windowspro.de##iframe[style="height:250px;overflow: hidden;"]
@@ -9871,7 +9874,7 @@ zwischengas.com##.zgsky
 ||tizofvtuqo.com^
 ||tnt-game.com^*/banner/$third-party
 ||tobitech.de/images/banners/
-||toolbox.webediagaming.de^$domain=gamestar.de|gamepro.de|mein-mmo.de
+||toolbox.webediagaming.de^$domain=gamepro.de|mein-mmo.de
 ||topteaser.hcsb-2.de/nk-topteaser-*/$subdocument,domain=kurier.de
 ||tpc.googlesyndication.com^$domain=autobild.de
 ||trabro.com^$third-party
