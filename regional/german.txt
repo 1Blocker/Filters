@@ -51,6 +51,7 @@
 ###cnt_bgwerbung
 ###cont-werb
 ###content_werbung
+###delulu-overlay
 ###footerwerbung
 ###forumformwerbung
 ###freikarte_layer
@@ -1139,6 +1140,7 @@
 @@||inside-digital.de^$generichide
 @@||integralrechner.de/adguard/adblock.js
 @@||integralrechner.de^$generichide
+@@||iphoned.nl/wp-content/themes/bigspark/scripts/ads-frontend.min.js
 @@||iphonesoft.fr^$generichide
 @@||isondled.net^
 @@||it-times.de^$generichide
@@ -1812,7 +1814,6 @@ allround-pc.com##article.is-card:has(span.is-ad)
 alpacacamping.de##.custom-banner
 alpin.de##.ad-banner-billboard
 alpin.de##.ad-sb
-alpin.de,immobilienscout24.de,radioklassik.at##.ad-banner
 alps-magazine.com,djz.de,nordisch.info##.code-block
 alps-magazine.com,hebelschein-spekulant.de,lokalo.de,marzahn-hellersdorf.com,mdz-moskau.eu,skynews.ch,werbestandard.de##.widget_media_image
 altertuemliches.at###banner5
@@ -3892,7 +3893,9 @@ gmx.ch,gmx.net,web.de##tr[data-component-pixelurls*="adfarm1.adition.com"]
 gmx.ch,gmx.net,web.de##tr[data-component="MessageListSpecialRow"]
 gmx.de,gmx.net##div[data-container="middle"]
 gmx.net###header-image-link
+gmx.net##.ad-banner
 gmx.net##.inbox-ad-panel
+gmx.net##.main > div[data-url][style="cursor: auto;"]:has(> div[data-url] > uim\:ad)
 gmx.net##[data-sda-slot]
 gmx.net##div[data-service-slot^="box_"]
 gmx.net,gmx.at,web.de##.list-inbox-ad-item--multi-line
@@ -4331,10 +4334,8 @@ igorslab.de##body > #content + div[class*=" "][class*="-"]:has(> div[id] span[st
 igorslab.de##body > div[class*=" "][class*="-"]:not([style]):has(> div[id] div[style^="display:block;position:relative;width"])
 igorslab.de##div[id][class*=" "]:has(> .herald-txt-module  div[id][class*=" "] > div[class*=" "][style^="position:relative;display:inline-block;max-width"])
 igorslab.de##div[id][class*=" "]:has(> div[id][class*=" "] > div[class*=" "][style^="position:relative;display:inline-block;max-width"])
-igorslab.de##img[src^="blob:http"][style*="display"]
-igorslab.de##span[aria-label][role="img"][style*="data:image"]
-igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
-igorslab.de##svg image[href^="data:image/"]
+igorslab.de##img[src^="blob:http"]
+igorslab.de##span[style]:has(svg path)
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top

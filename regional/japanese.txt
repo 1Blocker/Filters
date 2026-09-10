@@ -6,6 +6,7 @@
 !
 ###ad-60days-area
 ###ad-recommend
+###delulu-overlay
 ###fc2_bottom_bnr
 ###float-bnr
 ###fluct-pc-sticky-ad
@@ -235,7 +236,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 .icu/v1/check|$document
 .icu/verify|$document
 .info/v2/check|$document
-.io/aes.js|$~third-party
 .jp%*@*/$document,domain=cn|com
 .jp/Zen?
 .jp/affiliate/$third-party
@@ -931,6 +931,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||impact-ad.jp/ul_cb/ad?$domain=cosme.net
 @@||inforum.com^$generichide
 @@||intaa.net^$generichide
+@@||iphoned.nl/wp-content/themes/bigspark/scripts/ads-frontend.min.js
 @@||iphonesoft.fr^$generichide
 @@||itpassportsiken.com^$generichide
 @@||j-a-net.jp^$image,domain=chance.com|chobirich.com|ecnavi.jp|gendama.jp|gpoint.co.jp|hapitas.jp|lifemedia.jp|moppy.jp|netmile.co.jp|point.i2i.jp|pointi.jp|pointtown.com|ponta.gamefactory.jp|t-mall.cmnw.jp|t-mall.tsite.jp|warau.jp|yomipo.yomiuri.co.jp
@@ -1485,8 +1486,7 @@ anal.bbsnet.info,ms.bbsnet.info###lcBox > div#centerBox > h2:has(+ div.contentfr
 ananweb.jp##.ad-banner:not([data-name="single-2-soken"])
 ananweb.jp##.gamAdBanner
 ananweb.jp##.styles_sideAd__S_Ted
-ananweb.jp##div[class]:has(> div[class^="styles_adBlock"])
-ananweb.jp##div[class^="styles_articleContainer"] > div[class]:has(> div[class^="styles_articleItem"] > div[class*="articleItemAdImage"])
+ananweb.jp##div[class^="styles_adBlock"]
 andgirl.jp##.kyujin-box-wrap
 android-smart.com###abar
 android-smart.com###abox
@@ -1979,6 +1979,7 @@ best-hit.tv,j-basketball.club,j-baseball.club##a[style^="box-sizing:border-box;"
 bestcarweb.jp##.article__bnr
 bestcarweb.jp##.pc_CLS_90
 bestcarweb.jp##.sompo-ad-side-column
+bestcarweb.jp##article.js-article > p.center:has(> a[class^="goonet-ad-below-"])
 bestcarweb.jp##div[class*="CLS_250"]
 bestone.allabout.co.jp##.content-main > div.flowline-title:has(+ div[class^="hidden-"] + #ad_above_article)
 bestone.allabout.co.jp##div[class*="ads_"]
@@ -6582,6 +6583,7 @@ nikkanerog.com##.mainEntryMore > a[href^="https://al.dmm.co.jp"][target="_blank"
 nikkanerog.com##.mainEntryMore > h3:has(+ a[href^="https://al.dmm.co.jp"][target="_blank"])
 nikkanerog.com##.menuBlockBase:has(+ div.menuBlockBody > .menuText2 > div[align="center"] > div.pr_banner)
 nikkanerog.com,erogazoo.net##a[href^="https://al.dmm.co.jp"][target="_blank"]
+nikkansports.com##.side_reco-box:has(> a[href^="https://amzn.to/"])
 nikkei-cnbc.co.jp###headerbanner
 nikkei.com##.cmn-sub_banner
 nikkei.com##.k-ad__text
