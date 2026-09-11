@@ -827,6 +827,10 @@ $script,third-party,domain=lafa-site.com
 /\.s\/src\/[a-z0-9]*.js/$domain=plasma.3dn.ru
 /^2.59.219.121/
 /^https:\/\/[a-z]+\.[a-z]+\.com\/api-integration\/[a-z]+\?[a-z]+=[a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9][a-z-0-9]-/
+/^https:\/\/vveu.[a-z0-9]+\.[a-z]+\/.*\/[a-z0-9]+\.[a-z][a-z][a-z]$/$xmlhttprequest,other,media,third-party
+/^https:\/\/vveu.[a-z0-9]+\.[a-z]+\/.*\/[a-z0-9]+\.[a-z][a-z][a-z][?&]/$xmlhttprequest,other,media,third-party
+/^https:\/\/vveu.[a-z0-9]+\.[a-z]+\/.*\/[a-z0-9]+\.[a-z][a-z][a-z][a-z]$/$xmlhttprequest,other,media,third-party
+/^https:\/\/vveu.[a-z0-9]+\.[a-z]+\/.*\/[a-z0-9]+\.[a-z][a-z][a-z][a-z][?&]/$xmlhttprequest,other,media,third-party
 /__ads_left.php
 /_banner_.gif
 /_ui/ad/*
@@ -1842,7 +1846,6 @@ $script,third-party,domain=lafa-site.com
 @@||an.yandex.ru/system/video-ads-sdk/adsdk.js$domain=armdb.org
 @@||an.yandex.ru/system/widget.js$domain=drive2.ru
 @@||android-hilfe-down.blogspot.com^$generichide
-@@||androidplanet.nl/*/ads.js
 @@||animespirit.*/banners/myvi_logo.png$domain=animespirit.*
 @@||anymedia.lv/js/adblocker.js
 @@||anypictures.ru^$generichide
@@ -2265,7 +2268,8 @@ $script,third-party,domain=lafa-site.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_fy2019.js$domain=tipsmake.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diynetwork.com,important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=in-poland.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thegamer.com,xmlhttprequest
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=pagesix.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub$domain=fuucdayo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=math.semestr.ru
 @@||pagead2.googlesyndication.com/pcs/activeview$domain=allmovie.com|allmusic.com
@@ -3468,6 +3472,7 @@ brokino.com,hd-kinogo.co##.foon
 brokker.news##.container-bn
 bryansknovosti.ru##div[class^="formFooter"]
 bryansknovosti.ru##img[data-src$="/Воскобойников.jpg"]
+bryansktoday.ru###adv_top_0
 bryansku.ru##.theiaStickySidebar > div.left-widget[id^="text-"] img[width="240"]
 bsn.ru##.objects-vip
 bsn.ru##.spec-offers-list
@@ -3572,6 +3577,7 @@ cashbox.ru##.divAdv
 cat-a-cat.net##noindex a[href^="http://goo.gl/"] > img
 cat-a-cat.net##p[style="text-align: center"] > a[target="_blank"] > img
 catalog.onliner.by##.b-offers-promo
+catalog.onliner.by##.google-banner_wide
 catalog.onliner.by##.schema-block_wide-banner
 catalog.sport-wiki.org###sidebar a[href="https://bet-rider.com"]
 catcut.net##.bl_all_rek
