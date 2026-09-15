@@ -1664,6 +1664,7 @@ $script,third-party,domain=lafa-site.com
 ://ava.*.ru/*.js|
 ://csp-*.ru/*/*/*/*/*/$script,third-party
 ://epn.bz^$third-party
+://fastpic.org/q*.gif?
 ://go.*.com^$domain=imageban.ru
 ://goodgame.ru/*/|$xmlhttprequest
 ://goodgame.ru^|$xmlhttprequest
@@ -2394,7 +2395,6 @@ $script,third-party,domain=lafa-site.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=vuzlit.com|vuzlit.ru|studwood.net|bstudy.net|studbooks.net
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$xmlhttprequest,domain=studref.com|vuzdoc.org
 @@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=aternos.org$domain=aternos.org
-@@||securepubads.g.doubleclick.net/tag/js/$domain=rr4farmtrof.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=rbc.ru
 @@||sedu.adhands.ru/view/?sid^$script,domain=tveda.ru
 @@||seetv.tv/assets_t/ads/advert.js
@@ -2577,6 +2577,7 @@ $script,third-party,domain=lafa-site.com
 @@||yandex.ru/adddata/$document
 @@||yandex.ru/ads/$domain=anidubonline.com
 @@||yandex.ru/ads/system/adsdk.js$domain=player2.anitype.fun
+@@||yandex.ru/ads/system/ap-loader.js$domain=rr4farmtrof.com
 @@||yandex.ru/ads/system/context.js$domain=rr4farmtrof.com
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=fishki.net
 @@||yandex.ru/ads/system/header-bidding.js$domain=irkutskmedia.ru
@@ -10750,6 +10751,7 @@ vk.com,vk.ru##.post_marked_as_ads
 vk.com,vk.ru##.vkuiBanner__host
 vk.com,vk.ru##div#left_ads
 vk.com,vk.ru##div[data-ad]
+vk.com,vk.ru##div[role="feed"] > article:has(> div[data-testid^="post"] div[id^="subtitle-"] > div.vkuiFlex__host > div.vkuiRootComponent__host > div.vkuiFlex__host > div.vkuiRootComponent__host > span:not([aria-label]):not([data-testid="post-header-subtitle-geo"]))
 vk.com,vk.ru##div[role="feed"] > article:has(div.vkuiRootComponent__host > span.vkuiCaption__sizeYCompact > span)
 vk.com,vk.ru##div[role="feed"] > article:has(span[aria-label="Реклама"])
 vk.com,vk.ru##div[role="feed"] > article:has(span[class^="AdBlockProtector__noVisible--"])
@@ -14942,7 +14944,6 @@ zz.te.ua##div[class^="advads"]
 ||rpgnuke.ru/wp-content/plugins/*/js/wpsite_clickable.js
 ||rqnvci.com^
 ||rr4farmtrof.com/api/log_adwall
-||rr4farmtrof.com/assets/js/ft-ad-proof-
 ||rstprgapipt.com/*.xml
 ||rstprgapipt.com/api-integration/fluxline
 ||rsuuc.com^$third-party
@@ -15378,6 +15379,7 @@ zz.te.ua##div[class^="advads"]
 ||stripvidz.com^$third-party
 ||strm.yandex.*/get/$media,domain=vh.yandex.*
 ||strm.yandex.ru/vh-adfox-converted/vod-content/*.mp4$domain=1tv.ru
+||strm.yandex.ru/vh-canvas-converted/$domain=rr4farmtrof.com
 ||stroyobzor.ua/assets/files/bins/$image
 ||stteeruptowind.com^
 ||studio7.com.ua^$domain=nashkiev.ua
