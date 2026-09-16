@@ -214,7 +214,6 @@
 ##.adsense-ArtikelOben
 ##.adzeiger
 ##.anzeigenwerbung
-##.artikelinlinead
 ##.azk-native-responsive
 ##.b-werbung
 ##.babbelMultilangAdBannerHorizontal
@@ -526,7 +525,6 @@
 /werbung2^
 /werbung5jw/*
 /werbung90.
-/werbung_*?
 /werbung_90.
 /werbung__
 /werbung_banner.
@@ -841,6 +839,7 @@
 @@||boerse-express.com/*javascript/ads.js
 @@||boerse.de^$generichide
 @@||boersennews.de^$generichide
+@@||boot.pbstck.com/*/adm/$domain=vaughn.live
 @@||braunschweiger-zeitung.de^$generichide
 @@||bravofly.de^$generichide
 @@||brighteon.com/static/ads/ads.js
@@ -862,6 +861,7 @@
 @@||catalog.mann-filter.com/media/werbebanner^
 @@||cd.connatix.com/connatix.player.js$domain=bz-berlin.de|fitbook.de|myhomebook.de|petbook.de|stylebook.de|techbook.de|travelbook.de|welt.de
 @@||cdn-a.yieldlove.com/yieldlove-bidder-stroeer.js$domain=t-online.de
+@@||cdn-adm.pbstck.com^$domain=vaughn.live
 @@||cdn.animenewsnetwork.com/javascripts/ads.js$~third-party
 @@||cdn.antenne.de/antenne-de/uploads^
 @@||cdn.concert.io/lib/concert-ads/*-latest/concert_ads.js$domain=vox.com
@@ -1585,7 +1585,6 @@
 @@||tyda.se/static/js/adsense.js
 @@||tz.de^$generichide
 @@||unicum.de^$generichide
-@@||united.uimserv.net/*tagid$domain=web.de|gmx.net|gmx.at|gmx.ch|gmx.com
 @@||urlaubspartner.net^$generichide
 @@||usersdrive.com/aclib.js
 @@||vcdn.adnxs.com/p/creative-image^$image,domain=stylebook.de
@@ -1695,6 +1694,7 @@ abendzeitung-muenchen.de###ouibounce-modal
 abendzeitung-muenchen.de##.AnzeigenHead
 abendzeitung-muenchen.de##.ad-pos
 abendzeitung-muenchen.de##.apester-embed
+abendzeitung-muenchen.de##.artikelinlinead
 abendzeitung-muenchen.de##.content-container-box > .teaserbox > .teaser:not([class*="nummer"])
 abendzeitung-muenchen.de##.plista
 abendzeitung-muenchen.de##.sidebar > div[style$="text-align: center; "]
@@ -3607,6 +3607,7 @@ frag-mutti.de##.ad-loading
 frag-mutti.de##.content-recommendations
 frag-mutti.de##.intext-ad
 frag-mutti.de,suedkurier.de,fr.de,jeversches-wochenblatt.de##.superbanner
+frankenpost.de##.brickgroup[data-upscore-zone="Magazine"]
 frankenpost.de,insuedthueringen.de,kurier.de,np-coburg.de###billboard_1_wrapper
 frankenpost.de,insuedthueringen.de,kurier.de,np-coburg.de###billboard_2_wrapper
 frankenpost.de,insuedthueringen.de,kurier.de,np-coburg.de###leaderboard_1
@@ -5253,6 +5254,8 @@ mtb-news.de##div[class^="mtbnews-ad-"]
 mtv.de##.edge-gui-ad-metadata
 mtv.de##div[data-adsize]
 mtvema.com##.linelist-item-ad
+muenchen.tv##.mediaLink > a[target="_blank"]
+muenchen.tv##.post-shortcuts > a:has(> .entry-wrapper > span > .zone-label)
 muensterschezeitung.de###top-position
 mufa.de###freikarten
 mundus-art.com##.elementor-element-0e1ce7d
@@ -5557,6 +5560,7 @@ obermain.de,rhoenundsaalepost.de###slot-rectangle
 obermain.de,rhoenundsaalepost.de###slot-sky
 oberpfalzecho.de###local-rectangle
 oberpfalzecho.de###sponsor-banner
+oberpfalzecho.de##.deluxe-rubrik-kombi
 obi.*##.find-brandshop-grid:has(.artikelkachel__gesponsortmarker)
 obi.*##.find-brandshop-grid:has([data-ui-name="find-artikelkachel-gesponsert-marker"])
 obi.*##.splide__slide:has(hobi-advertiser-tag)
@@ -6158,6 +6162,7 @@ rhein-zeitung.de###contentbox-html_content-7614.contentbox
 rhein-zeitung.de###slider2_2548
 rhein-zeitung.de##.articlebody__rectangle
 rhein-zeitung.de##.page__billboard
+rhein-zeitung.de##.row[data-upscore-zone] > .row > div[class^="col-"]:has(> .ad)
 rhein-zeitung.de##.teaserad
 rheinische-anzeigenblaetter.de##a.trackedTeaser[data-teaser-view="300x620"]
 rheinische-anzeigenblaetter.de##div[style="width:100%; height:300px"]
