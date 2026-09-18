@@ -1123,7 +1123,7 @@
 @@||imagesrv.adition.com/banners^$domain=finya.de|t-online.de|freenet.de|spiegel.de|kicker.de|quoka.de|fanfiktion.de|meinestadt.de
 @@||imagesrv.adition.com/js/adition.js$domain=finya.de|t-online.de|freenet.de|spiegel.de|kicker.de|quoka.de|fanfiktion.de|meinestadt.de
 @@||imagesrv.adition.com/js/srp.js$domain=transfermarkt.de
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=games.focus.de
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=dailyme.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=rmcbfmplay.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$domain=mahjongspielen.de
 @@||imasdk.googleapis.com^$xmlhttprequest,domain=deutschekanale.com
@@ -3591,7 +3591,7 @@ forum.pocketnavigation.de##.messageList > li:not([id]):not([class])
 forum.videoaktiv.de##.axd
 forum.worldofplayers.de##.amazon-search
 fotocommunity.de##div[id^="p_ad"]
-fotohits.de##.banner-row
+fotohits.de,meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.banner-row
 fotomagazin.de##.commercial-post-container
 fotomagazin.de##.pane-landing-advertorial
 fr-online.de##.ad-location-container
@@ -4336,8 +4336,12 @@ igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sidebar-right > div[id][class*=" "]
 igorslab.de##.herald-sticky
 igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
+igorslab.de##[aria-label="Advertisement" i] + svg
+igorslab.de##[aria-label="Werbung" i] + svg
+igorslab.de##[aria-label="广告"] + svg
+igorslab.de##a[href^="/"][href$="/"][style][rel][target]
+igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img[src^="blob:http"]
-igorslab.de##span[style]:has(svg path)
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top
@@ -4991,8 +4995,11 @@ meedia.de##.section-banner-fullwidth
 meedia.de##header[class="ad-info-title"]
 meerwasser-lexikon.de##.anzeigeInfo
 meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.ad-live
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.col-label-k
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.live-k
 meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.p-notify
 meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##.tile > .tile-body:has(.tile-meta-ad)
+meetingpoint-brandenburg.de,meetingpoint-dahme-spreewald.de,meetingpoint-jl.de,meetingpoint-magdeburg.de,meetingpoint-potsdam.de,meetingpoint-stadtnachrichten.de##article:has(.tile-link[rel*="sponsored"])
 meetingpoint-jl.de##.p-adcol > div.weather-widget ~ [class^="ad-"]
 meetingpoint-jl.de##.p-adcol:not(:has(> div.weather-widget))
 mein--mmo-de.cdn.ampproject.org##.amp-ad-wrapper
@@ -9855,6 +9862,7 @@ zwischengas.com##.zgsky
 ||telefonsexwebcam.com/images/livestrip-
 ||teltarif.de/ad/
 ||teltarif.de/img$xmlhttprequest,~image
+||teltarif.de/img/$script,domain=teltarif.de
 ||teltarif.de/img/smartphone/apple/iphone.jpg$script
 ||teltarif.de/scripts/ads/
 ||teltarif.de/scripts/foo/
