@@ -13828,6 +13828,7 @@
 ##html > #bw-rc-host
 ##html > #nc-cover:not(body)
 ##html > #nochain-demo-frame:not(body)
+##html > .cfmd-shadow-host
 ##html[data-lt-installed="true"] > body[style=""] > main + script ~ div[class^="_"]
 ##html[data-lt-installed="true"] > body[style=""] a[href="/user/profile/premium-membership"] > img
 ##html[lang="tr"] #aa-wp + .fixed-footer .footer-ad-container
@@ -18660,7 +18661,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||overgal.com^$ghide
 @@||overtakefans.com^$ghide
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
-@@||p*.drtst.com/templates/drtuber/js/advertisement.js
 @@||p.d.1emn.com^$script,domain=hotair.com
 @@||p04a.hs.eloqua.com^$frame,domain=agilent.com
 @@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
@@ -21892,7 +21892,7 @@ baseconnect.in###side_banner
 baseconnect.in##.add__wrapper
 based-politics.com###tdi_107
 based-politics.com##.tdi_30
-basednewsarticle.com##body
+basednewsarticle.com,faceit-account.com,google-meet-call.com,kook.bar##body
 basket4ballers.com###linkTop
 basketball-reference.com###modal-container[style*="/images/stathead/stathead-"]
 basketball-reference.com##.stathead_event
@@ -24963,6 +24963,7 @@ deliciousmagazine.pl##div[style="min-height: 400px; height: auto;"]:has([class^=
 delish.com##.css-3oqygl
 delish.com##section > div[class]:has(> div[id^="gpt-ad-"])
 delishkitchen.tv##.gm-ad-top
+delishkitchen.tv##.indexes-ad-insert
 delishkitchen.tv##body div.delish-header::before
 deliveroo.*##.splide__slide:has(p[data-testid="sponsored-label"])
 deliveroo.*##[class^="Carousel"] li[class^="Slide-"]:has(div[style*="d815008c-8a59-40e3-9c64-79b841bf482c"])
@@ -29829,6 +29830,8 @@ igorslab.de##^script[id^="advads"]
 igorslab.de##^script[id^="advanced-ads"]
 igorslab.de##a[aria-label*="Banner"]
 igorslab.de##a[href^="/"][href$="/"][style][rel][target]
+igorslab.de##a[href^="/"][href*="#"][style][rel][target]
+igorslab.de##a[href^="/"][href*="?"][style][rel][target]
 igorslab.de##div.widget[class*="-widget"][id*="-widget-"]
 igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img[src^="blob:http"]
@@ -29836,6 +29839,7 @@ igorslab.de##span[aria-label][role="img"][style*="data:image"]
 igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 igorslab.de##span[style]:has(svg path)
 igorslab.de##svg image[href^="data:image/"]
+igorslab.de##svg:has(~ [aria-label])
 igraal.com##[data-ig-ga-cat="Ad"]
 igromania.ru##a[href^="https://ads.adfox.ru/"]
 igroray.ru##.popup-flyer-block
@@ -31431,6 +31435,7 @@ kyivpost.com##.b-title
 kyivpost.com##.widget-300-250
 kyobobook.co.kr##body > .min-w-\[1440px\] .top_banner_inner
 kyodo.co.jp,sansyu-pr.co.jp###page-top
+kyounoryouri.jp##.ad-top-border
 kyunto.com,krautundrueben.de,areamobile.de##.rectangle
 kyuzerogo.sakura.ne.jp##body > div.pe_1
 kyuzerogo.sakura.ne.jp##body > div.top_head:has(+ div.pe_1)
@@ -38670,6 +38675,9 @@ sitarchive.com##[id^="aswift_"]
 sitelike.org###HeaderAdsenseCLSFix
 sitelike.org##.adCLS
 sitepoint.com###community-banner-unit
+sitepoint.com###takeover-content-1
+sitepoint.com###takeover-vertical
+sitepoint.com##.inline-content
 siteslike.com##.rif
 siteunblocked.info##.antoic
 siteunblocked.info##[id^="cookieConsent"]
@@ -39644,6 +39652,7 @@ superporn.com##.intensive-add
 superporn.com##.overlay-video
 superprof.es###cta-online-wrapper
 superprof.es##.cta-online
+supertaste.tvbs.com.tw##div[id^="supertaste_m_"]
 supjav.com##.simpleToast
 supleks.jp###footer-banner
 supleks.jp###shop-body > #btn-post + div[style]
@@ -40453,6 +40462,7 @@ theguardian.com##.contributions__epic
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##.dcr-nv35qx
 theguardian.com##.js-top-banner
+theguardian.com##.maybe-later
 theguardian.com##.site-message
 theguardian.com##.site-message--banner
 theguardian.com##.top-fronts-banner-ad-container
@@ -41227,6 +41237,7 @@ tproger.ru##.tp-lubok-top
 tproger.ru##.tp-ui-infinite-scroll > div.tp-widget-card:has(div.tp-widget-jobs-wrapper)
 tr.link##.sweet-alert
 tr.link##.sweet-overlay
+trace.moe##.sponsor-module__2LoZHG__sponsor
 tracker.network,tracker.gg##.bordered-davert
 trackinsight.com##div[data-nosnippet="true"]:has([id^="div-gpt-ad-"])
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
@@ -41699,6 +41710,7 @@ twoucan.com##.twoucan-ad
 twoucan.com##.twoucan-footer-ad
 twpkinfo.com##div[style^="height:50px;"]
 twpornstars.com##.block-inline.mobile
+twstalker.com##div[style^="max-width: 728px; width: 100%;"]
 txbiz.tv-tokyo.co.jp###HomeAds-5
 txxx.*##.index-page > .wrapper > .row + div[class]
 txxx.*##.jw-atitle.nopop:has(> [href*="g2fame.com"][href*="&campaign"])
@@ -44818,6 +44830,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||2048hydreo.net^
 ||2069372430.com^
 ||206ads.com^
+||20a5d573f6.com^
 ||20dollars2surf.com^
 ||20l2ldrn2.de^
 ||20rm.com^
@@ -45116,6 +45129,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||2u9ggnguww18byc.rest^
 ||2v2.io/ads/
 ||2v378cds.xyz^
+||2vb347nth742ibr.rest^
 ||2vnrjqgl6jlmf3.cfd^
 ||2watchmygf.com/spot/
 ||2xgjpuly4vj9e932n.cfd^
@@ -45665,11 +45679,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||68efc320d7.com^
 ||68s8.com^
 ||690f8a4082.com^
+||693o1wu7266lzxowx4xv.rest^
 ||69b31e7623.com^
 ||69g52yplxlrnv53blvk.cfd^
 ||69games.xxx/ajax/skr?
 ||69v.club^
 ||6a2596e48d.com^
+||6a4876c08c.com^
 ||6a70838881.com^
 ||6a80d8df82.com^
 ||6angebot.ch^$popup,third-party
@@ -45717,6 +45733,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||6wiv9qrwyqb4o2t4p4.cfd^
 ||6x6iyrnym5uqpi.rest^
 ||6xfgu9vzgwfvvh.cfd^
+||6xhhygpw2z8bnp2x1h26m4k762qyuy4pt.cfd^
 ||6xoj7le6hnyxtk8j6clhf.cfd^
 ||6z6a2i0u.xyz^
 ||6zbjbrjhlry7qlub6o.cfd^
@@ -45958,6 +45975,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||8jfbt5va3r.com^
 ||8jfbt5va3r.com^$document
 ||8kbulkq2mbhzu8.rest^
+||8kchokivmcntljf1xql.rest^
 ||8kj1ldt1.de^
 ||8lrmj4k28nte2v5.rest^
 ||8mrmb8n1z2zowboufw7ohyo2z9hjg.cfd^
@@ -46092,6 +46110,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||9fz8rn9rqlfeimjoyic3uij.cfd^
 ||9g1tqy7tz3z3v2wk2ie.cfd^
 ||9gg23.com^$popup
+||9gg33gxuvvw4q9o.cfd^
 ||9hcemeufb7t9i8rpxf7zi.cfd^
 ||9j1ybk3fjtn7qokgr.rest^
 ||9j3bclmv5o1zukrp6q62o.cfd^
@@ -46571,6 +46590,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||acinicstrut.shop^
 ||acinunijitney.qpon^
 ||acirslblqcjqv.space^
+||acirurknejixq.website^
 ||acisseora.cyou^
 ||ackcdn.net^
 ||ackdewsntmybn.online^
@@ -46650,6 +46670,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||actstrialssuper.com^
 ||actuallyfrustration.com^
 ||actuallyhierarchyjudgement.com^
+||actualslofterscaffiso.cyou^
 ||actuateslod.cyou^
 ||acuchikittul.cfd^
 ||acuhespetprps.online^
@@ -48004,6 +48025,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||aembtielaekdf.online^
 ||aemediatraffic.com^$third-party
 ||aemtjqdhnhixn.site^
+||aenstuwyu.com^
 ||aeoldjkiutpwj.site^
 ||aepnxvhkmqvfk.online^
 ||aeqnvirziyfof.space^
@@ -48027,6 +48049,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||aexouiunvonkl.site^
 ||aezbgiyefpqyb.site^
 ||af30ee9e36.com^
+||af6ca65844.com^
 ||af9bb5da67.com^
 ||afafb.com^
 ||afanglffjywuu.site^
@@ -48338,6 +48361,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||agymcxmyxtfeo.space^
 ||agynarysyun.cyou^
 ||agzdvulilbauk.website^
+||agzyvvhjbkdwm.website^
 ||ah.pricegrabber.com^
 ||ahadsply.com^
 ||ahadsply.com^$popup
@@ -48587,8 +48611,10 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||alachahright.cyou^
 ||alagaodealing.com^
 ||alangcoffee.cyou^
+||alangebute.qpon^
 ||alangharmer.shop^
 ||alangoverawn.qpon^
+||alaninecabman.com^
 ||alaninesopites.shop^
 ||alaninesturt.shop^
 ||alaninscaraipeterrar.cyou^
@@ -48781,6 +48807,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||alonedisallowrearview.com^
 ||alonelyoops.qpon^
 ||alont.xyz^
+||alonte.xyz^
 ||alony.site^
 ||alooseprotepulvil.cfd^
 ||alota.xyz^
@@ -49066,6 +49093,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ananterrogan.shop^
 ||anapirate.com^
 ||anarchchauvinbaubles.cyou^
+||anarchyedmond.shop^
 ||anastasia-international.com^
 ||anastasiasaffiliate.com^
 ||anatiracathrintremble.cfd^
@@ -49328,6 +49356,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||aoteasweats.com^
 ||aotewsxzxbnzj.space^
 ||aouvvblbuvhuo.online^
+||aovdjowexofgt.space^
 ||aovzlzvlfrane.online^
 ||aoxvlbejkrvvh.online^
 ||aoyptpffgxcjy.website^
@@ -49622,6 +49651,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||aptqpcaw.xyz^
 ||aptwcewxlhufh.website^
 ||apu.hentaibox.xyz^
+||apuwmrafrjesx.online^
 ||apuxexhbpeqsm.website^
 ||apvdr.com^
 ||apvroftoomqjy.site^
@@ -50043,6 +50073,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||assistantinsignificantthings.com^
 ||assisthaboub.com^
 ||assizerpranced.com^
+||asslikezanyish.com^
 ||assobreeclipse.cyou^
 ||assobresciath.com^
 ||assoc-amazon.ca^$third-party
@@ -50397,12 +50428,14 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||avenantoutspatloud.cfd^
 ||aventrebanate.cfd^
 ||avenuenineteenthendorsement.com^
+||average-statement.com^
 ||averilesopgi.qpon^
 ||aversepeachestargum.qpon^
 ||aveugleechos.shop^
 ||avexbiljspp.com^
 ||avfay.com^$third-party
 ||avfbqhwuowien.online^
+||avfdikaldj.in^
 ||avgashaglinfooting.qpon^
 ||avglvolxsgfkp.site^
 ||avgony.xyz^
@@ -50413,6 +50446,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||avidlyruntee.shop^
 ||aviecayman.qpon^
 ||avifwlqraveqt.online^
+||avilionrewrote.shop^
 ||avivesclin.qpon^
 ||avjbjbeywlkmm.top^
 ||avjecheybdtqj.space^
@@ -50582,6 +50616,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||axpedsqboflar.space^
 ||axqmusdfvpqrl.site^
 ||axshhgmltiycy.site^
+||axswhgkytfd.com^
 ||axupfpniadauk.site^
 ||axvjfzbwezssw.site^
 ||axwpbsweuwclq.space^
@@ -50591,6 +50626,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ay267.com^
 ||ayads.co^
 ||ayancqseakeek.space^
+||ayarkkbvwkrer.top^
 ||aybocrepirfch.space^
 ||ayctbhlndyarx.space^
 ||ayfixvgbijkba.online^
@@ -50602,6 +50638,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ayinstrikes.cfd^
 ||ayintothefre.org^
 ||ayitkkxrctkia.online^
+||ayivisutjpb.com^
 ||ayivynqlnxdvv.site^
 ||ayjvwlrwraoqv.top^
 ||ayjxqgxvefyuv.space^
@@ -50670,6 +50707,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||aztumqassickf.space^
 ||azulejobeleaps.cyou^
 ||azureanungrasppluvial.cyou^
+||azuredcalcar.com^
 ||azureedge.net/adtags/
 ||azurestealth.com^
 ||azxgujecbqaip.space^
@@ -50862,6 +50900,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||baklwjoyoatfv.site^
 ||bakteso.ru^
 ||bakulatroolie.shop^
+||bakundaindigosepi.cyou^
 ||bakyayljzhoga.online^
 ||balaamstoppleimams.cyou^
 ||balagantrifled.shop^
@@ -50917,6 +50956,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bancusnonpeak.cyou^
 ||bandedoppidum.cfd^
 ||bandhuninoxnonuse.cyou^
+||bandiedtitanyl.com^
 ||banditunearly.cfd^
 ||bandjostles.cfd^
 ||bandoraclink.com^
@@ -50988,6 +51028,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bannieres-a-gogo.com^$third-party
 ||bannisterflaskputdown.com^
 ||bannisterflaskputdown.com^$popup
+||bannockhomme.com^
 ||bannutdietal.cfd^
 ||banquetunarmedgrater.com^$popup
 ||bans.bride.ru^
@@ -51001,6 +51042,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||baqczoryagbvi.online^
 ||baqsjlfdaorou.space^
 ||baqtxlxxvtnwx.online^
+||barabradraggedbain.cyou^
 ||barattehairpin.qpon^
 ||barattehardhatbojo.qpon^
 ||barbeauluhinga.qpon^
@@ -51361,6 +51403,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||befhzmscrrrjr.website^
 ||befirstcdn.com^
 ||befirstcdn.com^$popup
+||befistelvish.shop^
 ||befoolamesace.qpon^
 ||beforeitsnews.com/img/banner_
 ||befoulenglorylupins.cfd^
@@ -51401,6 +51444,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||behance.vo.llnwd.net^
 ||behave.com^$third-party
 ||behavepassword.com^
+||behearmyiasis.cfd^
 ||behelddialectextract.com^
 ||behindcanary.com^
 ||behkfu2mplp8y5.cfd^
@@ -51435,6 +51479,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||beldooschae.com^
 ||belfrybreathrich.com^
 ||belgianaplombs.cfd^
+||belialtweest.com^
 ||beliefnormandygarbage.com^
 ||believableordinarygentlemen.com^
 ||believeliftinggag.com^
@@ -51523,6 +51568,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||benzeingormand.qpon^
 ||beoedekpynbnd.space^
 ||beop.io^$third-party
+||beoxnxlhzau.com^
 ||bepaperkeck.qpon^
 ||bepearlrupaliquors.cfd^
 ||bepearlxylon.qpon^
@@ -51801,6 +51847,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bhavkiyrxbifv.space^
 ||bhaxjarhob.com^
 ||bhcifkfrtccdt.online^
+||bhciqwzxqtccc.online^
 ||bhdbfcjwpeyzs.online^
 ||bhfrnzxxcxhbn.store^
 ||bhfrttttyyruo.store^
@@ -51983,6 +52030,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||binomnet3.com^$popup
 ||binomo.com/en/promo/*$doc
 ||binomo.com^$3p
+||binomycremes.shop^
 ||binousgrf.cyou^
 ||binpartner.com^$3p
 ||binwlhffwbmjl.site^
@@ -52111,8 +52159,10 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bjwnarindcbnv.website^
 ||bjwnxpebbho.com^
 ||bjxusfnfstjae.online^
+||bjydccyqkjcxj.website^
 ||bjygagpjabhbt.website^
 ||bjzabeeqjktyy.website^
+||bk7n6nj3kw83rp5u4wx1yeioe229fe6yy.cfd^
 ||bkbctgjvawkyy.online^
 ||bkbhaestxgkor.online^
 ||bkbndrunglued.cyou^
@@ -52200,6 +52250,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||blatchhypogyn.qpon^
 ||blatgeums.cfd^
 ||blawedzendos.shop^
+||blaworthaglin.cyou^
 ||blaze-media.com^
 ||blazeteamlow.com^
 ||blazingserver.net^
@@ -52556,6 +52607,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bokbxunnvmxtm.online^
 ||bokepindo13.name^
 ||bokharapedesisskelvy.qpon^
+||bolanenst.shop^
 ||bolckrijublup.space^
 ||bold-display.pro^
 ||bold-potential.com^
@@ -52696,6 +52748,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||boringegotistical.com^
 ||boringherbalprewashed.com^
 ||boringlength.com^
+||borismbergamo.cyou^
 ||bornehackled.qpon^
 ||borneobulletin.com.bn/wp-content/banners/
 ||borneolgutsilygiant.cyou^
@@ -52780,6 +52833,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bovinetimingunsaddle.com^
 ||bovmkbuiaddbb.website^
 ||bovverironice.qpon^
+||bovwyqmgrejwz.space^
 ||bowed-tackle.com^
 ||bowermisrule.com^
 ||bowerscrural.cyou^
@@ -53049,6 +53103,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||britageens.com^
 ||britainbetrayalbands.com^
 ||britainhands.com^
+||britetammies.cfd^
 ||brithinter.shop^
 ||brithungown.com^
 ||britishinquisitive.com^
@@ -53151,6 +53206,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||brunettescarecrowyoga.com^
 ||brunnmesuofgq.online^
 ||bruntstabulae.com^
+||brusbfjvwpaqx.online^
 ||brushertuftier.shop^
 ||brushexpert.com/getimage/banners
 ||brushtriplehorns.com^
@@ -53543,6 +53599,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||bwqpdvvcxuzwi.website^
 ||bwqteixclqazk.store^
 ||bwredir.com^$popup
+||bwreq22gl721ocbxnmi8rqg2468binmn.cfd^
 ||bwrlnmpgstsel.website^
 ||bwrpihqndmsio.site^
 ||bwsibkepyqxts.website^
@@ -54190,6 +54247,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cauditcommernal.com^
 ||cauditcommernal.com^$document
 ||caukinglodger.cfd^
+||caulisintarsa.qpon^
 ||cauly.co.kr/richad/
 ||caumpavings.qpon^
 ||cauralesolvedduroc.cfd^
@@ -54262,6 +54320,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ccb14e7844.com^
 ||ccb836bd09.com^
 ||ccbvr.com^
+||ccbyxcypy.com^
 ||ccc9c93083.com^
 ||ccduakllmbcap.site^
 ||cceotabubmypm.online^
@@ -54567,6 +54626,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cedarcrozzle.com^
 ||cedecancontemporary.com^
 ||cedeimprovise.com^
+||cedkbwjacqqlxq.com^
 ||cedrenemopane.qpon^
 ||cedrewashier.qpon^
 ||cee332cc1f.com^
@@ -54758,6 +54818,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||chaiserhyme.com^
 ||chakrasniper.cyou^
 ||chakrasoverlip.com^
+||chalahcornule.cfd^
 ||chalazaleaver.cfd^
 ||chalcondrain.cyou^
 ||chalcusmagma.shop^
@@ -54889,6 +54950,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||chelemoffcastaloha.qpon^
 ||chemicalssmuglyuntying.com^
 ||chenaobldigress.cyou^
+||chenfbdjnlypd.site^
 ||chengaib.net^
 ||chequycmdr.qpon^
 ||cheqzone.com^
@@ -54915,6 +54977,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||chewsever.com^
 ||chfpgcbe.com^
 ||chftwkoiswquf.site^
+||chhbcefzixzqw.site^
 ||chhencmmgwogk.space^
 ||chiamfxz.com^
 ||chiasmiraisers.com^
@@ -55008,6 +55071,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||chouanboniata.cfd^
 ||choughbigeye.cfd^
 ||choupiconize.shop^
+||chowingtwains.qpon^
 ||chowsespenal.qpon^
 ||chpadblock.com^
 ||chpadblock.com^$document
@@ -55076,11 +55140,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cimexcursers.cyou^
 ||cimlinecreakymake.cyou^
 ||cinarra.com^$third-party
+||cindieselter.cfd^
 ||cineby.*/scripts/os.js
 ||cinehd.app/api/adcash
 ||cinemadeck.com/ifr/
 ||cinemaxxl.de/js/adblock.js$script
 ||cingo.sbs^
+||cinixuubxrczz.online^
 ||cinnamonhandsomeoccurs.com^
 ||cintremorong.cyou^
 ||ciolhysrijexi.store^
@@ -55266,6 +55332,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||clattydevelin.cfd^
 ||clauzmknmsmfh.online^
 ||claviermudbank.cyou^
+||clavuvirameses.com^
 ||clawkerrifely.cyou^
 ||claxonsfootedaerides.cfd^
 ||claysinigowiggism.cyou^
@@ -55699,6 +55766,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cnzgraidqkkhw.site^
 ||co5457chu.com^
 ||co5457chu.com^$popup
+||coaevalskyful.cfd^
 ||coalawenchowbehight.qpon^
 ||coalbuffalo.com^
 ||coalitionconcessionbecause.com^
@@ -56201,6 +56269,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||convincedfashionablehandwriting.com^
 ||convrse.media^
 ||convsweeps.com^
+||conyzabargir.cfd^
 ||cooch.tv^$popup,third-party
 ||coochdiswitmurral.cfd^
 ||cooeesxvii.shop^
@@ -56208,6 +56277,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cooeysfennecs.shop^
 ||coohauwhob.net^
 ||cooikoomseerun.com^
+||cooingpending.shop^
 ||cookedtower.pro^
 ||cookedupper.pro^
 ||cookeecomarum.qpon^
@@ -56878,6 +56948,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||crsspxl.com^
 ||crt.livejasmin.com^$popup
 ||crtracklink.com^
+||crtsjbsjgvtrl.space^
 ||crtznwsuivbvt.online^
 ||crubchiplet.cfd^
 ||crucialostensiblestops.com^
@@ -56890,6 +56961,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||crullerkhet.cfd^
 ||crullsozines.qpon^
 ||crumblefilchactive.com^
+||crummerpoonacuncoded.cyou^
 ||crummydevioussucculent.com^
 ||crummydevioussucculent.com^$popup
 ||crumpet.xxxpornhd.pro^
@@ -56990,6 +57062,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cstwpush.com^
 ||csufnzbxyfrfd.space^
 ||csuhgqcwubodd.online^
+||csvdjyzennjjl.website^
 ||cswjpyurbaiap.online^
 ||cswzdujrpvyra.site^
 ||csxbezadpeazu.site^
@@ -57274,6 +57347,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cwvipsciqhuqi.site^
 ||cwvueoaakybnr.site^
 ||cwxdhubxeibwf.site^
+||cwxgfwukjfath.space^
 ||cwyvnvawjstrr.online^
 ||cx.ssacdn.com/image/fetch/*supersonicads
 ||cxad.cxense.com^
@@ -57354,6 +57428,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cyniaswetted.qpon^
 ||cynrroxyt.com^
 ||cynzybmckvjxg.store^
+||cyomdeklchsae.site^
 ||cyou/player/assets/js/ads.js?v=$script,1p
 ||cyou/player/assets/js/jquery.js?v=$script,1p
 ||cypheraurigal.cfd^
@@ -57401,6 +57476,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cznzorthcvkvi.online^
 ||czofrrdmzszbd.site^
 ||czoquowdqbtjr.online^
+||czpvcjyjgpxza.site^
 ||czqchyyuwbpbo.site^
 ||czqvtn3elk64hq.rest^
 ||czrhkmapbrtya.website^
@@ -57410,6 +57486,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||cztesoepklydo.online^
 ||czuwprnlhxpdh.site^
 ||czvtmhty.com^
+||czwl81ymb3vqghok.cfd^
 ||czyiwbslpkcbq.site^
 ||czynhitkvjkkw.space^
 ||czzbkqsxipgtm.site^
@@ -58900,6 +58977,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||debagkedarnectary.cfd^
 ||debaucky.com^$popup
 ||debbiesmurexacknew.cfd^
+||debferrara.shop^
 ||debitcrebit669.com^$third-party
 ||debitedillegaljaburan.cyou^
 ||debojuagug1sf.cloudfront.net^
@@ -59128,6 +59206,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||demelebianchi.shop^
 ||dementedjudged.com^
 ||demesvaward.cyou^
+||demiestwirl.cyou^
 ||demiramhuffywoodlet.qpon^
 ||demiseberriesstranger.com^
 ||demiseskill.com^
@@ -59397,6 +59476,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||dggazqmcpmtwc.website^
 ||dghrvnqutzcim.site^
 ||dghvspvswbqrp.site^
+||dgiryacsecohs.site^
 ||dgmaxinteractive.com^$third-party
 ||dgmmntcknzljy.space^
 ||dgoynwlmoxgsx.space^
@@ -59471,6 +59551,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||dianomi.com^$third-party
 ||dianomioffers.co.uk^
 ||diaperflavedo.qpon^
+||diaperstackies.cfd^
 ||diaplexale.cyou^
 ||diarizedeploy.cyou^
 ||diarrhoeaeaglesunday.com^
@@ -60151,11 +60232,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||doinntz6jwzoh.cloudfront.net^
 ||dojx47ab4dyxi.cloudfront.net^
 ||dojy0dg181308.cloudfront.net^
+||doknyronhgnko.com^
 ||dokondigit.quest^
 ||dolapdarmbldn.site^
 ||dolatiaschan.com^$popup
 ||doledfurze.cfd^
 ||dolekaraokeoversleep.com^
+||doliumacutely.shop^
 ||dollarcarbohydratesunrise.com^
 ||dollishreman.com^
 ||dollphoin.site^
@@ -60307,6 +60390,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||doubtcigardug.com^
 ||doubtsshunned.qpon^
 ||doubtsuseless.com^
+||doucelyataxics.shop^
 ||douchegibbets.shop^
 ||doucheraisiny.com^
 ||dougfructus.cyou^
@@ -60449,6 +60533,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||drafterinfante.cfd^
 ||draftkings.bbgi.com^$subdocument
 ||dragglyigdyr.qpon^
+||dragmanblinded.com^
 ||dragonarmaturedisguise.com^
 ||dragonflyproblemsubway.com^
 ||dragontea.ink/dtpu.js$script
@@ -61117,6 +61202,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||dunkashtraycolloquial.com^
 ||dunstkinhin.cyou^
 ||dunsunless.cyou^
+||duodialclinkslowder.cfd^
 ||duomoskullani.cyou^
 ||duopodbanshee.cfd^
 ||duotonebusaos.qpon^
@@ -61282,6 +61368,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||dxz454z33ibrc.cloudfront.net^
 ||dy5t1b0a29j1v.cloudfront.net^
 ||dyaouhtteoorlu.com^
+||dybajlqbohbgeqm.com^
 ||dyblpgaiomtdv.online^
 ||dybutryvnbsxc.website^
 ||dybxezbel1g44.cloudfront.net^
@@ -61326,6 +61413,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||dyqlbpxykvznz.space^
 ||dyqzjfpmlkwsv.website^
 ||dyrfxuvraq0fk.cloudfront.net^
+||dysuswbgirzbe.site^
 ||dysuze6ljcmcr.cloudfront.net^
 ||dyv1bugovvq1g.cloudfront.net^
 ||dyvkswbqkgfhp.space^
@@ -61590,6 +61678,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ebetoni.com^
 ||ebfclhdkkmeav.store^
 ||ebfidkiilncan.site^
+||ebfmyagqgtcth.site^
 ||eblastengine.com^
 ||ebmekwyilybyp.online^
 ||ebmjaufmqljbw.site^
@@ -61662,6 +61751,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ecstaticreveal.pro^
 ||ecsvor.com^
 ||ecsxamjjhevdg.site^
+||ectasesmongst.com^
 ||ectozoadiquatsjuddock.cfd^
 ||ectozoaquagga.top^$popup
 ||ectsofcukorpor.com^
@@ -61849,6 +61939,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||egaqgnwwapaqi.site^
 ||egaxybiqeramc.space^
 ||egbggijlkjwoo.space^
+||egbocreeks.cfd^
 ||egctjciixiire.space^
 ||egczoevqyffdo.site^
 ||egfdcsvydnwmf.space^
@@ -62616,6 +62707,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||eqpmzcorwgnda.store^
 ||eqpuvcjjipmjn.space^
 ||eqrqlmjqwictz.website^
+||eqtkbdzdzexmk.site^
 ||equal-consequence.pro^
 ||equalfall.pro^
 ||equallyneedily.com^
@@ -62821,12 +62913,14 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||etctkcsazuixd.online^
 ||eteknix.com/wp-content/uploads/*skin
 ||etesianmarlinepicene.qpon^
+||etgswbywulss.com^
 ||ethanbriton.shop^
 ||ethecityonata.com^
 ||ethecityonatallcolu.org^
 ||ethena.online^
 ||etheniccoarsen.com^
 ||ethereumads.com^$third-party
+||etherininbent.cyou^
 ||etherscan.io/images/gen/cons_gt_
 ||ethicalads.io^$third-party
 ||ethicel.com^
@@ -62857,6 +62951,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||etuisveiner.cyou^
 ||etukuqstzpkzz.space^
 ||etvfomflpnciy.site^
+||etvkgeiukxtep.site^
 ||etvurlcoygadl.site^
 ||etwdpgjsvdqzk.site^
 ||etwmijxejhqrr.site^
@@ -63141,6 +63236,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||exodusjailhousetarantula.com^$popup
 ||exodygrafter.qpon^
 ||exofrwe.com^
+||exogamygironde.shop^
 ||exoletetumboa.shop^
 ||exoniantignumpayably.qpon^
 ||exoptmitsvah.shop^
@@ -63627,9 +63723,11 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||faultlying.com^
 ||faunishbursted.com^
 ||faunistshopboy.qpon^
+||faurdfurcate.shop^
 ||fauyntrhfdiwq.website^
 ||favmaqyqgcirx.space^
 ||favorite-mine.com^
+||favoriteinside.pro^
 ||favuscymric.cyou^
 ||favusraband.com^
 ||fawgsjeeidnjp.space^
@@ -63643,6 +63741,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fb-plus.com^
 ||fbappi.co^
 ||fbbjzowgnryzw.site^
+||fbbmvlimptfqdp.com^
 ||fbcdn.xyz^
 ||fbcdn2.com^
 ||fbczfaapzxncm.space^
@@ -63826,6 +63925,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||feltervane.shop^
 ||feltingguilfat.qpon^
 ||feltluteal.cyou^
+||feltmanwalling.cfd^
 ||feltyrewoken.cfd^
 ||feluccabellota.com^
 ||femalepostin.shop^
@@ -63879,6 +63979,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fervorsixtiesveteran.com^
 ||ferziendfljud.site^
 ||fesecrxmwowzq.site^
+||feselsbela.cyou^
 ||fespnfwrcdgpv.website^
 ||fessoovy.com^
 ||festaporno.com^$third-party
@@ -63958,6 +64059,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fgqyxgbqfxyot.website^
 ||fgsuxvboquxjg.website^
 ||fgtpvheoxosfk.site^
+||fgxaqjwljvqbf.online^
 ||fgxllefnphgtu.site^
 ||fgxsmuyzcrshu.space^
 ||fgxuxjsfbhhnd.space^
@@ -63968,6 +64070,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fh-wgt.com^
 ||fh259by01r25.com^
 ||fhefrnwqsjozv.site^
+||fheylsmakubtc.space^
 ||fhgdtphvguxll.website^
 ||fhgh9sd.com^
 ||fhgn1ccweypng1.rest^
@@ -64233,6 +64336,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fixedname.pro^
 ||fixedopening.com^
 ||fixeswavycultural.com^
+||fixgigdefatsinhauls.qpon^
 ||fixingcreepingstarter.com^
 ||fixionhyleg.cfd^
 ||fixionmedia.com^$third-party
@@ -64555,6 +64659,8 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fmqppppgvltit.site^
 ||fmrdwywbvqusa.website^
 ||fmsads.com^
+||fmumtbonosene.space^
+||fmuroiqndpisi.com^
 ||fmvyxgazvwfnc.space^
 ||fmxypzzxwlzqg.website^
 ||fnbiflwwjblma.online^
@@ -64615,6 +64721,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||foilerslapperpastors.qpon^
 ||foilsrotaldreary.cyou^
 ||foilunflaweduproot.com^
+||foiterbedbugs.cyou^
 ||foitersagwire.qpon^
 ||fojatepjfrfdc.space^
 ||fojfrrpwyvlhq.website^
@@ -64667,6 +64774,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||footweargrewshaped.com^
 ||footztube.com/b_
 ||footztube.com/f_
+||foozlesopcode.qpon^
 ||fopduzolpqdue.space^
 ||fopxicajsprkh.site^
 ||for-iwara-tools.tyamahori.com/ninjaFillter/
@@ -65002,6 +65110,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||freeshot.live/manifest.js
 ||freesiaaristas.cfd^
 ||freestar.io^
+||freetbegulfs.com^
 ||freeteen.sex/ab/
 ||freetrckr.com^
 ||freetrckr.com^$document
@@ -65098,11 +65207,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||frmirnvtgcgdu.online^
 ||frmorena.qpon^
 ||frnaqbeavtdvm.website^
+||frockedyest.qpon^
 ||frockkabikisjianyun.cyou^
 ||frocompactcountless.com^
 ||froemanprerich.shop^
 ||frogcontrivance.com^
 ||frogletutopism.com^
+||frogmanoutwingchilly.qpon^
 ||frogsioniser.qpon^
 ||frohddwovyjno.online^
 ||fromfallalsqueeze.cyou^
@@ -65346,6 +65457,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||furrowhardship.com^
 ||furrowywiriest.cyou^
 ||furtivelywhipped.com^
+||furudloof.com^
 ||furybuiltfairy.com^
 ||furyprosecutionkitchen.com^
 ||fuse-cloud.com^$popup
@@ -65389,6 +65501,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fvpcmlmpoyldc.space^
 ||fvpsbdbaiobud.space^
 ||fvrpgjewjakqo.site^
+||fvssyydbovflx.online^
 ||fvvyndmujhviq.store^
 ||fvwdjfrekgogp.online^
 ||fvxawkckcdbux.website^
@@ -65449,6 +65562,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fxmxyihwrnwkg.com^
 ||fxnrjqnlbfoap.site^
 ||fxnuxxkxog.com^
+||fxqhwuhglgnzl.online^
 ||fxqikdwtgabho.website^
 ||fxqixgyrslaqo.store^
 ||fxrokhvydhadu.website^
@@ -65512,6 +65626,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||fzomznhnpgxee.website^
 ||fzsibfirjxbto.website^
 ||fzsiogoewtktx.site^
+||fzvcvguzxfxkv.online^
 ||fzvqmzsidkjgx.space^
 ||fzvzgaezwsrzm.store^
 ||fzvzplfgafdkp.space^
@@ -65543,6 +65658,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||g5kl83he.xyz^
 ||g6ghlogvlj3mmyb6.cfd^
 ||g7fkbtiwkim23q9e27q.cfd^
+||g7iyz933ov5vtq666qut3yjhrn4hjhej7yy.rest^
 ||g8j7tpl784f18w49.rest^
 ||g8tor.com^
 ||g9o63y6m.xyz^
@@ -65728,6 +65844,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||garbageshallotsnowiness.com^
 ||garbellprimi.shop^
 ||garbntspicer.cyou^
+||garboildive.com^
 ||garbsbasics.cyou^
 ||garconleak.com^
 ||gardantfriszka.shop^
@@ -65930,6 +66047,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gdsavcfiitlxs.online^
 ||gdsfkwghjspep.site^
 ||gdtrbrsyziwmw.website^
+||gduvsrewmvikj.space^
 ||gdzrozskajiuk.space^
 ||gdzxvfydhfnsl.site^
 ||gearcambridge.com^
@@ -66288,10 +66406,12 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gigsmanhowls.top^
 ||gigsmennanitic.shop^
 ||gihggbkedddgd.online^
+||gihnbzqmkwvuf.space^
 ||giihydehbohme.site^
 ||gikbdklwwxapc.site^
 ||gilakigorse.cfd^
 ||gilarditus.com^
+||gilatkphexit.in^
 ||gileoz.qpon^
 ||gilgaifar.shop^
 ||gillspaste.com^
@@ -66299,6 +66419,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gilsnymss.cfd^
 ||giltenmacram.cfd^
 ||gimfrxstiodmt.space^
+||gimmororated.cyou^
 ||gimokkwkfdbgj.space^
 ||gimpsgenips.com^
 ||ginchoirblessed.com^
@@ -66533,7 +66654,9 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||glomspinacol.cyou^
 ||glonoingannerbarely.cyou^
 ||gloogruk.com^$popup
+||glophething.cfd^
 ||gloporn.com^
+||glopwalth.cyou^
 ||gloqfhflaxbml.space^
 ||gloriaagrarianstatement.com^
 ||gloriafreeway.com^
@@ -67009,6 +67132,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gqbccmfmrilkt.site^
 ||gqbkxohbonzxt.online^
 ||gqbpkzehdkjur.site^
+||gqbqfkmonlphb.site^
 ||gqbzbszzbqsdi.online^
 ||gqfsjyhaoqzxs.website^
 ||gqgyurwgwlcux.space^
@@ -67260,6 +67384,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||groversbungy.qpon^
 ||grow.gab.com/galahad/
 ||groweyelid.com^
+||growing-living.pro^
 ||growlingpension.com^
 ||grownwrecking.com^
 ||growthbuddy.app^
@@ -67267,6 +67392,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||growthychozar.qpon^
 ||grqdkqvxbburi.site^
 ||grqrkjxpltwso.site^
+||grrfeedqkfmbq.site^
 ||grs.hicloud.com^$domain=d3ward.github.io|turtlecute.org
 ||grscty.com/images/banner/
 ||grsm.io^
@@ -67364,6 +67490,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gtuetxpyzuaeg.website^
 ||gtuxvjpwgyzob.online^
 ||gtyenqlhhinew.online^
+||gtzjkxdwrglzj.online^
 ||gu2f1bexgj1jowtrku9j.cfd^
 ||guacosravaka.com^
 ||guaicanhalids.cyou^
@@ -67486,6 +67613,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||gurusmac.org^$all
 ||gurussniddle.cyou^
 ||guruwittal.shop^
+||gusbtocfswjhl.site^
 ||gusfioner.live^
 ||gushedmuskieslarge.qpon^
 ||gusherlongly.cyou^
@@ -67678,6 +67806,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||h9jgbyw5ju7g4flemx1vk.rest^
 ||ha-api.pushwoosh.com^
 ||habeascerises.cyou^
+||habepanama.qpon^
 ||haberdasherycorpse.com^
 ||habirimodioli.com^
 ||habirucardecu.cfd^
@@ -67704,6 +67833,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hafehsagkeyrr.space^
 ||haffnetworkmm.com^
 ||hafhtodnemqud.store^
+||hafizunsmote.com^
 ||hafmxlyyenean.site^
 ||hafqflsjvhnmc.space^
 ||haftersunglory.cyou^
@@ -67794,6 +67924,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hamulidutiescain.cyou^
 ||hanaphumsaglycon.cyou^
 ||hanceddomptjewels.cyou^
+||handarmvallums.shop^
 ||handbooksnapped.com^
 ||handcuffmulberryscattered.com^
 ||handelsblatt.com/*/empty.js$script,1p
@@ -67868,6 +67999,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||haresteels.cyou^
 ||harfangtibicenshills.cfd^
 ||hargzcacgltoe.site^
+||harlavahinumine.cfd^
 ||harledgurnard.qpon^
 ||harmelwigdompellock.qpon^
 ||harmful-park.com^
@@ -68119,6 +68251,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||heartilyidle.com^
 ||heartilyscales.com^
 ||heartlessanthemantiquity.com^
+||heartlycohorts.qpon^
 ||hearty-text.pro^
 ||heartymisspell.com^
 ||heartyquit.com^
@@ -68330,6 +68463,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hexsubjockocerago.qpon^
 ||hexupload.net/images/Premium_Banners/$3p
 ||heydayseagoeracapnia.qpon^
+||heydeysparus.shop^
 ||heyhuwldmzxok.online^
 ||heyoya.com^$script,3p
 ||heypreceding.com^
@@ -68620,6 +68754,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hjkivkpclfmxu.online^
 ||hjlhzdhkwmhhq.site^
 ||hjlqivzfrrsgg.website^
+||hjpbusvcaxmgp.com^
 ||hjtgolgpsbskl.site^
 ||hjtpbyachgtvu.online^
 ||hjtzzpfcljcem.site^
@@ -69303,6 +69438,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hukelpfulinotaherer.org^
 ||hukgttlvayrpo.site^
 ||huklywmikrfmk.space^
+||hulchplex.shop^
 ||hulkageinmeats.cyou^
 ||hullocknora.qpon^
 ||hulsitelinkups.shop^
@@ -69462,6 +69598,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hwsyicaxuuwyl.online^
 ||hwubmdahfxzku.website^
 ||hwugaspawa.com^
+||hwujawduwda.in^
 ||hwuqccsahdtsu.website^
 ||hwvzysmzxzpmf.online^
 ||hwzuwlghfqizh.space^
@@ -69557,6 +69694,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||hzqhrtaafunmw.site^
 ||hzqqldqfjsyjn.site^
 ||hzr0dm28m17c.com^
+||hzscwkvnpmjbp.website^
 ||hzskcsmxnzmcz.website^
 ||hztpibvstcrrz.site^
 ||hztyxtbcouoas.site^
@@ -69686,6 +69824,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||icahm62q.xyz^
 ||icatethebenefits.com^
 ||icbeotahnyouj.site^
+||icbjetaiczjsh.site^
 ||iccihomoulkrg.online^
 ||iccku.com^
 ||iccvjzhpfolzj.space^
@@ -69941,6 +70080,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ihlfikzmbeyob.space^
 ||ihmmmcoobnhxj.website^
 ||ihnxilllrzsrb.online^
+||ihocayhncdijs.site^
 ||ihookup.com/configcreatives/
 ||ihqrcecwdfjjw.online^
 ||ihsalbums.qpon^
@@ -70049,6 +70189,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ilhnyuiakmdvl.online^
 ||ilhtossuwjwcg.online^
 ||iliaufrtcostive.qpon^
+||iliaumokes.com^
 ||iliauoncia.cfd^
 ||iliqdfncivkkp.online^
 ||iliykdbfcofbi.site^
@@ -70496,6 +70637,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||inexpedientlads.com^
 ||inexperiencedfloor.pro^
 ||inexperiencedunseensuggested.com^
+||ineywgblszbu.com^
 ||infacefusiblerandite.qpon^
 ||infameeagled.com^
 ||infamous-growth.pro^
@@ -71052,6 +71194,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||iqoczawzdbpai.space^
 ||iqofmyendnfju.site^
 ||iqoption.com/land/$popup
+||iqtciwzrhupih.site^
 ||iqtest365.online^
 ||iqtvvevbydoat.online^
 ||iqwkkpchugfbk.space^
@@ -71133,6 +71276,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||is.com^$domain=superadblocktest.com
 ||isabellaentire.com^
 ||isaminvagancy.cfd^
+||isatinegeet.cyou^
 ||isawthenews.com^
 ||isawthenews.com^$popup
 ||isbdgundjlqjy.site^
@@ -71448,6 +71592,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||izvryzfwgldrg.site^
 ||izwhgqdebwqmq.site^
 ||izwlnxsuiczqs.online^
+||izwsyvwgbordh.space^
 ||izwypazcocjxj.store^
 ||izzpdzjgmrokn.website^
 ||j-depo.com/news/tpl/images/bnner_kango_simple_300_250.jpg
@@ -71731,6 +71876,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||jdwqsewrbvnnt.website^
 ||jdxnelgnhtfyq.space^
 ||jdxxuvnrpdmit.space^
+||jdzbabgbhq.com^
 ||jdzpzbrxhzkqn.space^
 ||je9k9g4r341xjgxwuewq93c33jgizbknh.cfd^
 ||jeaaoqdv.com^
@@ -71787,6 +71933,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||jerriebieldssoyas.cyou^
 ||jerseydiploma.com^
 ||jertsangah.cfd^
+||jesavjmwyqrrr.website^
 ||jesjes.xyz^
 ||jespekvtcgfuu.website^
 ||jesperwizier.cyou^
@@ -71924,6 +72071,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||jiletin.xyz^
 ||jilioadvrvpwm.site^
 ||jilqtoodfo.in^
+||jilteekookri.com^
 ||jiltsbagle.qpon^
 ||jilwueaoshhby.site^
 ||jimbfvtvlkzbl.website^
@@ -72245,6 +72393,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||jozvfaesigdre.site^
 ||jpackipmxsufz.online^
 ||jpadxrydoiorz.online^
+||jpavgtzkbjpwi.site^
 ||jpbsggqehlopl.online^
 ||jpcjzcrkrugie.online^
 ||jpfjltsmlrimq.site^
@@ -72528,6 +72677,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||juniorregister.com^
 ||juniorsonder.shop^
 ||junkiebeepconfusion.com^
+||junkilleismdrie.cyou^
 ||junkraggedtoothache.com^
 ||junksrane.shop^
 ||junkyadexchange.com^
@@ -72568,6 +72718,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||justthegays.com/api/spots/
 ||justthegays.com/api/users/
 ||justusboys.com/advertising/
+||justusclimesrighty.cfd^
 ||juswsuqwbegra.site^
 ||jut6i8iz3ozwejbztopqmbo2bih.rest^
 ||jutesunnetashling.cfd^
@@ -72672,6 +72823,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||jxyseijobkzzn.space^
 ||jyapmffzkbkbp.site^
 ||jybaekaqbmvwl.top^
+||jybaekawywkbl.top^
 ||jybsb9oyss.com^
 ||jychpwkrt.com^
 ||jyczddycqnckw.store^
@@ -72742,6 +72894,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||k24ycynhg7tt6muf.rest^
 ||k34313oxo4vhx48c.cfd^
 ||k3on.com^$document
+||k3uo26pgqkvjn6zc.cfd^
 ||k55p9ka2.de^
 ||k5ob0kmh.xyz^
 ||k5pw3ht2tm6y2q664lyggof2ko7ljun.rest^
@@ -72770,6 +72923,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kadfaedmpjdki.space^
 ||kadime.cc^
 ||kadmkyie.com^
+||kaejflvkdzfje.space^
 ||kaeslantana.cfd^
 ||kagocvncavfqi.store^
 ||kagonst.com^
@@ -72880,6 +73034,8 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kawai-jav.com/public/upload/ads/
 ||kawtsayrnwyar.store^
 ||kaxwxpicikxbr.site^
+||kayakerreebok.shop^
+||kaynpjgtbwjuv.website^
 ||kayosgluttonclean.cyou^
 ||kaztuxcaw.in^
 ||kbao7755.de^
@@ -72948,6 +73104,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kdlgpcradvcmi.space^
 ||kdluiznnaekvy.space^
 ||kdlzhlzdielmy.site^
+||kdmdaerru.com^
 ||kdmizytjznodo.online^
 ||kdmupcsngkdoz.website^
 ||kdmyatytentionia.com^
@@ -73080,6 +73237,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||keyavidlyspryly.qpon^
 ||keydot.net^$3p
 ||keyedtryma.qpon^
+||keyenjruhssft.website^
 ||keyholedingy.com^
 ||keymandigonal.cyou^
 ||keymovehostel.shop^
@@ -73088,6 +73246,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||keywordplacing.qpon^
 ||keywordsconnect.com^
 ||kezsfgrilmbwi.store^
+||kf8hzjv7winwr7fotzmvztj4i.rest^
 ||kfbjqsqbvnmrj.site^
 ||kfcupwsdhu.com^
 ||kfdjjedtasohc.website^
@@ -73285,6 +73444,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kirnedsomeday.cfd^
 ||kirstengatemen.cfd^
 ||kirteexe.tv^$popup
+||kirtledmonerbise.cyou^
 ||kirtlesuterus.cfd^
 ||kirtximywmile.site^
 ||kirujh.com^
@@ -73334,6 +73494,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kjebbhtwbgulr.website^
 ||kjevtkfxscnal.site^
 ||kjfmvnuri.click^
+||kjfxccgp.com^
 ||kjgejeteyjbrz.site^
 ||kjgmieedgzswz.website^
 ||kjgmnojsekcps.website^
@@ -73421,6 +73582,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||klutzestiming.com^
 ||klutzy-minimum.pro^
 ||klvadvvrbusee.website^
+||klvhyleakhttd.space^
 ||klwewlfsqakwu.store^
 ||klwwhrhlnsyoa.website^
 ||klwwxepxnqnhr.website^
@@ -73554,6 +73716,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kolhozynonce.cfd^
 ||kolijitter.com^
 ||kolkkaflatcap.com^
+||kolkozcolitis.cyou^
 ||kolkozeditsbusker.cfd^
 ||kolkwi4tzicraamabilis.com^$popup
 ||kologyrtyndwean.info^
@@ -73647,6 +73810,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kprwyomtkenby.space^
 ||kpsxmpevuhdwf.space^
 ||kpuscrsmljibk.space^
+||kpwbctdxbwost.online^
 ||kpwvntvpoksyw.website^
 ||kqauptdrdiyyp.space^
 ||kqawipdwetqqd.space^
@@ -73748,6 +73912,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ktceuakfbblrx.store^
 ||ktcnisakfzhzc.online^
 ||ktdxuexumxvji.space^
+||kteatwnro.in^
 ||kteawsjm.com^
 ||ktepkolfi.in^
 ||ktetxsziozrhq.site^
@@ -73863,6 +74028,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kwai.net/bs2/ad-i18n-dsp/
 ||kwaipjzkmtwct.site^
 ||kwanzaseveredtonus.cfd^
+||kwapagoblin.cyou^
 ||kwbdjazbglump.space^
 ||kwbnmsswawpho.site^
 ||kwbrtpsruanue.site^
@@ -73976,6 +74142,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||kzwopyeziioee.space^
 ||kzxwkvkvdyzus.online^
 ||kzyb5utt29fpgycpk29j5c791oyb65yoxw.cfd^
+||kzykpzpuftgvr.website^
 ||kzzxfwvwxbfuu.website^
 ||l-iw.de^
 ||l0-secure.videohub.tv^
@@ -74346,6 +74513,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ldiukrhlzqxus.space^
 ||ldjdhvlpzczfl.site^
 ||ldjkgoeognmgj.space^
+||ldkydssvzttcg.website^
 ||ldlqnkdbozjjp.space^
 ||ldlyaohsraosg.online^
 ||ldmlilhplazup.website^
@@ -74550,6 +74718,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||leschepaeonia.cfd^
 ||lesjhcskvsgjw.site^
 ||lesmeilleurs-jeux.net/images/ban/
+||lesmgdfltsuig.com^
 ||lespagesjaunesafrique.com/bandeaux/
 ||lesseestiffen.cfd^
 ||lessemf.com/images/banner-
@@ -74621,10 +74790,12 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lfcplotcfjqea.online^
 ||lfdepfhvoeygp.site^
 ||lfdnetguvtpeg.site^
+||lfepmnrxmrnd.com^
 ||lfgknhbirotrt.space^
 ||lfgoielaksccl.site^
 ||lfhugfivahoqe.online^
 ||lfjdqqmzpswof.website^
+||lfnjpftnkatgg.online^
 ||lfnwxpcbfpkcx.website^
 ||lfokfyodzylck.site^
 ||lfppindfyzgag.site^
@@ -74926,6 +75097,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||linkwash.de^$third-party
 ||linkworth.com^$third-party
 ||linkx.ix.tc^
+||linnetcopulas.cyou^
 ||linolinmorisco.qpon^
 ||linoxynmezo.cfd^
 ||linterjabots.cfd^
@@ -74937,6 +75109,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||linuxhaxor.net/wp-content/uploads/pum/pum-site-scripts.js$script
 ||linuxtracker.org/images/dw.png
 ||linyhova.cfd^
+||liohkiizoylww.online^
 ||liondolularhenewre.com^
 ||lionetdepark.cyou^
 ||lipemiaaliptae.com^
@@ -75034,6 +75207,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||livyncxvleiad.website^
 ||liwgmlfvpxbch.space^
 ||liwmwijpufa.com^
+||liwqxrhffex293j.cfd^
 ||liwsgkgwjanzi.space^
 ||lixivebyrlsidion.qpon^
 ||lixiviagrex.cfd^
@@ -75065,6 +75239,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ljpdwxykkqyxk.online^
 ||ljpnovfknjqyl.space^
 ||ljsccxmaripwlie.com^
+||ljuknwtnaqlgq.site^
 ||ljvmokkmkokbq.top^
 ||ljwaerigtjrxe.store^
 ||ljybybyerzoev.top^
@@ -75117,10 +75292,12 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lkxrhfaepdets.website^
 ||llaneromiry.shop^
 ||llboqelaevqjy.top^
+||llboqelzolayy.top^
 ||llbtqlrqrfhjc.space^
 ||llckaohcaitsy.online^
 ||lldmuevvzmefo.space^
 ||lldurjwqquqbk.site^
+||lldycpfjiikho.com^
 ||lleana.com^
 ||lleusudoral.shop^
 ||llfomyqtmwmmj.online^
@@ -75205,6 +75382,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lnfksfxtuojmk.site^
 ||lnfqqqnevxuvl.website^
 ||lngbqjutikehs.online^
+||lniuaurnyvixo.online^
 ||lnk8j7.com^
 ||lnk8j7.com^$popup
 ||lnkgt.com^$popup
@@ -75491,6 +75669,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lowlifewhateverspotless.com^
 ||lowmothandhadb.org^
 ||loworiginatepalette.com^
+||lowrietackled.cyou^
 ||lowtrainer.com^
 ||lowybecroak.cyou^
 ||loxicsprungdashpot.cyou^
@@ -75552,6 +75731,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lqlpchhficknp.site^
 ||lqm.io^
 ||lqnzjmlhskmez.space^
+||lqrpahutfjqjo.site^
 ||lqsflfggpvveg.website^
 ||lqskzxzoerxjm.website^
 ||lqtktmhwzbyfb.online^
@@ -75633,6 +75813,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ltlldtoyvvbkz.store^
 ||ltlonelyandbe.org^
 ||ltnavwfpsffpi.space^
+||ltnaxdqunknb.com^
 ||ltnchfmuwmltz.space^
 ||ltrkecmxdrvfjh.com^
 ||ltssbgqqrivtk.online^
@@ -75774,6 +75955,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||lvdcqcxccqwrx.site^
 ||lvfgmuaroloxd.online^
 ||lvgddhtuzdbrq.online^
+||lvhxvualopzur.site^
 ||lvizjwwjbnhuh.space^
 ||lvjczzaojopzc.website^
 ||lvjquuyugqirb.space^
@@ -76472,6 +76654,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||matloomreconcile.com^
 ||matricebarfs.cfd^
 ||matrimoniale3x.ro^$third-party
+||matriszophori.cfd^
 ||matrix-cash.com^$third-party
 ||matrix.dailyinnovation.biz^
 ||matsophic.shop^
@@ -77027,6 +77210,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mfomwtxsbaukl.space^
 ||mformanentsysh.com^
 ||mfpwkwlwc.com^
+||mfr9n3o8.xyz^
 ||mfrsepsidredes.cfd^
 ||mfrvwwyviutsk.website^
 ||mfrwdfpakegrk.online^
@@ -77455,6 +77639,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mlnxslqeaiano.online^
 ||mlodkcuqcqlvz.site^
 ||mlpstxhfndbzv.site^
+||mlpxhkbegbdjdkf.com^
 ||mlrhqstznhemx.site^
 ||mlrohhfgxhuil.site^
 ||mlsys.xyz^
@@ -77816,6 +78001,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||moonsshardy.cyou^
 ||moontrkr.com^$document
 ||moontuftboy.com^
+||moonyexcessburo.cfd^
 ||mooragewartlet.shop^
 ||moorericrac.cfd^
 ||moorhecuba.qpon^
@@ -77862,6 +78048,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mortarscrista.cfd^
 ||morticeque.cfd^
 ||mortifiedassociation.pro^
+||mortifymermaidcaching.cfd^
 ||mortimeracquire.com^
 ||mortimersocalledvolume.com^
 ||mortonlogymethyls.qpon^
@@ -78036,6 +78223,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mqbi598xp295x4vfr15oh2c.cfd^
 ||mqblrvvnppqxw.online^
 ||mqbwqsvxfwzos.site^
+||mqdmupawljale.site^
 ||mqdownload.com^
 ||mqdownload.com^$popup
 ||mqedledjjjdad.website^
@@ -78213,6 +78401,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||muhjwmynzkfns.site^
 ||muhkcbunesaer.website^
 ||muidpurrfryer.qpon^
+||mujeresstyrax.shop^
 ||mujhetfonkjnt.website^
 ||mujnvzqpnzxet.site^
 ||mujwqivmsqpzf.site^
@@ -78283,6 +78472,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||musangyacata.cyou^
 ||musartrammie.qpon^
 ||musasnortlestrunts.cyou^
+||muscariphatic.cyou^
 ||muscidsbandstitres.cfd^
 ||muscovilenca.cyou^
 ||muscowwhammlegundeck.cfd^
@@ -78387,6 +78577,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mwllnmobmruyj.online^
 ||mwllnzblxxylc.space^
 ||mwnfizmdfgcxs.space^
+||mwozucdauekyx.site^
 ||mwqxkshueflnl.site^
 ||mwrgi.com^
 ||mwtagqpkcbmtajn.com^
@@ -78562,6 +78753,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mysexjourney.com/revenue/
 ||myshows.me/shared/img/fe/banners/pro-*.gif
 ||mysmbkoapuust.website^
+||mysoreaumil.shop^
 ||mysterious-emotion.com^
 ||mysterysaunaawkward.com^
 ||mysticechohaven.com^
@@ -78601,6 +78793,8 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||mzcgpmpygdoer.site^
 ||mzcjystepddek.site^
 ||mzgcaatryecyd.website^
+||mzgrtbphklhiu.space^
+||mzhhespozuwia.online^
 ||mzhslnonrdkai.site^
 ||mzidndvsmszfx.space^
 ||mzjfvqtqbgouf.site^
@@ -78652,6 +78846,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||nabauxou.net^$popup
 ||nabbr.com^
 ||nabbyocularmoire.qpon^
+||nabekdbrk.com^
 ||nabjewthoknxr.space^
 ||nabuasbobiype.site^
 ||nachodusking.com^
@@ -78727,6 +78922,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||namesakehate.com^
 ||namespaceto234.net^
 ||namgkrjvqxfil.space^
+||namlnudwyvqg.com^
 ||namol.xyz^
 ||namoxkofxrnyd.website^
 ||nan-net.com/*/bbs/s/inc/$subdocument
@@ -78843,6 +79039,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||nauseousrocketjosephine.com^
 ||nausitygrimly.com^
 ||nauthellslow.cfd^
+||nauticaldiscipline.com^
 ||nauticalgelatine.com^
 ||nauticalhair.com^
 ||nauticaloffice.com^
@@ -78924,10 +79121,12 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||nccbqqpflnwlh.com^
 ||ncdahpcljuipw.site^
 ||ncdplvdquspma.online^
+||nceaxfowkzjkv.website^
 ||nchkftnswbfll.space^
 ||ncieuiouesnbm.website^
 ||nckqmhyqoowhp.com^
 ||nckyebkwqugez.website^
+||nclacrzisshzq.online^
 ||ncmeojlrybcza.online^
 ||ncnqvqyekbvno.site^
 ||ncqbhbltopuqq.site^
@@ -79019,6 +79218,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||negritasecants.shop^
 ||negrznhssmvfw.online^
 ||negusplicatelinks.cyou^
+||neguspredark.shop^
 ||negxkj5ca.com^
 ||neifl.qpon^
 ||neifstowce.qpon^
@@ -79159,6 +79359,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||newbluetrue.xyz^$popup
 ||newdisplayformats.com^
 ||newdosug.eu^$third-party
+||newelsthallicplover.cyou^
 ||newestizar.qpon^
 ||newfeatureview.perfectionholic.com^
 ||newgatemoble.com^
@@ -79293,6 +79494,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ngfgohinubvbw.online^
 ||ngfhkglghgdjliwgh.online^
 ||ngfiles.com/promos/
+||ngfkkducjialhe.com^
 ||ngfruitiesmatc.info^$popup
 ||ngfts.lge.com^$domain=superadblocktest.com
 ||nghfacveniemi.space^
@@ -79317,6 +79519,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ngwdljgbshhof.site^
 ||ngxvojbpnjtjv.space^
 ||ngy1fklz2jm9jx1.rest^
+||ngzfjgphsrxhv.online^
 ||nhatsadwafljs.site^
 ||nhbavbqogc.com^
 ||nhbfgogbsmnifv.com^
@@ -79661,6 +79864,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||nobodymiller.com^
 ||nocccxnarymvl.store^
 ||nockanusxesoc.store^
+||noctisunlap.shop^
 ||nodallyaushar.cyou^
 ||noddlesmuvule.qpon^
 ||nodeclaim.com^
@@ -80245,6 +80449,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||nylonsporno.com/ed/
 ||nymllqnuvxbsz.online^
 ||nymphadustbox.qpon^
+||nymphidbeauism.qpon^
 ||nymphidtouzleswlity.qpon^
 ||nymphszymosis.qpon^
 ||nymsdhtpngjip.space^
@@ -80337,6 +80542,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||oarweedtaigas.cfd^
 ||oas.openx.net^$domain=superadblocktest.com
 ||oassackegh.net^$popup
+||oaterisobarheaths.cfd^
 ||oathannually.com^
 ||oathayretint.cyou^
 ||oathletanet.qpon^
@@ -80576,6 +80782,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||oe6fyhljyu66819umuzwxplqrg.cfd^
 ||oeafttumojrto.site^
 ||oeamsmfhctyfk.site^
+||oebcckvxlwaij.space^
 ||oecicorking.cyou^
 ||oecusbotfly.shop^
 ||oedazrjbdxygw.site^
@@ -80916,6 +81123,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||olayomad.com^
 ||olchibegum.cyou^
 ||olcrdqatcewmf.online^
+||old-make.pro^
 ||olderdisciplinary.com^
 ||olderidentify.com^
 ||olderouncedownstairs.com^
@@ -80978,6 +81186,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||omegatrak.com^
 ||omeletshaupialorelei.qpon^
 ||omendiazine.qpon^
+||omeningfawned.shop^
 ||omenparsnipwreckage.com^
 ||omentalavale.qpon^
 ||omeotex.com^
@@ -81021,6 +81230,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||omoonsih.net^
 ||omoshzdmoplzs.online^
 ||omoxxgrsttwsz.online^
+||omqdakipjoypi.space^
 ||omqdqupnwbqow.space^
 ||omrlipeocxijz.online^
 ||omshedinjaor.com^
@@ -81113,6 +81323,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||oniyyrgezoanj.website^
 ||onjhecwdboxld.online^
 ||onjmzuwbaxsgi.space^
+||onkerlurk.shop^
 ||onlain-multiki.ru/config.json
 ||onlayusages.com^
 ||onlidex.com^
@@ -81362,6 +81573,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||oqkhxgzljvqzr.store^
 ||oqmiadfkmlcwz.website^
 ||oqmzuxgipc.in^
+||oqpelffjccmjf.space^
 ||oqphmccprsyie.site^
 ||oqsprlaybfuzd.online^
 ||oqtgmysvrxkvs.online^
@@ -81562,6 +81774,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||otaavlxnmqwyi.online^
 ||otakukan.com/sw.js$script,1p
 ||otakusphere.online^
+||otalgyfab.qpon^
 ||otaserve.net^$third-party
 ||otbuzvqq8fm5.com^
 ||otcash.com/images/
@@ -81611,6 +81824,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||otunmakpjbtga.website^
 ||otvojqdrozce.com^
 ||otwaagpjpgctw.online^
+||otwwuluktaena.site^
 ||otwxrrncagpdp.space^
 ||otxiytrhjrarw.website^
 ||otzemeism.qpon^
@@ -81642,6 +81856,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ouo.*/js/webpush.ma.js$script,1p
 ||ouo.*/sw$script,1p
 ||ouo.*^$popup,domain=legionjuegos.org|legionpeliculas.org|legionprogramas.org
+||oupcqqltw.com^
 ||oupgcgnevtqjm.site^
 ||ouphouch.com^
 ||oupvfjtyxfxky.site^
@@ -81746,6 +81961,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ouviqwzxkkejz.website^
 ||ouwszkswhujxz.online^
 ||ouxbqcndwoyze.site^
+||ovallycasheen.qpon^
 ||ovaloidbizones.qpon^
 ||ovardu.com^
 ||ovardu.com^$document
@@ -82450,6 +82666,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||paulastroid.com^$document
 ||paulastroid.com^$popup
 ||paulgravitynumeral.com^
+||paulinegarfish.cyou^
 ||paupsoborofoow.net^
 ||pausaibeamlet.qpon^
 ||pausaitapet.cfd^
@@ -82734,6 +82951,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pendentheddles.shop^
 ||pendulejewely.com^
 ||penguinhelpful.com^
+||penguinofpeace.cyou^
 ||penitentagilemenace.com^
 ||penknifegeologicalphilosophy.com^
 ||penlitecarotte.cyou^
@@ -82909,6 +83127,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||petri.com/wp-json/bww-advertising^
 ||petrierehaul.com^
 ||petrolgraphcredibility.com^
+||petrolmoppetsdermoid.cyou^
 ||petrolplaza.net/AdServer/
 ||petrolsgrannie.com^
 ||petrousgneiss.qpon^
@@ -83122,6 +83341,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||physicsnaggly.qpon^
 ||physicspresume.com^
 ||phytolcowfish.cfd^
+||phytomapearlstungs.qpon^
 ||phytometextlet.cyou^
 ||phytonsfurner.com^
 ||phztnfimeghth.space^
@@ -83170,6 +83390,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||picturesqueundercover.com^
 ||pictureturn.com^$third-party
 ||picurisinfectaumil.cyou^
+||piddlesvisor.cyou^
 ||pieazaihprmpz.site^
 ||piefortcreaker.cyou^
 ||pieingtsungtu.com^
@@ -83200,6 +83421,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pightlerepugn.cyou^
 ||pightpolkagargle.cyou^
 ||pigmanprimacy.qpon^
+||pignutklaxon.qpon^
 ||pigrootbld.shop^
 ||pigtre.com^
 ||pigwashoutwash.qpon^
@@ -83377,6 +83599,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pivotrunner.com^
 ||pixazza.com^
 ||pixbduooqbddq.website^
+||pixctfcww.com^
 ||pixel-vault.com/image/$third-party
 ||pixel.admobclick.com^
 ||pixel.adsafeprotected.com^$domain=superadblocktest.com
@@ -83409,6 +83632,8 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pjchntkwtjdnr.online^
 ||pjdjlrmelqxzh.site^
 ||pjdpsycbcmdns.website^
+||pjfddwmshnaee.online^
+||pjfvogrjwcteyj.com^
 ||pjiixsjrzigen.site^
 ||pjivecsgaqoip.website^
 ||pjlcbxdqzpnvw.website^
@@ -83722,6 +83947,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pmmdhc.com^
 ||pmmjoxhunb.com^
 ||pmmxeavnflhkl.website^
+||pmnexnvfosuppis.com^
 ||pmnlcpdlljaie.website^
 ||pmoncvtwotxox.website^
 ||pmpjngtvncmpe.website^
@@ -83786,10 +84012,12 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pochayuncs.com^
 ||pocillshoneen.cyou^
 ||pocketshighlyinquired.com^
+||pockingmolla.com^
 ||pockymesons.shop^
 ||pocpoc.io^$domain=dropgalaxy.*|financemonk.net
 ||pod.xpress.com^
 ||podalrassles.shop^
+||podargefem.com^
 ||podbex.com^$document
 ||poddishdimaris.cyou^
 ||podefr2.net^
@@ -84327,12 +84555,14 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pqitcohyrrnzv.online^
 ||pqixbnllqzmfp.space^
 ||pqlrfrtotmzpt.website^
+||pqlvwnxkodluw.online^
 ||pqmv5xir9y5zb6h.rest^
 ||pqnbvaghxebvw.space^
 ||pqnnvegqkyadt.space^
 ||pqooztnzwrtbk.store^
 ||pqoxdvmdndmfz.website^
 ||pqpockwufqgpf.website^
+||pqqrncwfjorsv.site^
 ||pqrecast.cyou^
 ||pqrpqzhcsyihr.website^
 ||pqsjujuhicwrx.online^
@@ -85058,6 +85288,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ptplfmnyrapsy.space^
 ||ptppteiawpvae.space^
 ||ptqdlabxislis.store^
+||ptsupgexpoviw.online^
 ||pttbesagne.qpon^
 ||pttlghemsjghh.online^
 ||pttpuhjcczqgn.site^
@@ -85066,6 +85297,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pttscdesgpocm.space^
 ||pttsfructed.qpon^
 ||pttyteuarfsqa.site^
+||ptuvrnvucpoag.online^
 ||ptuynrwotqzlf.website^
 ||ptvrnvrefhzvx.space^
 ||ptwebcams.com^$third-party
@@ -85393,6 +85625,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||putrr16.com^
 ||putrr7.com^
 ||putsaggies.com^
+||puttieschowder.cfd^
 ||puuush.me^
 ||puvqnflkiuhwl.site^
 ||puxypdnfammzb.online^
@@ -85451,6 +85684,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||pwuxmotvwqjbs.space^
 ||pwwopmrisjfnu.store^
 ||pwxnufxcwbbev.space^
+||pwysrdjxbbplu.space^
 ||pwzxkpphqoeby.store^
 ||px.adhigh.net^
 ||px.ads.linkedin.com^$domain=superadblocktest.com
@@ -85603,6 +85837,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qbkraweewbabb.top^
 ||qbkzoovlstqom.website^
 ||qblfoindoxcga.space^
+||qblllqzkaqewv.top^
 ||qblllqzqezlvv.top^
 ||qbltvdeqmrzxt.website^
 ||qblucvumnihhe.site^
@@ -85630,6 +85865,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qchrargdlvstl.site^
 ||qchrsplrabrnu.site^
 ||qcjgyhgwtzlzv.space^
+||qclerreaxugta.space^
 ||qcmlcwymvatsn.site^
 ||qcmtxdjqftulh.site^
 ||qcnpyyughyluz.online^
@@ -85882,6 +86118,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qlyvinhfifdwv.site^
 ||qlywjkwrxcrba.space^
 ||qmaixqtbcbapj.site^
+||qmalkkssisgrm.space^
 ||qmapdnf.com^
 ||qmcwstebkdpqv.website^
 ||qmdpgmksykmwy.online^
@@ -85983,6 +86220,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qpumpfxhqx14ypecx9cp1q8p.cfd^
 ||qpweyjmudecjc.online^
 ||qpxjkjdazqmhc.online^
+||qqbvejdmcauqy.online^
 ||qqcvdfytarpbw.site^
 ||qqcxqtr9rwkpuq29jp.rest^
 ||qqeamubuikcai.site^
@@ -86017,6 +86255,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qqtnnatdtluye.site^
 ||qquctpfbpghvt.com^
 ||qquxahyfqinua.site^
+||qqvcouthy.qpon^
 ||qqznesheignkm.site^
 ||qr-player-new.com^
 ||qr08uw9e.xyz^
@@ -86124,6 +86363,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||quaitsokhatri.shop^
 ||quaizoa.xyz^
 ||quakedevastatedprinter.com^
+||quakeryarumin.cyou^
 ||quakesiroccolevant.cyou^
 ||quakingapathetic.com^
 ||quakingthereafter.com^
@@ -86152,6 +86392,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||quapawmooruk.qpon^
 ||quarreljaggedloathe.com^
 ||quarrelsomewhatsobbing.com^
+||quarrelvanmostsandmen.qpon^
 ||quarrybeforehandwillingly.com^
 ||quartannavessolutio.cyou^
 ||quarterbackchangeless.com^$doc,popup
@@ -86170,6 +86411,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qubisticss.com^
 ||qudbmtsluirkx.site^
 ||queachycorer.com^
+||queachysfree.cfd^
 ||queasydashed.top^
 ||queasytonight.com^
 ||quebecormedia.com/infojdem/lib/cheezwhiz/$script
@@ -86199,6 +86441,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||queueolives.cfd^
 ||qufzoiycxutsn.website^
 ||quge5.com^
+||quhmzpwehvvkm.space^
 ||quickads.net^
 ||quickedangora.cyou^
 ||quickennasa.qpon^
@@ -86243,6 +86486,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||quizmastersagaciousernie.com^
 ||quizzicalrun.com^
 ||qujaotqzrctlf.website^
+||qukaqmdewtarx.site^
 ||quksyhnvkuhru.website^
 ||qultgdlesbdaw.online^
 ||qunskbadgzcdx.site^
@@ -86366,6 +86610,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||qylmbeoryzzbj.top^
 ||qylofdsbhdluj.space^
 ||qymswdusycdvz.space^
+||qynyxhaopesox.site^
 ||qypqafuymygkj.online^
 ||qypuezrjzraew.site^
 ||qyromjlmzzkov.top^
@@ -86603,6 +86848,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rangercental.shop^
 ||rangerpursuedasia.qpon^
 ||ranglepurdah.qpon^
+||rankeralkenna.cyou^
 ||ranklessubget.cyou^
 ||rankpeers.com^
 ||rankpeers.com^$popup
@@ -86706,6 +86952,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ravenousamuse.com^
 ||ravenouspetition.com^
 ||raversdowdily.shop^
+||raverssestian.shop^
 ||ravm.tv^
 ||raw-co.com^
 ||raw-solid.com^
@@ -86728,6 +86975,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||raxpeikufhiyp.site^
 ||raxsqlbokhscx.website^
 ||rayahhulloed.shop^
+||rayasargot.cfd^
 ||rayatcub.shop^
 ||rayjump.com/openapi/ad/
 ||rayjump.com^
@@ -86740,6 +86988,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||razerserosasbronzes.cfd^
 ||razorcaracalbimbos.cyou^
 ||razorcommentdisprove.com^
+||rbbeggfihugwgp.com^
 ||rbbwelakkacnb.website^
 ||rbdvwhcizpzoz.space^
 ||rbemdvyhqskji.site^
@@ -86786,6 +87035,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rcevwjumlnknn.website^
 ||rcf3occ8.de^
 ||rcgltzpeupmpi.space^
+||rchaufftestspitish.qpon^
 ||rciokmwkjiwuw.store^
 ||rcjqzugspmife.online^
 ||rcjrvsxcsgdpx.site^
@@ -86804,6 +87054,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rcvlinks.com^
 ||rcvobudipmrke.site^
 ||rcvriqufiwtct.site^
+||rcwgoidugaljp.site^
 ||rcxbznsriheku.website^
 ||rcxltnjszmheg.space^
 ||rcxtaenbaktmr.site^
@@ -86976,6 +87227,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||reclod.com^
 ||reclod.com^$popup
 ||recludeguhrcanzos.cfd^
+||recluseborsht.com^
 ||recodemumbo.com^
 ||recoilregionsjonas.com^
 ||recollectautomatically.com^
@@ -87181,6 +87433,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||regardingfourteenth.com^
 ||regardingsnappy.com^
 ||regardlived.com^
+||regavegingall.shop^
 ||regencytrikir.cfd^
 ||reghgnyodfqoi.store^
 ||regie-cpc.com^$3p
@@ -87426,6 +87679,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||resentreaccotia.com^$popup
 ||resewseremuriyolden.cfd^
 ||reshakeclifts.cfd^
+||reshipscopolar.qpon^
 ||reshutgobio.com^
 ||resideour.com^
 ||residuatankerslapels.cfd^
@@ -87556,6 +87810,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||revenuestripe.com^
 ||revenuevids.com^
 ||revenuewasadirect.org^
+||revereazimide.shop^
 ||reverencecolourful.com^
 ||reverencepolite.com^
 ||reverendfry.com^
@@ -87691,6 +87946,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rheniumtania.qpon^
 ||rheofepltxbqt.space^
 ||rhetoricsolder.com^
+||rhexiastarful.qpon^
 ||rhgxenlijkggd.website^
 ||rhhahzqblcxem.online^
 ||rhhvkmwlxeyst.store^
@@ -87739,6 +87995,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rhyminglrecl.shop^
 ||rhynhmifegimi.site^
 ||rhythmclamour.com^
+||rhytinawaxed.cfd^
 ||riaoz.xyz^
 ||ribaldoinksdalapon.cyou^
 ||ribandsdormant.cyou^
@@ -87822,9 +88079,11 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rillsgraeme.cfd^
 ||rilnkygbfbvru.site^
 ||rilsozgcmtyio.online^
+||rimasappar.com^
 ||rimeethoxyl.com^
 ||rimhysterical.com^
 ||rimiertittup.qpon^
+||rimiestapinage.cfd^
 ||rinceausecedes.qpon^
 ||ringatumalheur.cyou^
 ||ringdisgustpostman.com^
@@ -87877,6 +88136,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||riverhit.com^$popup
 ||rivinanuncius.cfd^
 ||rivne.space^
+||riwnccdialbrm.online^
 ||riyelenrtznxl.space^
 ||riylcrnuvdzyo.space^
 ||rizuvnddwycjm.space^
@@ -87895,6 +88155,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rjiabaqzpzndn.website^
 ||rjlfacjephuqy.website^
 ||rjliakirakufw.space^
+||rjokawzrkajay.top^
 ||rjqwkmcvxsouz.space^
 ||rjqxnscfpzsau.website^
 ||rjqzljvzearza.top^
@@ -88083,6 +88344,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||rocoads.com^
 ||rocoads.com^$document
 ||rocoads.com^$popup
+||rococossize.cyou^
 ||rocpannes.cyou^
 ||roddodoes.cfd^
 ||rodeforehead.com^
@@ -88876,6 +89138,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||sabergood.com^
 ||sabinpanhas.cyou^
 ||sabinuncials.cfd^
+||sabjkwfbzjeip.space^
 ||saboom.com.pccdn.com^*/banner/
 ||sabtecsxmjmnj.website^
 ||sacaeportifyhacking.qpon^
@@ -89047,6 +89310,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||sangleybrazils.cyou^
 ||sangmoonlightstake.com^
 ||sangopportunity.com^
+||sangucaurale.cyou^
 ||sanguinecocky.com^
 ||sanguineslang.com^
 ||sanhitafz.qpon^
@@ -89241,6 +89505,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||scandichotels.com/Static/js/tracking/tracking-data-init.js^$script,1p,important
 ||scaniamalamfills.cyou^
 ||scanscout.com^$third-party
+||scanterglypticgibed.cfd^
 ||scapplebarit.cfd^
 ||scarabresearch.com^
 ||scarambiguousdonkey.com^
@@ -89442,10 +89707,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||scutaltattied.shop^
 ||scuteslemurprovide.qpon^
 ||scutesneatest.com^
+||scuwpjcksvhop.space^
 ||scveilwglczse.online^
 ||scvzzypvcveio.online^
+||scwjosakeqeaz.online^
 ||scwmllkshdfug.website^
 ||scwnhwhphhapp.space^
+||scxjqmln.com^
 ||scxjugrsizhfo.com^
 ||scxjzworwsxhn.online^
 ||scyphatipis.shop^
@@ -89941,6 +90209,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||seventeendepressed.com^
 ||severaldietic.shop^
 ||severalsail.com^
+||severemahal.com^
 ||severeshitty.qpon^
 ||severewall.pro^
 ||sewabletibiae.shop^
@@ -90459,6 +90728,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||siftscience.com^$domain=superadblocktest.com
 ||sighhigherapprove.com^
 ||sightersquirm.cfd^
+||sigillnigrous.com^
 ||signaladsdirect.top^
 ||signaldinge.cfd^
 ||signalinstatistics.net^
@@ -90944,6 +91214,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||slowerdelinquentaccuse.com^
 ||slowinggourdcorvets.cfd^
 ||slowlyfocuseddose.com^
+||slowupsacrist.com^
 ||slpineexyksjm.website^
 ||slqaxckuwuvsw.website^
 ||slqcfosyuqqsj.site^
@@ -90986,7 +91257,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||smackedtapnet.com^
 ||smacksfulgent.cyou^
 ||smaclick.com^
-||smadex.com^
+||smadex.com^$third-party
 ||smaero.jp/advimg/
 ||smafi.info/assets/images/advertising/
 ||smahxdfxxdc.com^
@@ -91158,6 +91429,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||sneezedisarraystrew.com^
 ||sneezegridtasting.com^
 ||sneezevelary.cyou^
+||snhdwhjfhgrfw.space^
 ||snhgshztmhr.com^
 ||snhjsbs.shop^
 ||sni.ps^$third-party
@@ -91299,6 +91571,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||soiledhellier.com^
 ||soiledswops.shop^
 ||soilenthusiasmshindig.com^
+||soireesconin.qpon^
 ||sojcnfcvuslmv.online^
 ||sojigvfuzfcjm.site^
 ||solacedsell.qpon^
@@ -91859,6 +92132,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||spurtshrubvending.com^
 ||spurtvastsummer.com^
 ||sputumshrog.cyou^
+||spvtwiiyefosr.online^
 ||spwwbnibzsbwj.online^
 ||spxsvrvxwouyp.site^
 ||spyabstuubnat.space^
@@ -91916,6 +92190,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||squirestankie.com^
 ||squirkverraykorunas.cyou^
 ||squirmosmosestatar.qpon^
+||squirmrobbers.shop^
 ||squirrels.getsquirrel.co^
 ||squirtdrsuccession.com^
 ||sqvsfzsreghnz.online^
@@ -92261,6 +92536,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||steel-savings.com^
 ||steelednagana.cfd^
 ||steelreproach.com^
+||steepinterview.pro^
 ||steeplebeecher.qpon^
 ||steeptheme.com^
 ||steepto.com^
@@ -92374,6 +92650,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||stonkstouts.qpon^
 ||stonysuingtartness.com^
 ||stookroocoudray.com^$all
+||stoolmoated.shop^
 ||stoomawy.net^
 ||stoondchoisebhowani.qpon^
 ||stoopeddigestaggregation.com^
@@ -92520,6 +92797,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||stretchedcreepy.com^
 ||strettechoco.com^
 ||strettechoco.com^$popup
+||strewnidryl.cyou^
 ||strewnsighed.cfd^
 ||strewviolently.com^
 ||strhreqxcfcmr.online^
@@ -93028,6 +93306,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||swan-swan-goose.com^
 ||swanempower.com^
 ||swannypiazzesoaves.cfd^
+||swapcroydon.com^
 ||swapdxxpwlvkbm.com^
 ||swarddename.shop^
 ||swardsdammit.shop^
@@ -93118,6 +93397,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||switheupsmite.cfd^
 ||swizzlebuckone.cfd^
 ||swizzlehellersphearse.cyou^
+||swizzmetage.cfd^
 ||swkjtstjnvogh.site^
 ||swksfvpmlhyah.website^
 ||swlvbfovkhela.space^
@@ -93255,8 +93535,10 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||systems201.net^
 ||systemsecurenow.icu^
 ||systemsfromhybrid.net^
+||systyleeffront.cyou^
 ||sythe.org/*.php$3p
 ||syuaqkkanztrx.site^
+||syviuvzjlauzh.space^
 ||sywijqrehycts.website^
 ||syyynjvgdbmtj.online^
 ||syzygaletchers.com^
@@ -93297,6 +93579,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||t.skimresources.com^$domain=superadblocktest.com
 ||t.uc.cn^
 ||t1.daumcdn.net/adfit/static/ad.min.js
+||t1viiujqi7piht.rest^
 ||t1y6x95x87z6hn.cfd^
 ||t2lgo.com^
 ||t2lgo.com^$popup
@@ -93375,6 +93658,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tagsoviet.com^
 ||tagtailcouchy.cyou^
 ||tagtailjabbing.qpon^
+||taguanappendsecuelle.cyou^
 ||tahdshrijvixj.online^
 ||tahgookrefalls.qpon^
 ||tahrqfbavxmxf.site^
@@ -93389,6 +93673,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||taintereciter.shop^
 ||taiozrhfgkbsw.online^
 ||tairdalwaly.click^
+||tajdmtszoslff.site^
 ||tajikicubhood.cfd^
 ||takablehang.cfd^
 ||takadefine.cfd^
@@ -93750,6 +94035,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tecjkeofsejyg.site^
 ||tecupmqcjgjee.com^
 ||teczoonbdxxug.site^
+||tedallthroughthe.org^
 ||teddygroups.com^
 ||tediousdisinterested.com^
 ||tediousrelinquish.com^
@@ -93944,6 +94230,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tetrolahummarsala.cyou^
 ||tetterssynedra.qpon^
 ||tetvxsedkmlgh.site^
+||teuchpobhouting.cfd^
 ||teucritodays.shop^
 ||teughlyescape.cyou^
 ||tevgrruahhvgy.website^
@@ -94203,6 +94490,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||threatenletters.com^
 ||threesdimeran.shop^
 ||threewoodslose.com^
+||threnosdemeans.com^
 ||thresholdaccommodate.com^
 ||thresholdskill.com^
 ||thrillsiridian.com^
@@ -94387,6 +94675,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tineye.com/api/v1/keyword_search/
 ||tingerrespire.cyou^
 ||tingswifing.click^$popup
+||tiniestseethes.cfd^
 ||tinifygzkncqu.website^
 ||tinkerwidth.com^
 ||tinnefluyt.qpon^
@@ -94452,6 +94741,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tiuyamhwqljgm.site^
 ||tivan.naver.com^
 ||tiwoxxmrugfzh.online^
+||tiyakhnfhhjucfn.com^
 ||tiymvltgbllto.site^
 ||tizerclik.com^
 ||tiznmykuxnu.in^
@@ -94673,6 +94963,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tofiletumasha.cyou^
 ||togaedspinula.cfd^
 ||togatapotware.cyou^
+||togdrqcmslai.com^
 ||togemancavish.qpon^
 ||together2night.com^$popup
 ||togetherefwuko.org^
@@ -94932,6 +95223,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||touchdowndeveloping.com^
 ||toucherendleaf.cfd^
 ||touchstronglymuseum.com^
+||toughoutmost.shop^
 ||toughtgyrator.cfd^
 ||toughtvictor.qpon^
 ||toughvariation.com^$doc
@@ -95009,6 +95301,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||tppwkciiypmeh.site^
 ||tprogkxitliow.website^
 ||tps.doubleverify.com^$domain=superadblocktest.com
+||tptzdsroorcea.space^
 ||tpubwzwrhdcst.store^
 ||tpvwydmtfmjlt.site^
 ||tpxludqpybpkx.store^
@@ -95307,11 +95600,13 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||treasuryimprovementsheater.com^
 ||treatmentfurthermoresobbing.com^
 ||treatmentoctopus.com^
+||treatorneiper.shop^
 ||treatyexceedingly.com^
 ||trebleswimmingbritish.com^
 ||trecut.com^
 ||treesmajestic.com^$popup
 ||treetophogship.qpon^
+||trefahchouka.com^
 ||trekkermalmy.cyou^
 ||trellian.com^
 ||trellian.com^$popup
@@ -95805,7 +96100,9 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||turkeernohow.com^
 ||turkeychoice.com^
 ||turklewracks.cyou^
+||turkleyanquis.cyou^
 ||turkmenbpi.cfd^
+||turkmencyke.qpon^
 ||turkmenportal.com/images/uploads/banners/
 ||turkstench.com^
 ||turmanyniuapu.space^
@@ -96015,6 +96312,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||txqvieufbv19hilhi.rest^
 ||txsdwcllspdey.website^
 ||txthcmubwnpra.online^
+||txuhemruolwut.website^
 ||txuqrrcpnnsye.online^
 ||txwkjktfojloy.online^
 ||txwonfqyncajg.site^
@@ -96436,6 +96734,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ukojrtbssuvae.space^
 ||ukp7vxzlfk36f1xvx.cfd^
 ||ukpeutajfffqe.space^
+||ukttprhczeozj.site^
 ||ukupwdygrdzfj.website^
 ||ukvlnjcpnxsly.website^
 ||ukvxlsugnzqyi.site^
@@ -96455,6 +96754,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ulgmucrlctvsl.store^
 ||ulhbwdxzwifhg.site^
 ||ulhpxqtmsmnbo.site^
+||ulhssflnnwjxp.online^
 ||ulhwerbvmskri.space^
 ||ulibodymnqip.com^
 ||ulkfvwizkfbml.site^
@@ -96887,6 +97187,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||unrulymedia.com^
 ||unrulypause.com^
 ||unrulywisemankidding.cfd^
+||unruralpurefrack.cyou^
 ||unrvfdnjigyms.space^
 ||unrzmszjmldfr.website^
 ||unsafebernice.cyou^
@@ -96948,6 +97249,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||untimely-chemistry.com^
 ||untimely-proof.pro^
 ||untimely-way.pro^
+||untopdeashes.qpon^
 ||untopproplex.com^
 ||untownkojang.qpon^
 ||untriedcause.pro^
@@ -97245,6 +97547,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||urticalreests.com^
 ||urtyert.com^$popup
 ||urulwxikmmaer.space^
+||urvfsvikbnesj.online^
 ||urwbsmyrspycn.online^
 ||urwqfecgnncli.space^
 ||urxox-iqx.online^$popup,doc
@@ -97373,6 +97676,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||utsmuulnqmplk.site^
 ||utsqdufhyhwyz.space^
 ||utteredadisappo.com^
+||uttererunsoft.com^
 ||utterlyhourglassspent.com^
 ||utterlyparoleslogan.com^
 ||utterrender.com^
@@ -97393,6 +97697,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||uucfcpcdqtzpm.site^
 ||uucmclhuqdszr.site^
 ||uuejoxtufssdg.site^
+||uuezzqtwvrikp.site^
 ||uufbfybqphccv.online^
 ||uufeoekcvzdwp.online^
 ||uufgarwmibysu.online^
@@ -97400,6 +97705,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||uuhapochhbjzl.site^
 ||uuhnjutdqxnac.space^
 ||uuidksinc.net^
+||uujqvfcpt.com^
 ||uukwovlodkrsj.space^
 ||uulrtfzbkjkrm.space^
 ||uulvgcsjoidbh.space^
@@ -97548,6 +97854,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||uzukakccaflam.space^
 ||uzvvqnaqblxvx.online^
 ||uzxksecxqrchr.online^
+||uzyzsowhwgmmv.online^
 ||uzzxkatxegdzh.website^
 ||v*-ad.video.yximgs.com^
 ||v.embed-cdn.com/v8/player.js$script,domain=streamable.com
@@ -97805,6 +98112,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||vdhvldghccavh.site^
 ||vdkhkcnrddefp.online^
 ||vdkvjefuqvfoh.site^
+||vdkxtaaltddew.website^
 ||vdlvry.com^
 ||vdmipaykpenkw.website^
 ||vdmlaukvbhruc.space^
@@ -98141,6 +98449,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||vidianferrous.cyou^
 ||vidlii.com/js/main.js^$script,1p
 ||vidlink.pro/api/*cash
+||vidnmupncvlmi.com^
 ||vidomo.xyz/assets/js/devtools-detector.js$important
 ||vidoomy.com/api/adserver/
 ||vidoomy.com^$third-party
@@ -98689,6 +98998,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||vquhshiqyqudr.space^
 ||vqxdpcwnxyc.com^
 ||vqxppnlrcbxlh.site^
+||vqyvocot.com^
 ||vqzoqqnjolnbl.site^
 ||vradfvwfmwvaw.space^
 ||vrauwhahnrjuh.space^
@@ -98929,6 +99239,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||vynvpkurjcsef.online^
 ||vyomkbkvmryrw.top^
 ||vypmgvwjvgztv.space^
+||vyqwljwavrzaw.top^
 ||vyragdxymcqtw.online^
 ||vyrwmrwmlozsq.site^
 ||vysfvhtxrikig.site^
@@ -98974,6 +99285,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||vzxffcbjvfsee.site^
 ||vzxrbehqynjgt.site^
 ||vzydopxwdqnqt.space^
+||vzyfihirgzzec.online^
 ||vzzurxxvdeeke.space^
 ||w-solarmovies.com^$all
 ||w00tmedia.net^$third-party
@@ -99397,6 +99709,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||we-offer.com^
 ||we-offer.com^$document
 ||we-offer.com^$popup
+||we5kqlgplrlqxl5bgbg.cfd^
 ||weadown.com/urls/js/wp-api.js
 ||weakerscripts.com^
 ||weakestlistelssettee.qpon^
@@ -99523,6 +99836,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||weejauwho.net^
 ||weekendorgans.com^
 ||weekendpolitely.com^
+||weekendwungee.com^
 ||weekheadlong.com^
 ||weeniesgieing.qpon^
 ||weeoffer.com^
@@ -99653,6 +99967,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wfbcfadgivxqd.space^
 ||wfcexmwunmimo.site^
 ||wfdztaeuqdyds.online^
+||wfe12qc2e1mbxyn2.rest^
 ||wffbdim.com^
 ||wfhhsfxvnluft.website^
 ||wfhrjmzhzzlmw.space^
@@ -100499,6 +100814,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wowshortvideos.com^$popup
 ||wowtcgloot.com/share/?d=$third-party
 ||woxbnkonxwvrk.site^
+||woyzulu.cfd^
 ||wp-lib.dev^
 ||wp-r.github.io/*/assets/js/cache-adsreplace-shortcodes.js
 ||wp-r.github.io/*/assets/js/jquery.adsplacer.ab-testing.js
@@ -100575,6 +100891,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wqwoynnxgujac.online^
 ||wqxvfzvqcqmcs.website^
 ||wqyenrdmgkikd.site^
+||wqyvnielwcgvo.space^
 ||wr6wg4gw3pyxfq.cfd^
 ||wr9e6gugjoveh1.cfd^
 ||wraggleshevri.cfd^
@@ -100736,6 +101053,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wummanhoney.cfd^
 ||wumufama.com^
 ||wundeeer.com^
+||wunrvfuntator.com^
 ||wuofkjhdaowoq.space^
 ||wuporg.com^
 ||wuqlgnyasteaf.site^
@@ -100859,6 +101177,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wy1bvgpbl13t9vwj.cfd^
 ||wyaiuzyqwbuvt.site^
 ||wyanosgkvkobn.store^
+||wyaoormbwvbez.top^
 ||wyapfiujccvsj.store^
 ||wyaustogc.com^
 ||wycbhivbmukxp.site^
@@ -100913,6 +101232,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||wzeocharram.com^
 ||wzf4rj8r54kv6xip7q.cfd^
 ||wzfozsmbifzzq.space^
+||wzgdelvarpcxo.online^
 ||wzjosexuyafjz.site^
 ||wzkgbfsoqbxji.space^
 ||wzobwendrydoi.website^
@@ -101439,6 +101759,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||xniyaklqxkech.website^
 ||xnjkjowmtijwa.online^
 ||xnkldnhifcdmr.site^
+||xnnrvursrpyid.space^
 ||xnobgasgdgiea.website^
 ||xnpoqzgswflxp.website^
 ||xnqzisqoxmbwb.space^
@@ -101495,6 +101816,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||xpejigor.in^
 ||xpffdxzsaqfhs.website^
 ||xpfpctnclgruq.online^
+||xphmbeda.com^
 ||xphrpolxrhqqf.website^
 ||xpics.me/everyone.
 ||xpjelhadgvkhc.space^
@@ -101575,6 +101897,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||xsfcgwydeqhuz.online^
 ||xsjgqnzlbijnn.space^
 ||xskmpyxchvanm.site^
+||xslbuoadsfsrf.space^
 ||xsmaiqewozddc.space^
 ||xsmeqhlcpsiyk.space^
 ||xsmnkwolsmvjim.com^
@@ -101757,6 +102080,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||xwykyqfj.com^
 ||xwzbpkku-i.site^
 ||xx53ox69chu7fvm3cvnn5tz.cfd^
+||xxbifrkzadx.com^
 ||xxdlfjdtazsju.website^
 ||xxezsifdsivsa.site^
 ||xxhrd.com/ns.php?p=
@@ -101939,6 +102263,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||yarerairbagsjosher.cyou^
 ||yarkoda.cfd^
 ||yarucaloricwhelked.cfd^
+||yarurachamar.qpon^
 ||yaryuujqckdco.site^
 ||yashi.com^
 ||yasmaksoviductbrowned.cyou^
@@ -102022,6 +102347,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ycencliqriclu.space^
 ||ychbtmxkrxojk.website^
 ||ychnaatlpvghv.site^
+||ychzstwtofebq.space^
 ||ycjhwnqmlchll.space^
 ||yckzwrlrapwbk.site^
 ||ycmksqoykzgyf.website^
@@ -102063,8 +102389,10 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ydvxxyixbylqo.site^
 ||ydwekhadydlnz.space^
 ||ydxjqvncsplsz.site^
+||ydyywadl.com^
 ||ydzgtvxtyeqzr.site^
 ||ye4e5zkg4u6zi6x3p7rzz59wqrviqgq.cfd^
+||yeatzjxlgjxsp.site^
 ||yectwxcyecvqb.site^
 ||yecytiqior.net^
 ||yedftrwashosh.space^
@@ -102082,6 +102410,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||yellowishgather.com^
 ||yellowprotection.com^
 ||yelpedtertii.shop^
+||yelpinglethy.com^
 ||yenawxeozlyob.site^
 ||yensaegprzkzl.online^
 ||yepgfsxto.net^
@@ -102288,6 +102617,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ykaryzbamfvme.site^
 ||ykcnjritoluxy.store^
 ||ykcysiemqlyyb.online^
+||ykddkvzezbsrz.site^
 ||ykdoyluivekcm.online^
 ||ykdqqskuziadx.site^
 ||ykfckycskdhlx.space^
@@ -102315,6 +102645,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||ylcajkhefghaf.online^
 ||yldmgrimg.net^
 ||yldxtcgvchrck.site^
+||yleqglofwg6ifb2tft92mn8.rest^
 ||ylgdgagginpkp.website^
 ||ylhcmalddcqmq.website^
 ||yliawdutzwwsd.space^
@@ -102701,9 +103032,11 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||yuztrvzsjtfgo.space^
 ||yvbcuorcvinxz.online^
 ||yvdfmcmebhove.website^
+||yvdiwwrynonhh.website^
 ||yvehygnvznbnd.online^
 ||yvercbjclvafn.site^
 ||yvexipcqna.com^
+||yvfflvkxricfo.online^
 ||yvipfjvniaonh.space^
 ||yviyxdynlmaxs.site^
 ||yvkjzpfqgbgxl.space^
@@ -102821,6 +103154,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zabanit.xyz^
 ||zabianunmoral.qpon^
 ||zablgoqpquvty.site^
+||zachpungaragrafes.qpon^
 ||zackludibry.cfd^
 ||zacknation.net/*/ads-$image
 ||zacleporis.com^
@@ -102917,6 +103251,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zcapieuheltue.store^
 ||zcbetcczfvylq.site^
 ||zccho692lukzqvq3b5.cfd^
+||zccosdhkuxpkf.online^
 ||zcexuriph.com^
 ||zcfkamumyzzle.online^
 ||zcfuoqjyzgksa.online^
@@ -102999,6 +103334,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zehnporn.com/img/12221.gif
 ||zeifuviuhhfid.website^
 ||zeilink.net/api/public/ads
+||zeismpurpie.shop^
 ||zeit.de/-/wally/api/rpc/render?id=footer_bar_offer_original_web
 ||zeit.de/-/wally/api/rpc/render?id=footerbar_variante_web_Vorteilsangebot
 ||zekagaibrryns.space^
@@ -103468,6 +103804,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zqbxmcyztwdju.online^
 ||zqesidsufeygf.website^
 ||zqethqturvqgc.online^
+||zqfjqsubxsazb.online^
 ||zqfzcqtzrxgar.space^
 ||zqikotkyvpxrk.website^
 ||zqjklzlezklj.top^
@@ -103486,6 +103823,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zqvhsojbqezvi.space^
 ||zqvvzrlqybjqq.top^
 ||zqwe.ru^
+||zqxtepiyz.com^
 ||zqxuemmabklqq.online^
 ||zqyrvtlkimlwo.online^
 ||zqyzgicrcwohx.space^
@@ -103526,6 +103864,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zsbpkschljppo.site^
 ||zsetbcczbbrfh.online^
 ||zsfbadlhjmpow.site^
+||zsghgqdtkrarp.website^
 ||zsgkxypgptcpk.site^
 ||zshjukefzjlcs.website^
 ||zshorte.net/*.html$frame,3p
@@ -103614,6 +103953,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zuxzvxmibplsk.website^
 ||zuyloscnskdiu.online^
 ||zuyujdjaevdtd.website^
+||zuzimbnhrfawf.site^
 ||zuznvlaqsshto.space^
 ||zuzonmzap.com^
 ||zv.7vid.net^
@@ -103691,6 +104031,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zxmkhbsmmuikc.online^
 ||zxn2u72vyrejmmw9tnb7wh.cfd^
 ||zxnymrendoxms.space^
+||zxokndyjenmgz.online^
 ||zxphiz.tech^
 ||zxqvocyhiggng.site^
 ||zxrntgssqzdre.space^
@@ -103731,6 +104072,7 @@ zzz.com.ua##body > div[style="text-align:center;font-size:11px;font-family:arial
 ||zyrlyttzshqwr.space^
 ||zyuo6teb8r9k4be69f8v.cfd^
 ||zyvbcstcltidm.online^
+||zyvbvqvwqomow.top^
 ||zyyvyfkeydwgv.online^
 ||zyzapldgfoosg.site^
 ||zyziynnnhcvni.site^

@@ -1300,7 +1300,6 @@
 @@||outdoor-magazin.com^$generichide
 @@||outschool.com^$generichide
 @@||overlays.mtb-news.de/cache/news^
-@@||p*.drtst.com/templates/drtuber/js/advertisement.js
 @@||p*.focus.de/img/
 @@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
 @@||pagead2.googlesyndication.com/pagead/$domain=mtgcardsmith.com
@@ -4339,9 +4338,10 @@ igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
 igorslab.de##[aria-label="Advertisement" i] + svg
 igorslab.de##[aria-label="Werbung" i] + svg
 igorslab.de##[aria-label="广告"] + svg
-igorslab.de##a[href^="/"][href$="/"][style][rel][target]
+igorslab.de##a[href^="/"][href*="?"][style][rel][target]
 igorslab.de##div[style*="width:100%;max-width:980px"]
 igorslab.de##img[src^="blob:http"]
+igorslab.de##svg:has(~ [aria-label])
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top
@@ -6472,6 +6472,7 @@ sn.at##.adbox
 snanews.de##div[data-type="banner"]
 snowsociety.com##.promotion-teaser-container
 soeren-hentzschel.at##.tnemesitrevda
+softselect.de,telepolis.de,finanzen.net,mainfranken24.de,jetzt.de,derwesten.de,eurosport.de,ingenieur.de,heise.de,ww-kurier.de,1prospekte.de,stadtlandflussonline.net,chefkoch.de,vogue.de,tripadvisor.de,3c.web.de,thueringen24.de,pfaffenhofen-today.de,holidaycheck.de,berlin.de,fuw.ch,allgemeine-zeitung.de,schlaukopf.de,schwarzwaelder-bote.de,aachener-zeitung.de,hamburg.de,sat1.de,abendzeitung-muenchen.de,dfb.de,gamestar.hu,ikz-online.de,nrz.de,stimme.de,waz.de,wiesbadener-kurier.de,wiesbadener-tagblatt.de,wp.de,wr.de##.ad
 sol.de###support-box-main
 sol.de##.advert__archive
 sol.de##.advert__content
@@ -7012,7 +7013,6 @@ telefonspion.de##.adlb
 telepolis.de##.ad-ldb-container
 telepolis.de##.inread-cls-reduc
 telepolis.de##section[data-component="TeaserList"] > article + div[class=""]:has(> .relative:only-child > div[id^="TEL_D_Incontent-"])
-telepolis.de,finanzen.net,mainfranken24.de,jetzt.de,derwesten.de,eurosport.de,ingenieur.de,heise.de,ww-kurier.de,1prospekte.de,stadtlandflussonline.net,chefkoch.de,vogue.de,tripadvisor.de,3c.web.de,thueringen24.de,pfaffenhofen-today.de,holidaycheck.de,berlin.de,fuw.ch,allgemeine-zeitung.de,schlaukopf.de,schwarzwaelder-bote.de,aachener-zeitung.de,hamburg.de,sat1.de,abendzeitung-muenchen.de,dfb.de,gamestar.hu,ikz-online.de,nrz.de,stimme.de,waz.de,wiesbadener-kurier.de,wiesbadener-tagblatt.de,wp.de,wr.de##.ad
 telepolis.de,heise.de##.a-article-teaser--sponsored
 telepolis.de,heise.de##.img-ad
 telepolis.de,heise.de##.perf-cls-reduc-leaderboard
