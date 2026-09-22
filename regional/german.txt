@@ -4335,13 +4335,10 @@ igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sidebar-right > div[id][class*=" "]
 igorslab.de##.herald-sticky
 igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
-igorslab.de##[aria-label="Advertisement" i] + svg
-igorslab.de##[aria-label="Werbung" i] + svg
-igorslab.de##[aria-label="广告"] + svg
-igorslab.de##a[href^="/"][style][rel][target]
+igorslab.de##a[href^="/"][rel="noopener"][target]
 igorslab.de##div[style*="max-width:980px;"]
 igorslab.de##img[src^="blob:http"]
-igorslab.de##svg:has(~ * [aria-label])
+igorslab.de##span > svg
 image-hifi.com,utvmagazin.de##.x-topbar
 imagenetz.de##.ig-adbox
 immmo.at###IMM_M_Top
@@ -5231,6 +5228,8 @@ moviepilot.de###OUTBRAIN-TITLE
 moviepilot.de###consumptions
 moviepilot.de###dfp-header
 moviepilot.de##.is-promoted
+moviepilot.de##div[class^="sc-"]:not([id]):has(> div[class^="sc-"]:not([id]):only-child > div[id^="dfp-"]:only-child)
+moviepilot.de##div[class^="sc-"]:not([id]):has(> div[id^="dfp-"]:only-child)
 moz.de##.u-free-html:has(> #bluum)
 moz.de##.u-outbrain
 moz.de##aside[data-ad-unit-large="d_billboard"]
@@ -7798,6 +7797,7 @@ wz.de,aachener-zeitung.de,aachener-nachrichten.de,rp-online.de##.park-portal--su
 x-oo.com##.boxx
 xbox-passion.de###sidebar > #rectangle
 xboxdynasty.de###globalsun
+xboxdynasty.de###xd-adblock-wall:not(#style_important)
 xboxdynasty.de##div[id^="dfp"]
 xboxmedia.de##.article-post-content > .aawp
 xdate.ch##.interstitial
@@ -7977,7 +7977,6 @@ zwischengas.com##.zgsky
 ||adsrvr.org^$domain=autobild.de
 ||adsushi.de^$third-party
 ||adup-tech.com^$domain=autobild.de
-||advendi.de^$third-party
 ||advert-layer.de^$third-party
 ||advolution.de^$third-party
 ||adworx.at^$third-party
@@ -8100,7 +8099,6 @@ zwischengas.com##.zgsky
 ||autozeitung.de/sites/all/modules/composer/dikr_responsive_ads/
 ||auxmoney-partnerprogramm.de^$third-party
 ||auxmoney.com/start/welcome.php?afid=$third-party
-||avault.net^$third-party
 ||ay.delivery^$third-party
 ||ayurvedazentrum-brandenburg.de/webbanner/
 ||az.com.na/img/banner/
@@ -8984,7 +8982,6 @@ zwischengas.com##.zgsky
 ||kein-dsl.de/banner/$third-party
 ||ketoforum.de/Banner/
 ||keyforsteam.de/wp-content/uploads/Cdkeys
-||kfz-gutachter-service.de/kfz.jpg
 ||kinderlandparks.de/cms/media/thumbnail_5240_w_650.jpg
 ||kingads.net^$third-party
 ||kinox.*/vod/vod.html
