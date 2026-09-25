@@ -380,7 +380,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /plugins/ad-blocking-advisor/*
 /plugins/betube-ads/*
 /pop/jp-*/index.php?$document
-/public/assets/js/a.js$domain=dokiraw.wtf|gomuraw.info|mangarawad.rest
+/public/assets/js/a.js
 /random_ad/random_ad.js
 /redirect/?param1=*&param2=$document
 /regist_execute.html$document
@@ -408,9 +408,9 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /wp-content/themes/CashLINESystem/js/modal.$script
 /wp-content/uploads/2024/09/fanza_ad$image
 /wp-json/mediavague/v*/jobs?$domain=egolf.jp|kuruma-news.jp|trafficnews.jp
+/wp-json/ypl/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wrapper/*$subdocument,~third-party,domain=atrain3d.com|dq5clear.com|dq8clear.com|ffclear.com|khclear.com|wpclear.com
 /yamiisoku-amazon-ranking/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
-/yamiisoku-anti-adblock/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
 00m.in##.aff-cont
 0115765.com###bottom
 0115765.com##.l-extra + .breadcrumb ~ .l-wrapper .content > .gdc_row
@@ -1040,6 +1040,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soraro.tonuriaz.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=girlsvip-matome.com|yomury.blog.jp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=fuucdayo.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_yaab=$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub$domain=fuucdayo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=textstudio.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=genesisowners.com
@@ -3190,6 +3191,7 @@ eegg.fun##td[style="width:310px;vertical-align:top;"]
 efootball.work##div[style^="text-align:center;width:336px"]
 egolf.jp##.no-app.l-page__banner
 egolf.jp##div[style="width:49%;text-align:center;display:inline-block;"]
+egolf.jp,sim-jozu.net##div[style^="min-height:280px;"]
 egotter.com##div[id][style="height: 300px;"]
 egotter.com##div[id^="async-adsense"][style^="min-height"]
 ehime-np.co.jp###ehime_pc_top_1st_rectangle
@@ -3474,6 +3476,9 @@ exploader.net##article > div[style="display: flex; align-items: center; margin-b
 exploader.net##body ul.list > li[style="clear: left;width: calc(100% + 3px) !important;margin-right: -1px;height: 120px;margin-left: -2px;float: none;display: block !important;"]
 ezbbs.net##form > div[style="text-align:center"]
 ezbbs.net##table[width="176"]:nth-of-type(2)
+f1-gate.com###Skyscraper03
+f1-gate.com###SmallSquare
+f1-gate.com##div[id^="LargeRectangle"]
 f1jouhou2.com###rmenu > div[style="display:block;"] > div.p1_title
 f1jouhou2.com###rmenu > div[style="display:block;"] > div.rmenubox
 f1jouhou2.com##.floating-widget
@@ -3926,6 +3931,7 @@ gamers-labo.com###AdOverlayBanner
 gamers-labo.com,studentwalker.com,nurumayu.net##img[width="300"][height="250"]
 games.app-liv.jp##.adsbygoogle_area
 games.app-liv.jp##.jack-content
+games.appmatch.jp##.widget_games_amazon_affi
 games.nme-jp.com##header.pc
 games.wkb.jp##.jack-top
 games.wkb.jp##.jack-wrapper
@@ -4039,10 +4045,11 @@ genshin-matomech.umadacchi.net###block-11
 genshin-soku.com##.plugin-memo:has(> div.side > a[href^="https://amzn.to"])
 genshin-soku.com##.yaab-swap-link
 genshin-soku.com,monhan-soku.com##.gs-side-ad
-genshin-soku.com,monhan-soku.com##.promo-box
-genshin-soku.com,monhan-soku.com##.widget_ypl_feed_widget + aside.widget_custom_html:has(> div.textwidget > div.ypl-sale-remote-placeholder)
+genshin-soku.com,monhan-soku.com##.ypl-product-list
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site##.promo-box
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.amz-ranking-set
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.widget_ypl_feed_widget
 genshin-soku.com,monhan-soku.com,yamiisoku.com##.ypl-sale-list
-genshin-soku.com,yamiisoku.com,monhan-soku.com##.amz-ranking-set
 genshin.blog.jp###Amazon_rdm
 gensin.blog.jp###lite_link
 gensin.blog.jp,all-nationz.com,kyarabetsunijiero.net##.right-column-inner > div.plugin-memo:first-child
@@ -6037,7 +6044,6 @@ monhan-soku.com##.custom-html-widget > ins.adsbygoogle ~ div.ypl-sale-list:has(>
 monhan-soku.com##.first-article div > span[style="color: rgb(153, 0, 0);"]
 monhan-soku.com##.plugin-memo:has(> div.side > a[href^="https://amzn.to"] > img)
 monhan-soku.com##.t_b + div.t_b:last-child:has(> .AMvertical)
-monhan-soku.com##.widget_ypl_feed_widget
 monhan-soku.com##div.promo-wrap:has(> div.promo-item > div.content-zone > a[rel*="sponsored"])
 monhan-soku.com,doorblog.jp##.plugin-memo:has(> div.side > div > ins.adsbygoogle)
 monhan-soku.com,doorblog.jp,ske48matome.net,2chblog.jp,lions-matome.com,blog.jp##.plugin-memo:has(> div.side > div.amazon)
@@ -6701,6 +6707,7 @@ nwknews.jp##div[class^="article-body"] > div.t_h > b > span[style="font-size: 12
 nwknews.jp##div[class^="article-body"] > div[class="t_h"] > div:has(> b > span[style="font-size: 125%;"])
 nwknews.jp##div[class^="article-body"] > div[class="t_h"] > div:has(> b > span[style="font-size: 125%;"]) + div > iframe[src^="https://richlink.blogsys.jp/embed/"]
 nwknews.jp##div[class^="article-body"] > span[style="font-size: medium;"] > div:not([class])
+nwknews.jp##div[style$="max-width:700px; box-sizing:border-box;"]
 nyahentai.*##div[style="width: 100%; height: 140px; margin: -20px auto 50px auto; background-color: #fff;"]
 nyahentai.*##div[style^="margin: 0 auto 50px auto; padding: 20px 0; text-align: center; background-color: rgba(255,255,255,0.05)"]
 nyanto.jimdofree.com##div[id^="cc-matrix"] > .j-module:has(a[rel="noopener noreferrer nofollow"][target="_top _blank"] img)
@@ -7658,7 +7665,6 @@ silky-love.net##table[style="FONT-SIZE: 12px"][bordercolor="#ffccff"][width="800
 silky-love.net##td[valign="middle"][width="800"] > strong:first-child > font[color="#ff0000"]:only-child
 silyugoi.cfbx.jp##.sidebar_content > .widget_custom_html
 sim-jozu.net##div[style^="min-height:180px;"]
-sim-jozu.net##div[style^="min-height:280px;"]
 simchange.jp##.recommend-pr
 simchange.jp##.recruit
 sin-space.com##div[class^="insentence-adsense-"]
@@ -8816,6 +8822,7 @@ xn--f6q12aj29i.com###main > div[style^="margin-bottom:20px; text-align:center;ba
 xn--gck1f423k.xn--1bvt37a.tools##.fresnel-greaterThanOrEqual-maxContent
 xn--gck1f423k.xn--1bvt37a.tools##div[class^="amazonHomeAd_"]
 xn--gck1f423k.xn--1bvt37a.tools,sugoroku.nerliasaga.jp##div[class^="adContainer"]
+xn--gckdevd5myivf.site##.custom-html-widget:has(> a[href^="https://amzn.to"])
 xn--glay-yn4c8b9a8lo661apz3h.com###text-91
 xn--glay-yn4c8b9a8lo661apz3h.com,carro-groce.com###text-73
 xn--glay-yn4c8b9a8lo661apz3h.com,u15-specialty.com,3dnchu.com###text-40
@@ -8868,7 +8875,6 @@ yahoo.co.jp###ad-new-ysp
 yahoo.co.jp###lrec
 yahoo.co.jp###pos-sqb
 yahoo.co.jp##.yads-overlay
-yahoo.co.jp##div[class*="Yda_"]
 yahoo.co.jp##div[class^="Lrec_"]
 yahoo.co.jp##div[class^="SearchResults_searchResults__contents__main__"] > div.SSContainer
 yahoo.co.jp##iframe[id$="_ad_frame"]
@@ -9756,6 +9762,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||gazounabi.com/prsmacyell_*.html
 ||gdm.or.jp/bimg/
 ||gendama.jp/img/invitation_banner_interest.png$third-party
+||genicpress.com/wp-admin/admin-ajax.php?action=get_rakuten_random_items
 ||geniee.jp^$third-party
 ||genieedmp.com^
 ||genieesspv.jp^
@@ -9786,6 +9793,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||h-ken.net/ads/
 ||hananokai.tv^$third-party
 ||hanimez.com/img/series/805/700.jpg$third-party
+||hanshintigers1.blog.jp/include$subdocument,xmlhttprequest
 ||happy-nightwork.com/recruit/afl_pro2$image,domain=i-bbs.sijex.net
 ||hasunoha.jp/assets/ad/
 ||hasunoha.jp/assets/daihouji_banner
@@ -10002,6 +10010,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||link-ag.net^$third-party
 ||link-medias.com^
 ||link-trade.net^$third-party
+||link.amazon^$image,domain=hamusoku.com
 ||linkshare.ne.jp/mgm/bn/200709/sky_01.gif
 ||linoee.com^$all
 ||live.fc2.com/friendlyAd.php
@@ -10154,6 +10163,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||news.mynavi.jp/assets/adomik-
 ||news4vip.livedoor.biz/testes.html
 ||newsweekjapan.jp/api_kakakucom/
+||newsweekjapan.jp/list/ajax/newsweek/kyujinbox.json
 ||next-game.net/?af=1^$image,third-party
 ||nifty.com/pubc0m/$script
 ||niizuma.com/banner/

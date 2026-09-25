@@ -2633,6 +2633,7 @@ chip.de##a[href^="https://www.chip.de/deals"]
 chip.de##a[title*="(Anzeige)"]
 chip.de##a[title*="(Gesponsert)"]
 chip.de##article + div:has(> h3:first-child + a[href^="https://www.chip.de/angebote"]:last-child)
+chip.de##article.download-item:has(.download-item__image:not([data-nuxt-img]))
 chip.de##article[data-element-tracking-channel="home"]:has(.RUC-Badge--Secondary)
 chip.de##aside:has(> .Ad:only-child)
 chip.de##aside[role="complementary"] > div > .secondary
@@ -3430,6 +3431,7 @@ finanzfluss.de##div[id^="sustainability-gerd-kommer-"]
 finanzfluss.de##div[id^="trading212-"]
 finanzfluss.de##li[class="suggestion suggested"]
 finanzfluss.de##li[data-cy="suggestion-item"]:has(a[href^="https://link.finanzfluss.de/inf/"])
+finanzfluss.de##li[id*="-Insearchad-"]
 finanzmarktwelt.de###mvp-leader-wrap
 finanzmarktwelt.de##.mvp-feat1-list-ad
 finanzmarktwelt.de##.mvp-flex-ad
@@ -4337,9 +4339,10 @@ ifun.de,iphone-ticker.de###verbraucherhinweis-single-300x250
 igorslab.de##.herald-sidebar-right > .widget:not([id*="widget"])
 igorslab.de##.herald-sidebar-right > div[id][class*=" "]
 igorslab.de##.herald-sticky
-igorslab.de##.ilgha-scale-frame:has(.ilgha-related-similar)
-igorslab.de##a[href^="/"][rel="noopener"][target]
+igorslab.de##a[href^="https://www.igorslab.de"][rel="noopener external"][target]:not([target="blank"],[target="_blank"])
+igorslab.de##div[class][style^="display:block;position:relative;width:"]
 igorslab.de##div[style*="max-width:980px;"]
+igorslab.de##div[style="height: 90 px; text-align: left;"]
 igorslab.de##img[src^="blob:http"]
 igorslab.de##span > svg
 image-hifi.com,utvmagazin.de##.x-topbar
@@ -7640,6 +7643,8 @@ windowspro.de##.view-sponsoredcontent
 windowspro.de##.wip-ad-block
 windowspro.de##.wip-ad-php-loaded
 windowspro.de##article.node-teaser:not(.node-promoted)
+windowspro.de##div[class*="-ad-"]
+windowspro.de##div[class*="sponsored"]
 windowspro.de##div[style]:has(a[onclick])
 windowspro.de##iframe[style="height:250px;overflow: hidden;"]
 windowspro.de##section#block-viewscontent-block
@@ -8874,6 +8879,7 @@ zwischengas.com##.zgsky
 ||idealo.de/extern/IdealoWidget.php?
 ||idealo.net/js/idealoWidget-$third-party
 ||idealo.net/widget/
+||igorslab.de/?$image
 ||igorslab.de/wp-content/plugins/igorslab-ads-suite/
 ||ih.adscale.de/map?ssl=1&format=video
 ||ihreapotheken.de^$third-party
