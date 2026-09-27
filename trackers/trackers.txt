@@ -3119,7 +3119,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /stats-js.cgi?
 /stats-listener.js
 /stats-tracking.js
-/stats.*/event$domain=~stats.prisamedia.cl
+/stats.*/event$domain=~stats.prisamedia.cl|~stats.uniquetma.com
 /stats.*/hits/*
 /stats.*/tracker.
 /stats.asp?id
@@ -4112,6 +4112,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||api.exoclick.com^$domain=exoclick.com
 @@||api.infowarsmedia.com/videojs-event-tracking/$script,1p
 @@||api.ipdata.co/?api-key=$script,domain=wttw.com
+@@||api.ipgeolocation.io/getip$xmlhttprequest,domain=surveyapp.ambivista.com
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.ipstack.com/*access_key=$xhr,domain=acehardware.com
 @@||api.ipstack.com/check?access_key=$xhr
@@ -11450,6 +11451,7 @@ yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 ||amarfa.ir^$third-party
 ||amavalet.com^$third-party
 ||amazingcounters.com^$third-party
+||amazinglea.com^
 ||amazon-email.branch.rocks^
 ||amazon.*/stores/page/*?pageViewLogging
 ||amazon.com/1/action-impressions/
@@ -14942,6 +14944,7 @@ yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 ||bmoharris.com/www/assets/analytics/loader.js
 ||bmrg.reflected.net^
 ||bmst.pw^
+||bmtrcs.com^
 ||bmwebm.org^
 ||bmyudk.clarins.de^
 ||bmzuyj.nifty.com^
@@ -34599,6 +34602,8 @@ yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 ||minetilbud.dk^*/Statistics.asmx
 ||minewhat.com^$third-party
 ||minexmr.com^$third-party
+||minhatela.xyz/api/rpc/sig/b
+||minhatela.xyz/api/rpc/sig/hit
 ||mini-site.larksuite-marketing.com^
 ||minibilling.com^
 ||mininghub.club^$third-party
@@ -35781,6 +35786,7 @@ yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 ||noblefellow.com^
 ||noblocktape.com/stat/
 ||nocaadobefpc.optus.com.au^
+||nodals.io^
 ||nodenotify.com^
 ||nodethisweek.com^
 ||noflake-aggregator-http.narvar.com^
