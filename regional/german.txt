@@ -688,7 +688,6 @@
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
 @@/ad_box_$image,domain=paradisi.de|baby-vornamen.de
 @@/ad_data/*$image,domain=finanzen.net
-@@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|telgrafgazetesi.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|haberimizvar.net
 @@/bilder$~third-party,domain=giessener-allgemeine.de|da-imnetz.de|werra-rundschau.de|fnp.de|merkur.de|fr.de|extratipp.com|wetterauer-zeitung.de|hallo-muenchen.de|wlz-online.de|tz.de
 @@/content/aoAdDetect.js
 @@/js/adbl_checkurl.js$domain=cool-web.de|fun-seiten.de|web-spiele.de|gps-cache.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de
@@ -1868,6 +1867,7 @@ android-hilfe.de##.incontent-wrapper
 android-hilfe.de##.incontent-wrapper_big
 android-hilfe.de##.medium-rectangle-incontent-wrapper
 android-hilfe.de##.p-body-inner > ul.p-breadcrumbs + div[style="min-height: 140px;"]
+android-hilfe.de##article:has(a[href^="/fh-ma/click?"])
 android-hilfe.de##article[class="message message--post"]
 android-hilfe.de##article[data-author="Angebot"]
 android-hilfe.de##article[data-author="Anzeige"]
@@ -2138,6 +2138,9 @@ basic-tutorials.de##.basic-widget.container-wrapper
 basic-tutorials.de##.losgehts-widget
 basic-tutorials.de##.stream-item-above-post-content
 basic-tutorials.de##div[id^="basic-"]
+basicthinking.de##.p-wrap:has(a[href*="/category/sponsored-post/"])
+basicthinking.de##.redaktion-widget:has(> [id^="redaktion-"] > p:last-child)
+basicthinking.de##.widget-post:has(.widget-p-listing > .p-wrap:only-child a[href*="/category/sponsored-post/"])
 basicthinking.de##img[width="500"][height="500"]
 basicthinking.de##img[width="600"][height="500"]
 basicthinking.de##img[width="600"][height="600"]
@@ -2338,6 +2341,7 @@ blick.ch##a[href^="https://jackpot.onelink.me"]
 blick.ch##a[href^="https://jackpot.onelink.me/"]
 blick.ch##aside[class*="placement-"]
 blick.ch##aside[id^="appnexus-placement"]
+blick.ch##div:has(> iframe[src*="box.blick.ch/iframes/promoframe"]:only-child)
 blick.de###NATM
 blick.de##.OAS_AD
 blick.de##.recommendation-list__item:has(#NATM)
@@ -2423,6 +2427,7 @@ borncity.com##div#content .code-block[style="margin: 8px 0; clear: both;"]
 borncity.com##div.code-block[style="margin: 8px auto; text-align: center; display: block; clear: both;"]
 borussia.de##.bmg-ad
 bottrop.de##.SP-Ad
+box.blick.ch##div:has(> div[id*="-MR"])
 boxofficeworldwide.com,onlinewarnungen.de##body > aside.mh-container.mh-header-widget-1
 boxverband.at##.slick-track
 braunschweiger-zeitung.de##.collapsable__content > small[style="color: #999; margin-bottom: 5px;"]
@@ -4266,7 +4271,6 @@ hl-live.de##div[id^="anzeiged"]
 hl-live.de##div[width="828"][height="90"]
 hl-live.de##img[width="160"][height="240"]
 hna.de##.id-Weather-Advert-wrapper
-hna.de##.wv_story_el_showHeroes
 hockey-news.info###text-12
 hockeyweb.de##.btn-danger
 hockeyweb.de##a[href^="https://www.hockeyweb.de/?rex-api-call=pixel_forward&url="]
@@ -4864,10 +4868,11 @@ lowbeats.de###container-sidebar-banners
 lowbeats.de###text-html-widget-2
 lr-online.de##.module-list > info[style^="font-size:10px; color:#aaa"]
 lr-online.de##.module-list a.adn_layer_itemholder
-lr-online.de##.u-adSlot:not([class*="-sky-"])
 lr-online.de##div[data-widget="plista_widget_belowArticle"]
 lr-online.de,moz.de,schwarzwaelder-bote.de,stuttgarter-nachrichten.de,stuttgarter-zeitung.de,swp.de##.u-adSlot:not(.u-adSlot--sky-left):not(.u-adSlot--sky-right)
 lr-online.de,moz.de,swp.de###parent-adbox-superbanner
+lr-online.de,stuttgarter-zeitung.de,swp.de##.u-adSlot
+lr-online.de,swp.de,moz.de##.u-free-html:has(> #bluum)
 lte-anbieter.info##.teaser-wrapper
 lust-auf-kroatien.de##.adlabel
 lustmap.ch##.js_bns
@@ -5238,7 +5243,6 @@ moviepilot.de###dfp-header
 moviepilot.de##.is-promoted
 moviepilot.de##div[class^="sc-"]:not([id]):has(> div[class^="sc-"]:not([id]):only-child > div[id^="dfp-"]:only-child)
 moviepilot.de##div[class^="sc-"]:not([id]):has(> div[id^="dfp-"]:only-child)
-moz.de##.u-free-html:has(> #bluum)
 moz.de##.u-outbrain
 moz.de##aside[data-ad-unit-large="d_billboard"]
 moz.de##aside[data-ad-unit-small]
@@ -6725,7 +6729,6 @@ stuttgarter-zeitung.de##.sponsored-by
 stuttgarter-zeitung.de##.sponsored-by ~ *
 stuttgarter-zeitung.de##.trf-declaration-container
 stuttgarter-zeitung.de##a[data-tags="Ad-Kennung"]
-stuttgarter-zeitung.de,swp.de##.u-adSlot
 stylebook.de##.af-widget.is-style-advertisement-mark
 stylebook.de##.article__content > #inpage
 stylebook.de##.my-3:has(> div#billboard_btf)
@@ -7227,6 +7230,7 @@ tz.de##.id-Container[data-id-container-ct*="417088"]
 tz.de##.wv_story_el_cxo:has(> #ECR-IN_ARTICLE > div > div > .animate-in > div[data-id-av-dev*="AdSlide"])
 tz.de##a[href="https://www.heimatshop-bayern.de/geschenkideen/trachten-accessoires/"]
 tz.de##div[class*="id-Container--promo"]
+tz.de,hna.de##.wv_story_el_showHeroes
 u1-radio.at##.csc-partner
 ubuntu-forum.de##table[style="background-color: none; border-top: 1px dashed; border-color: #a89058; border-left: 1px dashed; border-color: #a89058; border-right: 1px dashed; border-color: #a89058; border-bottom: 1px dashed; border-color: #a89058;"]
 uebermedien.de##img[width="1"][height="1"]
@@ -8252,6 +8256,7 @@ zwischengas.com##.zgsky
 ||borncity.com/blog/wp-content/uploads/*/W10Tricks1.jpg
 ||borussia.de^*/sponsors/
 ||box-magazin.com/wp-content/uploads/*/image001.gif
+||box.blick.ch/iframes/promoframe
 ||branchen-info.net/tmp/desktop/bilder/hinweise/
 ||brandenburger-salzgrotte.de/webbanner/
 ||browsergames.de/sites/browsergames/files/*_wallpaper_

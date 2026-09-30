@@ -1667,7 +1667,6 @@ $script,third-party,domain=lafa-site.com
 ://ava.*.ru/*.js|
 ://csp-*.ru/*/*/*/*/*/$script,third-party
 ://epn.bz^$third-party
-://fastpic.org/q*.gif?
 ://go.*.com^$domain=imageban.ru
 ://goodgame.ru/*/|$xmlhttprequest
 ://goodgame.ru^|$xmlhttprequest
@@ -1708,7 +1707,6 @@ $script,third-party,domain=lafa-site.com
 @@/adsgame.$domain=adsgame.pro
 @@/advert$domain=moe-online.ru
 @@/advert.js$domain=happy-hack.ru
-@@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|telgrafgazetesi.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|haberimizvar.net
 @@/advert/*$domain=samara24.ru
 @@/advertise/*$domain=101.ru
 @@/advertisement.js$domain=happy-hack.ru
@@ -2576,9 +2574,10 @@ $script,third-party,domain=lafa-site.com
 @@||yandex-team.ru^$document
 @@||yandex.ru/adddata/$document
 @@||yandex.ru/ads/$domain=anidubonline.com
+@@||yandex.ru/ads/meta/*?target-ref=$domain=rr4farmtrof.com
 @@||yandex.ru/ads/system/adsdk.js$domain=player2.anitype.fun
 @@||yandex.ru/ads/system/ap-loader.js$domain=rr4farmtrof.com
-@@||yandex.ru/ads/system/context.js$domain=rr4farmtrof.com
+@@||yandex.ru/ads/system/context.js$domain=questtime.net
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=fishki.net
 @@||yandex.ru/ads/system/header-bidding.js$domain=irkutskmedia.ru
 @@||yandex.ru/wy/rss.xml$document
@@ -2586,6 +2585,7 @@ $script,third-party,domain=lafa-site.com
 @@||yandex.st/market-export/
 @@||yastatic.net/awaps-ad-sdk-js/1_0/adsdk.js$domain=smotretonline.ru
 @@||yastatic.net/market-export/
+@@||yastatic.net/partner-code-bundles/*.js^$domain=rr4farmtrof.com
 @@||yastatic.net/vas-bundles/*/loader.bundle.js$domain=rutube.ru
 @@||yorkshirepost.co.uk^$generichide
 @@||zakupki.gov.ru^$document
@@ -4498,29 +4498,10 @@ fashionable.com.ua##.moduletable-popularnoe
 fast-torrent.ru###inner_top > center > div.fix-width
 fast-torrent.ru##img[width="733"][height="92"]
 fast-torrent.ru,svetacdn.in###registration-form-widget
-fastpic.org###mainContainer > div.row:has(> div.col > div[style="min-height: 260px;"])
-fastpic.org###x9f8e2b
-fastpic.org##.col-auto[style^="height: 620px;"]
-fastpic.org##.navbar-nav > a.nav-item.text-danger
 fastpic.org##.overlay-banner-container
-fastpic.org##.stickyn
-fastpic.org##a[target="_blank"][style*="position: fixed; display: block; width: 100%; height: 100%;"]
-fastpic.org##div[class^="spinner"] > a[id="imglink"] ~ iframe[width="295"][height="250"]
-fastpic.org##div[style$="min-width: 300px; z-index: 99;"]
-fastpic.org##div[style="min-height: 650px;"]
-fastpic.org##iframe[srcdoc*="https://jsc.adskeeper.com/"]
-fastpic.org##main > div.row > div[class^="col-"] > div.spinner1 + div.rounded
 fastpic.org##nav > div:not(:has(*))
-fastpic.org,fastpic.ru##.fvright
 fastpic.ru##body > section > div.top
 fastpic.ru##div[style^="float: left; width:"]
-fastpic.ru,fastpic.org###bleft
-fastpic.ru,fastpic.org###bright
-fastpic.ru,fastpic.org##.embed-responsive:not([id])
-fastpic.ru,fastpic.org##.rounded.sticky-top.vright
-fastpic.ru,fastpic.org##.row.bg-white.p-1.rounded.m-2
-fastpic.ru,fastpic.org##div[style="height: 900px; min-width: 300px;"]
-fastpic.ru,fastpic.org##div[style="width: 100%; height: 250px;"]
 fatalgame.com###rexpage_body > noindex
 fatalgame.com##.adver-block-left
 fatelines.net###fateserv
@@ -5393,7 +5374,7 @@ habr.com##.tm-company-card__branding
 habr.com##.tm-layout-sidebar__ads
 habr.com##.tm-layout__wrapper > div.container-wrapper:has(> div.container > div[class] > div.swiper-container div.banner)
 habr.com,khersondaily.com##.banner-slider
-habr.com,lux.fm,day.az##.banner-wrapper
+habr.com,lux.fm##.banner-wrapper
 hacking-games.ru##.adbd-filter
 hacking-games.ru##body aside.adbd-popup
 hackware.ru###text-11
@@ -12197,6 +12178,7 @@ zz.te.ua##div[class^="advads"]
 ||beeparentdo.com^
 ||beesratyou.com^
 ||beetraf.ru^$third-party
+||beloboka.link^
 ||belpravo.by/sites/default/files/mikgraf.gif
 ||berdent.com/sys/$third-party
 ||bergfi.com^$third-party
@@ -12349,6 +12331,7 @@ zz.te.ua##div[class^="advads"]
 ||bukvoid.com.ua/_img/Kokotuha989x90Final.gif
 ||bumaikr.com^$third-party
 ||burningpushing.info^
+||burunduksha.link^
 ||business-class.su/uploads/html5/*/index.html
 ||business-companion.te.ua/new/img/agro.gif
 ||business-gazeta.ru/static/js/mediametrics.js
@@ -12360,6 +12343,7 @@ zz.te.ua##div[class^="advads"]
 ||bx.neolabs.kz^$third-party
 ||byeej.com^$third-party
 ||byevkj.com^$third-party
+||bystroglaza.link^
 ||bytde.com^$third-party
 ||bz.nextmail.ru/bsys/genb.php
 ||bzgmcqqfxd.com^
@@ -12652,7 +12636,6 @@ zz.te.ua##div[class^="advads"]
 ||dating-exchange.com^$third-party
 ||dating.trans-admirer.com/promo/
 ||davarello.com^$third-party
-||day.az/ads/
 ||ddcfzd.com^$third-party
 ||dddevki4u.com^$third-party
 ||ddyipu.com^
@@ -12693,7 +12676,9 @@ zz.te.ua##div[class^="advads"]
 ||dni24.com/rek/
 ||do.am/stat^
 ||doba.te.ua/banner/
+||dobrolyuba.link^
 ||docviewer.yandex.*/sw.js
+||dolgoruka.link^
 ||domertb.com^$third-party
 ||dominantroute.com^
 ||dommio.ru/partner_*.php$third-party
@@ -12879,14 +12864,9 @@ zz.te.ua##div[class^="advads"]
 ||fartmoda.com^$third-party
 ||fast-hunter.com^$third-party
 ||fast2load.ru^$third-party
-||fastpic.*/*.php|
-||fastpic.*/g/
 ||fastpic.org/fpv.js
-||fastpic.org/n/
 ||fastpic.org/px/provider.js
 ||fastpic.org/view/$script
-||fastpic.org/zqz/$image
-||fastpic.org/zzz/cache/
 ||fastpic.ru^$domain=pics-money.ru
 ||fastpicc.ru^$script,third-party
 ||fastsex.ru^$third-party
@@ -13099,6 +13079,7 @@ zz.te.ua##div[class^="advads"]
 ||geek-nose.com/wp-content/uploads/2021/02/gn_bg.jpg
 ||geek-nose.com/wp-content/uploads/2021/02/post_image-348x290.jpeg
 ||genshin.ru/wp-content/uploads/2023/05/bg_genshin2-min.png
+||geralovod.link^
 ||get-ads.ru^$third-party
 ||get-click.ru^$third-party
 ||get-tune.cc/banners/
@@ -13119,6 +13100,7 @@ zz.te.ua##div[class^="advads"]
 ||gig-games.net^$third-party,image
 ||gigamega.ru^$third-party
 ||gigapeta.com/reg?r=
+||gigovatokal.link^
 ||gimnsr.com^
 ||ginads.com^$third-party
 ||gingardo.com^$third-party
@@ -13197,6 +13179,7 @@ zz.te.ua##div[class^="advads"]
 ||gorod342.ru/templates/perm/images/275-90
 ||gorodbryansk.info/_ad/
 ||gorodpavlodar.kz/images/kernab/
+||gorodyshka.link^
 ||goryachie-foto.net^$third-party
 ||got.vg/images/a/brand/
 ||gotovim.ucoz.org/Banner_gotovim.gif
@@ -13220,6 +13203,7 @@ zz.te.ua##div[class^="advads"]
 ||grimuar.ru/*.php?bid=
 ||grivna.ks.ua/images/3G.png
 ||grodnonews.by/upload/images/bps.gif
+||gromoboyara.link^
 ||grteab.com^$third-party
 ||gsimvqfghc.com^$third-party
 ||gsmonitor.ru^$third-party
@@ -13586,6 +13570,7 @@ zz.te.ua##div[class^="advads"]
 ||kg-portal.ru/banned/
 ||kherson.net.ua/Media/banners/
 ||khersonci.com.ua/images/NEWS/banners/
+||khitrozya.link^
 ||kichkas.biz/templates/kic/images/baner.png
 ||kievvlast.com.ua/images/body.jpg
 ||kiks.yandex.
@@ -13632,8 +13617,10 @@ zz.te.ua##div[class^="advads"]
 ||kissmyads.biz^$third-party
 ||kistured.com^$third-party
 ||kitopr.com^$third-party
+||kkkkkkkrrrrrrrr.link^
 ||kkmacsqsbf.info^$third-party
 ||kleo.ru/cgi-bin/
+||kleveromal.link^
 ||klivz.com^$third-party
 ||klonedaset.org^
 ||klymenko-time.com/wp-content/themes/ktwp/libs/adsOptimizer
@@ -13673,11 +13660,13 @@ zz.te.ua##div[class^="advads"]
 ||kost.tv^$third-party
 ||kotlas-info.ru/sites/all/themes/newspro/images/advr/
 ||kotomatrix.ru/yoshkin.gif
+||koverdynya.link^
 ||kputjp.com^
 ||kq6lwk3m9g.ru^$third-party
 ||kraj.by/banners/
 ||krapka.rv.ua/wp-content/uploads/2017/03/smajlyk.jpg
 ||krasisa.info^$third-party
+||krasnomaga.link^
 ||kreditnews.ify.ru/res/shared/banners/
 ||kreepo.com/sys/js/$third-party
 ||krivoyrog.dp.ua/adv/
@@ -13686,6 +13675,7 @@ zz.te.ua##div[class^="advads"]
 ||kroks.ru/images/baners/$third-party
 ||krolikplatit.ru^$third-party
 ||krotovroman.ru/robanner/
+||kruglyashka.link^
 ||krut.link^$third-party
 ||krutilka.net^$third-party
 ||krutomaiki.ru*/?rid=$third-party
@@ -13701,9 +13691,11 @@ zz.te.ua##div[class^="advads"]
 ||kuban24.tv/res/files/*/index-*.html
 ||kubik3.ru/js/adbs.js
 ||kudlavasta.link^
+||kudroshapka.link^
 ||kupibonus.ru/*partner=$third-party
 ||kupichic.ru/scotuny.js
 ||kurkul.com/media/banner/
+||kurolesya.link^
 ||kursovik.kz^$domain=uniongang.org
 ||kushvsporte.ru/templates/kush3/img/brandBg.jpg
 ||kuveres.com^$third-party
@@ -13748,6 +13740,7 @@ zz.te.ua##div[class^="advads"]
 ||lenta.sparrow.ru^
 ||lentainform.com^$third-party
 ||lenty.ru^$third-party
+||leproletsu.link^
 ||letimsnami.ru^$third-party
 ||letitbit.net/images/skymonk/
 ||letitbit.net/skymonk$third-party
@@ -14069,6 +14062,7 @@ zz.te.ua##div[class^="advads"]
 ||moogle.ru^$third-party
 ||moonwalk.co/api/morefunc
 ||moovy.ru/b*.php?
+||morozovnya.link^
 ||mosgorsait.ru/svagiwe.js
 ||moskva.fm/css/v11/zvooq.css
 ||moskva.fm/img/*/promo/*.jpg
@@ -14107,6 +14101,7 @@ zz.te.ua##div[class^="advads"]
 ||mstngh.com^$third-party
 ||mt.today/js/yandexloader.js
 ||mu.md/migr.gif
+||mudrobasa.link^
 ||muff.kiev.ua/files/88x31_
 ||multi-admin.ru/media_banner/$domain=radio1.ru
 ||multibux.org^$third-party
@@ -14129,6 +14124,7 @@ zz.te.ua##div[class^="advads"]
 ||my.mp3ha.org/images/hvImg/
 ||my.thehost.com.ua/manimg/userdata/336-280.png
 ||myads.ru^$third-party
+||myagkotela.link^
 ||myander.do.am^$domain=naruto-base.tv
 ||myanimetop.com/button.php?
 ||mybasilsoup.com^$third-party
@@ -14496,11 +14492,14 @@ zz.te.ua##div[class^="advads"]
 ||pdvacde.com^$third-party
 ||pedsovet.su/img/konkursy/
 ||pedsovet.su/rtr/
+||pelamedara.link^
 ||pelicanprogram.com^$third-party
 ||pelicansource.com^$third-party
 ||penza-online.ru/cgi-bin/userstats.pl?
 ||penza-press.ru/images/uploads/useradv/
 ||people-group.su^$third-party
+||pepyakanew.link^
+||perepolokha.link^
 ||peretrah.com/jscba*/*.js
 ||perfmelab.com^$third-party
 ||perinstallcash.com^$third-party
@@ -14720,6 +14719,7 @@ zz.te.ua##div[class^="advads"]
 ||punchmedia.ru^
 ||pushadv.biz^
 ||pusk.ua^$third-party
+||pustobrya.link^
 ||putana.cz^$third-party
 ||pwcats.info/img/ft_*.png
 ||pwnz.org^$third-party
@@ -15020,6 +15020,7 @@ zz.te.ua##div[class^="advads"]
 ||ruwiki.ru/api/ruwiki/rest/adv/
 ||rwhxz.space^$third-party
 ||rx-name.ua/images/promotion/$third-party
+||ryabokoshka.link^
 ||rzjirk.com^$third-party
 ||rzqdqw.com^$third-party
 ||s-cdn.sportbox.ru/*/scripts/lpdid.js
@@ -15069,7 +15070,9 @@ zz.te.ua##div[class^="advads"]
 ||samlab.ws/img/vivaldi/*-banner-*.gif
 ||samlab.ws/samlab.js
 ||samods.ru/websitebg.jpg
+||samograyka.link^
 ||samokat-dostavka.ru/wp-content/uploads/2020/03/narodny-banner-300x177.png
+||samokhvala.link^
 ||samosoverhenstvovanie.ru/*/Popup.js
 ||sandelf.com^$third-party
 ||sape.ru/bn/
@@ -15176,6 +15179,7 @@ zz.te.ua##div[class^="advads"]
 ||sibmama.ru/d/
 ||sibmama.ru^*/cl.php
 ||simplejsmenu.com^
+||sinebryuga.link^
 ||sinehut.com^$all
 ||sinoptik.ua^$domain=footballtransfer.com.ua
 ||sinst.fwdcdn.com/img/partners/$domain=sinoptik.ua
@@ -15188,6 +15192,8 @@ zz.te.ua##div[class^="advads"]
 ||skin.ru/assets/img/promo/
 ||skisport.ru/upload/*.adback/
 ||skisport.ru/upload/alexkova.rklite/
+||skorobeyka.link^
+||skovorodnya.link^
 ||skwstat.ru^
 ||skyad.video^$third-party
 ||skycdnhost.com^$third-party
@@ -15335,8 +15341,7 @@ zz.te.ua##div[class^="advads"]
 ||static.channels247.net/static.js
 ||static.clickscloud.net^$third-party
 ||static.eizvestia.com/wp-content/themes/eizvestia/js/u_$script
-||static.fastpic.*/if_*.html
-||static.fastpic.org/css/exo.css
+||static.fastpic.org/js/fppop.js
 ||static.filin.tv/c/
 ||static.gazeta.ru/nm2021/js/others_scripts_v1.js
 ||static.gazeta.ua/img/original/branding/
@@ -15417,6 +15422,7 @@ zz.te.ua##div[class^="advads"]
 ||surfy.space^
 ||sv-pr.ru^$third-party
 ||svadbaspb.ru/line2013
+||svarogonil.link^
 ||svc.kartinka.com.ua^
 ||svekrovi.net/wp-admin/admin-ajax.php
 ||sverhestestvenoe.com/uploads/supernatural_620_2.jpg
@@ -15459,6 +15465,7 @@ zz.te.ua##div[class^="advads"]
 ||tapochek.net/800x100
 ||tapochek.net/900x180
 ||tapochek.net/ws.php
+||taramashka.link^
 ||targetix.net^$third-party
 ||targetseek.ru^$third-party
 ||tarifec.com/daopush-init.js
@@ -15467,6 +15474,7 @@ zz.te.ua##div[class^="advads"]
 ||tarnifotum.com^$third-party
 ||tastysite.ru/shows*.js$third-party
 ||tayga.info/banners/
+||tazaromikaz.link^
 ||tb.beeline.ru/Scripts/App/AnchorCompiled.min.js
 ||tb.mybb.ru^
 ||tc.fileplaneta.com^
@@ -15492,6 +15500,7 @@ zz.te.ua##div[class^="advads"]
 ||temptcdn.com/api-integration/fluxline?view=
 ||tend-new.com^$third-party
 ||tengrinews.kz/ajax/getBanners
+||teplodara.link^
 ||terbium.zerocdn.com/*/turov_geek.mp4
 ||tes-game.ru^*/vulkan.gif
 ||test-studio.ru^$third-party
@@ -15517,6 +15526,7 @@ zz.te.ua##div[class^="advads"]
 ||tic-pr.info/*/button*.$image
 ||tick-tock.net^$third-party
 ||tifsuc.com^
+||tikhomira.link^
 ||timedirect.ru$third-party
 ||timeweb.ru/img/b/$third-party
 ||timing-js-menu.xyz^
@@ -15834,6 +15844,7 @@ zz.te.ua##div[class^="advads"]
 ||verstka.media/widget.html
 ||vertelka.ru^$third-party
 ||vertiguzha.link^
+||veselchaga.link^
 ||vesti.az/upload/rebans/
 ||vestiprim.ru/reimg
 ||veyszc.com^
@@ -15959,6 +15970,7 @@ zz.te.ua##div[class^="advads"]
 ||volynua.com/img/dez_vert.png
 ||volynua.com/img/svoboda.jpg
 ||voob.ru^$third-party
+||vorogushka.link^
 ||voronezh136.ru^$third-party
 ||vozer.voffka.com^
 ||vpath.net^$third-party
@@ -16194,11 +16206,14 @@ zz.te.ua##div[class^="advads"]
 ||yandere*.top/templates/Animes/images/36.png
 ||yandex.*/ads/system/context.js
 ||yandex.ru/ads/adfox/
+||yandex.ru/ads/meta/
 ||yandex.ru/retail/system/retailMedia.js$domain=apteka-april.ru
 ||yangteacher.ru/*.php?img
 ||yangteacher.ru/undefined.png
 ||yapfiles.ru/uploads/branddata/
+||yaropolka.link^
 ||yarportal.ru/on010815.gif
+||yastatic.net/partner-code-bundles/
 ||yastatic.net/pcode/adfox/adfox-cookie-matching.js
 ||yastatic.net/pcode/adfox/loader.js$domain=sport-express.ru
 ||yastatic.net/taxi-widget/
@@ -16247,6 +16262,7 @@ zz.te.ua##div[class^="advads"]
 ||zakarpattya.net.ua/_adv/
 ||zakladka.org.ua^$third-party
 ||zamok911.com^$third-party
+||zamorokeharu.link^
 ||zamunda.ch/pic/img*/bitbucket/*.gif
 ||zapbox.ru^$third-party
 ||zarabotat-na-sajte.ru/js/center.js
@@ -16266,10 +16282,12 @@ zz.te.ua##div[class^="advads"]
 ||zerno-ua.com/assets/zerno/files/reklama_
 ||zero.kz/c.php?
 ||zewkj.com^$third-party
+||zhenivalka.link^
 ||zhkzt.com^$third-party
 ||zik.ua/images/branding_
 ||zkbkat.com^$third-party
 ||zkdkvnzsdxge.info^$third-party
+||zlatobryuga.link^
 ||zlatopil.com/wp-content/uploads/*/banner.jpg
 ||zmctrack.net^$third-party
 ||zmi.ck.ua/img/andorra2.png
@@ -16297,6 +16315,7 @@ zz.te.ua##div[class^="advads"]
 ||zslhmw.com^
 ||zszhfffyd.ru^
 ||ztvzfq.com^
+||zveroboyna.link^
 ||zviazda.by/banners/
 ||zviazda.by/banners/278x470.jpg
 ||zvuk.com/rambler|

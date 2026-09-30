@@ -138,7 +138,6 @@
 @@.com/js/advertisement.js$~third-party
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
 @@/adsign.$domain=adsign.polsatmedia.pl
-@@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|telgrafgazetesi.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|haberimizvar.net
 @@/content/aoAdDetect.js
 @@/extension/adverts/design/standard/javascript/adverts/Quantcastt^$script,domain=antyradio.pl|chillizet.pl|meloradio.pl|planeta.pl|radiozet.pl
 @@/extension/adverts/design/standard/templates/esi^$script,domain=antyradio.pl|chillizet.pl|meloradio.pl|planeta.pl|radiozet.pl
@@ -2368,6 +2367,7 @@ praca-niemcy24.pl##.adblock
 prawo.pl##.banner-shortcode
 press.pl###topBanner
 press.pl##.banner_info
+press.pl##img[src*="adserver"]
 probasket.pl##.custom-html-widget a > img
 probasket.pl##.td-all-devices
 programtv.naziemna.info##.my-ad
@@ -2923,13 +2923,10 @@ wterenie.pl##[class*="adv__"]
 www-wykop-pl.translate.goog,wykop.pl##[id^="banner_top_"]
 www.konstrukcjeinzynierskie.pl##.flexbannergroupreklama-top
 wyborcza.biz,wyborcza.pl##.ads--splint
-wykop.pl##section[data-label^="ad: "]
-wykop.pl##section[data-label^="ad: market-"]
-wykop.pl##section[data-label^="ad: sidebar-"]
-wykop.pl##section[data-label^="ad: sponsored-1"]
-wykop.pl##section[data-label^="ad: sticky-"]
-wykop.pl##section[data-label^="ad: stream-"]
-wykop.pl##section[data-label^="ad: to"]
+wykop.pl##[data-label^="ad:"]
+wykop.pl##section.link-block:has(li.recommend-label)
+wykop.pl##section.pub-slot-wrapper
+wykop.pl##section.selected:has(> div.content > section.stream.selected-stream)
 wylecz.to##.topSeen[data-pingseen^="/log_seen/"]
 wylecz.to##div[data-ohyes="slotseen"]
 wynagrodzenia.pl###obw-ad.modal

@@ -389,7 +389,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /sakigake-ad-$domain=www2.oninet.ne.jp
 /sch_*/MyJCB-POINT.apk$document
 /settings/ad.js
-/shopping/item/m*/?zenid=$document,domain=asia|casa|cfd|click|cv|fun|life|lifestyle|pics|qpon|sale|shop|space|top|vu|world|xyz
+/shopping/item/m*/?zenid=$document,domain=asia|casa|cfd|click|cv|fun|life|lifestyle|luxe|pics|qpon|sale|shop|space|top|vu|world|xyz
 /signim/index.php?*&openid_return_to=https%3A%2F%2Fwww.amazon.co.jp$document,domain=cn|com|sbs|top|xyz
 /signin/index.php?*&openid_return_to=https%3A%2F%2Fwww.amazon.co.jp$document,domain=sbs|top|xyz
 /sp3pas_ad.js
@@ -412,6 +412,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /wp-json/ypl/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wrapper/*$subdocument,~third-party,domain=atrain3d.com|dq5clear.com|dq8clear.com|ffclear.com|khclear.com|wpclear.com
 /yamiisoku-amazon-ranking/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
+/yamiisoku-anti-adblock/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 00m.in##.aff-cont
 0115765.com###bottom
 0115765.com##.l-extra + .breadcrumb ~ .l-wrapper .content > .gdc_row
@@ -680,7 +681,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@$generichide,domain=39news.net|3punchiebukuro.info|catheart.pet|davincinews.info|dogheart.pet|entame-news.info|entame-trendnews.info|ichi-oshi.info|lettuceclub.site|mainichigahakken.info|mamanote.info|point-thetv.jp|point-dengekihobby.jp|presslink.jp|tamahiyo.site|trend-news.fun|walkerplus.info
 @@.com/js/advertisement.js$~third-party
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
-@@/advert.js|$domain=yenigolcuk.com|hedefgazetesi.com.tr|eldedemokrasi.com|afyonhaberturk.com|nehaberankara.com|telgrafgazetesi.com|balikesirartihaber.com|ajansbalikligol.com|karar67.com|gazetemalatya.com|vansesigazetesi.com|kocaelisabah.com|antalyadanhaberler.com|aydinyeniufuk.com.tr|yerelvanhaber.com|a2teker.com|kibrishakikat.com|izmirtime35.com|marasfisilti.com|burdurgazetesi.com|zeytinburnuhaber.org|denizli20haber.com|akdenizdeyeniyuzyil.net|ulakci.com|egegundem.com.tr|haberimizvar.net
 @@/assets/scripts/fab.js$domain=life-n.jp|point-news.jp
 @@/content/aoAdDetect.js
 @@/js/advert.js$~third-party,domain=seo-fast.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
@@ -1036,7 +1036,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=techsolutiontips.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_*.js$domain=texture-packs.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diynetwork.com,important
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=soraro.tonuriaz.info
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=onepiecelabs.tonuriaz.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=girlsvip-matome.com|yomury.blog.jp
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=fuucdayo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?_yaab=$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
@@ -2971,6 +2971,7 @@ deneblog.jp###shadowv
 deneblog.jp##.ently_text > center > a
 deneblog.jp##.intro > center > a[href^="https://www.rs-shop.co.jp/"]
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img
+denfaminicogamer.jp##aside:has(> a[href^="https://aniimo.onelink.me"])
 dengekionline.com##.histora-top-banner
 dengekionline.com##div[class^="ArticleDetailBody_buttonSideBySide_"] > a[class*="ArticleDetailBody_buttonForEC"]
 dengekionline.com##div[class^="CommonParts_commonPartsContainer_"][class*="CommonParts_underArticle_"]:has(> div > div[style] div[style] > div[style$="text-align: center"] > a[href*="//ck.jp.ap.valuecommerce.com"])
@@ -3764,6 +3765,7 @@ fumumu.net,sirabee.com###rectangle
 funny-ai.com##.ads-isolation-wrapper
 funny-ai.com##.main-frp-ads
 funny-ai.com##.main-header-ads
+furusatohonpo.jp##.sprk-brand-ad-wrapper
 fusetter.com##.min-h-screen > div.p-2.border-b.border-bg-line:has(> div[id^="div-gpt-"])
 futabaforest.net###mvbx
 futabaforest.net##.c11-2
@@ -4043,11 +4045,11 @@ genshin-matomech.umadacchi.net###block-11
 genshin-soku.com##.plugin-memo:has(> div.side > a[href^="https://amzn.to"])
 genshin-soku.com##.yaab-swap-link
 genshin-soku.com,monhan-soku.com##.gs-side-ad
-genshin-soku.com,monhan-soku.com##.ypl-product-list
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site##.promo-box
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.amz-ranking-set
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.widget_ypl_feed_widget
-genshin-soku.com,monhan-soku.com,yamiisoku.com##.ypl-sale-list
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class^="amz-"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class^="ypl-"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com,poweruse.seesaa.net,2ch.logpo.jp,mt-soft.sakura.ne.jp,hiroburo.com,xn--w8jtkjf8c570x.com,cg-method.com##a[href^="https://www.amazon.co.jp/"]
 genshin.blog.jp###Amazon_rdm
 gensin.blog.jp###lite_link
 gensin.blog.jp,all-nationz.com,kyarabetsunijiero.net##.right-column-inner > div.plugin-memo:first-child
@@ -7128,7 +7130,6 @@ post.tv-asahi.co.jp##.pc-ad1
 post.tv-asahi.co.jp##.pc-ad23
 postmap.org##.nearby > li:last-child:not([class])
 pouchs.jp##div[style="height:90px;width:728px;margin:auto"]
-poweruse.seesaa.net,2ch.logpo.jp,mt-soft.sakura.ne.jp,hiroburo.com,xn--w8jtkjf8c570x.com,cg-method.com##a[href^="https://www.amazon.co.jp/"]
 powerwatch.jp##.ad-rectangle-wrap
 pr-park.com,saitoshika-west.com##.home_bottom
 pr-park.com,xn--zcka7aza6gyb9jd.net###notfix > div.widget_custom_html
@@ -7751,6 +7752,7 @@ soccer.yahoo.co.jp##.sc-lrec
 soccerdigestweb.com###pc_all_right_1st
 soccerdigestweb.com##.right_ad_c
 soccerdigestweb.com##.towcolumnBan_area
+socialxup.com##.bg-\[\#f7faff\] > div.relative.max-w-5xl:has(> div > a[href="https://xdepot.link/products"])
 socialxup.com##.mt-8:has(> a[href="https://xdepot.link/products"])
 socialxup.com##a[data-track^="xdepot_promo"]
 socialxup.com##aside div.items-center:has(> a[data-track^="xdepot_promo"])
@@ -9437,6 +9439,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||cck.eek.jp/afdt/
 ||cdj-dap.s3-ap-northeast-1.amazonaws.com^
 ||cdn-guile.akamaized.net/interstitial/ad/
+||cdn-tag.commercelinker.jp/tag/deliver/brand/v2/sprk-brandad-tag.js
 ||cdn.asagei.com/asagei/uploads/sp/images/bn/
 ||cdn.contentful.com/spaces/*/environments/master/entries?content_type=ad&$domain=tokyoartbeat.com
 ||cdn.jutaku-s.com/banner-square-
@@ -9822,6 +9825,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||hime.me/pcmaxr.gif
 ||himeb.com/wp-content/uploads/2021/11/amazonseal.jpg
 ||hitgraph.jp^$third-party
+||hmshanyin.com^$all
 ||hobby.dengeki.com/kyujinbox_res/
 ||hobby.dengeki.com/wp-content/themes/hobby2021/common/js/jack_ad.js
 ||hochi.news/apps/js/ad_kb/
@@ -10166,6 +10170,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||nend.net^$third-party
 ||neofield.click^$third-party
 ||new-adtest.pages.dev^$third-party
+||news.denfaminicogamer.jp/wp-content/uploads/pa-banners
 ||news.google.com/*/swg-basic.js$domain=poitan.jp|7-24blog.com|nagoyato.com
 ||news.j-wave.co.jp/css/ad.css
 ||news.mynavi.jp/assets/adomik-
