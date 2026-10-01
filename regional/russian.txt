@@ -631,6 +631,7 @@ $script,third-party,domain=lafa-site.com
 .l2top.ru/*/|
 .l2top.ru/im5/
 .l2top.ru^$script
+.link/*?*=*&referer=$xmlhttprequest
 .link^$xmlhttprequest,third-party,domain=mentalist-hdrezka.net|glee-hdrezka.net|kinovod.pro|kinozo.cam
 .live/rotator.min.js|$third-party
 .mcdownloads.ru^$domain=mcdownloads.ru
@@ -8062,7 +8063,6 @@ pg12.ru###promo-after-comments
 pg12.ru##.promoInnerArticleAfterTags
 pg12.ru##div[class*="Promo"]
 pg12.ru##div[class^="project-col3-layout_row__"] > div[class^="project-col3-layout_contentRightStretch__"]:has(> div[class*="news-card_newsPreviewRight__"]:empty)
-pg12.ru##div[class^="promo-"]
 pg21.ru###LeftCont
 pg21.ru###RightCont
 pg21.ru##.OuterActions
@@ -8424,7 +8424,6 @@ profootball.ua##a[href^="https://affiliates.favbet.com/"]
 prog-top.net##div[align="center"] > a[target="blank"] > img
 proglib.io###banner-block-in-post
 prognozist.ru###reclame_col
-progorod43.ru##.contentRightMainPromo
 progorod43.ru##div[class^="article-content_articlePromoSlot"]
 progorod43.ru##div[class^="promo"]
 progorodnn.ru,pg12.ru,pg21.ru##div[data-id-promo]
@@ -10755,6 +10754,9 @@ vkusnoitochka.ru##.swiper-wrapper > div.swiper-slide:has(> figure > img[alt*="а
 vladimirbelev.ru,serfery.ru,loxotrona.net##.b-adds
 vladna.club##iframe[width="300"][height="600"]
 vlast.kz##a[rel="sponsored"]
+vluki.ru##.contentRightMainPromo
+vluki.ru##div[id^="promo-"]
+vluki.ru,pg12.ru##div[class^="promo-"]
 vmgu.ru##td[width="26%"] td#articles_w
 vmo24.ru##.adaptive_banners
 vmuzice.com###rightspBanner + a[rel="nofollow"] > img
@@ -14575,6 +14577,7 @@ zz.te.ua##div[class^="advads"]
 ||poezdato.net/js/blablacar*.js
 ||poglyad.te.ua/wp-content/uploads/toyota.jpg
 ||poglyad.tv/wp-content/uploads/*/banner_800x600px_
+||poi.kinzazaza.org^
 ||poisk-ru.ru/my/edugr
 ||poisk.su/top.php?
 ||pokerstrategy.com/#$third-party
