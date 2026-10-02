@@ -409,7 +409,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /wp-content/themes/CashLINESystem/js/modal.$script
 /wp-content/uploads/2024/09/fanza_ad$image
 /wp-json/mediavague/v*/jobs?$domain=egolf.jp|kuruma-news.jp|trafficnews.jp
-/wp-json/ypl/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
+/wp-json/ypl$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wrapper/*$subdocument,~third-party,domain=atrain3d.com|dq5clear.com|dq8clear.com|ffclear.com|khclear.com|wpclear.com
 /yamiisoku-amazon-ranking/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
 /yamiisoku-anti-adblock/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
@@ -1707,6 +1707,7 @@ asianoneta.blog.jp##.ad_topress
 asianoneta.blog.jp##.plugin-memo:has(> div.side > div.side_ad)
 askdoctors.jp##.targeting-banner-area
 asken.jp##aside[id^="ad_"]
+askul.co.jp###itemRefineSearch-searchResultBody > div.js-searchWord > ul.o-grid_inner > li.o-grid_cell:has(> div[class$="sponsored"])
 asm.asahi.com##.entry-links-group
 asmr-labo.com##.banner-container
 asobeans.jp##.ad336_280
@@ -4047,9 +4048,11 @@ genshin-soku.com##.yaab-swap-link
 genshin-soku.com,monhan-soku.com##.gs-side-ad
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site##.promo-box
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.widget_ypl_feed_widget
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="ypl-"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class^="amz-"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class^="ypl-"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com,poweruse.seesaa.net,2ch.logpo.jp,mt-soft.sakura.ne.jp,hiroburo.com,xn--w8jtkjf8c570x.com,cg-method.com##a[href^="https://www.amazon.co.jp/"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amazon.co.jp"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amzn.to"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="link.amazon"]
 genshin.blog.jp###Amazon_rdm
 gensin.blog.jp###lite_link
 gensin.blog.jp,all-nationz.com,kyarabetsunijiero.net##.right-column-inner > div.plugin-memo:first-child
@@ -5878,6 +5881,7 @@ metyayaba.com##.widget:has(> div > div[id^="amawidget"])
 mfujin.blog.jp##.page-article-side > div.plugin-memo:first-child
 mfujin.blog.jp##.page-article-side > div.plugin-popular_articles_with_image + div.plugin-memo
 mhmatome.com###text-23 > div.textwidget > div.wd_title_rss + p
+mhw-blog.com##.bnr-fixed
 mhwsmatome.com##.article-footer > div.widget_text
 mi-mollet.com###MM_PC_Billboard
 mi-mollet.com##.ad-in-article
@@ -6040,11 +6044,9 @@ moneypost.jp##.st-Block > div[style^="min-height:"]
 monhan-mhw.com###main div.column-inner-2 div[style="text-align:center;"]
 monhan-mhw.com###sub div.plugin-memo:nth-child(-n+2)
 monhan-soku.com###ymsa-full-zucks
-monhan-soku.com##.custom-html-widget > ins.adsbygoogle ~ div.ypl-sale-list:has(> div[class]> a[rel*="sponsored"])
 monhan-soku.com##.first-article div > span[style="color: rgb(153, 0, 0);"]
 monhan-soku.com##.plugin-memo:has(> div.side > a[href^="https://amzn.to"] > img)
 monhan-soku.com##.t_b + div.t_b:last-child:has(> .AMvertical)
-monhan-soku.com##div.promo-wrap:has(> div.promo-item > div.content-zone > a[rel*="sponsored"])
 monhan-soku.com,doorblog.jp##.plugin-memo:has(> div.side > div > ins.adsbygoogle)
 monhan-soku.com,doorblog.jp,ske48matome.net,2chblog.jp,lions-matome.com,blog.jp##.plugin-memo:has(> div.side > div.amazon)
 monokakitools.net###adview
@@ -7130,6 +7132,7 @@ post.tv-asahi.co.jp##.pc-ad1
 post.tv-asahi.co.jp##.pc-ad23
 postmap.org##.nearby > li:last-child:not([class])
 pouchs.jp##div[style="height:90px;width:728px;margin:auto"]
+poweruse.seesaa.net,2ch.logpo.jp,mt-soft.sakura.ne.jp,hiroburo.com,xn--w8jtkjf8c570x.com,cg-method.com##a[href^="https://www.amazon.co.jp/"]
 powerwatch.jp##.ad-rectangle-wrap
 pr-park.com,saitoshika-west.com##.home_bottom
 pr-park.com,xn--zcka7aza6gyb9jd.net###notfix > div.widget_custom_html
