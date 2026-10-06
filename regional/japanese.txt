@@ -408,8 +408,8 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /wp-content/plugins/simple-adblock-notice/*
 /wp-content/themes/CashLINESystem/js/modal.$script
 /wp-content/uploads/2024/09/fanza_ad$image
+/wp-json/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wp-json/mediavague/v*/jobs?$domain=egolf.jp|kuruma-news.jp|trafficnews.jp
-/wp-json/ypl$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wrapper/*$subdocument,~third-party,domain=atrain3d.com|dq5clear.com|dq8clear.com|ffclear.com|khclear.com|wpclear.com
 /yamiisoku-amazon-ranking/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
 /yamiisoku-anti-adblock/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
@@ -465,12 +465,11 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 2ch-n.net##.feed-links > div.mb-4
 2ch-n.net,lifeantenna.com,2ch-2.net##.adnet-item
 2ch.io##div[align="right"] > a[href^="http://hb.afl.rakuten.co.jp/hsc/"]
+2ch.logpo.jp##.AdsInfeed
 2ch.logpo.jp##.AdsWidth
 2ch.logpo.jp##.DetectRed
-2ch.logpo.jp##.Jungle
 2ch.logpo.jp##.KindleBooks
 2ch.logpo.jp##.SaleInfo
-2ch.logpo.jp##.TATEJungleLarge
 2chan.net###rightadc
 2chan.net##div[style="height:68px;"]
 2chan.net##div[style="width:610px;margin: 0 auto;"]
@@ -504,6 +503,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 2nd-train.net##.adbox2020
 2nd-train.net##.adbox2020 + hr.topiclisthr
 2nd-train.net##.adbox2020-2
+2nd-train.net##.adbox50
 3-559.blog.jp##.relate_banner
 352-mag.com,hawaii-word.com,soushiki-mag.com,surfersite.com,untenmenkyo-center.com##.Adsense300
 360life.shinyusha.co.jp##.c-bnr > img.lozad
@@ -1707,7 +1707,6 @@ asianoneta.blog.jp##.ad_topress
 asianoneta.blog.jp##.plugin-memo:has(> div.side > div.side_ad)
 askdoctors.jp##.targeting-banner-area
 asken.jp##aside[id^="ad_"]
-askul.co.jp###itemRefineSearch-searchResultBody > div.js-searchWord > ul.o-grid_inner > li.o-grid_cell:has(> div[class$="sponsored"])
 asm.asahi.com##.entry-links-group
 asmr-labo.com##.banner-container
 asobeans.jp##.ad336_280
@@ -2823,7 +2822,6 @@ coordisnap.com###content > ul.breadcrumb-in + div.center
 copysoku.com###ad_rs + div[align="center"]
 copysoku.com##a[href^="https://fam-ad.com/ad/p/r"]
 copysoku.com,sutekinakijo.com##.plugin-memo:has(> div.side > div.AMvertical)
-coromoo.com##div[class$="-ad"]
 coron.tech##.aasc.center > iframe[class*="lazyload"]
 coron.tech##.col-sm-4 > [style="text-align:center;height:282px;overflow:visible!important;"]
 coron.tech##.post_list[style="min-height:572px;max-width:1200px!important"]
@@ -4049,11 +4047,11 @@ genshin-soku.com##.yaab-swap-link
 genshin-soku.com,monhan-soku.com##.gs-side-ad
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site##.promo-box
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.widget_ypl_feed_widget
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="ypl-"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class*="-remote"]
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[class^="amz-"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amazon.co.jp"]
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amzn.to"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
-genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="link.amazon"]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amazon.co.jp" i]
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="amzn.to" i]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[href*="link.amazon" i]
 genshin.blog.jp###Amazon_rdm
 gensin.blog.jp###lite_link
 gensin.blog.jp,all-nationz.com,kyarabetsunijiero.net##.right-column-inner > div.plugin-memo:first-child
@@ -4433,6 +4431,7 @@ hobbylabon.com##a[href^="https://cnt.affiliate.fc2.com"] + br
 hobbylabon.com##a[href^="https://cnt.affiliate.fc2.com"] + br + br
 hobbylog.jp##.pbancut
 hobbytimes.jp##.alignce > p
+hobonichierog.com,coromoo.com##div[class$="-ad"]
 hochi.news##.ad[style^="min-width: 300px"]
 hochi.news##.ad[style^="min-width:300px;min-height:250px"]
 hochi.news##.ad[style^="width:300px; height:250px"]
@@ -5144,6 +5143,7 @@ kakakumag.com###kyujinbox
 kakakumag.com##.side-pickup-wrap
 kakakumag.com##div[class^="main-ad"]
 kakao-bbs.com,line-bbs.manzoku100.com##.post_datetime_tsuuhou2 > span
+kakao-bosyu.com,majandofu.com##a[href^="https://bit.ly"]
 kakijun.com##.cgrid-ga
 kakijun.jp###header1 > div[style="float:right;font-size:14px;line-height:16px;margin-right:10px;"]
 kakijun.jp###kakijun_books
@@ -5688,7 +5688,6 @@ maiuma.com##.add.contentunder
 majandofu.com###banner-footer > div.g
 majandofu.com###banner-rectangle
 majandofu.com###banner-spread
-majandofu.com##a[href^="https://bit.ly"]
 majandofu.com##section[id^="banner-infeed"]
 majikichi.com###sub div.plugin-memo:has(> div.side > script[language="JavaScript"])
 majikichi.com##.comment_rank_widget_root + div.main
@@ -6372,6 +6371,7 @@ newmatosoku.com##.sideh2:has(+ .kouko3)
 newmatosoku.com##.topmain + div > div:has(a[href*="amazon.co.jp"])
 newmatosoku.com##.waku-zentai:has(a[href*="amzn.to"])
 newmofu.doorblog.jp,newpuru.doorblog.jp,newero1.blog.fc2.com,newota.blog.fc2.com,newresu1.blog.fc2.com,newyaku.blog.fc2.com##.pompass
+news-postseven.com##div[style="margin:0px auto; width:auto; text-align:center; margin-bottom: 5px; margin-top:-20px; min-height:245px;"]
 news-postseven.com##div[style^="min-height: "][style$=" margin-bottom:10px;"]
 news-us.org##.adspc
 news-us.org##[class^="sponsor"]
