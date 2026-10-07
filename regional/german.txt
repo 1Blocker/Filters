@@ -1497,6 +1497,7 @@
 @@||static.kleinanzeigen.de/static/js/belen/tracking/adblock-detection
 @@||static.plista.com^$image,script,third-party,domain=lustich.de
 @@||static.pushsquare.com/javascript/popunder2.js
+@@||static.wmbcdn.com/uniweb/images/ad-banner.png$domain=mamba.ru
 @@||statika.mpsuadv.ru/scripts/6384.js$domain=trychatgpt.ru
 @@||stats.hprofits.com/advertisement.js
 @@||stats.t-online.de/js/ads/adex.js
@@ -1866,7 +1867,9 @@ android-hilfe.de##.content_ad_last
 android-hilfe.de##.incontent-wrapper
 android-hilfe.de##.incontent-wrapper_big
 android-hilfe.de##.medium-rectangle-incontent-wrapper
+android-hilfe.de##.message:has(a[href^="/fh-ma/click?"])
 android-hilfe.de##.p-body-inner > ul.p-breadcrumbs + div[style="min-height: 140px;"]
+android-hilfe.de##a[href*="/fh-ma/click?data="]
 android-hilfe.de##article:has(a[href^="/fh-ma/click?"])
 android-hilfe.de##article[class="message message--post"]
 android-hilfe.de##article[data-author="Angebot"]
@@ -5659,6 +5662,7 @@ onvista.de##div[class="md:col-span-3 lg:col-span-4"]:has(div > p + span)
 onvista.de##div[data-display-scapa]
 onvista.de##section:has(> div > div > #aktuelle-news) div.rounded-2xl:has(span[class^="wl-"] > bdi[aria-hidden])
 onvista.de##section:is(:has(#top-broker-fuer-etfs),:has(#ausgewaehlte-alternativen)):has(> div.mb-2 span[class^="wl-"] > bdi[aria-hidden])
+onvista.de##table.ov-table tr.bg-primary-detail
 onvista.de##tr[class="bg-primary-detail !border-b-0"]
 onvista.de##tr[class="ov-table-row--height border-b border-b-neutral-3 !bg-primary-detail"]
 op-online.de##div[data-id-container-ct='{"containerId":"422013"}']
@@ -7645,6 +7649,7 @@ windowspro.de###block-views-sponsoredcontent-block
 windowspro.de###p3wrapper
 windowspro.de##.content div[id^="gWrapper-"]
 windowspro.de##.content_before_3rd_para
+windowspro.de##.field--name-body > div:has(> style + div[id] > a[href="#"] > img)
 windowspro.de##.paid
 windowspro.de##.paidc
 windowspro.de##.spost
