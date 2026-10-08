@@ -59,6 +59,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 4tube.com##.la-jessy-frame
 4tube.com##img[src][style][width]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
+4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 4wank.com,daporn.com,epicgfs.com,fapcat.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
 4wank.com,fapnado.xxx##.plads
 69games.xxx##[class^="leaderboard"]
@@ -307,6 +308,7 @@ criollasx.com##.under-video-block
 criollasx.com##.video-archive-ad
 criollasx.com,milfnut.com,nudeof.com,sexseeimage.com,yporn.tv##.happy-inside-player
 crocotube.com##.ct-video-ntvs
+crocotube.com#?#.ct-related-videos-title:has-text(/Advertisement|You may also like/)
 cumlouder.com##.ads__block
 cumlouder.com##.banner-frame
 cumlouder.com##.related-sites
@@ -455,6 +457,8 @@ freeuseporn.com##.featured-links-bar
 freeuseporn.com##.hhzt
 freeuseporn.com##a:has(svg[class*="lucide-chevron-right"]):not([href^="/"])
 freeuseporn.com##div:has(> iframe)
+freeuseporn.com#?#section > div > div:has(h2:has-text(Friends))
+freeuseporn.com#?#section:has-text(Sponsor)
 ftopx.com,gayboystube.com,gayporntube.com,hungangels.com,porngameshub.com##.advert
 fucker.com##.spot_box
 fullxxxtube.com###ubr
@@ -528,6 +532,7 @@ hd21.com,winporn.com###spot_video_livecams
 hd21.com,winporn.com###spot_video_underplayer_livecams
 hdporn92.com,javflix.net,ofansleaks.com##.happy-header
 hdporncomics.com##.hover\:shadow-xl:has(> .adsbyexoclick)
+hdpornpics.net#?#.money:has(.century:has-text(ADS))
 hdsex.org##.main-navigation__link--webcams
 hdtube.porn###sp-player
 hdtube.porn##.below-player-wrapper > noindex > a[target="_blank"]
@@ -620,6 +625,7 @@ hotgirlclub.com##.spnsrd-block-aside-250
 hotleaks.tv,javrank.com##[class^="koukoku"]
 hotmovs.com###in_va
 hotmovs.com##.app-banners
+hotmovs.com#?#.block_label--last:has-text(Advertisement)
 hotmovs.com,hotmovs.tube##.header__controls--link
 hotmovs.com,hotmovs.tube##.jw-reset > .nopop
 hotmovs.com,thegay.com##.fiioed
@@ -833,6 +839,7 @@ ok.xxx,perfectgirls.xxx##.top_spot
 ok.xxx,pornhat.com##.banner-wrap-desk
 ok.xxx,pornhat.com##.before-player
 ok.xxx,pornhat.com,xxxonxxx.com##.player-bn
+okxxx1.com#?#.bn-title:has-text(Advertising)
 online-xxxmovies.com##.middle-spots
 onlydudes.tv##.b-footer-place
 onlydudes.tv##.b-side-col
@@ -879,6 +886,7 @@ playvids.com##.col-lg-6.col-xl-4
 porn-monkey.com##.size-300x250
 porn-plus.com##.bottom_player_a
 porn-w.org##.align-items-center.list-row:has(.col:empty)
+porn-w.org#?#.row:has-text(Promotion Bot)
 porn.com##.foot-zn
 porn.com##[data-adch]
 porn.com##a[href*="&ref="]
@@ -960,6 +968,7 @@ pornhub.com##a[href^="https://www.uviu.com"]
 pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 pornhub.com##div[onclick*="bp1.com"]
 pornhub.com##img[srcset]
+pornhub.com#?#.noBottom:has-text(Remove Ads)
 pornhub.com,pornhub.org##.js_promoItem
 pornhub.com,pornhub.org##.realsex
 pornhub.com,pornhub.org##.sniperModeEngaged
@@ -1065,6 +1074,8 @@ recordbate.com##.video-overlay
 reddxxx.com##.items-center.justify-center.rounded-lg.backdrop-blur-md:has(iframe[src^="https://ctads.rtbsuperhub.com/"])
 reddxxx.com##.w-screen.backdrop-blur-md
 reddxxx.com##div[role="gridcell"]:has(img[src="https://cdn3.reddxxx.com/f_cm5eeic910000mrywxfe0wa1c_p5ov94asrzmby3n7ppmomnay.jpeg"])
+reddxxx.com#?#.items-center:has-text(/^ad$/)
+reddxxx.com#?#[role="gridcell"]:has-text(/^AD$/)
 redgifs.com##.InfoBar
 redgifs.com##.InformationBar
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
@@ -1891,7 +1902,6 @@ zhentube.com###custom_html-38
 ||adv.sexcounter.com^
 ||adventuretimeporn.xyz^
 ||advertising.entensity.net^
-||advertising.entensity.net^
 ||advertising.justusboys.net^
 ||adverts.trojanpublishing.net^
 ||advertx.net^
@@ -1950,7 +1960,6 @@ zhentube.com###custom_html-38
 ||alisonangelrocks.com^
 ||alisonangelzone.com^
 ||alivegirls.com^
-||alldayanalgifs.tumblr.com^
 ||alldayanalgifs.tumblr.com^
 ||allevaangelina.com^
 ||allfordrocher.com^
@@ -5021,6 +5030,7 @@ zhentube.com###custom_html-38
 ||imagetwist.com/img/1001505_banner.png
 ||imagevenue.com^
 ||imageweb.ws/whaledate.gif
+||imageweb.ws^
 ||imagezilla.net^
 ||imagezog.com^
 ||imctransfer.com^*/promo/
@@ -8391,6 +8401,7 @@ zhentube.com###custom_html-38
 ||usasexlovers.com^
 ||usearchx.com^
 ||usedpanties.tumblr.com^
+||uselessjunk.com^
 ||usercash.com^
 ||userporn.com^
 ||users.dacash.com^

@@ -542,6 +542,7 @@ allegro.pl##div[data-box-name^="allegro.ads."]
 allegro.pl##div[data-box-name^="allegro.advertising.adspremium.premiumad"]
 allegro.pl##div[data-box-name^="premium.with.dfp"]
 allegro.pl##div[data-box-name^="pure_offers_ads"]
+allegro.pl#?#[data-variants-visible]:-abp-contains(Sponsorowane)
 allegrolokalnie.pl##.mlc-offer__sp-offers
 altair.com.pl##.advSet
 android.com.pl##.banner--big
@@ -1227,6 +1228,8 @@ filmnet.pl##.ad-ins
 filmpolski.pl##.obrazek_bez_ramki
 filmweb.pl##div[class^="fa faBar"]
 filmy69.pl##.sidebar_right
+filmy69.pl#?#li.videoblock:-abp-has(iframe[id][src*="/www/delivery/"])
+filmy69.pl#?#li.videoblock:-abp-has(script[src^="https://a.realsrv.com/"])
 filmyporno.net###dvr-3x2
 filmyporno.tv###playerOverlay
 filmyporno.tv##.aff-sec
@@ -1502,6 +1505,7 @@ gpd24.pl,inwestycje-rzeszow.pl,irenakuczynska.pl,itreseller.pl,krs-pobierz.pl,kw
 gra.fm##a[href="https://www.torun-plaza.pl"]
 grafmag.pl##.money-maker__articles
 grafoteka.pl,independenttrader.pl,plusliga.pl,polski-tenis.pl##div[class*="baner"]
+gramwzielone.pl#?#.a:-abp-has(.a__title)
 gratka.pl##.dfp__sponsorTop
 gratka.pl,ppe.pl##.banner-placeholder
 greencanoe.pl,littletownshoes.com,zarabiajprzez24.pl###media_image-3
@@ -1840,6 +1844,7 @@ limanowa.pl###topBarner
 linguajob.pl###flash_baner
 linktopoland.com##a[href*="autoczescionline24.pl"]
 linktopoland.com,lipno-cli.pl,radiogol.pl,swidnica24.pl,swoszowice.org.pl##a[href^="https://www.autodoc."]
+lite.liiingo.com#%#//scriptlet('prevent-setTimeout', 'ad_blocker_detector_modal')
 livescience.com##.van_taboola
 livescore.in##.ads__text
 livingroom24.pl##a[href^="/ads/"]
@@ -2083,6 +2088,7 @@ nauka.rocks###sticky-anchor
 nbi.com.pl##div[data-ads*="banners"]
 neonet.pl##.as-wallpaper_left
 neonet.pl##.as-wallpaper_right
+neowin.net,globe.adsbexchange.com,box.live,aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,fragrantica.*,pc-builds.com,flightaware.com,boingboing.net,emojipedia.org,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#@$#body > div.ad.banner-ad.ad-siderail.stickyads[data-freestar-ad][style]:not(#style_important) { display: block !important; }
 netkonkret.pl##.td-a-rec-id-custom-spot
 networkmagazyn.pl##.XadvTop
 networkmagazyn.pl##.nmSectionBanner
@@ -2127,6 +2133,7 @@ nowinytyskie.pl,piekary.info,rudzianin.pl##.article-first-paragraph
 nowinytyskie.pl,piekary.info,rudzianin.pl,tarnowskiegory.info,zabrzenews.pl##.small__articles__ad
 noworudzianin.pl###metaslider_widget-2
 nowosadecki24.pl##.moduletable .custom a
+nowosci.com.pl#?#A[rel="nofollow"]:-abp-has(  .oznaczenie)
 nowosci.com.pl,nto.pl##a[class*="Banner"]
 nowy-sacz.info##aside#text-6
 nowykamieniarz.pl##.outerwide
@@ -2374,6 +2381,7 @@ probasket.pl##.custom-html-widget a > img
 probasket.pl##.td-all-devices
 profitechnika.pl##div[id*="adoceanmy"]
 programtv.naziemna.info##.my-ad
+projektpraca.eu##a[href*="cempolska.pl"]
 projektpraca.eu##a[href*="folkradio.pl"]
 projektpraca.eu##a[href*="radiokielce.pl"]
 prokapitalizm.pl##a[href*="multibook.pl"] > img
@@ -2469,6 +2477,9 @@ rowerowa.pl##.placement
 rp.pl##.commercial--break
 rp.pl##.inserted_rtb
 rp.pl##ins[class="adsbygoogle"]
+rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.md#$?##FheaderContent > div#archiveString ~ div:has(svg[class="txt-arrow"]):has(div[style="vertical-align: middle;"]) { opacity: 0 !important; min-height: 10px !important; height: 10px !important; }
+rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.md#$?##content > div > div[id]:has(> ins.adsbygoogle) { min-height: 10px !important; max-height: 10px !important; height: 10px !important; }
+rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.md#?##content-wrapper > div#content ~ div[id]:not(class):not([data-content]) div[style]:has(div.ac-right)
 rrs24.net##.ad_img_baner_glowny
 rrs24.net##aside[id^="ai_widget-"]
 rubber.pl###topNas
@@ -2692,6 +2703,7 @@ techmaniachd.pl###HTML1
 techmaniachd.pl###sidebar-right-1 a[href^="https://www.ceneo.pl/"]
 telchina.pl##.forabg
 telekamery.pl##.owl-ads
+telepolis.de#%#//scriptlet('set-constant', 'upScore.data.adblock', '0')
 telepolis.pl##.b_750
 telewizja.lukow.pl###frontpage-area_a_3
 telewizja.lukow.pl###frontpage-area_b_2
@@ -2896,6 +2908,8 @@ winterszus.pl###text-18
 wiocha.pl##.babanner
 wiocha.pl##.tdbcontainer
 wirtualnekosmetyki.pl##img[alt*="baner szeroki"]
+wirtualnemedia.pl#?#.wp-bg-layer > .wp-bg-layer-inner > div > div > a > div
+wirtualnemedia.pl#?#div:-abp-has(> a[href^="https://adinfo.wp.pl/"][target="_blank"] > img)
 wirtualnesuwalki.pl##.advert-B2
 wirtualnygarwolin.pl##.rstboxes
 wirtualnyregion.eu##.tdc-row .cycloneslider
@@ -2914,6 +2928,7 @@ wolnelektury.pl##.annoy-banner_blackout.annoy-banner
 wp.pl##.shoplovin-3P
 wp.pl##div[data-native-adv]
 wp.pl##span[id^="dynacrems-adv"]
+wp.pl#?#.grid-item:-abp-has(span:-abp-contains(REKLAMA))
 wpolityce.pl##.tile--ad-tile
 wprost.pl##.box-list-item-recommendation-content-stream
 wroclawiak.pl##.site-right-re
