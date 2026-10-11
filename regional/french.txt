@@ -2683,7 +2683,6 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@||integration.graphcomment.com/*.js$domain=lephoceen.fr
 @@||intocam.com/chat/advertisement.js
 @@||invisioncic.com/*/javascript_*/$domain=caradisiac.com
-@@||iphoned.nl/wp-content/themes/bigspark/scripts/ads-frontend.min.js
 @@||iphonesoft.fr^$generichide
 @@||japscan.$image,xmlhttprequest,script,~third-party
 @@||jetanime.co/assets/js/advertisement.js
@@ -3595,6 +3594,7 @@ carrefour.fr##.product-banner__slide:has(.product-banner__advertising-item)
 carrefour.fr##.product-list-grid__item:has(.product-list-card-plp-grid__sponsored)
 carrefour.fr##.product-list-grid__item:has([id*="data-advertising-sponsored-products"])
 carrefour.fr##[class^="advertising-placeholder"]
+carrefour.fr##article[id^="data-advertising-sponsored-products-"]
 casatv.ca###wrapperbanner
 castorama.fr##a[href^="https://www.needhelp.com/projet.php?"]
 causeur.fr##.asa_product_box
@@ -4539,6 +4539,7 @@ laptopspirit.fr,prix-portables.fr##.lien_hab
 laptopspirit.fr,prix-portables.fr##.lien_habillage
 lareclame.fr##.banner-url
 laredoute.fr##.pl-product:has(.sponsoredContent_label)
+laredoute.fr##.plp-grid_item:has(.sponsoredContent_label)
 laredoute.fr##.sponsoredBanner
 largus.fr##.bandeau-annonce
 largus.fr##.conteneur-sas
