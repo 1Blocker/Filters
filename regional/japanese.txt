@@ -292,7 +292,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /^https:\/\/[-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z][-0-9a-z]*\.com\/item-[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]\.html$/$document,match-case
 /^https:\/\/[0-9a-z][-0-9a-z][-0-9a-z]+\.[a-z][a-z][a-z][a-z][a-z]+\.[a-z][a-z][a-z]+\/product\/\[0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?\.html$/$domain=baby|blog|bond|cam|casa|club|fun|homes|online|rest|sbs|shop|surf|top|website|yoga
 /^https:\/\/[0-9a-z][-0-9a-z][-0-9a-z][0-9a-z]+\.[a-z][a-z][a-z][a-z][a-z]+\.org\/product\/\[0-9][0-9][0-9][0-9][0-9]?[0-9]?[0-9]?\.html$/$domain=~openfoodfacts.org
-/^https:\/\/[a-vx-z]*\.?[0-9a-z-][0-9a-z-][0-9a-z-]+\.[cno][eor][gmt]\/index\.php\?main_page=product_info&products_id=/$document
+/^https:\/\/[a-vx-z]*\.?[0-9a-z-][0-9a-z-][0-9a-z-]+\.[cno][eor][gmt]\/index\.php\?main_page=product_info&/$document
 /^https:\/\/[a-z][a-z][a-z][a-z]?[a-z]?\.[a-z][a-z][a-z][a-z]+\.[a-z]+\/item-[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]\.html$/$document,match-case,domain=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 /^https:\/\/[a-z][a-z][a-z][a-z]?[a-z]?\.[a-z][a-z][a-z][a-z]+\.[a-z]+\/item-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]\.html$/$document,match-case,domain=art|autos|baby|best|boats|buzz|cards|cfd|click|cyou|eu|fit|fun|guru|hair|homes|ink|lat|lol|mom|my|pics|qpon|quest|rest|sale|sbs|skin|today|top|wiki|work|world|xyz
 /^https:\/\/[a-z][a-z][a-z][a-z][a-z]?\.[a-z][a-z][a-z][a-z]+\.[a-z]+\/item-[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]\.html$/$document,match-case,domain=biz|blog|cc|cloud|club|info|life|live|me|one|online|shop|site|space|store
@@ -348,8 +348,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /inc/aJ5N7n.js
 /index.html?num=0101+$document
 /index.php?cpno=$document
-/index.php?main_page=product_info&products_id=$document,domain=agency|asia|baby|bar|beauty|best|biz|blog|bond|buzz|cam|cards|casa|cfd|click|cloud|club|cyou|design|dev|digital|email|fashion|fit|forum|fun|gay|hair|help|homes|icu|info|ink|kids|lat|life|live|lol|love|ltd|luxe|makeup|me|media|mom|monster|my|news|one|online|pics|pro|qpon|quest|rent|rest|ru.com|run|sa.com|sale|sbs|shop|site|skin|space|store|studio|team|today|tokyo|top|vip|vu|website|wiki|work|works|world|xyz|yachts|yoga|za.com
-/index.php?main_page=product_info*&cPath=$document,domain=agency|asia|baby|bar|beauty|best|biz|blog|bond|buzz|cam|cards|casa|cfd|click|cloud|club|cyou|design|dev|digital|email|fashion|fit|forum|fun|gay|hair|help|homes|icu|info|ink|kids|lat|life|live|lol|love|ltd|luxe|makeup|me|media|mom|monster|my|news|one|online|pics|pro|qpon|quest|rent|rest|ru.com|run|sa.com|sale|sbs|shop|site|skin|space|store|studio|team|today|tokyo|top|vip|vu|website|wiki|work|works|world|xyz|yachts|yoga|za.com
+/index.php?main_page=product_info&$document,domain=agency|asia|baby|bar|beauty|best|biz|blog|bond|buzz|cam|cards|casa|cfd|click|cloud|club|cyou|design|dev|digital|email|fashion|fit|forum|fun|gay|hair|help|homes|icu|info|ink|kids|lat|life|live|lol|love|ltd|luxe|makeup|me|media|mom|monster|my|news|one|online|pics|pro|qpon|quest|rent|rest|ru.com|run|sa.com|sale|sbs|shop|site|skin|space|store|studio|team|today|tokyo|top|vip|vu|website|wiki|work|works|world|xyz|yachts|yoga|za.com
 /index.php?signin=openid.pape.max_auth_age0&openid.return_to=https%3A%2F%2Fwww.offfffff.co.jp%2F$document
 /itro-popup/*$domain=naihai.net|onibuzz.link|hentai.9ketsuki.info
 /ja/payment/|$document,domain=co.in|co.za
@@ -4540,6 +4539,7 @@ genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##[id*="-sa
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a:has(img[src^="https://m.media-amazon.com" i])
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##a[rel*="sponsored"]:not(.aedr-form__purchase[href="https://amzn.to/4g4yOhg"])
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com#%#//scriptlet('json-prune', 'html')
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle')
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com#%#//scriptlet('set-constant', 'YAAB', 'undefined')
 genshin.blog.jp###Amazon_rdm
 gensin.blog.jp###lite_link
@@ -9813,6 +9813,7 @@ voisjp.me##.archive-ad-item
 voisjp.me##div[id^="yads"]
 voisjp.me,teller.jp##div[id^="im-"]
 volleyballking.jp##.addArea:has(div[id^="div-gpt-ad-"])
+volleyballking.jp##.free-input-container:has(a[href^="https://www.video.unext.jp/lp/"])
 voltechno.com###top-container-widget
 voltechno.com##.single_ads
 volumy.com##.blank_box
