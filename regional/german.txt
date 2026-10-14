@@ -3183,6 +3183,9 @@ directupload.eu###duModalLayer
 directupload.eu##div[class^="grafxinfo"] > a[target="_blank"] > img
 discard.email###MenuBanner
 disco-load.cc##.custom-footer-banners
+disco-load.cc##div[class$="-adbox"]
+disco-load.cc##div[class$="-adwrap"]
+disco-load.cc##div[class$="-bannerbox"]
 discounto.de,ecomento.de,lz.de,onlinemarketing.de,quoka.de,modhoster.de,gmx.net,finya.de,boersennews.de,nw.de,hifi.de,rundschau-online.de,rheinische-anzeigenblaetter.de,fussballdaten.de,virtualnights.com,unicum.de,truckscout24.de,spielen.de,pixelio.de,nickles.de,liga3-online.de,inside-digital.de,gut-erklaert.de,frustfrei-lernen.de,fremdwort.de,e-hausaufgaben.de,airliners.de,tvinfo.de,wieistmeineip.de,nordbayern.de,news.de,meinestadt.de,rimondo.com,clever-tanken.de,transfermarkt.com,berliner-kurier.de,moviejones.de,watson.de,bonedo.de,transfermarkt.de,ze.tt,duden.de,frag-mutti.de,volksfreund.de,wetter.com,ksta.de,t-online.de,naumburger-tageblatt.de,desired.de,spieletipps.de,freenet.de,giga.de,kicker.de,mt.de,pff.de,saarbruecker-zeitung.de#%#//scriptlet("abort-on-property-read", "Object.prototype.mkStyleDyn")
 djmag.de##.billboardbanner
 dkamera.de##a[href^="/adserver/goto/"]
@@ -4470,6 +4473,7 @@ hasepost.de##.hasepost-ad-slot
 haufe.de###Ads_Billboard_container
 haus-garten-magazin.de,nachrichten.es###custom_html-6
 haus.de##.css-1mdt86f
+haus.de##div[data-sentry-component="ParagraphAdSlotVlyby"]
 haus.de##div[data-sentry-component="STFAdSlot"]
 haus.de##div[id^="adtech_"]
 haus.de##section[class^="adtech-outside-"]
@@ -4648,6 +4652,11 @@ hl-live.de##div[width="828"][height="90"]
 hl-live.de##img[width="160"][height="240"]
 hna.de##.id-Weather-Advert-wrapper
 hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.advertBorder
+hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.frontpageOverview__adWrapper
+hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.frontpageOverview__adWrapper + div:has(> .divider:only-child)
+hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.swiper-wrapper > div[data-testid="native-ad"]
+hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.topBlock__teaserGrid > div:has(> .adSlot)
+hochheimer-zeitung.de,wormser-zeitung.de,mittelhessen.de,allgemeine-zeitung.de,wiesbadener-kurier.de,echo-online.de##.topBlock__teaserGrid > div:has(> div[data-testid="native-ad"])
 hockey-news.info###text-12
 hockeyweb.de##.btn-danger
 hockeyweb.de##a[href^="https://www.hockeyweb.de/?rex-api-call=pixel_forward&url="]
@@ -4676,6 +4685,7 @@ holidaycheck.de##div[id^="tad"]
 holstein-kiel.de##.ksv-sponsoren-footer
 home24.de##[data-cnstrc-sl-campaign-owner]
 homeandsmart.de##.hs_anbieter_box_block
+homeandsmart.de##div[class^="Ads_BA_CAD"]
 homegate.ch##div[class^="AdSlotContainer_"]
 homegate.ch##div[class^="ResultListPage_topAdContainer"]
 homegate.ch##div[data-cy="ad-slot"]
@@ -8536,6 +8546,10 @@ windowspro.de##.view-sponsoredcontent
 windowspro.de##.wip-ad-block
 windowspro.de##.wip-ad-php-loaded
 windowspro.de##.wip-block-3:has(> style + div[id])
+windowspro.de##.wip-node-content .field--name-body > .wip-loaded
+windowspro.de##.wip-node-content .field--name-body > div:has(> div[id] + script)
+windowspro.de##.wip-node-content .field--name-body > div:has(> div[id]):has(> script)
+windowspro.de##.wip-node-content .field--name-body > div:has(img[src*="/sites/windowspro.de/files/images/"]):not(:has(a[href*="/landing-page/"]))
 windowspro.de##article.node-teaser:not(.node-promoted)
 windowspro.de##div[class*="-ad-"]
 windowspro.de##div[class*="sponsored"]
@@ -9382,6 +9396,7 @@ zwischengas.com##.zgsky
 ||dl.volksstimme.de/tm/
 ||dlh.net/brandings/
 ||dlvr.t-online.de/static/lisa/placement/
+||dnbl.literatur-couch.de^
 ||dnv-online.net/_data/*_Superbanner_
 ||dnv-online.net/_data/Fullsize-Banner.gif
 ||docma.info/wp-content/banners/
@@ -11052,6 +11067,8 @@ zwischengas.com##.zgsky
 ||windows-pro.net^
 ||windowspower.de/banner/
 ||windowspower.de/wp-content/uploads/*/stromanbieter-vergleich.gif
+||windowspro.de/a.php?url=$popup
+||windowspro.de/aa.php?url=$popup
 ||windowspro.de/sites/windowspro.de/files/advagg_js/js__yS7CyIP-Nk7K6Xt2G3mkGWAXfGOwTiI0wwdn0GmIwwM__EoiDJPZdpk85X0xGBYAHn0PN-HgV1AgHgvavV0KhvYU__TMlUvrl4Tp-Amoh5neqH3DnP3Q9BotH6wQFrQU0fNjo.js
 ||windowspro.de/sites/windowspro.de/files/advagg_js/js__zR8PlSNczRzr6koUp2G5KQAvTGnSHH4_giYMfmb7o6E__ubjIHesQrPLSNRsqQ33aNf5LD12YLbbs0H8RairmULU__TMlUvrl4Tp-Amoh5neqH3DnP3Q9BotH6wQFrQU0fNjo.js
 ||windowspro.de^$subdocument,domain=windowspro.de
