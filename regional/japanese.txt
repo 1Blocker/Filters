@@ -155,6 +155,7 @@
 ##img[src*="a8.net/"]
 ##img[src^="//i.moshimo.com/af/i/impression?"]
 $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=motimoti3d.jp
+$script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 &p=*&_mi|$document,domain=top
 *$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|alicdn.com|zeala.link,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com|rawkuma.net|rawjx.net|rawmiu.net|rawkuro.net|momon-ga.com
 *ad.durasite.net^$third-party
@@ -311,7 +312,6 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /ad/js/tokimeki_af.js
 /ad_overlay.css$domain=39news.net|3punchiebukuro.info|catheart.pet|davincinews.info|dogheart.pet|entame-news.info|entame-trendnews.info|ichi-oshi.info|lettuceclub.site|mainichigahakken.info|mamanote.info|point-dengekihobby.jp|point-thetv.jp|presslink.jp|tamahiyo.site|trend-news.fun|walkerplus.info
 /adframes.js$domain=biz-journal.jp|g-journal.jp
-/admin-ajax.php?$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /ads/pcmax728200$image,domain=tumadouga.jp
 /amazonjs.js?
 /ap/sign.php?authenticated=true&openid%2Fgp%2Fsignin%2Fx%26i%3Da%26oauth%3Dm%26i%3Fie%3DUTF8%26ref_%3Drhf_custrec_signin^$document,domain=best|cn|top
@@ -409,12 +409,9 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 /wp-content/plugins/simple-adblock-notice/*
 /wp-content/themes/CashLINESystem/js/modal.$script
 /wp-content/uploads/2024/09/fanza_ad$image
-/wp-json/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 /wp-json/mediavague/v*/jobs?$domain=egolf.jp|kuruma-news.jp|trafficnews.jp
 /wrapper/*$subdocument,~third-party,domain=atrain3d.com|dq5clear.com|dq8clear.com|ffclear.com|khclear.com|wpclear.com
 /yamiisoku-amazon-ranking/*$domain=monhan-soku.com|yamiisoku.com|genshin-soku.com
-/yamiisoku-anti-adblock/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
-/yamiisoku-product-link/*$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 00m.in##.aff-cont
 0115765.com###bottom
 0115765.com##.l-extra + .breadcrumb ~ .l-wrapper .content > .gdc_row
@@ -626,6 +623,7 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 9ketsuki.info##.widget_custom_html.widget-main
 ://*.*.cn/jp|$document,domain=cn
 ://*.*.com/*/%E6%A5%BD%E5%A4%A9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BF%9D%E8%AD%B7|$document
+://*.*.com/*/e-tax%E3%82%A2%E3%83%97%E3%83%AA|$document
 ://*.*.com/*/e-tax%E3%82%BD%E3%83%95%E3%83%88|$document
 ://*.*.com/*/rakuten%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88|$document
 ://*.*.xyz/jp.html^$document
@@ -901,6 +899,10 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=unian.net|unian.ua
 @@||gaua.hit.gemius.pl/gplayer.js$domain=1plus1.video|1plus1.ua|unian.net
 @@||geniee.jp^$domain=pointmall.aeon.co.jp
+@@||genshin-soku.com/wp-content/plugins/amazon-egift-donation/assets/front.js
+@@||genshin-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||genshin-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
+@@||genshin-soku.com/wp-includes/js/wp-emoji-release.min.js
 @@||geo.de^$generichide
 @@||gfinityesports.com/js/googleadsense.js
 @@||givee.club/adsense.js$domain=givee.club
@@ -1024,6 +1026,10 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||meteomedia.com^$generichide
 @@||mlbstatic.com/mlb.com/video/config/mlb-vpp-aws/ads/*/ads.json
 @@||mmaaxx.com/get_s2s_param/s2s.js$domain=avokazu.com
+@@||monhan-soku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
+@@||monhan-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||monhan-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
+@@||monhan-soku.com/wp-includes/js/wp-emoji-release.min.js
 @@||moppy.jp/pub/global/pc/banner/gacha/468x60.jpg$~third-party
 @@||moppy.jp^$~script,~image,~stylesheet,domain=moppy.jp
 @@||morgenpost.de/static/*/admanager.js
@@ -1245,8 +1251,22 @@ $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=
 @@||wowma.net/market/linkshare/$image,domain=chobirich.com|gendama.jp|moppy.jp|point.i2i.jp|t-mall.tsite.jp
 @@||ws-fe.assoc-amazon.com/widgets/cm?*&asins=$domain=disneymaniax.com|doitsuiroiro.blog.fc2.com|haseakio.hatenablog.com|norimune.net|tottemoyasashiibitcoin.net|yayoi-meister.com
 @@||xataka.com^$generichide
+@@||xn--gckdevd5myivf.site/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
+@@||xn--gckdevd5myivf.site/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-child-master/javascript.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/javascript.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/js/group-link.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/plugins/lozad.js-master/dist/lozad.min.js
+@@||xn--gckdevd5myivf.site/wp-content/themes/cocoon-master/skins/skin-colors-blue/javascript.js
+@@||xn--gckdevd5myivf.site/wp-includes/js/comment-reply.min.js
+@@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery-migrate.min.js
+@@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery.min.js
 @@||yads.c.yimg.jp/js/yads-async.js$domain=hoyme.jp
 @@||yads.c.yimg.jp/js/yads.js$domain=eiga.com
+@@||yamiisoku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
+@@||yamiisoku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||yamiisoku.com/wp-content/themes/yamiisoku-matome-theme/assets/js/comment-more.js
+@@||yamiisoku.com/wp-includes/js/wp-emoji-release.min.js
 @@||yandex.ru/ads/system/context.js$domain=rg.ru
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru|rutube.ru
 @@||yandex.ru/ads/system/header-bidding.js$domain=rg.ru
@@ -11637,6 +11657,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||onani-daisuki.com/img/90_0210.jpg
 ||ondigitalocean.app/webC0deinfojphtml/
 ||one.impact-ad.jp^$third-party
+||onergogogo.com^$all
 ||open.open2ch.net/test/ad.cgi/
 ||oppai-doga.info/wp-content/themes/opid/js/pcad.
 ||oppai-doga.info/wp-content/themes/opid/js/spad.

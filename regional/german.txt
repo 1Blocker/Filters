@@ -1416,6 +1416,7 @@
 @@||s.adadapter.netzathleten-media.de/*/naMediaAd.js$domain=wooco.de
 @@||s1.adform.net^$script,domain=rewe.de
 @@||saarbruecker-zeitung.de/image/
+@@||saechsische.de/pf/resources/google_adsense-123.js
 @@||salzgitter-zeitung.de^$generichide
 @@||sascdn.com/diff/*/pages/onmeda.js$domain=onmeda.de
 @@||sascdn.com/diff/251/*/Abo-Teaser_fuer_ab.de-Home.png$image,domain=autobild.de
@@ -5003,7 +5004,6 @@ kinoger.to##a[href^="//fbmedia-ckl.com/"]
 kinoking.cc#$##adblockOverlay { display: none !important; }
 kinoking.cc#$#body { overflow: auto !important; }
 kinoking.cc#%#//scriptlet('prevent-setTimeout', '/adblock|\.offsetHeight === 0/')
-kinomax.to###ni-overlay
 kinox.camp,kinox.*##a[href^="/engine/player.php?code="]:not([style])
 kinox.camp,kinox.*#%#//scriptlet('abort-current-inline-script', 'Object.defineProperty', 'resetClickedUrl')
 kirche-und-leben.de##.articleAdDetail
@@ -5767,6 +5767,7 @@ motorsport-total.com##.anzeige_teas_rect
 motorsport-total.com##.anzeige_teas_rect_ax
 motorsport-total.com##.b-top
 motorsport-total.com##.mtn_ob
+motorsport-total.com##div:has(> img[data-obwid]:only-child)
 motorsport-total.com##div[class^="paoffer"]
 motorsport-total.com##div[data-display="plista_widget_infeed"]
 motorsport-total.com##div[data-display="plista_widget_infeed"] + script + hr
@@ -8549,7 +8550,9 @@ windowspro.de##.wip-block-3:has(> style + div[id])
 windowspro.de##.wip-node-content .field--name-body > .wip-loaded
 windowspro.de##.wip-node-content .field--name-body > div:has(> div[id] + script)
 windowspro.de##.wip-node-content .field--name-body > div:has(> div[id]):has(> script)
+windowspro.de##.wip-node-content .field--name-body > div:has(a[onmouseover] img)
 windowspro.de##.wip-node-content .field--name-body > div:has(img[src*="/sites/windowspro.de/files/images/"]):not(:has(a[href*="/landing-page/"]))
+windowspro.de##.wip-node-content .field--name-body > div:has(script ~ div[id], div[id] ~ script):not(:has(div[id^="div-gpt-ad-"]))
 windowspro.de##article.node-teaser:not(.node-promoted)
 windowspro.de##div[class*="-ad-"]
 windowspro.de##div[class*="sponsored"]
