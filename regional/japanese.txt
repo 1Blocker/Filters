@@ -1725,9 +1725,6 @@ ar-mag.jp##.ad-gliacloud
 ar-mag.jp##.js-ad-entame
 arakawa-story.com##.araka- > a[href="https://arakawa-story.com/?page_id=4462"]
 arakawa-story.com#?#.araka- center:contains(スポンサーリンク):not(:has(iframe[style="width: 260px; height: 60px; position: static; visibility: visible;"]))
-arealme.com##.leader_ad_banner
-arealme.com##.lowerad
-arealme.com##div[style="margin:auto;width:100%;min-height:250px;"]
 aregasore.com,hdouga.com##.w-frontTop
 aregasore.com,hdouga.com,fc2ppv.mhx.jp,news2019.biz,fpsjp.net##.w-singleTop
 aregasore.com,nukieroge.com###media_image-4
@@ -4679,6 +4676,8 @@ go2senkyo.com##.m_adbanner
 go2senkyo.com##.m_left_column_long_banner
 go2senkyo.com#$?#.p_top_top_article > span > div.p_top_top_article_banner:upward(2) { remove: true; }
 goal.com,mynavi.jp,impress.co.jp##.OUTBRAIN
+gofile-douga.com##[aria-label="広告"]
+gofile-douga.com##article:has(> div > a[href^="https://gofans-douga.com/pr/"])
 gogakuru.com###comp_f1
 gogakuru.com##.ad_phrase
 gogen-ejd.info###widgets-wrap-sidebar > section.widget_text
@@ -5623,6 +5622,7 @@ jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
 jj-labo.seesaa.net#?#.module--free h3.module__heading:contains(スポンサーリンク)
 jm1xtk.com##.web_adber-1
 jma.go.jp,jma-net.go.jp##.adClear
+jmanga.buzz##div[style^="max-width:700px"]
 jmedj.co.jp#$?#.ad-data:not([href*="jmedj.co.jp"]) { remove: true; }
 jmty.jp##.p-adsense-in-list
 jmty.jp##.p-adsense-list-right-column-high-block
@@ -6660,6 +6660,8 @@ matome.f-book.net##.ad_waku
 matome.f-book.net##.section_ad:not(.kiji + .section_ad)
 matome.f-book.net##.section_adbox
 matomeantena.com###latest-feeds > ul.list-group > li.list-group-item:is(:has(a[href^="https://bit.ly/"]),:has(a[href^="http://bit.ly/"]))
+matomeantena.com###ranking_ad1
+matomeantena.com###ranking_ad2
 matomeantena.com##.main-box > ul.list > li:has(> span.text > a[href^="https://bit.ly/"])
 matomeantena.com#?#.main-box > ul.list > li > script[src^="https://img.ad-nex.com"]:upward(1)
 matomeantennahub.com###banner_popup
@@ -8195,6 +8197,11 @@ popjav.in,hpjav.in,momon-ga.com,book18.fans,pingporn.ru,nyahentai.*,asmr18.fans,
 popmaster.jp##.kakomi-maru
 popnroll.tv###uzou-chat-ad + div[class^="sc-"]
 popteen.co.jp##iframe[src^="https://popteen.co.jp/media/wp-content/themes/magazine_theme/ad_logly/"]
+pormo.me###hcStrip
+pormo.me###lcStrip
+pormo.me##.header-rec
+pormo.me#%#//scriptlet('prevent-addEventListener', 'click', 'ad-nex.com')
+pormo.me#%#//scriptlet('set-constant', 'scPopped', 'true')
 porn-selection.net##.ad-recruit
 porn78.info##div[id^="adArea"]
 portal.auone.jp##.carousel-banner-top
@@ -8786,6 +8793,7 @@ shimotsuke.co.jp##div[id^="jp_soon_"][style]
 shimotsuke.co.jp##div[style="width:410px;height:128px;float:left;margin-right:10px;margin-bottom:20px"]
 shindanmaker.com###ad_common20 + hr
 shindanmaker.com##.ads_rect
+shindanmaker.com##.section-card-ad
 shindanmaker.com#$#div[id^="div-gpt-"] { min-height: 1px !important; }
 shindanmaker.com#%#//scriptlet('adjust-setInterval', 'reward_countdown')
 shindanmaker.com,times.abema.tv,newsphere.jp,watch.impress.co.jp,odaibako.net,ac-illust.com,photo-ac.com,mitok.info,getnews.jp,webcartop.jp##div[style="min-height: 250px;"]
@@ -10173,7 +10181,6 @@ wtmnews.net##.aflImage
 wtmnews.net##.aflLinkFlex
 wtmnews.net##.extendedwopts-md-center.wtmne-widget
 wtpage.info##.cm-banner
-ww1.jmanga.media##div[style^="max-width:700px"]
 wwdjapan.com##.sp-infeed-ad
 wwdjapan.com##.wwd-ad-manager-widget-feature-feed
 wwdjapan.com##.wwdj-ad
@@ -11715,6 +11722,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||pompass.net^$third-party
 ||popin.cc/popin_video6_ads-min.js
 ||popin.cc/searchbox/popin_ad_
+||pormo.me/*/wipe.js
 ||pr-agent.jp^$third-party
 ||pr.getchu.com/banner/dlgetchu_127_254_a.gif$third-party
 ||pr.getchu.com/banner/dlgetchu_190_143_cos_a.gif$third-party
