@@ -627,6 +627,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 ://*.*.com/*/%E6%A5%BD%E5%A4%A9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BF%9D%E8%AD%B7|$document
 ://*.*.com/*/e-tax%E3%82%A2%E3%83%97%E3%83%AA|$document
 ://*.*.com/*/e-tax%E3%82%BD%E3%83%95%E3%83%88|$document
+://*.*.com/*/e-tax|$document
 ://*.*.com/*/rakuten%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88|$document
 ://*.*.xyz/jp.html^$document
 ://amzone.co.jp.$document
@@ -1137,6 +1138,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||ryuryumall.jp/af/ls/logo/300_250_$image,domain=moppy.jp
 @@||s-ad.rmp.rakuten.co.jp/ad$domain=pointmall.rakuten.co.jp
 @@||s-cdn.rmp.rakuten.co.jp/js/aa.js$domain=pointmall.rakuten.co.jp
+@@||s.nitropay.com/*.gif?*&adslot=$domain=lofi-nopixel.com
 @@||safeframe.googlesyndication.com/safeframe/$domain=video-ac.com
 @@||safeframe.googlesyndication.com/safeframe/$subdocument,domain=nanpre.adg5.com
 @@||safeframe.googlesyndication.com^$subdocument,domain=rakuten.dreamchance.net
@@ -2157,6 +2159,7 @@ bishatti.com###right div[style^="text-align:"] > a[rel="sponsored"]
 bisweb.jp#$##_popIn_recommend_div ul._popIn_infinite_page:has(a[class*="_popIn_recommend_article_ad"]) > li { width: 25% !important; }
 bisweb.jp#$##_popIn_recommend_div:has(a[class*="_popIn_recommend_article_ad"]) ._popIn_recommend_art_img { width: auto !important; }
 bisyoujyox.com,samuraixx.com,xn--hckl3e1e8a8ajin0czf.net##.hentry > p[style^="text-align"]
+bitcoinpost24.com##.block-area.mx-auto[style="width:300px;"]
 biteki.com##.sideblock_banner
 biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 biteki.com#?#.items > div.item > div[id^="logly-"]:upward(1)
@@ -4519,6 +4522,7 @@ geinoukame.com#?#.menu_title:contains(/スポンサードリンク|記事|【PR�
 geitopi.com##.rankbanner
 gekibuzz.com##div[id^="text-"]:has(span[style="color: #ff0000;"])
 gekimatosoku.com##.kokowaku2
+gekiura.com###topSlideshowSpace
 gemelog.com##.entry-footer > div.widget_block
 gemmed.ghc-j.com#?#.article_box_item > div.pcBanner_category:upward(1)
 gemmed.ghc-j.com#?#.list_item > div.pcBanner_index:upward(1)
@@ -4676,8 +4680,9 @@ go2senkyo.com##.m_adbanner
 go2senkyo.com##.m_left_column_long_banner
 go2senkyo.com#$?#.p_top_top_article > span > div.p_top_top_article_banner:upward(2) { remove: true; }
 goal.com,mynavi.jp,impress.co.jp##.OUTBRAIN
+gofile-douga.com##.grid > div.col-span-2:has(> div.relative.max-w-full > div[aria-label="広告"])
 gofile-douga.com##[aria-label="広告"]
-gofile-douga.com##article:has(> div > a[href^="https://gofans-douga.com/pr/"])
+gofile-douga.com##article[aria-label="PR"]
 gogakuru.com###comp_f1
 gogakuru.com##.ad_phrase
 gogen-ejd.info###widgets-wrap-sidebar > section.widget_text
@@ -4713,6 +4718,7 @@ gori.me##.ad_AfterMore
 gori.me##.post-list-item-ad
 gori.me##.sidebar-single-ad
 gori.me,sportingnews.com,h1g.jp,aba-net.com,2chan.net,shuminoengei.jp,bridalgown.work,liquidfoundation.work,tapestry.work,teaceremony.work,weddinghall.work,ceron.jp,nicovideo.jp##div[style^="width:300px;height:250px;"]
+gossip-i.com,nicola.jp,city.saku.nagano.jp,pachinkovillage.com,movie.golfdigest.co.jp,oggi.jp,money.smt.docomo.ne.jp,supari.jp,adaman-ero.com,city.muroran.lg.jp,storie.jp,city.yokkaichi.lg.jp,kabuyoho.jp,ichi-up.net,hayamimi-hobby.com,getchu.com,kitimama-matome.net,terakoya.asahi.com,newswitch.jp,demonition.com,fantage.co.jp,classmethod.jp,city.unnan.shimane.jp,pref.shiga.lg.jp,asajikan.jp,tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,pakutaso.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,wiki.seesaa.jp##.banner
 gossip1.net,namaxchang.com#?#.module--free > div > ins.adsbygoogle:upward(2)
 gosyuinsanpo.com,gotrip.jp#?#.widget_text > div > ins.adsbygoogle:upward(2)
 gotokyo.org###advert_area_0
@@ -5497,6 +5503,8 @@ japan.cnet.com###ad_text
 japan.cnet.com###ad_textbottom
 japan.cnet.com###content-bottom-block
 japan.cnet.com##.content-article-pr
+japan.storm.mg##.adGeneral
+japan.storm.mg##div[data-test-comp="AdTaboola"]
 japan.zdnet.com###ad_footerlarge
 japan.zdnet.com##.ad-bnr-rect
 japan.zdnet.com#?#.pg-container-main-primary > section > div.pg-mod > h3.ttl-line-center:contains(PR)
@@ -5622,7 +5630,7 @@ jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
 jj-labo.seesaa.net#?#.module--free h3.module__heading:contains(スポンサーリンク)
 jm1xtk.com##.web_adber-1
 jma.go.jp,jma-net.go.jp##.adClear
-jmanga.buzz##div[style^="max-width:700px"]
+jmanga.voto##div[style^="max-width:700px"]
 jmedj.co.jp#$?#.ad-data:not([href*="jmedj.co.jp"]) { remove: true; }
 jmty.jp##.p-adsense-in-list
 jmty.jp##.p-adsense-list-right-column-high-block
@@ -7111,6 +7119,7 @@ nagasaki-np.co.jp##.side_rectangle
 nagasaki-np.co.jp##.txtad
 nagoob.com,tsurinews.jp,cutepink.work,ryonkoroblog.com,hikasango.com,kuku81kuku81.hatenablog.com,spla3sokuhou.games,pontako.com##div[id^="msmaflink-"]
 nagoya-meshi.com##.single__adWrap
+naigaitimes.com##.nt-add-pc__wrapper
 naikougata-tosan.com###block-12
 naikougata-tosan.com,fnjpnews.com###block-9
 naikougata-tosan.com,vegetables01.xyz##.article-body > center
@@ -7503,7 +7512,6 @@ nichepcgamer.com,pocketwifi-hikaku.info,sanabo.com,videogakuen.com###custom_html
 nichinichi-magazine.com,zaikai.jp##.detailBottomAdWrap
 nicola.jp##.sp.banner-overlay
 nicola.jp##section[id^="banner-"]
-nicola.jp,city.saku.nagano.jp,pachinkovillage.com,movie.golfdigest.co.jp,oggi.jp,money.smt.docomo.ne.jp,supari.jp,adaman-ero.com,city.muroran.lg.jp,storie.jp,city.yokkaichi.lg.jp,kabuyoho.jp,ichi-up.net,hayamimi-hobby.com,getchu.com,kitimama-matome.net,terakoya.asahi.com,newswitch.jp,demonition.com,fantage.co.jp,classmethod.jp,city.unnan.shimane.jp,pref.shiga.lg.jp,asajikan.jp,tanoshiiosake.jp,library.mitaka.tokyo.jp,climbing-net.com,tripnote.jp,allreviews.jp,smart-flash.jp,pakutaso.com,qoly.jp,ascii2d.net,hoikuen-ranking.com,wiki.seesaa.jp##.banner
 nicomanga.com##div[class^="col-"] > center:has(> div > div[style] > iframe[name="myiFrame"])
 nicovideo.jp###web_pc_prime
 nicovideo.jp##.Ads
@@ -8446,6 +8454,7 @@ recochoku.jp##a[class="sub-nav__item-link"][target="_blank"]
 recordchina.co.jp##.ad-outer
 recordchina.co.jp##.right-people[style^="min-width: 300px; min-height: 250px"]
 recordchina.co.jp##.right-ranking
+recordchina.co.jp##.row > div[style^="height: 1000vh"]:empty
 recotripp.com##.ad-aside-big
 recotripp.com##.ad-aside-small
 recotripp.com##.ad-contents
@@ -10610,6 +10619,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||ad-tag.biz^$third-party
 ||ad-track.jp^$third-party
 ||ad-virtua.net^$third-party
+||ad.001zb.com^
 ||ad.886644.com^$third-party
 ||ad.abema.io^
 ||ad.adpon-affi.net^$third-party

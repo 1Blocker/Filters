@@ -2886,6 +2886,7 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@||s.2dehands.be/static-web/my-account/*/MyAds.
 @@||s.marktplaats.com/aurora/res/javascript/dist/*/pages/mymp/MyAds.js
 @@||s.marktplaats.com/static-web/*/MyAds.
+@@||s.nitropay.com/*.gif?*&adslot=$domain=lofi-nopixel.com
 @@||s3.amazonaws.com/homad-global-configs.schneevonmorgen.com/hd-main.js?cache=$xmlhttprequest,domain=gmx.at|gmx.net|web.de|welt.de
 @@||saveur.com^$generichide
 @@||sb.scorecardresearch.com/beacon.js$domain=sushiscan.st
@@ -3773,9 +3774,8 @@ darty.com##.rm-product
 datanodes.to##button[onclick]
 ddaynormandy.forumgaming.fr###main-content a[onclick*="'shift'"][target="_blank"]
 ddaynormandy.forumgaming.fr#$##main-content > div[style*="visibility: visible !important; display: block !important; opacity:"]:not([class]):not([id]) { position: absolute !important; left: -3000px !important; }
-dealabs.com##.js-idealo-section
+dealabs.com##[data-t="bannerAd"]
 dealabs.com##div[id$="FuseZonePortal"]
-dealabs.com##section[data-track*="widget_pirates_carousel"]
 deavita.fr###badHabbitsPopup
 deavita.fr##.sidebar_banner
 decathlon.fr##.product-grid li:has(.sponsored-header-tag)
@@ -4443,6 +4443,7 @@ juritravail.com##.ui-pnotify
 justarrived.lu##div[id^="laure-"]
 justarrived.lu#%#//scriptlet('set-constant', 'advanced_ads_ready', 'noopFunc')
 kamaz.fr##.megaBan
+kami-labs.fr##[id^="kl-ad"]
 kami-labs.fr##div[class^="kl-fs-ad-"]
 kami-labs.fr##div[id^="kl-ad-"]
 katibin.fr,top-for-phone.fr##.background-cover
@@ -11189,6 +11190,8 @@ zoomdici.fr##.innerArtAdd
 ||kalqui.com^$third-party
 ||kaltura.com^*/a.mp4|$media
 ||kamehashop.fr/partenaire/
+||kami-labs.fr/*/ads-widget.js
+||kami-labs.fr/*/house-ads.js
 ||kami-labs.fr/wp-content/plugins/autoarticle-receiver/assets/js/ads-widget.js
 ||kami-labs.fr/wp-content/plugins/autoarticle-receiver/assets/js/house-ads.js
 ||kami-labs.fr/wp-content/uploads/*/ad-

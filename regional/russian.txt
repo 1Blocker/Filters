@@ -2426,6 +2426,7 @@ $script,third-party,domain=lafa-site.com
 @@||rzn.info/advertisement.js
 @@||rzn.info/viewfiles/last/share/scripts/source/advert.js
 @@||s-cdn.sportbox.ru/*/adfox.asyn.code.*.js^$domain=matchtv.ru|news.sportbox.ru
+@@||s.nitropay.com/*.gif?*&adslot=$domain=lofi-nopixel.com
 @@||s.tez-tour.com/advertisment/
 @@||s.vertamedia.com/vmap?aid=$domain=vringe.com
 @@||s.znctrack.net/z$domain=ukr.net
@@ -10431,6 +10432,8 @@ russeeders.top##a[href^="https://ya-browser.ru/"]
 russia-tv.online##.overflow-hidden:has(> div[class="h-full w-full"]:empty)
 russia-tv.online#?#.page-channels__channel-list > li.page-channels__channel:has(> div.page-channels__channel > div.page-channel-channel-wrapper > div.page-channel__channel-cart > div.ads-cart)
 russia.tv##.inline-wrap > a[class^="icon_sub"] + a[target="_blank"]
+russian-emirates.com##div.row > div.hidden-sm:has(> div.socialink_block ins[data-revive-zoneid])
+russian-emirates.com#$#div.wrapper > div.head_pict:has(> div > ins[data-revive-zoneid]) { visibility: hidden !important; height: 0 !important; }
 russian-seriali.ru##.mixmob
 russian-seriali.ru##.roll
 russian-seriali.ru#$#.wrap > div[class="block center"] { padding-top: 0 !important; }
