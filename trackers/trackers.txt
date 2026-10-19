@@ -5806,6 +5806,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||ziyu.net^$domain=tenki-yoho.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zqtk.net^$script,domain=wsj.com
+@@||zs.com/scripts/analytics/pageview.js$~third-party
 ^endpoint=track^$image
 _WebVitalsReporter_
 _ad_impression.
@@ -6169,6 +6170,8 @@ nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
 neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 newsletter.adnz.co%2F*$image
 newsletter.adnz.co/$image
+northeast.aaa.com##+js(set, _uxa, {})
+northeast.aaa.com##+js(set, _uxa.push, noopFunc)
 novelgames.com###gameEtTopRight.commonEt:style(height: 0 !important;)
 novelgames.com###gamelistCategories:style(margin-bottom: auto !important;)
 novelgames.com##+js(nano-sib, skipAdSeconds, , 0.02)
@@ -23167,6 +23170,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||flashstats.libsyn.com^
 ||flashtexting.com^
 ||flaticon.com/_ga?
+||flatpebble.com^
 ||flavors.firmenich.com^
 ||flcounter.com^$third-party
 ||fldoai.municipal.com^
@@ -23556,6 +23560,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||frdoki.selftanning.work^
 ||frdoki.studioglass.work^
 ||frdoki.woodblock.work^
+||freakywacko.com^
 ||free-counter.co.uk^$third-party
 ||free-counter.com^$third-party
 ||free-counters.co.uk^$third-party
@@ -25184,6 +25189,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||gravity4.com^$third-party
 ||gravitygive.com^
 ||gravitykick.com^
+||graychalk.com^
 ||graylog.prod.cams.run^
 ||grayoranges.com^
 ||grayreceipt.com^
@@ -38018,6 +38024,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||permutive.com^$third-party
 ||perplexity.ai/rest/event/analytics
 ||perplexity.ai/rest/metrics/collect^$xhr,1p,method=post
+||perplexity.ai/unifyintent.js
 ||perr.h-cdn.com^
 ||perr.hola.org^
 ||perr.l-agent.me^
@@ -53999,6 +54006,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||tranquilveranda.com^
 ||transact.blackboard.com^
 ||transactionale.com^$third-party
+||transcend-cdn.com/cm/*/airgap.js$domain=northeast.aaa.com
 ||transcend.io/collect
 ||transit.ncsecu.org^
 ||transmapp.com^

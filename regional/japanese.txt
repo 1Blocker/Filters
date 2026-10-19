@@ -195,6 +195,12 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 .co/?action=save_info|$xmlhttprequest
 .com%*@*/$document,domain=cn|com
 .com/%F0%9D%90%A3%F0%9D%90%9A-%F0%9D%90%A3%F0%9D%90%A9/$document
+.com/*/%E6%A5%BD%E5%A4%A9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BF%9D%E8%AD%B7|$document
+.com/*/e-tax%E3%82%A2%E3%83%97%E3%83%AA|$document
+.com/*/e-tax%E3%82%BD%E3%83%95%E3%83%88|$document
+.com/*/e-tax%E5%9B%BD%E7%A8%8E|$document
+.com/*/e-tax|$document
+.com/*/rakuten%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88|$document
 .com/ETGate/accountData?redirectToken=$document
 .com/ITS/V_ACT_Login.html$document
 .com/PayPaynew784310.apk$document
@@ -624,11 +630,6 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 9ketsuki.info##.manual_ads
 9ketsuki.info##.widget_custom_html.widget-main
 ://*.*.cn/jp|$document,domain=cn
-://*.*.com/*/%E6%A5%BD%E5%A4%A9%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BF%9D%E8%AD%B7|$document
-://*.*.com/*/e-tax%E3%82%A2%E3%83%97%E3%83%AA|$document
-://*.*.com/*/e-tax%E3%82%BD%E3%83%95%E3%83%88|$document
-://*.*.com/*/e-tax|$document
-://*.*.com/*/rakuten%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88|$document
 ://*.*.xyz/jp.html^$document
 ://amzone.co.jp.$document
 ://apple-*.cn/account_int/
@@ -763,6 +764,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||afi-b.com/assets/img/general/common/$image,domain=affiliate-b.com
 @@||afi-b.com/upload_image/$domain=chobirich.com|dietnavi.com|gendama.jp|lifemedia.jp|moppy.jp|point.i2i.jp|pointi.jp|warau.jp
 @@||afl.rakuten.co.jp^$image,domain=chobirich.com|gendama.jp|lifemedia.jp|moppy.jp|netmile.co.jp|pointtown.com|warau.jp
+@@||ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js$domain=yamiisoku.com
 @@||aka-cdn.adtech.de/dt/common/DAC.js$domain=mobil.se
 @@||amazon-adsystem.com/aax2/apstag.js$domain=nehannn.com|bihann.com
 @@||amazonaws.com/adv-img.zucks.jp/$image,domain=ecnavi.jp
@@ -810,6 +812,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||cdn.spilcloud.com/*/fuckadblock.js
 @@||cdn.taxel.jp/*/rw.js$domain=www.ohk.co.jp
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=megagames.com
+@@||cdnjs.cloudflare.com/ajax/libs/jquery-migrate/*/jquery-migrate.min.js$domain=yamiisoku.com
 @@||cdntrf.com/id-ingame.js$domain=ingame.de
 @@||cdntrf.com/prebid/tz.de/prebid_config.json$domain=tz.de
 @@||cdntrf.com/trf-id-instream.js$domain=ingame.de
@@ -1033,6 +1036,12 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||monhan-soku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
 @@||monhan-soku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
 @@||monhan-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
+@@||monhan-soku.com/wp-includes/js/jquery/jquery-migrate.min.js
+@@||monhan-soku.com/wp-includes/js/jquery/jquery.min.js
+@@||monhan-soku.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+@@||monhan-soku.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+@@||monhan-soku.com/wp-includes/js/mediaelement/renderers/vimeo.min.js
+@@||monhan-soku.com/wp-includes/js/mediaelement/wp-mediaelement.min.js
 @@||monhan-soku.com/wp-includes/js/wp-emoji-release.min.js
 @@||moppy.jp/pub/global/pc/banner/gacha/468x60.jpg$~third-party
 @@||moppy.jp^$~script,~image,~stylesheet,domain=moppy.jp
@@ -1090,6 +1099,9 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||pdn.adingo.jp/asset/close-interstitial.svg$domain=dailynewsonline.jp
 @@||pdn.adingo.jp/p.js$domain=contents-group.work
 @@||pia.jp/uploads5/files/*/300_250.$image,domain=moppy.jp
+@@||platform.twitter.com/js/tweet.$script,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
+@@||platform.twitter.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
+@@||platform.x.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|yamiisoku.com
 @@||pm-siken.com^$generichide
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*/300_250_$~third-party
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300x250$image,~third-party
@@ -1269,9 +1281,24 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery.min.js
 @@||yads.c.yimg.jp/js/yads-async.js$domain=hoyme.jp
 @@||yads.c.yimg.jp/js/yads.js$domain=eiga.com
+@@||yamiisoku.com/wp-content/plugins/antenna-portal/assets/portal.js
+@@||yamiisoku.com/wp-content/plugins/antenna-timeline/assets/timeline.js
 @@||yamiisoku.com/wp-content/plugins/yamiisoku-bbs-comments/assets/comments.js
 @@||yamiisoku.com/wp-content/plugins/yamiisoku-popular-posts/assets/script.js
+@@||yamiisoku.com/wp-content/themes/cocoon-child-master/javascript.js
+@@||yamiisoku.com/wp-content/themes/cocoon-master/javascript.js
+@@||yamiisoku.com/wp-content/themes/cocoon-master/js/group-link.js
+@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/baguettebox/dist/baguetteBox.min.js
+@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/lozad.js-master/dist/lozad.min.js
+@@||yamiisoku.com/wp-content/themes/cocoon-master/plugins/stickyfill/dist/stickyfill.min.js
 @@||yamiisoku.com/wp-content/themes/yamiisoku-matome-theme/assets/js/comment-more.js
+@@||yamiisoku.com/wp-includes/js/comment-reply.min.js
+@@||yamiisoku.com/wp-includes/js/jquery/jquery-migrate.min.js
+@@||yamiisoku.com/wp-includes/js/jquery/jquery.min.js
+@@||yamiisoku.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js
+@@||yamiisoku.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js
+@@||yamiisoku.com/wp-includes/js/mediaelement/renderers/vimeo.min.js
+@@||yamiisoku.com/wp-includes/js/mediaelement/wp-mediaelement.min.js
 @@||yamiisoku.com/wp-includes/js/wp-emoji-release.min.js
 @@||yandex.ru/ads/system/context.js$domain=rg.ru
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru|rutube.ru
@@ -4548,6 +4575,7 @@ genshin-soku.com##.plugin-memo:has(> div.side > a[href^="https://amzn.to"])
 genshin-soku.com##.yaab-swap-link
 genshin-soku.com,monhan-soku.com##.gs-side-ad
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site##.promo-box
+genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.gs-between-ad
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.rkx-product-groups
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.widget_ypl_feed_widget
 genshin-soku.com,monhan-soku.com,xn--gckdevd5myivf.site,yamiisoku.com##.ypc-product-widget
@@ -6686,6 +6714,7 @@ matomedane.jp###footeradv
 matomedane.jp##.adv-placeholder
 matomedane.jp##.pc_header_bottom_adv
 matomehub.jp##.adv_bottom
+matomepotal.yamiisoku.com##.ap-side-ad
 matometa-antenna.com##ins.box
 matometanews.com###articlemainmore > div[style="margin:40px 0px 0px 30px;"]
 matometanews.com###blogbody_id > div[style^="text-align:left; font-size:18px; margin:60px "]
@@ -10357,7 +10386,9 @@ yamareco.com#?##sidebar_right > div.box > div.bg_white > div > div.fw-b > a[href
 yamareco.com#?#.all > div.innner > div.block:last-child:has(> div#extarea)
 yamatogokoro.jp#?#div.sd_bnr01:has(> a:not([href*="//"]))
 yamiisoku.com###ymsa-left
+yamiisoku.com##.antt-side-ad
 yamiisoku.com##.custom-html-widget > a[href^="https://link.amazon/"]
+yamiisoku.com##.gs-widget:has(> div > a[href^="https://amzn.to"])
 yaraon-blog.com###mytextwidget-33
 yaraon-blog.com###mytextwidget-36
 yaraon-blog.com###mytextwidget-37
