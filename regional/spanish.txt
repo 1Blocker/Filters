@@ -636,6 +636,7 @@ $third-party,script,domain=mangatigre.com
 @@||nextms.tagger.opecloud.com/nextms/v2/pixel.gif$domain=rmcbfmplay.com
 @@||nexustc18.com/oncc-adbanner.js$domain=nexustc18.com
 @@||nmn900.com/js/adsbygoogle.js
+@@||novelaocs.top^$generichide
 @@||novelasymangasjpo.blogspot.com^$generichide
 @@||npttech.com/advertising.js$domain=thelocal.se
 @@||npttech.com/advertising.js^$domain=elespanol.com
@@ -657,7 +658,7 @@ $third-party,script,domain=mangatigre.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=maisgasolina.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_*.js$domain=texture-packs.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=diynetwork.com,important
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sushianimes.com.br
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=novelaocs.top
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=energytv.es|telecinco.es
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=darkmahou.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub$domain=fuucdayo.com
@@ -2128,9 +2129,12 @@ estadao.com.br##.pub157x27
 estadao.com.br##.publi--spacing_news_htopo
 estadao.com.br##.row-media-lab
 estadao.com.br##article[class^="destaque-default -patrocinado"]
+estadao.com.br##div:has(> .ads-container:only-child)
+estadao.com.br##div:has(> div[class*="BlueStudio__Container"])
 estadao.com.br##div[class*="AdPlaceholder"]
 estadao.com.br##div[class^="area-publicidade-"]
 estadao.com.br##div[data-paywall-wrapper="true"] > div[class^="Wrapper__Container-"]:has(> div[direction="column"] div.slick-slide div.ads-container)
+estadao.com.br##div[style*="margin-bottom:"][style*="min-height:"]:has(> div:only-child > div[class*="BlueStudio__Container"])
 estadao.com.br##div[style="width: 100%; overflow: hidden;"]
 estadao.com.br#$##fusion-app { margin-top: 0!important; }
 estadao.com.br#$#.navbar-container { margin-top: 0!important; }
@@ -2484,6 +2488,7 @@ genshinpro.com.br,jav-asia.top,universoformulas.com,daemon-hentai.com,publico.es
 genshinpro.com.br,noticiasautomotivas.com.br###custom_html-7
 gentedesalta.com##.ada
 geovisites.com##.bg_flash
+ggmax.com.br##div[class]:has(> .announcement__ad)
 gizmodo.com.br###banner_meio
 gizmodo.com.br##.my-8:has(> div > div.optidigital-wrapper-div)
 gizmodo.com.br##.od-wrapper
@@ -3511,6 +3516,7 @@ novabrasilfm.com.br##[class^="publicidade-"]
 novatecnology.com,tipsdesalud.tips#$#body > .textads.banner-ads { display: block !important; }
 novatecnology.com,tipsdesalud.tips#$#body > div[id^="div-gpt-ad-"] { display: block !important; }
 novatecnology.com,tipsdesalud.tips#$#body > ins.adsbygoogle { display: block !important; }
+novelaocs.top#%#//scriptlet('prevent-setTimeout', 'revisarPublicidad')
 novelaplay.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'bait')
 novelaplay.com#%#//scriptlet('prevent-addEventListener', 'click', 'redirigi')
 novelaplay.com#%#//scriptlet('prevent-setTimeout', '.offsetHeight===0')
