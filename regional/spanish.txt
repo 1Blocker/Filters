@@ -1003,6 +1003,7 @@ animeflv.net,plplayer.com#%#//scriptlet('abort-on-property-read', 'LieDetector')
 animegratis.net##div[aria-label="Anuncio patrocinado"]
 animegratis.net#%#//scriptlet('trusted-set-cookie', 'ag_af', 'anime')
 animegratis.org##.amazon-ep-card
+animegratis.org##.amazon-showcase-container
 animegratis.org##.footer-ad-container
 animegratis.org##[id^="sideAd"]
 animegratis.org#$#.preroll-overlay { display: none !important; }
@@ -3678,6 +3679,8 @@ otakufilmes.org##.banners-inferiores
 otakufilmes.org#$##adblock-overlay { display: none !important; }
 otakufilmes.org#$#body { overflow: auto !important; }
 otakufilmes.org#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'adblock')
+otakufilmes.org#%#//scriptlet('remove-attr', 'inert', 'body > [inert]')
+otakufilmes.org#%#//scriptlet('trusted-set-constant', 'otakuAdsState', 'clear')
 otakustv.com###result_server > .playing:empty
 otakustv.com##div[id^="public_"]
 otakustv.com#%#//scriptlet("prevent-window-open")
