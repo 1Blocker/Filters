@@ -214,6 +214,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 .com/category/*?coll_id=$document
 .com/co.jp/|$document,domain=com
 .com/detail/*==.html?coll_id=$document
+.com/download.php?id=$subdocument
 .com/etc.php?$document
 .com/funccode.php|$document
 .com/htm/sh1n/selectState$document
@@ -805,6 +806,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||cdn.adschill.com/*/unit/*.js$domain=manga1001.*
 @@||cdn.animenewsnetwork.com/javascripts/ads.js$~third-party
 @@||cdn.concert.io/lib/concert-ads/*-latest/concert_ads.js$domain=vox.com
+@@||cdn.fuseplatform.net/publift/tags/*/fuse.js$xmlhttprequest,domain=miniwebtool.com
 @@||cdn.intergient.com/pageos/pageos.js$domain=masterduelmeta.com|duellinksmeta.com
 @@||cdn.logly.co.jp^$image,domain=mens-ex.jp
 @@||cdn.relaido.jp/rplayer/$script,domain=tv.golfnetwork.co.jp
@@ -5632,7 +5634,9 @@ jin115.com###sponsered
 jin115.com##.article_bodymore > table[style^="text-align:left;"]
 jin115.com##.dix_ad_n
 jin115.com##.jin-ads
+jin115.com##div[class^="article"] > a[href^="https://www.amazon.co.jp/"] > img
 jin115.com##div[class^="article"] > font[color="#CC0000"][size="+1"]:has( + br + table[style="text-align:left;margin-left:0;margin-right:0;"])
+jin115.com##div[class^="article"] > hr:last-of-type ~ font[color][size="+1"]:has(~ a[href^="https://www.amazon.co.jp/"] > img)
 jin115.com##div[style="width:728px; height:90px;"]
 jin115.com,yurukuyaru.com##table[style="text-align:left;margin-left:0;margin-right:0;"]
 jinja-bukkaku.net###side_slider2
@@ -7590,6 +7594,7 @@ nijitoraware.com##.headline_entry_middle1
 nijitoraware.com##.mainpc
 nijitoraware.com##.plugin3_body
 nijitoraware.com##div[id$="test"]
+nijiurachan.net##aside[aria-label="DMM広告"]
 nikaidou.com##.books-single
 nikaidou.com,app-liv.jp##.adv-area
 nikkan-gendai.com##.ad_bunner
@@ -9861,6 +9866,7 @@ vapejp.net###header-r
 vapejp.net###st-headerbox
 vault76.info##.adbox3
 vid-snap-player.com###plScreen
+vid-snap-player.com#%#//scriptlet('prevent-window-open')
 video.fc2.com##.list-subCont > li[style$="height: 98px;"]
 video.fc2.com##.pr-ads
 video.fc2.com#$#.c-ad-103 { height: 0 !important; }
@@ -10730,6 +10736,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||ads.metropolis.co.jp^
 ||ads.museum.or.jp^
 ||ads.nicovideo.jp^
+||ads.nijiurachan.net^
 ||ads.pipaffiliates.com^
 ||ads.world-fusigi.net^
 ||adsby.2bet.co.jp^
@@ -10789,6 +10796,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||amazonaws.com/adv-img.zucks.jp/$third-party
 ||amazonaws.com/affiliate-img.docomo.ne.jp/banner/
 ||amazonaws.com/api/AffiliateLinkGenerator
+||amazonaws.com/app.apk?id=$document
 ||amazonaws.com/image-af-next-com/$third-party
 ||amazonaws.com/luxa/banner/$domain=nishinippon.co.jp
 ||ambassador-system.mercari.com^$domain=alfalfalfa.com
