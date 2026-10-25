@@ -886,6 +886,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics/pageview
 /analytics/rakuten.js
 /analytics/searches?
+/analytics/trackImpressions
 /analytics/track_event/*
 /analytics/tracker.js
 /analytics/trackers?
@@ -5472,6 +5473,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||sparrow.paramountplus.com/streamer/$xhr,1p
 @@||spclient.wg.spotify.com/$xhr,domain=spotify.com
 @@||speed.cloudflare.com/__log$~third-party
+@@||speedcubeshop.com/cdn/shopifycloud/consent-tracking-api/v*/consent-tracking-api.js$1p
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||sphinx.tongdun.net^$domain=hainanairlines.com
@@ -6004,6 +6006,7 @@ forum.dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 foundit.*##+js(set, freshpaint, {})
 foundit.*##+js(set, freshpaint.track, noopFunc)
 frogogo.ru##+js(aopw, ADMITAD)
+funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, as, function)
 furucombo.app##+js(rmnt, script, /join\(\"\"\)/)
 futura-sciences.com##+js(set, pa, {})
 futura-sciences.com##+js(set, pa.privacy, {})
@@ -13039,6 +13042,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||api.tv.de/*/tracking/
 ||api.usestoryteller.com/api/app/activity/recordActivity?
 ||api.useunloq.com/event_management/
+||api.vaile.ai/api/track
 ||api.visitorapi.com^$third-party
 ||api.vk.com/method/statEvents.
 ||api.vp.rambler.ru/events/
@@ -24856,6 +24860,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||go.polen-app.com^
 ||go.porschedrive.com^
 ||go.porscheparkingplus.com^
+||go.portail-assurance.ca^
 ||go.portfoliobyopenroad.com^
 ||go.portugal.innovatedating.com^
 ||go.power.trade^
@@ -29545,6 +29550,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||legitscript.com/seals/$script
 ||lego-tech.zhuanzhuan.com^
 ||lego.com/api/dl-event-ingest
+||lego.com/api/uec/v1/events
 ||lego.zhuanzhuan.com^
 ||legolas-media.com^$third-party
 ||legolas.monotote.com^
@@ -38197,6 +38203,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pingo.staticmoly.me^
 ||pingomatic.com^$third-party
 ||pingometer.com^$third-party
+||pingprove.com^
 ||pings.conviva.com^
 ||pings.vidpulse.com^
 ||pingsurvey.com^
@@ -38293,6 +38300,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pixel.poptok.com^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
+||pixel.quantserve.com^
 ||pixel.redgifs.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -39064,6 +39072,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||proxima.midjourney.com^
 ||proxy.dzeio.com^
 ||proxy.trysavvy.com^
+||proxyhog.com^
 ||prprocess.com^$third-party
 ||prtracker.com^$third-party
 ||prudential.distribution.team.prudential.co.uk^
