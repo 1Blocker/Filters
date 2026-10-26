@@ -157,7 +157,7 @@
 $script,third-party,denyallow=cdn77.org|fc2.com|googleapis.com|llnwd.net,domain=motimoti3d.jp
 $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 &p=*&_mi|$document,domain=top
-*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|alicdn.com|zeala.link,_____,domain=viki.ja-jp.nina.az|uraaka-joshi.com|rawkuma.net|rawjx.net|rawmiu.net|rawkuro.net|momon-ga.com
+*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com|alicdn.com|zeala.link,_____,domain=viki.ja-jp.nina.az|rawkuma.net|rawjx.net|rawmiu.net|rawkuro.net|momon-ga.com
 *ad.durasite.net^$third-party
 -co-jp-*.*/$document,domain=cfd|sbs|site
 -co-jp.*.*/$document,domain=cfd|sbs|site
@@ -1097,6 +1097,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=logworker.net
 @@||pagead2.googlesyndication.com/pcs/activeview$domain=allmovie.com|allmusic.com
 @@||passnaviad.durasite.net/A-affiliate2/multiMobile?keywords=netApply_$domain=passnavi.obunsha.co.jp
+@@||pcforum.biz/abp/adblock_detector.js
 @@||pdn.adingo.jp/asset/close-interstitial.svg$domain=dailynewsonline.jp
 @@||pdn.adingo.jp/p.js$domain=contents-group.work
 @@||pia.jp/uploads5/files/*/300_250.$image,domain=moppy.jp
@@ -3318,9 +3319,12 @@ deneblog.jp##.intro > center > a[href^="https://www.rs-shop.co.jp/"]
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img
 deneblog.jp#?#.plugin1_outline:contains(スポンサーバナー)
 dengekionline.com##.histora-top-banner
+dengekionline.com##div[class$="rectangleBanner"]
 dengekionline.com##div[class*="CommonParts_underArticle_"]:has(a[href^="https://link.amazon"])
+dengekionline.com##div[class^="ArticleDetailBody-"][class$="_buttonList"]:has(> a[data-event-click="button_amazon"])
 dengekionline.com##div[class^="ArticleDetailBody_buttonSideBySide_"] > a[class*="ArticleDetailBody_buttonForEC"]
 dengekionline.com##div[class^="CommonParts_commonPartsContainer_"][class*="CommonParts_underArticle_"]:has(> div > div[style] div[style] > div[style$="text-align: center"] > a[href*="//ck.jp.ap.valuecommerce.com"])
+dengekionline.com##div[class^="InLead-"]
 dengekionline.com##div[class^="InLead_wrapper_"]
 dengekionline.com##div[class^="MediaScrum"]
 dengekionline.com##div[class^="Overlay_wrapper"]
@@ -3329,6 +3333,7 @@ dengekionline.com##div[class^="SecondRectangle"]
 dengekionline.com##div[class^="TopHeaderBanner_wrapper"]
 dengekionline.com##div[id^="article-body-"] > div#header-1 > div[class*="CommonParts_underBanner"]
 dengekionline.com##div[id^="dol_all_"]
+dengekionline.com##section[class$="_preContent"]
 dengekionline.com#$#.gPr.u-mtbM { margin-top: 0 !important; }
 dengekionline.com#$#.gPr_title.u-ttl01 { margin-top: 0 !important; }
 dengekionline.com#$#.p-dol .gNews_title.u-ttl01 { margin-top: 0 !important; }
@@ -3775,8 +3780,6 @@ erogamemod.com##.custom-box3
 erogamemod.com##.eroga-widget
 erogamemod.com##div[id^="eroga-"]
 erogamescape.org,erogamescape.dyndns.org###adv_dmm_main
-erogamescape.org,erogamescape.dyndns.org###nav_1 > .menu > div:last-child:has(a[href^="https://al.dmm.co.jp"] > img)
-erogamescape.org,erogamescape.dyndns.org###nav_1 > .menu > h2:has(+ div a[href^="https://al.dmm.co.jp"] > img)
 erogamescape.org,erogamescape.dyndns.org###toContents + div[style="margin-bottom: 20px;"]
 erogazoo.net###t_area > ul > li:has(> a[title^="[PR]"])
 erogazoo.net###top_pr
@@ -6478,11 +6481,6 @@ lv73.net###広告-ad
 lv73.net##.amazon-ko-ko-ku
 lv73.net##.ko-ko-ku-area
 lv73.net##div[id^="ad-blocker-"]
-lyrical-nonsense.com##.matchedsidebarhome
-lyrical-nonsense.com##.playblockaptp
-lyrical-nonsense.com##.playblockbtmcon
-lyrical-nonsense.com##.playblocktop
-lyrical-nonsense.com##div[class^="responsive"][class$="inc"]
 lyrical-nonsense.com#?#.lyricside > span.ezoic-ad:upward(1)
 m-apps.qoo-app.com##.tpa-box
 m-s-y.com##.adsense-in-article
@@ -6794,6 +6792,7 @@ melos.media##div[style="margin: 20px auto 20px; text-align: center; min-height: 
 melty-novel.com##.ams-place
 member.toremaga.com###ar_w655px
 memo.appri.me##.memomaru_ads
+memo.wiki#?#.sidecolumn .free-box:contains(/\bAD\b/)
 memo.wiki,addchannel.net,beasoku.com,kakenhi.net,seesaa.net#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'interstitialAd')
 memorva.jp###gads_p_bottom
 memorva.jp###gads_p_top
@@ -7421,6 +7420,8 @@ news.j-wave.co.jp##.adSet
 news.jorudan.co.jp##.ad_common_4_300x250
 news.jorudan.co.jp##div[class*="ad_index"]
 news.jorudan.co.jp#$#.ad_common_1_970x250 { min-height: 0 !important; }
+news.jp##.postFeed__item--ad
+news.jp##div[style^="min-width:"]:has(> .fundit-ad-placeholder)
 news.jp,nordot.app##.listPage__ad
 news.jp,nordot.app##.main__ad
 news.ksb.co.jp##div[style="text-align: center; display: flex; justify-content: center;"]
@@ -9019,7 +9020,9 @@ soccerdigestweb.com##.right_ad_c
 soccerdigestweb.com##.towcolumnBan_area
 socialxup.com##.bg-\[\#f7faff\] > div.relative.max-w-5xl:has(> div > a[href="https://xdepot.link/products"])
 socialxup.com##.mt-8:has(> a[href="https://xdepot.link/products"])
+socialxup.com##.relative.overflow-hidden:has(> div.mx-auto > section[class] > div.space-y-2 > a[href="/go/products"])
 socialxup.com##a[data-track^="xdepot_promo"]
+socialxup.com##a[href="/go/products"]
 socialxup.com##aside div.items-center:has(> a[data-track^="xdepot_promo"])
 socialxup.com##section[aria-labelledby="compact-operation-showcase-heading"]:has(> div.relative a[href="https://xdepot.link/products"])
 socialxup.com#%#//scriptlet('json-prune', 'vd')
@@ -9790,10 +9793,6 @@ univ-journal.jp##.addSpace336
 univ-journal.jp##.widget-sidebar:first-child > div.custom-html-widget:first-child
 uptodate.tokyo,reliphone.jp,bright-b.com,sikopedia.com,saitoshika-west.com,otaku-sheepwolf.com,kowakunotsubo.com,kisetsumimiyori.com,matome.eternalcollegest.com###fixed_sidebar
 ura-akiba.jp##.sidebar > div.rankcontainer[id^="hot_"]
-uraaka-joshi.com#%#//scriptlet('prevent-addEventListener', 'playing', 'VAST_TARGET')
-uraaka-joshi.com#%#//scriptlet('prevent-window-open')
-uraaka-joshi.com#?##main-block > .grid > div[class^="grid-cell"]:has(iframe[src*="/ad-d/"])
-uraaka-joshi.com#?##pickup-block > .grid:has(iframe[src*="/ad-d/"])
 uranai.nosv.org###brand_ad_block
 uranai.nosv.org#$##navigation[style^="margin-top"] { margin-top: 10px !important; }
 uranai.nosv.org,makitani.net##.ablock
@@ -9838,6 +9837,8 @@ utaten.com##.recommendAdTag
 utaten.com##.tonefuse_music_ad_area
 utaten.com##div[style="text-align: center; min-height: 100px; margin-top: 15px"]
 utaten.com#?#tbody > tr:has(> td > aside.sideBySideBanner)
+utatime.com##.playblocktop
+utatime.com##div[class^="responsive"][class$="inc"]
 uub.jp##.al.f3.fg0
 uub.jp##a[rel="nofollow"] > img[style="width:100%"]
 uwagakisimasuka.blog.fc2.com##.side_plugin:has(.adsbygoogle)
@@ -11743,6 +11744,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||ondigitalocean.app/webC0deinfojphtml/
 ||one.impact-ad.jp^$third-party
 ||onergogogo.com^$all
+||onetag.adnx.jp^
 ||open.open2ch.net/test/ad.cgi/
 ||oppai-doga.info/wp-content/themes/opid/js/pcad.
 ||oppai-doga.info/wp-content/themes/opid/js/spad.
@@ -12061,8 +12063,6 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||umanity.jp/increment_ad_show_count
 ||unddeliv.com^$all
 ||ura-akiba.jp^$subdocument
-||uraaka-joshi.com/ad-$subdocument
-||uraaka-joshi.com/json/ad-
 ||urasma.com^$subdocument
 ||uratv.net/wp-content/uploads/2023/02/tube.png
 ||utamap.com/banner/banner_stand_bana.jpg

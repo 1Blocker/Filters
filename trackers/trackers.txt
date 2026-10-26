@@ -5875,6 +5875,7 @@ biologianet.com##+js(set-constant, __configuredDFPTags, {})
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 bluerabbitrx.com##+js(set, _etmc, {})
 bluerabbitrx.com##+js(set, _etmc.push, noopFunc)
+bol.com##+js(json-edit-fetch-request, $[?.operationName=="sendExperimentMeasurementReferences"].*, propsToMatch, /graphql)
 bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 book.trivago.com##+js(set, RISKX, {})
 book.trivago.com##+js(set, RISKX.go, noopFunc)
@@ -15101,6 +15102,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||behance.net/v2/logs
 ||behave.sn.at^
 ||behavioralengine.com^$third-party
+||beholdthyson.com^
 ||bekannt-im-web.de^$third-party
 ||belboon.de^$third-party
 ||beliebtestewebseite.de^$third-party
@@ -15523,6 +15525,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||boingtv.fr/track_view
 ||bokecc.com/flash/timerecorder?
 ||bol.com/click/
+||bol.com/rs/v*/batch|
 ||bol.com/tracking/
 ||boldbars.com^
 ||boldem.cz^$third-party
@@ -38225,6 +38228,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pipelinepub.actonservice.com^
 ||piper.amocrm.ru^
 ||pippio.com^
+||pipsgain.com^
 ||piq4.inseec.education^
 ||piquantgrove.com^
 ||piquantmeadow.com^
