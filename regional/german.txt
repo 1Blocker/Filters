@@ -692,6 +692,9 @@
 4p.de##.type-post.post-has-image:has(.sponsor-label)
 4p.de##.wp-block-column:has(> .wp-block-newspack-blocks-homepage-articles:only-child > div:only-child > article[class*="newspack_spnsrs_tax"]:only-child)
 4p.de##article[class*="newspack_spnsrs_tax"]
+4p.de##div[class^="contentAd"]
+4p.de#$#.entry-content > aside:has(div[class^="contentAd"]) { display: none !important; }
+4p.de#$#article > div.entry-content { grid-template-columns: none !important; }
 4p.de,softselect.de,telepolis.de,finanzen.net,mainfranken24.de,jetzt.de,derwesten.de,eurosport.de,ingenieur.de,heise.de,ww-kurier.de,1prospekte.de,stadtlandflussonline.net,chefkoch.de,vogue.de,tripadvisor.de,3c.web.de,thueringen24.de,pfaffenhofen-today.de,holidaycheck.de,berlin.de,fuw.ch,allgemeine-zeitung.de,schlaukopf.de,schwarzwaelder-bote.de,aachener-zeitung.de,hamburg.de,sat1.de,abendzeitung-muenchen.de,dfb.de,gamestar.hu,ikz-online.de,nrz.de,stimme.de,waz.de,wiesbadener-kurier.de,wiesbadener-tagblatt.de,wp.de,wr.de##.ad
 5-sms.com##.smsbox1
 5-sms.com##.smsbox2
@@ -736,8 +739,8 @@
 @@||a.bf-ad.net/adengine/fff/adengine.js$domain=fitforfun.de
 @@||a.bf-ad.net/makabo/ads_fol_init.js$domain=chip.de
 @@||a.pemsrv.com/ad-provider.js$domain=xvideos.es
-@@||a.pub.network/core/imgs/1.png$domain=globe.adsbexchange.com|hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com|myabandonware.com|gamerescape.com|knowt.com|lse.co.uk|thenation.com|smithsonianmag.com|flightconnections.com|adsoftheworld.com|camelcamelcamel.com|emojipedia.org|boingboing.net|flightaware.com|pc-builds.com|fragrantica.*|newrepublic.com|wenxuecity.com|aerowitter.com|aerolla.net|box.live|neowin.net|online-python.com|forums.hfboards.com|latribuna.hn|flightsim.to
-@@||a.pub.network/core/prebid-universal-creative.js$domain=globe.adsbexchange.com|hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com|myabandonware.com|gamerescape.com|knowt.com|lse.co.uk|thenation.com|smithsonianmag.com|flightconnections.com|adsoftheworld.com|camelcamelcamel.com|emojipedia.org|boingboing.net|flightaware.com|pc-builds.com|fragrantica.*|newrepublic.com|wenxuecity.com|aerowitter.com|aerolla.net|box.live|neowin.net|online-python.com|forums.hfboards.com|latribuna.hn|flightsim.to
+@@||a.pub.network/core/imgs/1.png$domain=globe.adsbexchange.com|hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com|myabandonware.com|gamerescape.com|knowt.com|lse.co.uk|thenation.com|smithsonianmag.com|flightconnections.com|adsoftheworld.com|camelcamelcamel.com|emojipedia.org|boingboing.net|flightaware.com|pc-builds.com|fragrantica.*|newrepublic.com|wenxuecity.com|aerowitter.com|aerolla.net|box.live|neowin.net|online-python.com|forums.hfboards.com|latribuna.hn|flightsim.to|vsco.co
+@@||a.pub.network/core/prebid-universal-creative.js$domain=globe.adsbexchange.com|hostednovel.com|getemoji.com|concertarchives.org|mouse-sensitivity.com|thisisanfield.com|titantv.com|baeldung.com|creaders.net|virtualpiano.net|phoronix.com|androidheadlines.com|myabandonware.com|gamerescape.com|knowt.com|lse.co.uk|thenation.com|smithsonianmag.com|flightconnections.com|adsoftheworld.com|camelcamelcamel.com|emojipedia.org|boingboing.net|flightaware.com|pc-builds.com|fragrantica.*|newrepublic.com|wenxuecity.com|aerowitter.com|aerolla.net|box.live|neowin.net|online-python.com|forums.hfboards.com|latribuna.hn|flightsim.to|vsco.co
 @@||a.publir.com/platform/ads.js|
 @@||a.realsrv.com/ads.js$domain=pornone.com
 @@||aachener-nachrichten.de/*/imges
@@ -2214,7 +2217,7 @@ basicthinking.de##.widget-post:has(.widget-p-listing > .p-wrap:only-child a[href
 basicthinking.de##img[width="500"][height="500"]
 basicthinking.de##img[width="600"][height="500"]
 basicthinking.de##img[width="600"][height="600"]
-basicthinking.de,buecher-magazin.de,eishockey-magazin.de,eishockey-online.com,fotoobjektiv.at,iplayapps.de,meinbezirk.at,nacktefoto.com,pi-news.net,radforum.de,radio-oldtimer.de,radioschwaben.de,radiotirol.it,silentworld.eu,suedtirol1.it,tarnkappe.info##img[width="300"]
+basicthinking.de,buecher-magazin.de,eishockey-magazin.de,eishockey-online.com,fotoobjektiv.at,iplayapps.de,meinbezirk.at,nacktefoto.com,pi-news.net,radforum.de,radio-oldtimer.de,radioschwaben.de,radiotirol.it,silentworld.eu,suedtirol1.it##img[width="300"]
 bastel-elfe.de##a[href^="banners.php?"]
 bauernzeitung.at##.tdi_59
 bauernzeitung.at,krautundrueben.de,lokalo.de,marktindex.ch##.td-header-rec-wrap
@@ -3111,7 +3114,6 @@ derstandard.at,derstandard.de##.tile-ad
 dervinschger.it##a[id="bottombanner"]
 derwesten.de##.madvertise
 derwesten.de##.promotion
-derwesten.de##div[class^="contentAd"]
 derwesten.de##div[class^="contentAd-"]
 designtagebuch.de##.anzeige-links
 designtagebuch.de##.billbo
@@ -3777,7 +3779,6 @@ fla.de##div[id^="cncpt-dsk_"]
 flaconi.de##[data-product-list-id]:has([data-badge-type="sponsored"])
 flashfussball.de##div[id^="zoneContainer-"]
 flensburger-stadtanzeiger.de##.ce_sliderStart
-flightsim.to,latribuna.hn,forums.hfboards.com,online-python.com,neowin.net,globe.adsbexchange.com,box.live,aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,fragrantica.*,pc-builds.com,flightaware.com,boingboing.net,emojipedia.org,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#@$#body > div.ad.banner-ad.ad-siderail.stickyads[data-freestar-ad][style]:not(#style_important) { display: block !important; }
 floatmagazin.de##.float-widget
 floatmagazin.de##.partners-title + .partners
 flugmodell-magazin.de,trucks-and-details.de##.sidebar_partners
@@ -7777,29 +7778,11 @@ tagesspiegel.de#?#article div[class^="Ib"]:has(> div[id^="iqadtile"])
 tanke-guenstig.de##.ce_weba
 tarnkappe.info###adblock-check-overlay
 tarnkappe.info###anti-adblock-modal
-tarnkappe.info###custom_html-121
-tarnkappe.info###custom_html-126
-tarnkappe.info###custom_html-127
-tarnkappe.info###custom_html-132
-tarnkappe.info###custom_html-143
-tarnkappe.info###custom_html-144
-tarnkappe.info###custom_html-145
-tarnkappe.info###desktop_understitial
-tarnkappe.info###halfpage
-tarnkappe.info###media_image-10
-tarnkappe.info###top_0
 tarnkappe.info##.container .is-one-third:has(a[href^="https://"][target="_blank"])
 tarnkappe.info##.content > div[style]:has(> a[href^="https://sc.tarnkappe.info"])
 tarnkappe.info##.desktop-only:has(> .around-desktop-ad:only-child)
 tarnkappe.info##.tarnads_general
-tarnkappe.info##a[href*=".rokkr.net/promo/"]
-tarnkappe.info##a[href*="/hide.me/de/?friend="]
-tarnkappe.info##a[href*="/prf.hn/click/"]
-tarnkappe.info##a[href*="?sca_ref="]
-tarnkappe.info##a[href^=" https://www.bit.ly/"]
-tarnkappe.info##a[href^="https://hide.me/de/promotion/"]
 tarnkappe.info##div.is-multiline > div.is-one-third:has(> div.banner-post)
-tarnkappe.info##div[style="width:300px;height:250px"]
 tarnkappe.info##section.desktop-only:has(> div.around-desktop-ad)
 tarnkappe.info##section[class="desktop-only"][style^="clip-path: inset(0); min-width:"]
 tarnkappe.info#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'checkingOverlay')
@@ -8230,6 +8213,7 @@ vox.de##div:not(.voxde-masonry) > .voxde-medium-rectangle
 vox.de#$#.voxde-masonry > .voxde-medium-rectangle { left: -9999px!important; top: -9999px!important; }
 vox.de,vip.de##.ada-preservespace
 vpntester.org##.pupop-wrapper
+vsco.co,flightsim.to,latribuna.hn,forums.hfboards.com,online-python.com,neowin.net,globe.adsbexchange.com,box.live,aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,fragrantica.*,pc-builds.com,flightaware.com,boingboing.net,emojipedia.org,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org#@$#body > div.ad.banner-ad.ad-siderail.stickyads[data-freestar-ad][style]:not(#style_important) { display: block !important; }
 vsport.at###c17
 vsport.at##.ad1
 vsport.at##.ad2
@@ -11212,8 +11196,6 @@ zwischengas.com##.zgsky
 ||xnxx-porno.com/img/linklist2/
 ||xnxx-pornos.com^*==/
 ||xnxx-sexfilme.com^*==/
-||xtreff69.com^$popup
-||xtreff69.com^$third-party
 ||xup.in/com/pop.
 ||xup.to^$domain=raidrush.ws
 ||xxx-amateur.eu/banner/
