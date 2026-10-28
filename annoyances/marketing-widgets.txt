@@ -113,6 +113,9 @@ gall.dcinside.com##.dctrend_ranking
 gall.dcinside.com##.r_dcmedia
 gamesindustry.biz##iframe.jobs-widget
 getnews.jp,front-row.jp##._popIn_recommend
+golem.de##.go-embed-container:has(> div:only-child > iframe[data-tally-src])
+golem.de##iframe[data-tally-src]
+golem.de#?#.go-embed-container:has(> .go-embed-consent:only-child > p:contains(tally.so))
 goodprice4you.ru##.call-order
 gryadki.com###light_comment
 hdfcbank.com###chatTogglerDiv
@@ -444,6 +447,7 @@ zakzak.co.jp###main-column > .lazyload-wrapper:has(> header + .story-card-feed >
 ||static.quiq-cdn.com/webchat/$third-party
 ||support-widget.nakanohito.jp^$domain=jre-travel.com
 ||svoe.guru/_*.php|
+||tally.so/embed^$third-party
 ||tariffuxx.de^$third-party
 ||tars-file-upload.s*.amazonaws.com/bulb/js/widget.js$domain=healthians.com
 ||tforms.fcc-online.pl/public/widget.js

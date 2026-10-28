@@ -2336,6 +2336,7 @@ $script,third-party,domain=lafa-site.com
 @@||pb-story.playbuzz.com/trivia/production/*/trivia-viewer*.js$domain=cadelta.ru
 @@||pc-radio.ru^$generichide
 @@||pcforum.biz/abp/adblock_detector.js
+@@||pdalife.ru/advertisement.js
 @@||peers.tv/cnplayer/imasdk/*.js$xmlhttprequest
 @@||peers.tv/jwplayer/ariver/plugin.swf$domain=peers.tv
 @@||pekarstas.com/static/img/cards/
@@ -4788,7 +4789,9 @@ esosedi.org##.adUnderNav
 esosedi.org##div[id^="adf_adv"]
 esp8266.ru#?#.p-body-inner > ul:has(> li > div.notice-content > a[href="https://jlcpcb.com/"])
 esp8266.ru,neurohive.io##a[href^="https://go.acstat.com/"] > img
+esports.ru##[class]:has(> div[class] > a:is([href^="https://pari.ru/"], [href^="https://tracker.partnersmelbet.ru/"]))
 esports.ru##div[data-name^="ads/"]
+esports.ru##main div.flex-col:has(> div.js-catfish-close)
 espreso.tv##.articleContent > div.recomendation_list + h2[class="block-title"][style="float: left;"]
 espreso.tv#$##adriver_banner_content_wrap { width: 100%!important; }
 espreso.tv#$#header > div.tb { height: 1px!important; }
@@ -7705,6 +7708,7 @@ me.fo##.adv_big
 meat-expert.ru##.banners-row
 meat-expert.ru##.top_banner_wrap
 meat-expert.ru#?#.ipsList_reset > li.ipsWidget:has(> div.banner-block)
+meat.bluesystem.me##tr:has(> td > a[target="_blank"][href$=".php"])
 med.vesti.ru##.sb-banner
 medbrowse.com.ua##.list > li.apteka:not([id])
 medi.ru##.topblocks
@@ -13119,7 +13123,6 @@ ya.ru##.main-home-banner
 ya.ru##.mini-suggest__popup-content > div.mini-suggest__group_layout_separated:has(> div > a[target="_blank"])
 ya.ru##[id^="search-"] > [data-fast="2"]
 ya.ru##aside[aria-label="Блоки информации"] + div[class*="-"]:has(> div > div[class*="content"] > div[class*="_state_"] > button[aria-label="Действия с рекламой"])
-ya.ru##div[data-hydration-id] > style + div[style^="--image-aspect-ratio:"]
 ya.ru##form[role="search"] div[id^="suggest-list-"] > div[class*="__group "]:has(> div[data-suggest-counter] [data-clps-id] > div[class$="__item-warning_disclaimer"])
 ya.ru##ul[id] > li[class*="Organic"]:has(> div.Root div[class*="-HeaderAd"] > span)
 ya.ru,yandex.*###search-result > [class]:has(> div.Organic > div a[href*="_crpd"])
@@ -13139,6 +13142,7 @@ ya.ru,yandex.*##.mini-suggest__popup-content > li > a[target="_blank"]
 ya.ru,yandex.*##.serp-list > div.incut
 ya.ru,yandex.*##.services-feed > div[style^="--height-ratio:"]
 ya.ru,yandex.*##.services-feed_banner_yes
+ya.ru,yandex.*##div[class^="main-home-"] > div[style^="--image-aspect-ratio:"]
 ya.ru,yandex.*##div[id^="search-"] div[style="width:240px"]
 ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="http://yabs."][href*="/count/"]
 ya.ru,yandex.*##div[id^="suggest-item"] > a[href^="http://yandex"][href*="/clck/"]
@@ -14016,6 +14020,7 @@ zz.te.ua##div[class^="advads"]
 ||antimuh.ru/includes/js/2d8289.js
 ||antistarforce.com/js/
 ||antonovsad.ru/banner/
+||antonshipanov.org^
 ||anyfiles.ru^$third-party
 ||apa.az/iframe/*frame*.html
 ||api.*.apress-barmen.ru/rotating/banners/
@@ -14290,6 +14295,7 @@ zz.te.ua##div[class^="advads"]
 ||bngtrak.com^$all
 ||bnkirov.ru/files2/banner/
 ||bnkomi.ru/banners/
+||bns.bluesystem.world^
 ||bnstero.com^$third-party
 ||bobfilm.club/vast_banner_wndb.xml
 ||bobi-bobi.info^$third-party
@@ -18361,6 +18367,7 @@ zz.te.ua##div[class^="advads"]
 ||zzfoms.com^
 ~absoluteradio.co.uk###ad3
 ~academics.de###ad_container
+~accuweather.com,~flickr.com###banner-wrap
 ~airpano.com,~airpano.ru###banner_container
 ~amnestyusa.org,~drownedinsound.com###ad_wrapper
 ~assetbar.com##.ad-button
@@ -18386,7 +18393,6 @@ zz.te.ua##div[class^="advads"]
 ~facebook.com,~japantoday.com###sidebar_ads
 ~filecheck.ru###contentAd
 ~filmz.ru##.bottombanner
-~flickr.com###banner-wrap
 ~flickr.com###promo-ad
 ~fotonews.join.ua###adriver_banner
 ~hgh14x.com,~bipbip.co.il##.adlist
