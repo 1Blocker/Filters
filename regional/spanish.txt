@@ -271,7 +271,6 @@ $third-party,script,domain=mangatigre.com
 @@/js/prebid-ads.js$domain=files.fm|file.fm
 @@/servicios/ads/dfp.js$~third-party,domain=diaridegirona.cat|diariodeibiza.es|diarioinformacion.com|emporda.info|laopinioncoruna.es|laopiniondemalaga.es|laopiniondemurcia.es|laopiniondezamora.es|laprovincia.es|mallorcazeitung.es|regio7.cat|superdeporte.es
 @@/wp-content/themes/wp-mason/static/js/ads.js$~third-party
-@@||10.com.au/static/ads.js
 @@||10play.com.au/static/ads.js
 @@||1point3acres.com^$generichide
 @@||3xyaoi.com^$generichide
@@ -1703,6 +1702,8 @@ diario.iol.pt###frase2
 diario.mx##.publicidad_basica
 diario.mx##amp-img[width="200"][height="77"]
 diariobitcoin.com##div[class^="diari-"]
+diariocoimbra.pt##.dc-pub
+diariocoimbra.pt##.header-helper > div.ct-div-block:has(> a[target="_blank"] > img)
 diariocoimbra.pt##.moduletable_publicidade
 diarioconvos.com##.desktop
 diariodegoias.com.br#%#//scriptlet("abort-on-property-read", "ppAdblocks")
@@ -1805,6 +1806,9 @@ donghualife.com#?#aside > div[id^="block"]:has(> .adsbygoogle)
 donghualife.com#?#aside > div[id^="block"]:has(> p > .adsbygoogle)
 donghuas.top#$#body > #content { padding-bottom: 0 !important; }
 donghuas.top#?##sidebar > .section:has(> .releases > h3:only-child:contains(/^Ads$/))
+doramaexpress.com,yandispoiler.net#%#//scriptlet('set-constant', 'YanConfig.gate_server.enabled', 'false')
+doramaexpress.com,yandispoiler.net#%#//scriptlet('set-constant', 'YanConfig.hero_links_active', 'false')
+doramaexpress.com,yandispoiler.net#%#//scriptlet('set-session-storage-item', 'yan_hero_ad_shown', '1')
 doramashd.com##.contentt
 doramashd.com,erohentai.net###floatLayer2
 doramasmp4.com##body > a[href^="https://bit.ly/"][target="_blank"][id]
@@ -5377,6 +5381,7 @@ zubby.com##.recommended-widget
 ||logs.eresmas.com^$third-party
 ||lomadee.com^$third-party
 ||lura.live/vod/vast.info
+||lycantoons.com/api/spotlight|
 ||lyricslocusvaried.com^$third-party
 ||lzrikate.com^$third-party
 ||madridpress.com/anuncios/

@@ -679,7 +679,7 @@
 4investors.de##.lynxanzeige + .lynxcontainer
 4investors.de##.mittig
 4investors.de##.report-description:has(> div[id^="4investors_bb_"])
-4kfilme.de###tdi_39
+4kfilme.de###kb-top-row
 4kfilme.de###tdi_51
 4kfilme.de###tdi_57 + #tdi_62
 4kfilme.de##.tdi_104
@@ -725,7 +725,6 @@
 @@/public/*/img/*$domain=live.vodafone.de
 @@/wp-content/themes/wp-mason/static/js/ads.js$~third-party
 @@andads.com/*/ad-*.bmp
-@@||10.com.au/static/ads.js
 @@||10play.com.au/static/ads.js
 @@||1point3acres.com^$generichide
 @@||20min.ch^$generichide
@@ -2193,6 +2192,9 @@ babycenter.de##.rightRailAdWrapper
 back-intern.de###StyleTM-TopBanner
 back-intern.de##.StyleTM-PartnerImages
 back-intern.de#?#.cm-post-widget-three.cm-post-widget-section:has(.section-title:contains(Partner))
+backenmachtgluecklich.de##.qmn-ad
+backenmachtgluecklich.de##div[id^="hpa_ad_"]
+backenmachtgluecklich.de#$?#div[id^="hpa_ad_"] { remove: true; }
 badenertagblatt.ch,basellandschaftlichezeitung.ch,limmattalerzeitung.ch,solothurnerzeitung.ch,grenchnertagblatt.ch,oltnertagblatt.ch#$#.az-iso--adblockerBlocker { display: none!important; }
 badenertagblatt.ch,basellandschaftlichezeitung.ch,limmattalerzeitung.ch,solothurnerzeitung.ch,grenchnertagblatt.ch,oltnertagblatt.ch#$#.az-iso-component > footer { display: block!important; }
 badenertagblatt.ch,basellandschaftlichezeitung.ch,limmattalerzeitung.ch,solothurnerzeitung.ch,grenchnertagblatt.ch,oltnertagblatt.ch#$#.blockedContainer { display: block!important; }
@@ -2548,6 +2550,7 @@ borncity.com#?#body.home.page > #page > #main > #primary > #content > article.pa
 borussia.de##.bmg-ad
 bottrop.de##.SP-Ad
 box.blick.ch##div:has(> div[id*="-MR"])
+box.blick.ch#?#.box:has(.box__title:contains(Anzeige))
 boxofficeworldwide.com,onlinewarnungen.de##body > aside.mh-container.mh-header-widget-1
 boxverband.at##.slick-track
 braunschweiger-zeitung.de##.collapsable__content > small[style="color: #999; margin-bottom: 5px;"]
@@ -3023,8 +3026,10 @@ data-load.*##.p-body-sidebar > div.block:not([data-widget-key])
 data-load.*##center > a[target="_blank"] > img
 data-load.*#%#//scriptlet('set-cookie', '_xflora', '1')
 data-load.*#?#.p-body-sidebar > div.block:has(> div.block-container > div.block-body > center > a[target="_blank"] > img[src*="partner/"])
+data-load.me##.block-container:has(a[href^="/partner/"])
 data-load.me##.rozdzielnik:has(> div > div.ad-banner)
 data-load.me##article.js-post ~ div[style="text-align:center; margin:15px 0;"]
+data-load.me##div > a[href^="https://vennetv.shop/"]
 data-load.me##img[style="width:270px;height:80px;"]
 data-load.me##img[style="width:700px;height:90px;"]
 data-load.me##img[style="width:900px;height:120px;"]
@@ -6412,7 +6417,6 @@ pedelecforum.de###pedelecforum\.de_mpu_bot
 pedelecforum.de,toyota-forum.de##.fh-sidebar-top
 perfektdamen.co###hat_message
 perfektdamen.co##.adv_block
-perfektdamen.co##.banner-wrapper
 perfektdamen.co##.promo__item
 perlenvombodensee.de##[class^="perle-"]
 persoblogger.de##img[width="370"]
@@ -6448,6 +6452,7 @@ photovoltaikforum.com#%#//scriptlet("set-constant", "adblockDisabled", "true")
 photovoltaikforum.com#%#//scriptlet("set-constant", "cwAdblockDisabled", "true")
 photovoltaikforum.com#%#//scriptlet("set-constant", "cwAdblockDisabled2", "true")
 photovoltaikforum.com#?#ul.wbbThreadPostList > li:not([class]):has(> .wcfAdLocation)
+photovoltaikforum.com,waermepumpenforum.com#?#.message:has(.messageSidebar:contains(Anzeige))
 php.de##div[class^="ad_header"]
 physio-deutschland.de###ads
 physio-deutschland.de###partners-right
@@ -8049,6 +8054,7 @@ tvspielfilm.de#?#.info-table > tbody > tr:not([class]):has(> td > .desktop_banne
 tvspielfilm.de,tvtoday.de,chip.de,focus.de#%#//scriptlet('set-constant', '__gv_hdInited', 'true')
 tvtoday.de###Netflix
 tvtoday.de##.banner-container
+tvtoday.de##.banner-wrapper
 tvtoday.de##.smartphone_banner_sticky
 tvtoday.de##a[href^="https://www.vicampo.de/"]
 tweakpc.de###wpl
@@ -9873,6 +9879,7 @@ zwischengas.com##.zgsky
 ||images.finanzen.net/images/b_realtime/hsbctopflop.gif
 ||images.finanzen.net/images/b_realtime/ubsrealtime.png
 ||images.finanzen.net/mediacenter/unsortiert/hsbc-banner-zerti-wissen-by-hsbc.jpg
+||images.literatur-couch.de^$script
 ||images.t-online.de/*/*/*/*.png$script,important
 ||imagesrv.adition.com/js/srp.js$important,domain=spiegel.de
 ||imasdk.googleapis.com^$domain=autobild.de

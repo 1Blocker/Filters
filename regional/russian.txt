@@ -1466,6 +1466,8 @@ $script,third-party,domain=lafa-site.com
 24tv.ua##.no-ad-block
 24tv.ua##app-adv-skeleton
 24tv.ua##div.video-dv-wrapper
+24tv.ua##div[app-ad]
+24tv.ua##div[app-article-ita]
 24tv.ua##div[class^="adv"]
 24tv.ua##div[class^="b_reklama"]
 24tv.ua##div[style^="min-height: 250px; margin-bottom: 50px;"]
@@ -1474,6 +1476,7 @@ $script,third-party,domain=lafa-site.com
 24tv.ua#$?#.publications-wrapper > div.row > div[class*="partner-block-"] { remove: true; }
 24tv.ua#$?#.publications-wrapper > div[class] > div.column:has(> div.news-card > div.news-box-wrapper > div[id^="div-gpt-ad-"]) { remove: true; }
 24tv.ua,football24.ua##app-video-adv-block
+24tv.ua,rayon.in.ua##.banner-slot-container
 24video.*##.xb-wrapper
 24video.*##a[class$="-landing-page-link"]
 24video.*##a[href][target][style]
@@ -1813,7 +1816,6 @@ $script,third-party,domain=lafa-site.com
 @@smiimg.dt00.net/smi
 @@||003.ru/?level=liger&ajax=$document
 @@||1-ps.googleusercontent.com/hk/$domain=5.ua
-@@||10.com.au/static/ads.js
 @@||10play.com.au/static/ads.js
 @@||1plus1.video/static/pubads.ad^
 @@||1point3acres.com^$generichide
@@ -9973,7 +9975,6 @@ rasp.yandex.*##.ThreadLayout__topDirect
 rating-avto.ru##.small-sale-with-img
 rating-avto.ru##div[style$="text-align:center;"] > div[class^="best-prices"]
 rau.ua##.rau-header-slider-wrap
-rayon.in.ua##.banner-slot-container
 rayon.in.ua##.body-typical__slider
 razlozhi.ru##a[href="https://puzzleheap.ru/"][target="_blank"]
 razlozhi.ru##body > span[class][id][style="min-height: auto;"]
@@ -10685,6 +10686,9 @@ sergeydolya.livejournal.com##.bf
 serialbox.org##.sb-link
 serialbox.org#$#body { background: none!important; padding-top: 0!important; }
 serialno.tv#$#body { padding-top: 0 !important; }
+sersoap.ru,zseek.ru#$#body { background-image: none !important; }
+sersoap.ru,zseek.ru#%#//scriptlet('abort-current-inline-script', '$', 'adOnClick')
+sersoap.ru,zseek.ru#%#//scriptlet('remove-node-text', 'style', 'background-position')
 serveradmin.ru##.elan1
 serveradmin.ru##.to-do-otus-linux-footer
 serveradmin.ru##div[data-ai-tracking] > ins[data-revive-zoid] img
@@ -12596,6 +12600,7 @@ vk.com,vk.ru###feed_rows > div[class="feed_row "]:has(div[class^="PostHeaderTitl
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div.page_block > div._post_content div.ads_ad_snippet)
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div.page_block > div._post_content span.ads_ad_avatar)
 vk.com,vk.ru###feed_rows > div[class^="feed_row"]:has(> div[class*="ads_block_data"])
+vk.com,vk.ru###l_invite_menu_promo
 vk.com,vk.ru###l_invite_promo
 vk.com,vk.ru###system_msg
 vk.com,vk.ru##.ConvoList__scrollbar-content > div[style]
