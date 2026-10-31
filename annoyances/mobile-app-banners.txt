@@ -1477,6 +1477,7 @@ foxford.ru#?#.fox-Paper + div[class^="Spacer__Root-"]:has(> div[class^="styled__
 foxnews.com##.article-wrap a[href*="foxnews."][href$="apps-products"]
 foxnews.com##.article-wrap a[href^="https://www.foxnews.com/apps-products"]
 foxtrot.com.ua##.mobile-app-header-info-banner
+foxtrot.com.ua#%#//scriptlet('set-cookie', 'download_mobile_app_popup', 'true')
 fpcafe.jp###bnrBott
 france24.com##.o-self-promo--app
 frankfurt-airport.com##.fra_js_app_banner
@@ -3233,6 +3234,7 @@ news.ifeng.com##div[class^="index_bottom_box_"]
 news.kodansha.co.jp##.spaceSp .inlineC
 news.ltn.com.tw,ec.ltn.com.tw##.appE1121
 news.mynavi.jp###bottom_active
+news.nextapple.com##.app-m
 news.nifty.com##.mod_ad_app
 news.nifty.com##.widget_official_full_app
 news.ntv.co.jp##.introduction
@@ -4612,9 +4614,12 @@ tokopedia.com##.css-orqf19
 tokopedia.com##div[data-testid="WTA-TopSticky"]
 tokopedia.com#$#body > div:has(> div[data-unify="Overlay"] + div > article[data-unify="Modal"] img[src^="https://p16-assets-sg.tokopedia-static.net/"][src$="/zeus/kratos/a79a26a0.png"]) { display: none !important; }
 tokopedia.com#?#body > div:has(> div.unf-sheet__wrapper div > button[data-testid="btn_buka_di_aplikasi"])
+tokubai.co.jp###float_web2app_smart_phone_wrapper
 tokubai.co.jp##.refusable_app_banner_wrapper
 tokubai.co.jp##.smart_app_banner
-tokubai.co.jp##.track_hakari_once
+tokubai.co.jp#$#.popup_banner_image[data-imp-hakari-keyword] { display: none !important; }
+tokubai.co.jp#$#.track_hakari_once { display: none !important; }
+tokubai.co.jp#$#body { overflow-y: auto !important; }
 tokybook.com##.banner-formtoky
 tokyo-calendar.jp#$##global-header-open-app-div { display: none !important; }
 tokyo-calendar.jp#$#.navbar-fixed-top[style^="top:"] { top: 0 !important; }
