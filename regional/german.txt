@@ -1724,6 +1724,7 @@ abendzeitung-muenchen.de###ouibounce-modal
 abendzeitung-muenchen.de##.AnzeigenHead
 abendzeitung-muenchen.de##.ad-pos
 abendzeitung-muenchen.de##.apester-embed
+abendzeitung-muenchen.de##.artikel-detail-mobile-ad
 abendzeitung-muenchen.de##.content-container-box > .teaserbox > .teaser:not([class*="nummer"])
 abendzeitung-muenchen.de##.plista
 abendzeitung-muenchen.de##.sidebar > div[style$="text-align: center; "]
@@ -1786,7 +1787,7 @@ aerzteblatt.de##.anzeigenbox
 aerzteblatt.de##[data-cy="section-ad"]
 aerzteblatt.de##div:has(> div[data-cy="ad-container"]:only-child)
 aerzteblatt.de##div[data-cy="ad-container"]
-aerzteblatt.de##div[id^="Ads_BA_"]
+aerzteblatt.de,homeandsmart.de##div[id^="Ads_BA_"]
 africa-positive.de###masthead
 africa-positive.de,golfmagazin.de,kremser-sc.at,pressecop24.com,synmag.de###media_image-4
 aftvhacks.de##div[id^="advads_ad_widget"]
@@ -3542,7 +3543,7 @@ faz.net##.ctn-PlaceholderBox-is-in-article-text-right
 faz.net##.event-faz-net-stellenmarkt-wrapper
 faz.net##.js-cna
 faz.net##div[data-external-selector="taboola-ads"]
-faz.net,spektrum.de,sueddeutsche.de,tagesspiegel.de,zeit.de##.iqdcontainer
+faz.net,scinexx.de,spektrum.de,sueddeutsche.de,tagesspiegel.de,zeit.de##.iqdcontainer
 fazemag.de#?#h4:has(span:contains(ANZEIGEN))
 fc-erzgebirge.de##.gallery-item a[href]:not([href*="fc-erzgebirge.de"],[href^="/"])
 fc-erzgebirge.de#?#div[data-container-column="right"] > header:contains(Werbung)
@@ -3713,6 +3714,7 @@ finanzfluss.de##div[id^="breakdown-gerd-kommer-"]
 finanzfluss.de##div[id^="breakdown-invesco-"]
 finanzfluss.de##div[id^="broker-top-"]
 finanzfluss.de##div[id^="broker-yield-section-"]
+finanzfluss.de##div[id^="ff-auswahl-"]
 finanzfluss.de##div[id^="franklin-templeton-table"]
 finanzfluss.de##div[id^="invesco-table-"]
 finanzfluss.de##div[id^="sustainability-gerd-kommer-"]
@@ -4326,10 +4328,8 @@ golem.de##.go-alink:has(> .go-label--sponsored)
 golem.de##.go-info-box-container:has(.go-info-box__ad-label)
 golem.de##.go-info-box-container:has(> div[class] > div[class] > p > .go-label--sponsored)
 golem.de##.go-teaser--item-variant-affiliate
-golem.de##.go-teaser--item-variant-career
 golem.de##.go-teaser--item-variant-sponsored
 golem.de##.go-teaser--variant-affiliate
-golem.de##.go-teaser--variant-career
 golem.de##.go-teaser--variant-sponsored
 golem.de##.go-teaser-container:has( > article > a > .go-teaser__kicker--sponsored)
 golem.de##.go-teaser-container:has(> .go-teaser--item-variant-affiliate:only-child)
@@ -4337,6 +4337,8 @@ golem.de##.go-teaser-container:has(> .go-teaser--item-variant-sponsored:only-chi
 golem.de##.go-teaser-container:has(> .go-teaser--variant-affiliate:only-child)
 golem.de##.go-ticker-teaser:has(.go-label--sponsored)
 golem.de##.tags
+golem.de##article[class*="-variant-career"]
+golem.de##div:has(> article[class*="-variant-career"])
 golfmagazin.de,jaegermagazin.de,st-georg.de,tennismagazin.de##.ad_list
 golfv.de##.premium_firm_list
 googlewatchblog.de###custom_html-2
@@ -4704,6 +4706,7 @@ holidaycheck.de##div[id^="tad"]
 holstein-kiel.de##.ksv-sponsoren-footer
 home24.de##[data-cnstrc-sl-campaign-owner]
 homeandsmart.de##.hs_anbieter_box_block
+homeandsmart.de##.hs_topoffer_bar
 homeandsmart.de##div[class^="Ads_BA_CAD"]
 homegate.ch##div[class^="AdSlotContainer_"]
 homegate.ch##div[class^="ResultListPage_topAdContainer"]
