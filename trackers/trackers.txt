@@ -484,6 +484,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .zalando.com/images/probe.png
 .zippingcare.com/beacon/$image
 /*JmVu.js?sp=
+/.bootscripts/analytics.min.js
+/.bootscripts/hubPagesViewDurationTracker.min.js
 /.netlify/scripts/rum
 /.rum/@adobe/helix-
 /.webscale/rum?
@@ -977,6 +979,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
+/api/videos/*/view$xhr,method=post,1p,domain=chaturflix.cam|striphub.cam
 /api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
@@ -3809,7 +3812,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /~shared/do/~/count/?$image
 10.com.au,10play.com.au##+js(set, moatPrebidApi, {})
 10.com.au,10play.com.au##+js(set, moatPrebidApi.getMoatTargetingForPage, noopFunc)
-10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,bellinghamherald.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,komonews.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,motor1.com,myfoxzone.com,nationalpost.com,nbcsports.com,news.com.au,newscentermaine.com,newswest9.com,nj.com,nydailynews.com,oregonlive.com,ottawacitizen.com,ottawasun.com,pcworld.com,pennlive.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,sportico.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,tj.news,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
+10tv.com,11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,al.com,aol.com,apnews.com,artforum.com,artnews.com,bellinghamherald.com,billboard.com,birdsandblooms.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,chattanoogacw.com,cleveland.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,edmontonjournal.com,edmontonsun.com,familyhandyman.com,financialpost.com,firstcoastnews.com,fox43.com,fox61.com,futbin.com,goldderby.com,golfdigest.com,gulflive.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,komonews.com,krem.com,ktvb.com,kvue.com,lehighvalleylive.com,lfpress.com,localmemphis.com,masslive.com,mlive.com,motor1.com,myfoxzone.com,nationalpost.com,nbcsports.com,news.com.au,newscentermaine.com,newswest9.com,nj.com,nydailynews.com,oregonlive.com,ottawacitizen.com,ottawasun.com,pcworld.com,pennlive.com,rd.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,sportico.com,superherohype.com,syracuse.com,tasteofhome.com,techcrunch.com,thehealthy.com,thv11.com,tj.news,torontosun.com,twinfinite.net,vancouversun.com,variety.com,vibe.com,wbir.com,wcnc.com,weareiowa.com,weather.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,windsorstar.com,wkyc.com,wltx.com,wnep.com,wqad.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwd.com,wwltv.com,wzzm13.com##+js(acs, document.getElementsByTagName, .pubads)
 13tv.co.il##+js(nano-stb, clearInterval(run), 5000, 0.001)
 13tv.co.il##+js(nano-stb, taboola timeout, *, 0.001)
 17track.net##+js(set, ga.sendGaEvent, noopFunc)
@@ -4848,6 +4851,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h-microsoft.online-metrix.net^$xhr,domain=ave9858.github.io|docs.atlasos.net|massgrave.dev|msdl.gravesoft.dev
 @@||h-usps.online-metrix.net^$script,domain=ips.usps.com
+@@||h-visa2.online-metrix.net^$frame,domain=src.visa.com
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
@@ -20345,8 +20349,6 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||discover.evaluate.com^
 ||discover.fullsail.edu^
 ||discover.harvardbusiness.org^
-||discover.hubpages.com/.bootscripts/analytics.min.js
-||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||discover.immofinanz.com^
 ||discover.jll.com^
 ||discover.kloverproducts.com^
@@ -23306,6 +23308,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_AS_TM_AT.min.js
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
+||fluxdecor.com^
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
 ||fly.caljetelite.com^
@@ -33595,7 +33598,6 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||mengis-linden.org^$third-party
 ||mennoc.mezlan.com^
 ||mensjournal.com/.api/admiral
-||mensjournal.com/.bootscripts/analytics.min.js
 ||mentalreef.com^
 ||menteechain.com^
 ||mentimeter.com/performance-metrics
@@ -38187,6 +38189,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pgt1.voyage-prive.es^
 ||phadia.thermo.com^
 ||phadia.thermofisher.com^
+||phatfiles.com^
 ||phbnix.rocelec.com^
 ||phcbi-solution.phchd.com^
 ||phcnvk.schalke04.de^
@@ -38470,6 +38473,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pl.weinshops.online^
 ||pla.fwdcdn.com^
 ||pla.pearlinsurance.com^
+||pla.uqload.vc^
 ||pla.wigglepixel.nl^
 ||placeframe.com^
 ||placemypixel.com^$third-party
@@ -38650,6 +38654,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||playox.de/analytics/
 ||playtomic.com/Tracker/
 ||playvideohd.com/cdn-cgi/trace
+||playwarren.com^
 ||plbcsd.vidaxl.se^
 ||plbusiness.samsung.com^
 ||plczro.21dressroom.com^
