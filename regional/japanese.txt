@@ -1163,6 +1163,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||ryuryumall.jp/af/ls/logo/300_250_$image,domain=moppy.jp
 @@||s-ad.rmp.rakuten.co.jp/ad$domain=pointmall.rakuten.co.jp
 @@||s-cdn.rmp.rakuten.co.jp/js/aa.js$domain=pointmall.rakuten.co.jp
+@@||s.nflcdn.com/static/site/*/scripts/ad.js
 @@||s.nitropay.com/*.gif?*&adslot=$domain=lofi-nopixel.com
 @@||safeframe.googlesyndication.com/safeframe/$domain=video-ac.com
 @@||safeframe.googlesyndication.com/safeframe/$subdocument,domain=nanpre.adg5.com
@@ -6135,6 +6136,7 @@ knb.ne.jp##.s-flux-bottom
 knshow.com##.prText
 knshow.com#$#.ads { display: block!important;height: 1px!important; }
 knshow.com#$#.listInfoR[style="margin-bottom: 10px; height: 400px;"] { height: unset !important; }
+knshow.com#%#//scriptlet('prevent-setTimeout', 'brave')
 kobe-np.co.jp##.banner:has(> #knpc-rec1)
 kobe-np.co.jp##.bottomPrArea
 kobe-np.co.jp##.isInfeedLoad
@@ -9056,10 +9058,11 @@ soccer.yahoo.co.jp##.sc-lrec
 soccerdigestweb.com###pc_all_right_1st
 soccerdigestweb.com##.right_ad_c
 soccerdigestweb.com##.towcolumnBan_area
+socialxup.com##.cursor-pointer
 socialxup.com##.relative.overflow-hidden:has(> div.mx-auto > section[class] > div.space-y-2 > a:not([href]))
 socialxup.com##[style*="cursor:"]
 socialxup.com##a:not([href])
-socialxup.com#?#[style*="cursor:"]:upward(1)
+socialxup.com#%#//scriptlet('prevent-addEventListener', 'click', '[native code]')
 soco-st.com##.ad_01
 soco-st.com##.ad_02
 soco-st.com#$?#.post_ad { remove: true; }
