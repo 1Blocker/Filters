@@ -665,7 +665,7 @@
 3druck.com##.adv-link
 3druck.com##.druck-artikel-oben
 3druck.com##div[class^="druck-sidebar-"]
-3druck.com,cannabis-special.com,supertipp-online.de##a[href*="/linkout/"]
+3druck.com,supertipp-online.de##a[href*="/linkout/"]
 3fach.ch##a[href^="https://3fach.ch/track/"]
 4crazy.de###UNWB300100
 4crazy.de###UNWB300200
@@ -3987,9 +3987,6 @@ freizeitmonster.de##div.transparency-classification:has(> div[id^="div-gpt-ad"])
 freizeitpartnerweb.de,outdoorpartner.net,urlaubspartner.net##.ad.text-uppercase
 freizeitpartnerweb.de,outdoorpartner.net,urlaubspartner.net##.row > div[class="visible-lg-block col-lg-4 text-center"] > span[style="font-size:9px;color:#aaa;"]
 freizeitpartnerweb.de,urlaubspartner.net##.hidden-xs > span[style="font-size:9px;color:#aaa;"]
-fremdwort.de###ezisgib
-fremdwort.de###thgirrennab
-fremdwort.de##.hinweisad
 freshideen.com##div[class^="adHolder"]
 fressnapf.de##.grid-item--product:has(> [data-qa-id="sponsored"])
 freundin.de##.paragraph-ecommerce_slider_paragraph-entityType_not_set
@@ -5293,6 +5290,7 @@ ligainsider.de##.feature_column.pull-left.new_add
 ligainsider.de##.feature_column:has(> div[id^="ad-rectangle"])
 ligainsider.de##.feature_holder > .feature:has(> div[id^="ad-rectangle"])
 ligainsider.de#%#//scriptlet('abort-on-property-read', 'LIDetector')
+ligainsider.de#%#//scriptlet('remove-node-text', 'script', '__abSelfBlocked')
 ligaportal.at##.alert
 ligaportal.at##.media
 ligaportal.at##a[href^="https://de.johnnybet.com/"]
@@ -6300,9 +6298,12 @@ onvista.de##div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-ne
 onvista.de##div[class="bg-neutral-2 shadow-md rounded-2xl border-1 border-neutral-4 mb-4 p-0"]:has(a + span + small)
 onvista.de##div[class="md:col-span-3 lg:col-span-4"]:has(div > p + div + span)
 onvista.de##div[class="md:col-span-3 lg:col-span-4"]:has(div > p + span)
+onvista.de##div[class="min-w-0 md:col-span-3 lg:col-span-4"]:has(a[href*="utm_campaign"])
 onvista.de##div[data-display-scapa]
 onvista.de##section:has(> div > div > #aktuelle-news) div.rounded-2xl:has(span[class^="wl-"] > bdi[aria-hidden])
 onvista.de##section:is(:has(#top-broker-fuer-etfs),:has(#ausgewaehlte-alternativen)):has(> div.mb-2 span[class^="wl-"] > bdi[aria-hidden])
+onvista.de##table.ov-table tr.bg-primary-detail > td > *
+onvista.de##table.ov-table tr.bg-primary-detail:has(> td[colspan])
 onvista.de##tr[class="bg-primary-detail !border-b-0"]
 onvista.de##tr[class="ov-table-row--height border-b border-b-neutral-3 !bg-primary-detail"]
 onvista.de#$#body > #ONVISTA { margin-top: 0!important; }
@@ -6312,6 +6313,7 @@ onvista.de#?#.col__content section:has(> div.grid > div.col h2 + div.ov-subline:
 onvista.de#?#.ov-carousel__item:contains(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#a[class*="ArticleTeaserBox"]:has(div.ov-subline:contains(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/))
 onvista.de#?#article:has(> .anzeige)
+onvista.de#?#div.ov-content-item-list__item:contains(/W\W*e\W*r\W*b\W*u\W*n\W*g/)
 onvista.de#?#div[class*="Styles_ov-content-item-list__item"]:contains(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-0"]:contains(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
 onvista.de#?#div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:contains(/Werbung|gnubreW|gnubreW|gnubreW|g​n​u​b​r​e​W|W​e​r​b​u​n​g/)
@@ -10063,6 +10065,7 @@ zwischengas.com##.zgsky
 ||lieferando.de/widgets/$subdocument,third-party
 ||liferd.de^$third-party
 ||lifeverde.de/files/*-970-x-250-banner-
+||ligainsider.de/js/*.js$script
 ||ligainsider.de/li-probe.js
 ||ligainsider.de/public/*/js/li-probe-base.js
 ||ligainsider.de/public/*/js/li-wall.js
@@ -10798,7 +10801,6 @@ zwischengas.com##.zgsky
 ||suche.t-online.de/web/ebay?
 ||suche.web.de/amazon?
 ||suche6.ch/banner/
-||suchebiete.com/bilder/allgemein_kleinanzeigen.png
 ||sueddeutsche.de/erfahrungen/wp-content/cache/min/1/erfahrungen/wp-content/plugins/exit-intent-popup
 ||sueddeutsche.de/image/*/*x*?v=*&format=webp$script
 ||suedpfalz-verlag.de/uploads/pics/CBoltz.png
