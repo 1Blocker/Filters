@@ -326,6 +326,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 /ap/signin/openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.jp$document,domain=cn|top|xyz
 /api/client/getConfig?siteCode=bot_verification_ja$xmlhttprequest
 /api/common/access-grant?token=go&originalUrl=$xmlhttprequest
+/api/download.php?action=init|$xmlhttprequest
 /api/user/turnstile-config|$xmlhttprequest,~third-party
 /api/v1/verify/fingerprint|$xmlhttprequest
 /api?token=$xmlhttprequest,~third-party,domain=bond|cfd|sbs|top|vu|xyz
@@ -338,12 +339,14 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 /blogparts/?w=$script
 /brand/detail/m*.html?zenid=$document,domain=asia|cfd|fun|qpon|sale|shop|space|top|vu|world|xyz
 /clog_ad.js
+/cx-fbq.js$domain=animeanime.jp|cinemacafe.net|gamespark.jp|inside-games.jp|manetatsu.com|response.jp
 /dist/features_widget-kyujinbox/*$domain=iza.ne.jp|sankei.com|zakzak.co.jp
 /dist/kyujinbox/jobs.json
 /download/cloud/c9_googlePlayCashBack_*.apk$document
 /ec2_index.html?cpno=$document
 /ec2_result.html?cpno=$document
 /fb9e87c415.php
+/feature/adb/*$domain=animeanime.jp|cinemacafe.net|inside-games.jp|manetatsu.com|rbbtoday.com|response.jp
 /fingerprint.php$document
 /funccode.php|$document,domain=cfd|xyz
 /g?visitorid=*&extra_data2=|$document
@@ -911,6 +914,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=unian.net|unian.ua
 @@||gaua.hit.gemius.pl/gplayer.js$domain=1plus1.video|1plus1.ua|unian.net
 @@||gelbeseiten.de/*/js/components/*.js
+@@||gemeinsamerleben.com/js3caf.js
 @@||genesisowners.com/hyundai-genesis-forum/abp/adblock_detector.js
 @@||geniee.jp^$domain=pointmall.aeon.co.jp
 @@||genshin-soku.com/wp-content/plugins/amazon-egift-donation/assets/front.js
@@ -4908,9 +4912,11 @@ hamlife.jp##.widget-right.widget_sp_image:not(#widget_sp_image-60)
 hamlife.jp##.widget-right.widget_text:has(a[href^="https://amzn.to"])
 hamlife.jp##.widget-right.widget_text:has(a[href^="https://www.amazon.co.jp"])
 hamusoku.com###sub div.plugin-recent_articles + div.plugin-memo
-hamusoku.com##.article-body-more > span[style]:has(b > a[href^="https://www.amazon.co.jp/"])
 hamusoku.com##.topbox
 hamusoku.com##div[class^="article-body"] > span:has(b > a[href^="https://amzn.to/"])
+hamusoku.com##div[class^="article-body"] > span[style="color: #3300FF;"]:has(+ br + span[style="font-size: 150%;"] > b > a[href^="https://www.amazon.co.jp/"])
+hamusoku.com##div[class^="article-body"] > span[style="color: #3300FF;"]:has(> span[style="font-size: 150%;"] > b > a[href^="https://www.amazon.co.jp/"])
+hamusoku.com##div[class^="article-body"] > span[style="font-size: 150%;"]:has(> b > a[href^="https://www.amazon.co.jp/"])
 hamusoku.com##div[class^="article-body"] a[href^="https://amzn.to/"]
 hamusoku.com##span[style="font-size: 125%;"] > b > a[href^="https://amzn.to/"]
 hamusoku.com,poweruse.seesaa.net,2ch.logpo.jp,mt-soft.sakura.ne.jp,hiroburo.com,xn--w8jtkjf8c570x.com,cg-method.com##a[href^="https://www.amazon.co.jp/"]
@@ -9066,7 +9072,8 @@ socialxup.com##.cursor-pointer
 socialxup.com##.relative.overflow-hidden:has(> div.mx-auto > section[class] > div.space-y-2 > a:not([href]))
 socialxup.com##[style*="cursor:"]
 socialxup.com##a:not([href])
-socialxup.com#%#//scriptlet('prevent-addEventListener', 'click', '[native code]')
+socialxup.com#%#//scriptlet('prevent-addEventListener', 'click', '/\[native code\]|^\s*e\s*=>\s*.+\(\s*e\s*\)\s*$/')
+socialxup.com#?#span:matches-css(cursor:pointer):empty
 soco-st.com##.ad_01
 soco-st.com##.ad_02
 soco-st.com#$?#.post_ad { remove: true; }
@@ -11883,7 +11890,6 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||relay-api.ekitan.com/relay-api/relay/kyujin-box
 ||rentracks.jp^$third-party
 ||repsoku.net/amazon.html
-||response.jp/base/scripts/cx-fbq.js
 ||response.jp/feature/adb/
 ||reuters.com/pf/resources/dist/reuters-japan/js/index.js
 ||richlink.blogsys.jp/embed/62d64654-4a35-31d5-9559-60a3dcd65ece$domain=nwknews.jp
