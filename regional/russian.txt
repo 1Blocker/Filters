@@ -2199,7 +2199,6 @@ $script,third-party,domain=lafa-site.com
 @@||kvartplata.ru^$document
 @@||kyivdictionary.com/static/ukr_tran/js/prebid-ads.*.js
 @@||l2top.ru/js/
-@@||lapresse.ca^$generichide
 @@||lcdn.tsyndicate.com/sdk/*/ad.js
 @@||leo.org^$generichide
 @@||letyshops.com/advert.js
@@ -2984,6 +2983,9 @@ android.inform.click##a[href^="https://rusvpn.com/"] > img
 androidguias.com,tefida.com,kwikeer.com###text-2
 androidinsider.ru##.banner-zone
 androidinsider.ru##.banner-zone-parent
+androidinsider.ru##p > a.post-action-accent[href^="https://fas.st/"]
+androidinsider.ru#$#p > a[rel*="sponsored"]:not(.post-action-accent) { color: inherit !important; border-bottom: 0 !important; cursor: auto !important; }
+androidinsider.ru#%#//scriptlet('remove-attr', 'href', 'p > a[href^="https://fas.st/"]:not(.post-action-accent)')
 androidlist-russia.com#?#.items-center > div.w-full:has(> div[style] > div.ad-title)
 androidsis.com###special-sidebar-template
 androidtalk.ru##.adsplaser_pro_abtest

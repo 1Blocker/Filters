@@ -1017,7 +1017,6 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||kumin.news/assets/img/ad/$image,~third-party
 @@||kurs.com.ua^$generichide
 @@||kyukyoku-matome.com^$generichide
-@@||lapresse.ca^$generichide
 @@||lcdn.tsyndicate.com/sdk/*/ad.js
 @@||leo.org^$generichide
 @@||lib.wtg-ads.com/publisher/kio.ac/sb_interstitial_wtg.js$domain=kio.ac
@@ -5721,7 +5720,6 @@ jj-jj.net##div[style="text-align:center;margin-bottom:30px;"]
 jj-labo.seesaa.net#?#.module--free h3.module__heading:contains(スポンサーリンク)
 jm1xtk.com##.web_adber-1
 jma.go.jp,jma-net.go.jp##.adClear
-jmanga.cloud##div[style^="max-width:700px"]
 jmedj.co.jp#$?#.ad-data:not([href*="jmedj.co.jp"]) { remove: true; }
 jmty.jp##.p-adsense-in-list
 jmty.jp##.p-adsense-list-right-column-high-block
@@ -6673,8 +6671,6 @@ mangapedia.com##.contents-bottom-ads
 mangapedia.com##.description-bottom-ads
 mangapedia.com,kotobank.jp##.kyujinbox-ad
 mangaraw.best###banner-raw-xyz
-mangaraw.co#?#.my-2:not(:has(> div.card))
-mangaraw.fish##body > div[style="height:250px"]
 mangaruu.com,rawfree.top,soraraw.*##div[class^="ReactionPanel_chapterEndAd"]
 mangaz.com###scroll-adv
 mangaz.com##.amazonLinkMod
@@ -8113,7 +8109,7 @@ pcinformation.info##.osusume-info
 pcinformation.info##.osusume-info-header
 pcrecommend.com,ryusoku.com##div[style^="height:250px"]
 pdftoshokan.com###ad-containerx
-pdftoshokan.com##.post[style="margin-bottom:1rem;"]:has(> #myIframe2)
+pdftoshokan.com##article:not([class]):has(> #myIframe2)
 pdftoshokan.com#%#//scriptlet('prevent-window-open', '/ok_|pemsrv\.com|window\.location\.href/')
 pdftoshokan.com#%#//scriptlet('set-constant', 'doAdRedirect', 'noopFunc')
 peacedoorball.blog##.sidebar__right a[target="_blank"] > img
@@ -8708,7 +8704,6 @@ saiganak.com##.entry-product
 saiganak.com##.entry-textad
 saiganak.com##div.entry-adcenter
 saiganak.com,funglr.games##.entry-adsense
-saikomangaraw.net##.text-center[style^=" height: 300px; overflow: hidden; max-width:"]:empty
 saikyo-jump.com,grasoku.com##.right-container > div.plugin-memo:last-of-type
 saikyo-jump.com,hamusoku.com##div[class^="article-body"] a[href^="https://link.amazon/"]
 saitama-np.co.jp##.pr-list
@@ -8894,6 +8889,7 @@ shikiho.toyokeizai.net##.shimen_finances__ad
 shikoku-np.co.jp###attentionArea
 shikoku-np.co.jp##.side-contentsAD
 shikotch.in##div[class*="-ads-"]
+shikutoku.me##.talk-ad-slot
 shimotsuke.co.jp##.ad-top-col4
 shimotsuke.co.jp##.article-category-list > li:has(> ins.adsbygoogle)
 shimotsuke.co.jp##div[id^="jp_soon_"][style]
@@ -9076,6 +9072,7 @@ socialxup.com##a:not([href])
 socialxup.com##a[target][href^="/"]
 socialxup.com##a[target][href^="https://socialxup.com/"]
 socialxup.com#%#//scriptlet('prevent-addEventListener', 'click', '/\[native code\]|^\s*e\s*=>\s*.+\(\s*e\s*\)\s*$/')
+socialxup.com#%#//scriptlet('prevent-window-open', '_blank')
 socialxup.com#?#span:matches-css(cursor:pointer):empty
 soco-st.com##.ad_01
 soco-st.com##.ad_02
@@ -10294,6 +10291,7 @@ wtmnews.net##.aflImage
 wtmnews.net##.aflLinkFlex
 wtmnews.net##.extendedwopts-md-center.wtmne-widget
 wtpage.info##.cm-banner
+ww1.jmanga.cloud##div[style^="max-width:700px"]
 wwdjapan.com##.sp-infeed-ad
 wwdjapan.com##.wwd-ad-manager-widget-feature-feed
 wwdjapan.com##.wwdj-ad

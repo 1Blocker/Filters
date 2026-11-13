@@ -2711,7 +2711,6 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@||kurs.com.ua^$generichide
 @@||kweb.r66net.com/getlink|$domain=linternaute.com
 @@||kweb.videostep.com^$domain=jeanmarcmorandini.com
-@@||lapresse.ca^$generichide
 @@||lastampa.it/embed/$subdocument,domain=lastampa.it
 @@||lcdn.tsyndicate.com/sdk/*/ad.js
 @@||lemonde.fr/*/article/*/publicite-*.html
@@ -3468,8 +3467,9 @@ banques-en-ligne.fr,bd-sanctuary.com,bioalaune.com,c8.fr,cine-sanctuary.com,comi
 basket-infos.com##a > img[alt^="Pub"]
 basketsession.com##.d-mezz
 basketusa.com###Basketusa_Habillage
-basketusa.com##.ad-large
+basketusa.com##a[href="https://www.basketusa.com/go-unibet-hp"]
 basketusa.com#%#//scriptlet("abort-on-property-read", "__yget_ad_list")
+basketusa.com,touchdownactu.com##.ad-large
 batimag.ch##div[id^="docu-slot"]
 batimag.ch#?#.container > .row > div[class] > div:has(> h2 + .card > .card-body > .ad)
 bdgest.com,bedetheque.com###hab_click
@@ -5649,6 +5649,7 @@ topsante.com##.menu-btn-pub
 topsante.com##.partner-block
 topsante.com##.pepsia
 torrent911.*,oxtorrent.*,bookys-ebooks.com###vpnvpn
+touchdownactu.com##.ad-medium
 tounet.com##.ubm_banner
 tourhebdo.com##.annemp
 tourmag.com#?#.wm-module:contains(Contenu sponsorisé)
