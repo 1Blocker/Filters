@@ -52,6 +52,9 @@
 163.com##.post_side_logo
 163.com##.right_box > .download
 17.live##div[class^="MobileBlock__MobileBlockRelativeWrapper"]
+17.live#$#div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div > div > nav { top: 0 !important; }
+17.live#$#div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) + div { min-height: 100% !important; }
+17.live#$#div[data-testid="mobileBlock"]:has(> div > div > button[data-ga-event-label="download_app_msite"]) { display: none !important; }
 17kg.shop##div[class^="PushMessagestyled__MobilePopupWrapper-"]
 17track.net##.jsAppDown
 17track.net##.yq-app-download
@@ -3511,6 +3514,7 @@ openrec.tv##div[style^="transform:"] > div:has(> div > div > img[src*="openrec_l
 openrec.tv##header ~ div[class] div[style^="transform:translate3d"] > div[class*=" "]:has(img[src*="openrec_logo_144_144.png"])
 openrec.tv##section[class^="AppSuggestionCardSection__Section"]
 openrice.com###smart-banner-collection
+opentable.com##div[data-test="apps-banner-container"]
 openweathermap.org###banner_android
 operanewsapp.com##.footer-wrapper
 operanewsapp.com#%#//scriptlet('trusted-click-element', '.guide-modal a.continue-btn', '', '500')
@@ -3757,6 +3761,7 @@ prepp.in#?#.content-right > section:has(> span > img[alt="prepp app"])
 presearch.com##div[x-data="extensionNotice()"]
 presseportal.de##.mobile-container.app-notification
 priceza.co.id###mobilePopupBtm
+prideofdetroit.com,bleedinggreennation.com##.duet--cta--breaking-news-banner
 privatbank.ua##.p24-app
 pro.m.jd.com##.download-pannel
 producthunt.com##.theme-mirror:has(> .fixed > .flex > a[href^="https://producthunt.app.link"])
@@ -4084,7 +4089,6 @@ sber-bank.by##.BPSSite_Mobile_Apps
 sber-zvuk.com#?#.reactRoot > div[class]:has(> div[class] > a[href*="?pid=smart_banner"])
 sberhealth.ru###mobileAppBanner
 sbermarket.ru##div[data-qa="b2c_home_landing_app_block"]
-sbnation.com##section[aria-labelledby="sbn-app-promo-title"]
 sbonline.net##a[href="appapple.php"]
 sbonline.net##a[href="appgoogle.php"]
 sbs.com.au##div[data-testid="promo-block"]
@@ -4185,6 +4189,7 @@ shufuse.com##div[class^="footer-app-promo"]
 signin.att.com##app-smart-banner
 siirthaberci.com##.grid-stack-item > .Reklam_001.numodul
 silver.ru##.right-container > .download
+silverandblackpride.com,bleedinggreennation.com,bigblueview.com,boltsfromtheblue.com,turfshowtimes.com,acmepackingcompany.com,fieldgulls.com,sbnation.com##section[aria-labelledby="sbn-app-promo-title"]
 sina.cn##.callApp_fl_btn
 sina.cn##.fl_qr
 sina.cn#$#a[data-evt="_float_banner_logo_evt"] { display: none !important; }
@@ -4381,6 +4386,9 @@ steuer.check24.de##.tax-AppBanner
 steuerbot.com#?#div[class^="_"]:has(> a[href^="https://play.google.com/"] + a[href^="https://app.steuerbot.com"])
 stheadline.com#?#.content-body > p:has(> a[href="https://bit.ly/3yLrgYZ"])
 stitcher.com###appnag
+stockanalysis.com##body > div > div.inset-x-0.fixed:has(> button[aria-label="Close"])
+stockanalysis.com##body > div > div.items-center.flex:has(> div.min-w-0 + a[href^="https://play.google.com/store/apps/details?id=com.stockanalysis.app"])
+stockanalysis.com##div.mx-auto > div.flex-col:has(> div.flex > a[href^="https://apps.apple.com/us/app/stock-analysis-app"])
 stolichki.ru##div[data-hint="app"]
 stolichki.ru#$##main-app__block { display: none !important; }
 stolichki.ru#$#div[class^="secondMenu__wrapper"] { top: 0 !important; }

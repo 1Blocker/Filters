@@ -1400,6 +1400,7 @@
 @@||radiohamburg.de^$generichide
 @@||radsport-news.com/ad/adframe.js
 @@||ran.de^$generichide
+@@||rangerboard.com/js/*.js
 @@||ratehase.de^$generichide
 @@||ravensburger-werbemittel.de/content/wcm/mediadata/images/Werbemittel/$~third-party
 @@||ravensburger.com/content/wcm/mediadata/images/Werbemittel/$domain=ravensburger-werbemittel.de
@@ -1690,6 +1691,7 @@
 @@||zdnet.de/wp-content/themes/*/assets/js/advertising.js^
 @@||ze.tt/image/
 @@||zeit.de^$generichide
+@@||zertalious.xyz/admitad.js
 @@||zx-pk.ru/abp/adblock_detector.js
 [$path=/schnaeppchen]nordbayern.de#@?#article:has(> a.box > div > .topline > .modul__teaser__dachzeile:contains([Anzeige]))
 ^utm_medium=popunder^$popup,domain=hilfreich.de
@@ -3704,6 +3706,7 @@ finanzen100.de##.snippet--cta
 finanzen100.de##.snippet-container
 finanzen100.de##.snippet-container.snippet--loading
 finanzen100.de##div[id^="f100-banner-"]
+finanzentdecker.de##.widget_custom_html:has(> .custom-html-widget > a[href^="https://finanzentdecker.de/out/"] > img)
 finanzfluss.de###in-search-ad-kommer-matomo
 finanzfluss.de###in-search-invesco-01-25
 finanzfluss.de##.billboard-as-yield-section
@@ -5016,6 +5019,7 @@ keyforsteam.de##.offline
 keyforsteam.de##a[class^="bg-link-"]
 keyforsteam.de#$#.custom-background { background-image: none!important; }
 kfz-steuer.de##a[style="position:relative; float:left; width:698px; height:63px; padding-left:28px; padding-right:0px; padding-top:14px; border:1pt solid #DADADC; background:#FFFFFF display:inline;"]
+kfzversicherungsvergleich1.de,ms-aktuell.de,leckerschmecker.me,genialetricks.de,twitterperlen.de##body .code-block
 kicker.de##.kick__ad-pos_wrapper
 kicker.de#%#//scriptlet('prevent-setTimeout', '.call(null)', '10')
 kicktipp.de###adtag_banner
@@ -5515,7 +5519,11 @@ mbpassion.de#?#.cb-entry-content > div > div:has(> center > font:contains(Anzeig
 mcseboard.de,trophies.de##div[data-role="sidebarAd"]
 mdz-moskau.eu###media_image-23
 mediaevent.de##.adds
+mediamarkt.*##[data-test="mms-search-main"] > aside[aria-label*="spons"]
 mediamarkt.*##[data-test="mms-search-showcase"]
+mediamarkt.*##[data-test="mms-search-srp-productlist"] li:has(> aside[aria-label*="spons"])
+mediamarkt.*##[data-test="mms-search-srp-productlist"] li:has(> div:only-child:empty)
+mediamarkt.*##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] button[aria-label*="spons"])
 mediamarkt.*##div[data-test="mms-product-carousels"]:has(button[aria-label="Erfahre mehr über Produktsponsoring"])
 mediamarkt.*#?#[data-test="mms-base-teaser"]:contains(Gesponsert)
 mediamarkt.*#?#[data-test="mms-search-flagship-sba"]:contains(Gesponsert)
@@ -5839,7 +5847,6 @@ moz.de#?#.teaserGrid > .row > div[class] > .teaserItem:has(> div[id^="gpt_rectan
 moz.de,lr-online.de,swp.de##.swp-adbox
 ms-aktuell.de#%#//scriptlet('abort-current-inline-script', 'Math.floor', 'updateBanner')
 ms-aktuell.de#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'flipAds')
-ms-aktuell.de,leckerschmecker.me,genialetricks.de,twitterperlen.de##body .code-block
 msn.com##a[href^="https://ebay.at/"]
 msn.com,pcwelt.de##a[href^="https://clkde.tradedoubler.com/"]
 msxfaq.de##.boxjob
@@ -7608,6 +7615,7 @@ suedkurier.de###rechtenavi_werbcontainer
 suedkurier.de##.werbungLinie
 suedkurier.de##.werbungShop
 suedkurier.de##aside[id^="advert-"]
+suedostschweiz.ch##.ad-reservation
 suedostschweiz.ch##.block-np8-audienzz
 suedostschweiz.ch##.js-audienzz
 suedtirol.de,tirol.de##.angebot-der-woche-slider
@@ -7815,7 +7823,6 @@ tapology.com,onlineradiobox.com,baseball-reference.com,vsco.co,flightsim.to,latr
 tarnkappe.info###adblock-check-overlay
 tarnkappe.info###anti-adblock-modal
 tarnkappe.info##.ad-connector
-tarnkappe.info##.category-werbung
 tarnkappe.info##.container .is-one-third:has(a[href^="https://"][target="_blank"])
 tarnkappe.info##.content > div[style]:has(> a[href^="https://sc.tarnkappe.info"])
 tarnkappe.info##.desktop-only:has(> .around-desktop-ad:only-child)

@@ -2408,6 +2408,7 @@ $script,third-party,domain=lafa-site.com
 @@||r2-item.ru^$generichide
 @@||radarbox.com/static/js/ads*.js
 @@||radsport-news.com/ad/adframe.js
+@@||rangerboard.com/js/*.js
 @@||redirector.gvt1.com/videoplayback/id/*/source/dclk_video_ads/*/file.webm$domain=olympics.1tv.ru
 @@||reklama.khakassia.ru^$domain=reklama.khakassia.ru
 @@||reklama.marat.ua^$domain=reklama.marat.ua
@@ -2659,6 +2660,7 @@ $script,third-party,domain=lafa-site.com
 @@||zalivalka.ru/banners/
 @@||zaycev.net/static/styles^
 @@||zeit.de^$generichide
+@@||zertalious.xyz/admitad.js
 @@||zviazda.by/sites/default/files/styles/300x250/public/
 @@||zx-pk.ru/abp/adblock_detector.js
 ^clickunder=
@@ -12618,12 +12620,11 @@ vk.com,vk.ru###system_msg
 vk.com,vk.ru##.ConvoList__scrollbar-content > section.ConversationsBar--default
 vk.com,vk.ru##._ads_promoted_post
 vk.com,vk.ru##.post_marked_as_ads
-vk.com,vk.ru##.vkuiBanner__host
 vk.com,vk.ru##div#left_ads
 vk.com,vk.ru##div[data-ad]
+vk.com,vk.ru##div[data-testid="feed_main_container"] > div > section[data-feed-fpc-exclude]
 vk.com,vk.ru##div[role="feed"] > article:has(> div[style] div._mk_vkFeed_iconWrap > img)
 vk.com,vk.ru##div[role="feed"] > article:has(span[data-testid="post-header-subtitle"][data-role="label"] > span:empty + span:empty):has(a[data-post-click-type="post_owner_img"])
-vk.com,vk.ru##section[class^="ImageBanner-module_"]
 vk.com,vk.ru#%#//scriptlet('json-prune-fetch-response', 'response.items.[-].type.[=].ads response.items.[-].type.[=].post_ads response.items.[-].post_type.[=].post_ads items.[-].type.[=].ads items.[-].type.[=].post_ads items.[-].post_type.[=].post_ads', '', 'newsfeed.get')
 vkfaces.com##.card-separator
 vkfaces.com##.jsx

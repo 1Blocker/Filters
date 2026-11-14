@@ -351,6 +351,7 @@
 @@||questtime.net/js/adverts.js
 @@||radarbox.com/static/js/ads*.js
 @@||radsport-news.com/ad/adframe.js
+@@||rangerboard.com/js/*.js
 @@||rp5.by^$generichide
 @@||rp5.kz^$generichide
 @@||rp5.md^$generichide
@@ -450,6 +451,7 @@
 @@||yandex.ru/ads/system/header-bidding.js$domain=rg.ru
 @@||yorkshirepost.co.uk^$generichide
 @@||zeit.de^$generichide
+@@||zertalious.xyz/admitad.js
 @@||zilverengoudkopen.nl/banners/header.jpg
 @@||zilverengoudkopen.nl/banners/onder.jpg
 @@||zx-pk.ru/abp/adblock_detector.js
@@ -1153,6 +1155,10 @@ mediacourant.nl##.mg-slot
 mediamarkt.*##aside[aria-label="Gesponsorde inhoud"]
 mediamarkt.*##aside[class="sc-3e143820-0 erAlUN"]:has(button[aria-label="Lees meer over productsponsoring"])
 mediamarkt.be,mediamarkt.nl##[data-test="mms-product-card"]:has(div[data-test="mms-plp-sponsored"])
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-main"] > aside[aria-label*="spons"]
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(> aside[aria-label*="spons"])
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(> div:only-child:empty)
+mediamarkt.be,mediamarkt.nl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] button[aria-label*="spons"])
 mediamarkt.be,mediamarkt.nl#?#[data-index-number]:contains(Gesponsord)
 mediamarkt.nl##[data-test="mms-search-main"] aside[aria-label="Gesponsorde inhoud"]
 meerdangewenst.nl##.tg-site-footer-section-1
