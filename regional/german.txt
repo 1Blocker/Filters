@@ -2050,9 +2050,11 @@ ariva.de###siteTeaserBox
 ariva.de###woAktieiF
 ariva.de###wpAktieImFokus
 ariva.de##.anzeigeText
+ariva.de##.arivaLink
 ariva.de##.bannerleiste
 ariva.de##.isSponsored
 ariva.de##.prodo-shadow
+ariva.de##.tPicNews:has(.anzeige)
 ariva.de##.werbeplaetze_button
 ariva.de##.woBannerHeader
 ariva.de##.wo_news_top_banner
@@ -3098,6 +3100,7 @@ der-bank-blog.de##.ad-text
 der-betze-brennt.de###ad-superbanner
 der-farang.com##.banner_item
 der-farang.com##.page_section_contained > hr
+der-farang.com##.page_spot_item:has(a:not([href^="https://der-farang.com"]))
 der-farang.com##.preview_page_item > a
 der-farang.com##a[href^="http"]:not([href*="der-farang.com"]) > img
 der-postillon.com###HTML6
@@ -3233,6 +3236,8 @@ dogforum.de###dogforum_footer
 dogforum.de###dogforum_header
 dogforum.de##.wcfYdLocation
 dogforum.de##div[id^="dogforum_content_"]
+dogforum.de##li.anchorFixedHeader:has([aria-label="Werbung"])
+dogforum.de##li.anchorFixedHeader:has(a[href^="https://www.dogforum.de/fh-ma/"])
 dogforum.de##li:has(.wbbXdLocationAfter1stPostAsPost)
 dogforum.de##li:has(.wbbXdLocationPostList)
 donaukurier.de##.bb-fixheight
@@ -3307,6 +3312,7 @@ duden.de#%#//scriptlet('remove-class', 'pageskin', 'body.pageskin')
 duden.de#?#div > aside:has( > header:contains(Anzeige))
 dvd-forum.at###custom_html-27
 dvd-forum.at###nerdic_header
+dwdl.de##.box-topic-collection:has(a[href*="smalltalk-entertainment.de"])
 dwdl.de##.eyecatcher
 dynamo-dresden.de##.sponsor-list
 dzonline.de,wn.de##.fp-powerstories-embed-ad-tag
@@ -3851,6 +3857,7 @@ focus.de##.ps-trackingposition_OrangerButton
 focus.de##.ps-trackingposition_PDFkasten
 focus.de##.shoppingcartctn
 focus.de##.tft_ads
+focus.de##[data-element-tracking-property^="Admanager"]
 focus.de##a.externalLink[href*="campaign"][title*="Gespon"]
 focus.de##a[href^="https://www.communicationads.net/tc.php"]
 focus.de##a[href^="https://www.financeads.net/tc.php"]
@@ -3876,7 +3883,10 @@ focus.de#?#div:has(> .OUTBRAIN:only-child)
 focus.de,bunte.de##div[id*="AdSlot"]
 focus.de,fool.de,it-production.com###top-banner
 focus.de,pcwelt.de##a[href^="https://pvn.mediamarkt.de/"]
+foerde.news##.foerde-live-ad
+foerde.news##.ki-inline-ad
 foerde.news##.news-inline-ad
+foerde.news##.rte
 foerderland.de##a[href^="https://www.weka.de/mediadaten/portale/foerderland-de/"]
 foerderland.de#footerFlyout
 fondsweb.com##.f-ad-billboard-container
@@ -4539,6 +4549,7 @@ hcgherdeina.com##.small-sponsor-box
 hd-pornos.info,pornoente.tv###spezial_column
 hd-pornos.net##a[href^="https://what-sexdating.com/"]
 hd-pornos.net,pornotom.com,pornoente.tv,hd-pornos.com,pornojenny.com,pornohirsch.net#?#.grid_box:has(div.img_box > div.special_preview:contains(Anzeige))
+hd-source.to##.afl
 hd-source.to##.reflnk
 hd-source.to##div.sidebar-module:has(> .textwidget > p > a[href][target="_blank"] > img)
 hd-source.to#$#a[href*="/out/af.php"]:has(> img.hosterpic) { pointer-events:none; }
@@ -5067,8 +5078,13 @@ kleinanzeigen.de###liberty-vip-middle
 kleinanzeigen.de###liberty-zsrp-bottom
 kleinanzeigen.de###liberty-zsrp-top-banner
 kleinanzeigen.de###my_ads-top-banner
+kleinanzeigen.de###my_wishlist-btf-billboard
+kleinanzeigen.de###my_wishlist-top-banner
 kleinanzeigen.de###srps-billboard
 kleinanzeigen.de###vip-billboard
+kleinanzeigen.de###vip-bottom
+kleinanzeigen.de###vip-middle
+kleinanzeigen.de###vip-sky-atf-right-sidebar
 kleinanzeigen.de###vip_pro-billboard
 kleinanzeigen.de##.j-liberty-wrapper
 kleinanzeigen.de##div[data-liberty-ad-loaded="true"]
@@ -5078,6 +5094,7 @@ kleinanzeigen.de##div[data-liberty-position-name="vip-belly"]
 kleinanzeigen.de##div[data-liberty-position-name="vip-billboard"]
 kleinanzeigen.de##div[data-liberty-position-name]
 kleinanzeigen.de##div[id="viewad-sidebar-banner"]
+kleinanzeigen.de##div[id^="vip-similar-ads-"]
 kleinanzeigen.de##li[data-liberty-position-name^="home-teaser-ads-"]
 kleinanzeigen.de##li[id^="home-teaser-ads-"]
 kleiner-kalender.de###RecommendationHeader
@@ -6613,6 +6630,7 @@ prad.de##.second-list > li:has(a[href^="https://ipn.idealo.de/ts/"])
 prad.de##.second-list > li:has(a[href^="https://tracking.s24.com/"])
 prad.de##div[data-tpl="Flat_box_horizontal_prad"]
 prad.de##li:has(a[class*="_klickkampagne_"])
+prad.de##li[class^="bg-"]:has(.pd-anzeige)
 prad.de#?#.pd-teaser:has(div.teaser-subtitle:contains(Anzeige))
 pragerzeitung.cz##.item-advert
 praktikumsstellen.de##.col-9-12 > .teaserLine:not(.stelle_P)
@@ -6778,6 +6796,8 @@ radsport-seite.de##.trikots
 radsportjournaltourman.com###custom_html-42
 radzeit.de##.header-main
 raetsel-hilfe.de##body .ad-container
+raidrush.info###fowerb
+raidrush.info##[style="min-height:90px;"]
 raidrush.net###ab
 raidrush.net###aside_left
 raidrush.net###aside_tv
@@ -10700,6 +10720,7 @@ zwischengas.com##.zgsky
 ||shuuz.de/banner/
 ||silbernews.com^*/banner/
 ||silbertresor.de^*/banner/$third-party
+||silver-gmbh.de/media/$domain=dogforum.de
 ||simnews.de/images/omsi_ad.jpg
 ||simnews.de/img/werbung_
 ||sinoptik.de/ad/
