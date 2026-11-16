@@ -341,6 +341,7 @@
 @@||rp5.ua^$generichide
 @@||s.nflcdn.com/static/site/*/scripts/ad.js
 @@||s.nitropay.com/*.gif?*&adslot=$domain=lofi-nopixel.com
+@@||satelliteguys.us/*/ads.min.js
 @@||saveur.com^$generichide
 @@||search-module.s3.us-east-2.amazonaws.com/pubs/trib/adblockdetect.js
 @@||securepubads.g.doubleclick.net/gampad/ads?pvsid=$domain=aternos.org
@@ -1148,10 +1149,16 @@ emecze.pl##a[href^="https://bitcoinpl.org/"]
 emkielce.pl##.add-banner-footer
 empik.com##.empikAds
 empik.com##.productsList__product:has(.js-sponsored-label)
+empik.com##.search-gam-banner
+empik.com##.search-list-item[data-ad-info]
 empik.com##.sponsored-side
 empik.com##[data-box-key="ReactCarouselBox"]:has([data-adinfo])
 empik.com##[data-ta="product"]:has(.sponsored-info-title)
+empik.com##[data-ta="product"]:has([data-ta="sponsored-label"])
 empik.com##a[data-ac-reco-type="ads"]
+empik.com##div:has(> [id^="gam-box-"])
+empik.com##div[data-name="ads search side"]
+empik.com##section[data-ta-section="SponsoredProducts"]
 endurorider.pl##aside[id*="dupermag_ad"]
 enowiny.pl##.meta-font
 eostroleka.pl##.loading-ajax-ads
@@ -1929,10 +1936,16 @@ meblarskapolska.pl,meblosfera.pl,tapicerstwo.co##img[title="Reklama"]
 mecze.com##.cool-stuff
 meczyki.pl##.container > div[data-area-id]
 meczyki.pl##.frame-wrapper > *
+mediamarkt.pl##[data-test="mms-search-main"] > aside[aria-label*="spons"]
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(> aside[aria-label*="spons"])
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(> div:only-child:empty)
+mediamarkt.pl##[data-test="mms-search-srp-productlist"] li:has(article[data-test="mms-cofr-product-card"] button[aria-label*="spons"])
 mediamarkt.pl##article[data-cs-override-id^="mms-sponsored-product-card-"]
 mediamarkt.pl##aside[aria-label="Treści sponsorowane"]
 mediamarkt.pl##aside[class="sc-3e143820-0 erAlUN"]:has(button[aria-label="Dowiedz się więcej o sponsorowaniu produktów"])
 mediamarkt.pl##li[data-index-number]:has(button[aria-label="Dowiedz się więcej o sponsorowaniu produktów"])
+mediamarkt.pl#?#[data-test="mms-search-srp-productlist"] ul > li:-abp-has(div[data-test="mms-base-teaser"] span:-abp-contains(/^Sponsorowany$/))
+mediamarkt.pl#?#div[data-test="mms-home-carousel"]:-abp-has(span:-abp-contains(/^Sponsorowany$/))
 medonet.pl##ad-default[class*="ads"]
 medycyna24.pl##article > .insert--top-offer
 meska-kuchnia.pl##.sw-inner a[href^="https://dietetykwmiescie.pl"]
