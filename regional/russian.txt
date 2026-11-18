@@ -1913,6 +1913,7 @@ $script,third-party,domain=lafa-site.com
 @@||api.rnet.plus//Scripts/api.min.js$domain=shakko.ru|mirovich.media|livejournal.com
 @@||api.rnet.plus//Scripts/embed.min.js$domain=shakko.ru|mirovich.media|livejournal.com
 @@||api.yadoma.tv/ads_view.php^
+@@||apkcube.com^$generichide
 @@||appleinsider.ru/advertisment/
 @@||aptekalab.com/files/products/adlens-
 @@||artbanner.com.ua^$domain=artbanner.com.ua
@@ -2954,6 +2955,7 @@ alvin-almazov.ru##.book_banner
 amalgama-lab.com###click_area > div.noprint
 amazingfacts.ru###sidebar
 amd.online##.ya-rtb-block
+amd.online,anime-bit.ru,animego.me,marvel-online.ru,kadikama.com#%#//scriptlet('json-prune', 'ads.vast.prerolls.* ads.vast.pauserolls.* vast.prerolls.* vast.pauserolls.*')
 amedia.online#$#.main-box > header.top { margin-bottom: 0!important; }
 amedia.online,vizyt.com##div[class^="rek"]
 amic.ru###author ~ div.insider.wide.news
@@ -3015,7 +3017,6 @@ animaunt.ru##center > a[onclick] > img
 anime-bit.ru##.anime_list_ad
 anime-bit.ru##a[href^="https://r.advg.agency"]
 anime-bit.ru##body div#header:has(> a[href] > #ad_head)
-anime-bit.ru,animego.me,marvel-online.ru,kadikama.com#%#//scriptlet('json-prune', 'ads.vast.prerolls.* ads.vast.pauserolls.* vast.prerolls.* vast.pauserolls.*')
 anime-free.net##body > div#toolbar > div#Comm
 animebest.org#?##sidebar > div[id][class]:has(a[href*="&ip="][target="_blank"])
 animedub.ru##.rolicve
@@ -8601,8 +8602,10 @@ newsru.co.il##.zahav_inner
 newsru.co.il##article div#article_inf:has(div[data-adpath])
 newsru.co.il##article[class="right"] > div[style="background-color:white; margin: 10px 0 10px 0; padding: 20px 0 0 10px"]
 newsru.co.il##aside div[id^="article_right"]:has(div[data-adpath])
+newsru.co.il##div[class^="HP_"]
 newsru.co.il##div[id$="_ads"]
 newsru.co.il##div[id^="HP_"]
+newsru.co.il##div[id^="NHP_"]
 newsru.co.il##div[id^="section_left"]
 newsru.co.il##div[id^="section_right"]
 newsru.co.il##div[id^="section_top"]
@@ -13212,15 +13215,9 @@ yangteacher.ru##iframe[src="/advideo.html"]
 yaoilib.net,hentailib.*,ranobelib.me,mangalib.*,anilib.me##div[data-home-block="slider"]:has(div[data-scroll-content] > a[target="_blank"])
 yaoilib.net,hentailib.*,ranobelib.me,mangalib.*,anilib.me##div[data-reader-mode="vertical"] > div[style="margin-top: 8px; margin-bottom: 12px;"]
 yaoilib.net,hentailib.*,ranobelib.me,mangalib.*,anilib.me##div[style*="margin-top:"][style*="; margin-bottom:"]
-yaplakal.com##div[id^="MF_"]
-yaplakal.com#?##lentaFeed > tr:has(> td[align="center"] > noindex > div[id^="antc-placeholder-"])
-yaplakal.com#?##lentaFeed > tr:has(> td[align="center"] > noindex > div[id^="crt-"])
-yaplakal.com,yap.ru###clk-lt
-yaplakal.com,yap.ru###clk-rt
-yaplakal.com,yap.ru###footer > a[href^="//www.yaplakal.com/go/"]
-yaplakal.com,yap.ru###footer > a[style]
 yaplakal.com,yap.ru###header-flash
-yaplakal.com,yap.ru##a[href^="/go/?"][href*="redir.wargaming."][target="_blank"]
+yaplakal.com,yap.ru##.comment-divider ~ table:has(a[href$="/members/member1438.html"])
+yaplakal.com,yap.ru##div[id^="MF_"]
 yaplakal.com,yap.ru#$##footer { padding-bottom: 0 !important; }
 yaplakal.com,yap.ru#$##top-line { height: auto !important; }
 yaplakal.com,yap.ru#$?#body:has(> div) { background-color: #ddd!important; }
@@ -15591,6 +15588,7 @@ zz.te.ua##div[class^="advads"]
 ||jux9ms4vc7.ru^$third-party
 ||jvs.price.ru^$third-party
 ||kaa.gorodkirov.ru/kaFile$third-party
+||kabanychrr4.com/site-support-guard.js
 ||kadam.net^$third-party
 ||kaiu.narod.ru/.s/src/uadlib.js
 ||kalooga.com^$third-party
@@ -16811,8 +16809,6 @@ zz.te.ua##div[class^="advads"]
 ||quqizo.com^$third-party
 ||qwertypay.com^$third-party
 ||qxplus.ru^$third-party
-||r*.yaplakal.com/player/
-||r*.yaplakal.com/video/get/
 ||r-broker.ru/files$third-party
 ||r.ad1.ru^$third-party
 ||r.dimkriju.bget.ru^
@@ -17426,6 +17422,8 @@ zz.te.ua##div[class^="advads"]
 ||static.wmbcdn.com/uniweb/js/modern/YandexAds.client.*.js
 ||static.xakep.ru/advert/
 ||static.zakon.kz/static_zakon/img/branding_
+||static2.newsru.co.il/scripts/*_taboola_widget.*.js
+||static2.newsru.co.il/scripts/ad_*.js
 ||static2.tinkoffjournal.ru/creatives-core/v*/dist/index.js
 ||staticcontent.fxstreet.com/website/ads_popup/
 ||staticflickr.com^$domain=павлоград.dp.ua

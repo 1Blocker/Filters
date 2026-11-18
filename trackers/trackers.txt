@@ -1220,6 +1220,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cklog.js
 /cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
+/cl/2x2.json
 /clear.gif?
 /click-tracking.js
 /click.*/j/*$image
@@ -2011,6 +2012,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /index.track?
 /indextools.js
 /ingest/*^ip=
+/ingest/array/*/config.js
+/ingest/i/v0/*
 /ingress/*^ip=
 /init?*&fallbackUserId=
 /inline-pixel.js
@@ -2387,6 +2390,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/collect?
 /monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
@@ -2742,6 +2746,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /printpixel.js
 /printtracker.js
 /prnx_track.js
+/pro-analytics.
 /probance_tracker-min.js
 /probance_tracker.js
 /prod-puc-all/*/open^$image
@@ -3695,6 +3700,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-analytics.js
+/web-vitals-with-attribution.js
 /web-vitals.iife.js
 /web/push?
 /webAnalytics/*
@@ -4591,6 +4597,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||d24n15hnbwhuhn.cloudfront.net/libs/amplitude-$script,domain=gethuman.com
 @@||d28julafmv4ekl.cloudfront.net/*.mp3?$media,domain=imdb.com
 @@||d29xw9s9x32j3w.cloudfront.net/players/library/*$domain=seattlepi.com|sfgate.com
+@@||d2gt2ux04o03l1.cloudfront.net^$third-party,domain=avery.com
 @@||d2ma0sm7bfpafd.cloudfront.net/wcsstore/waitrosedirectstorefrontassetstore/custom/js/analyticseventtracking/$script,domain=waitrosecellar.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/a.js$script,domain=bmshosting.in
 @@||d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js$domain=tatacliq.com
@@ -5963,7 +5970,7 @@ carparts.com##+js(set-local-storage-item, optimizely-vuid, $remove$)
 cbc.ca##+js(aeld, click, /event_callback=function\(\){window\.location=t\.getAttribute\("href"\)/)
 cbsnews.com##+js(set-local-storage-item, /fmscw_resp|intercom/, $remove$)
 cbsnews.com##+js(set-session-storage-item, CBSNEWS.features.fms-params, $remove$)
-cbssports.com,foxnews.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com##+js(set, admiral, noopFunc)
+cbssports.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com##+js(set, admiral, noopFunc)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
@@ -6067,6 +6074,9 @@ forum.dji.com##+js(set, sensorsDataAnalytic201505, {})
 forum.dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 foundit.*##+js(set, freshpaint, {})
 foundit.*##+js(set, freshpaint.track, noopFunc)
+foxnews.com##+js(aeld, /load|error/, \,G=null)\,clearTimeout(K)\,!)
+foxnews.com##+js(nostif, \,G=null)\,clearTimeout(K)\,!)
+foxnews.com##+js(set-constant, admrlWpJsonP, emptyObj)
 frogogo.ru##+js(aopw, ADMITAD)
 funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, as, function)
 furucombo.app##+js(rmnt, script, /join\(\"\"\)/)
@@ -10863,6 +10873,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||abovechat.com^
 ||abpwqf.lolaflora.com.mx^
 ||abracon.actonservice.com^
+||abritel.fr/tagging-client
 ||abs-cbn.com/resources/$script,1p
 ||abs.proxistore.com^
 ||absentairport.com^
@@ -14197,6 +14208,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||aram.zone/pageview
 ||aramuz.net/frontapi/*/analyticsEvent?
 ||arc.io/widget.min.js
+||arc.msn.com^
 ||arc.pub/clavis/training/events
 ||arcadeweb.com^$third-party
 ||arch.net.jumia.ug^
@@ -14679,6 +14691,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||awzbijw.com^
 ||ax.babe.today^
 ||ax.idg.se^
+||axcii.com^
 ||axentis.arclogics.com^
 ||axf8.net^$third-party
 ||axfevh.bandab.com.br^
@@ -16518,6 +16531,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carpoolmatch.com^
 ||carpoolqueen.com^
+||carrentals.com/tagging-client
 ||carreras.unisabana.edu.co^
 ||cars.autopia.com.au^
 ||cars.smartfleetaustralia.com.au^
@@ -16810,6 +16824,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||channelwatcher.panda.tech^
 ||chaosmonitor.com^
 ||chaport.com/api/public/v1/stats/
+||character.ai/scripts/googlefc-config.js
 ||chargebee.com/api/internal/track_info_error
 ||chargecracker.com^
 ||charlotte-content.cresa.com^
@@ -16835,6 +16850,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
 ||chatgpt.com/unauth-mweb/events/$ping,xmlhttprequest
 ||chatroll.com/t.gif
+||cheaptickets.com/tagging-client
 ||check.ddos-guard.net^$third-party
 ||check.frbservices.org^
 ||check.looser.jp^
@@ -17472,6 +17488,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||cnzz.com^$third-party
 ||cnzz.net^$third-party
 ||coalkitchen.com^
+||coalmerchants.com^
 ||coastersim.com^
 ||coatfood.com^
 ||cobaltgroup.com^$third-party
@@ -18219,6 +18236,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||coordinatedcoat.com^
 ||cooyxg.tennis-point.de^
 ||copilot-telemetry.githubusercontent.com^
+||copilot.com/events
 ||copperegg.com^$third-party
 ||copperstills.net^
 ||copush.com^$third-party
@@ -22564,6 +22582,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||event.ortec.com^
 ||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
+||event.prod.asgard.hullabalook.com^
 ||event.raise3d.cn^
 ||event.seatradecruiseevents.com^
 ||event.seatradecruiseglobal.com^
@@ -22796,6 +22815,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||exp.notion.so^
 ||expansioneggnog.com^
 ||expedia.*/cl/
+||expedia.*/tagging-client
 ||expedia.com/static/default/default/scripts/siteAnalytics.js
 ||expedia.com/vaclog/
 ||experianmarketingservices.digital^$third-party
@@ -23174,6 +23194,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||feuqzl.woolrich.com^
 ||fewjuice.com^
 ||fewkittens.com^
+||fewo-direkt.de/tagging-client
 ||ff.pdf.ac^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
@@ -23814,6 +23835,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||fsbozl.dillards.com^
 ||fscareers.epoise.com^
 ||fscareerstest.epoise.com^
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||fsd2.digital^$third-party
 ||fse.net.anwalt.de^
 ||fsegfy.lepoint.fr^
@@ -24103,6 +24125,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||gateway.us.zip.co/analytics^
 ||gatherer.m.qq.com^
 ||gator.volces.com/list$xhr,method=post
+||gator.volces.com^
 ||gatorleads.co.uk^$third-party
 ||gaudyairplane.com^
 ||gaug.es^$third-party
@@ -26085,6 +26108,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||hotstar.com/v1/identify
 ||hotstar.com/v1/track
 ||hottraffic.nl^$third-party
+||hotwire.com/tagging-client
 ||house.comikey.com/unw.gif?$image,1p
 ||house27.ch/counter/
 ||housecrm.com.br/track/
@@ -29781,6 +29805,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||lexvek.gap.ae^
 ||leynqj.newport.se^
 ||lezntf.heydudeshoesusa.com^
+||lf3-data.volccdn.com/obj/data-static/log-sdk/collect/$domain=kimi.ai
 ||lfapbe.quiksilver.co.jp^
 ||lfbowp.talisa.com^
 ||lfeeder.com^$third-party
@@ -36580,6 +36605,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||nlf6.vente-unique.pl^
 ||nlgzhd.yoox.com^
 ||nljjem.honeys-onlineshop.com^
+||nlog.instajob.ai^
 ||nlp-japan.life-and-mind.com^
 ||nltcs.idfnet.net^
 ||nltihf.fashiondays.ro^
@@ -37594,6 +37620,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||orb.ee/collect
 ||orbidder.otto.de^
 ||orbis.actonservice.com^
+||orbitz.com/tagging-client
 ||orcapia.com^$third-party
 ||orchidgenius.com^
 ||ordbng.extra.com.br^
@@ -38223,6 +38250,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pdzutf.sftworks.jp^
 ||pe.txbe.at^
 ||peacefullimit.com^
+||peachr.tv/s.js
 ||peakcounter.dk^$third-party
 ||peakcreator.com^
 ||pear.ca-eko-globetrotter.fr^
@@ -39172,6 +39200,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||prod.tahoe-analytics.publishers.advertising.a2z.com^
 ||prod.tracking.refinitiv.com^
 ||proditor.sparda.de^
+||prodregistryv2.org^$domain=character.ai
 ||prodsmax.com^
 ||producecopy.com^
 ||producepickle.com^
@@ -39461,6 +39490,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||putphc.zuhre.com.tr^
 ||puzzle.spiriteq.com^
 ||pv-track.pxtrkapp.com^
+||pv-track.venatus.com^
 ||pv.hd.sohu.com^
 ||pv.kuaizhan.com^
 ||pv.ltn.com.tw^
@@ -42966,6 +42996,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||sfsinfo.sabic.com^
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sftrack.searchforce.net^
+||sg-fp.apitd.net^
 ||sg-go.experian.com^
 ||sg.carousellmotors.com^
 ||sg.lucanet.com^
@@ -49314,6 +49345,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||stay22.com/thumbmark
 ||stayaction.com^
 ||stayforlong.com/api/kafka/tracking
+||stayz.*/tagging-client
 ||stayz.com.au/cl/data/omgpixel.json
 ||stbg.bankonline.sboff.com^
 ||stbg.looksee.co.za^
@@ -49700,6 +49732,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||suggestionbridge.com^
 ||sugodeku.com^$third-party
 ||sugs.m.sm.cn^
+||suikora.com/api/views
 ||sulia.com/papi/sulia_partner.js/$third-party
 ||sulkycook.com^
 ||sumatra.ai^$third-party
@@ -50556,6 +50589,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||ta.taxslayer.com^
 ||ta.tokopedia.com/promo/v1/views
 ||ta.trs.cn^
+||tab.volces.com/service/2/abtest_config/
 ||tabcarts.com^
 ||tableleaders.com^
 ||tablesafe.actonservice.com^
@@ -51045,6 +51079,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||tds.io^$third-party
 ||tds1.vivabox.be^
 ||tdstats.com^$third-party
+||tdum.alibaba.com/dss.js
 ||te.ackermann.ch^
 ||te.ambria.de^
 ||te.baur.de^
@@ -54384,6 +54419,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||travel.x.unikoom.com^
 ||travelerpic.com^
 ||travelmarketreport.actonservice.com^
+||travelocity.com/tagging-client
 ||traveloka.com/api/v1/tvlk/events
 ||travelrobotflower.com^$third-party
 ||traversedlp.com^$third-party
@@ -56524,6 +56560,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||vrasto.openapp.link^
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
+||vrbo.com/tagging-client
 ||vrcamdl.istaging.com^
 ||vrcamdltest.istaging.com^
 ||vrhesh.avocadogreenmattress.com^
@@ -57362,6 +57399,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||wildcommittee.com^
 ||wildpetalfarm.com^
 ||wildwoodavenue.com^
+||willcollect.com^
 ||win.staticstuff.net^
 ||windbeetle.com^
 ||windflamesky.com^
@@ -57375,6 +57413,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||wipe.de^$~script,third-party
 ||wipo.int/wipo-analytics/
 ||wirecomic.com^
+||wiredcarts.com^
 ||wiredforcoffee.com^
 ||wiredminds.de^$third-party
 ||wirenewsletter.com^
@@ -57463,6 +57502,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||woodpeckerlog.com^
 ||woodruffsweitzer.actonservice.com^
 ||woodstock.viessmann.com.au^
+||woodstockcustom.com^
 ||woodtone.actonservice.com^
 ||woofweather.com^
 ||woolstapler.com^
@@ -57515,6 +57555,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||wos.lv^$third-party
 ||wotasia2.login.wargaming.net.iberostar.com^
 ||wotasia3.login.wargaming.net.iberostar.com^
+||wotif.*/tagging-client
 ||woutkw.type.jp^
 ||wowanalytics.co.uk^$third-party
 ||wowboosters.com^
@@ -57741,6 +57782,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||www.benn8bord.com^
 ||www.berg-6-82.com^
 ||www.bfc-mp.caisse-epargne.fr^
+||www.bing.com/th?pid=$domain=copilot.com
 ||www.bis-dic15.com^
 ||www.blocwhite7.com^
 ||www.blue2fund.com^
@@ -58825,6 +58867,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||yourhealth.wellness.providence.org^
 ||yourlifedream.com^
 ||youronestopshop.themagnetgroup.com^
+||yourownexpert.com^
 ||yourporsche.nabooda-auto.com^
 ||yourporscheimg.nabooda-auto.com^
 ||yoursolution.electrified.averydennison.com^
