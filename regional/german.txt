@@ -906,6 +906,7 @@
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-rtl.json
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-vox.json$domain=vox.de
 @@||cdn.videoplaza.tv/contrib/de-ipd/svm/homadConfigVideoplaza-wetter.json
+@@||cdn.vorsprung-online.de/files/images/*/Werbung/logo.webp$domain=vorsprung-online.de
 @@||cdn.zomap.de/*signature=$domain=player.glomex.com
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=megagames.com
 @@||cdns.symplr.de/filext.com/filext.js$domain=filext.com
@@ -2041,7 +2042,7 @@ areadvd.de##onehr
 areamobile.de##.sna
 areamobile.de##div[id^="wad_banner"]
 argovia.ch,bayer04.de,bvb.de,dhb.de,eviva.ch,fc-union-berlin.de,flashbackfm.ch,hallescherfc.de,ofc.de,radio24.ch,radio32.ch,radiocentral.ch,radiofm1.ch,radiomelody.ch,radiopilatus.ch,rundumkoeln.de,sunshine.ch,telem1.ch,telezueri.ch,uniliga.gg,virginradio.ch##.sponsors
-argoviatoday.ch,baerntoday.ch,nzz.ch,pilatustoday.ch,swissmom.ch##div[id^="adnz_"]
+argoviatoday.ch,baerntoday.ch,merkurist.de,nzz.ch,pilatustoday.ch,swissmom.ch##div[id^="adnz_"]
 ariva.de###ARIVA > div#BIGSIZE
 ariva.de###WEBSEITE > #siteTeaserLayer
 ariva.de###aktieImFokus
@@ -2780,6 +2781,7 @@ chip.de##.WidgetOutbrainFocus
 chip.de##.WidgetVetalio
 chip.de##.ae-skyscraper
 chip.de##.ar-67-60-so
+chip.de##.avast-box
 chip.de##.dl-top-aside
 chip.de##.ft-alts
 chip.de##.js_download_button > a[href^="https://x.chip.de/intern/dl/?url="][href*="&pageLayout=withinstaller|"]
@@ -2793,12 +2795,14 @@ chip.de##.vjs-relatedteaser
 chip.de##.wrapper-safe > .fb > .fb-col-md-4 > aside > .is-hidden-sm[style="min-height: 250px;"]
 chip.de##[data-island="AdSlot"]
 chip.de##[data-island="OopAdSlots"]
+chip.de##a:has(> img:only-child:not([class]):not([srcset]):not([loading]))
 chip.de##a[href*="chip.de/downloads/"] img[src*="hash"]:not([class], [data-src], [alt])
 chip.de##a[href*="chip.de/downloads/"]:has(img[src*="hash"]:not([class], [data-src], [alt]))
 chip.de##a[href^="http://adx.chip.de/www/delivery/ck.php"]
 chip.de##a[href^="https://branded-story.chip.de"]
 chip.de##a[href^="https://clkde.tradedoubler.com"]
 chip.de##a[href^="https://www.bestcheck.de"][href*="utm_campaign"]
+chip.de##a[href^="https://www.chip.de/"]:not([class]):has(> img:only-child[alt=""])
 chip.de##a[href^="https://www.chip.de/deals"]
 chip.de##a[href^="https://www.chip.de/deals/"]
 chip.de##a[title*="(Anzeige)"]
@@ -2831,6 +2835,10 @@ chip.de##p:has(> .aff-link)
 chip.de##section.TopList--Count
 chip.de##section[data-vr-zone="hp-neongelb"] > ul.List > li:last-child
 chip.de#$##M1:has(.page--has-billboard) { top: 0px !important; }
+chip.de#$##M1:has(.page--has-billboard) { top:0; }
+chip.de#$##M1:has(.page--has-billboard) { top:0; }
+chip.de#$##M1:has(.page--has-billboard) ~ .Footer { margin-top:0; }
+chip.de#$##M1:has(.page--has-billboard) ~ .Footer { margin-top:0; }
 chip.de#$##M1:has(> section[style="display: none !important;"]) { margin-top: 0px !important; top: 0px !important; }
 chip.de#$#.NewsIndex { --topbanner-height-min: 0 !important; }
 chip.de#$#.Portal { --topbanner-height-min: 0px !important; }
@@ -3860,6 +3868,7 @@ focus.de##.ps-trackingposition_OrangerButton
 focus.de##.ps-trackingposition_PDFkasten
 focus.de##.shoppingcartctn
 focus.de##.tft_ads
+focus.de##[data-element-tracking-campaign-name="anzeige-top-empfehlungen-von-fachfirmen"]
 focus.de##[data-element-tracking-property^="Admanager"]
 focus.de##a.externalLink[href*="campaign"][title*="Gespon"]
 focus.de##a[href^="https://www.communicationads.net/tc.php"]
@@ -5666,10 +5675,7 @@ merkur.de##div[data-vr-zone="Flexboard-Ad"]
 merkur.de#?#.id-SiteMain > .id-g--oneCol:first-child > div[data-id-module="col-width-watcher"]:has(> div[id] > div[data-id-advertdfpconf])
 merkur.de#?#.p402_hide > .id-Article-content-item:has(> strong > a[href^="https://ad.doubleclick.net"])
 merkur.de,merkur-online.de##.id-Container--promotion
-merkurist.de##.articleDisplayableList-article:has(a[href*="/sparticles"])
-merkurist.de##.shipment
-merkurist.de##.shipmentPremium
-merkurist.de##.shipmentSuper
+merkurist.de##.Advertorial
 merkurist.de##div[sponsored-article-impression]
 merkurist.de##shipment
 merkurist.de##shipment-premium
@@ -6131,7 +6137,7 @@ niederlausitz-aktuell.de##a[href^="http://b2b.hyperworx.de/www/delivery/ck.php"]
 niederschlagsradar.de,50plus.de,jetztspielen.ws,deavita.com,n-land.de,prospektangebote.de,bonedo.de,mallorcamagazin.com,tageskarte.io,piste.de,ruhrnachrichten.de,spielspiele.de,1001spiele.at,bundesliga.de,lbb.de##.banner
 nikos-weinwelten.de##.ce-ad
 nius.de##aside[aria-label="Werbung"]
-nn.de##.modul--newsticker-more
+nn.de##.modul:has(> div:only-child > div:only-child > div[id^="traffective-ad"])
 nn.de,nordbayern.de##.article__richtext div[style^="min-height:"]
 nn.de,nordbayern.de##div[style="min-height:290px"]
 nn.de,nordbayern.de##div[style="min-height:290px"]:not([class]):not([id])
@@ -6325,8 +6331,11 @@ onvista.de##.ov-snapshot-tradedata-integration
 onvista.de##.w-full.flex-col.items-center:has(div.lg\:min-w-\[480px\])
 onvista.de##a[href^="https://www.comdirect.de/wtr/affiliate?"]
 onvista.de##atf-ad-slot
+onvista.de##div.bg-neutral-2:has(> div.bg-accent-2)
 onvista.de##div.col-12:has(> div[class*="-4"]:not([class*=" "], [class*="_"]) > div[style])
 onvista.de##div.pb-4:has(> div.rounded-2xl)
+onvista.de##div.shrink-0:has(> div.bg-neutral-2 > div.bg-accent-2)
+onvista.de##div:has(> div.bg-neutral-3 a[href="/ratgeber/broker-vergleich"] > div[title$=" Prozent"])
 onvista.de##div[class="bg-neutral-2 p-0 border-neutral-4 rounded-none shadow-none border-0 divide-solid border-b-1 border-b-neutral-4 last:border-b-0 mb-0"]:has(a + span + small)
 onvista.de##div[class="bg-neutral-2 p-0 shadow-md rounded-2xl border-1 border-neutral-4 mb-4"]:has(a + span + small)
 onvista.de##div[class="bg-neutral-2 shadow-md rounded-2xl border-1 border-neutral-4 mb-4 p-0"]:has(a + span + small)
@@ -6339,6 +6348,7 @@ onvista.de##section:has(> div > div > #aktuelle-news) div.rounded-2xl:has(span[c
 onvista.de##section:is(:has(#top-broker-fuer-etfs),:has(#ausgewaehlte-alternativen)):has(> div.mb-2 span[class^="wl-"] > bdi[aria-hidden])
 onvista.de##table.ov-table tr.bg-primary-detail > td > *
 onvista.de##table.ov-table tr.bg-primary-detail:has(> td[colspan])
+onvista.de##table.ov-table:has(thead td:nth-child(2) > div.bg-accent-2) tr > td:nth-child(2)
 onvista.de##tr[class="bg-primary-detail !border-b-0"]
 onvista.de##tr[class="ov-table-row--height border-b border-b-neutral-3 !bg-primary-detail"]
 onvista.de#$#body > #ONVISTA { margin-top: 0!important; }
@@ -8274,7 +8284,10 @@ volleyball-bundesliga.de###partnerLinks
 vollmacht-muster.de#?#.mh-sidebar > div.mh-widget:has(> h4 > span:contains(Anzeigen))
 vorname.com,gala.de,stern.de,brigitte.de,urbia.de##.group--adtag-with-fallbackcontent
 vorname.com,urbia.de##x-carpet-ad
+vorsprung-online.de##.card:has(> .card-body > .mod-vorsprung-rawcode)
+vorsprung-online.de##.card:has(> .card-body > .news-promo)
 vorsprung-online.de##.custom > p[style="text-align: center;"]
+vorsprung-online.de##.eb-inst
 vorsprung-online.de##a[href="/index.php/anzeigenpreise.html"]
 vorsprung-online.de#$?#.header-right-inner > .trending:contains(Anzeige) { visibility: hidden!important; }
 vorsprung-online.de#?#.t3-sidebar > .t3-module > .module-inner > .module-ct > center:contains(Anzeige)
@@ -9171,7 +9184,6 @@ zwischengas.com##.zgsky
 ||azol.de^$third-party
 ||azureedge.net/pickerimages/Lokalfreunde_$domain=bayer04.de
 ||azureedge.net/pickerimages/bayer04-superbanner_$domain=bayer04.de
-||azurefd.net/endpoint/shipment/$domain=merkurist.de
 ||b.big7.com^$third-party
 ||b2b.hyperworx.de/www/images/$domain=niederlausitz-aktuell.de
 ||b2run.de/run/de/de/components/partner-links/
@@ -9331,6 +9343,7 @@ zwischengas.com##.zgsky
 ||cdn.plus500.com/media/banners/
 ||cdn.prod.pubstack.io/monitoring.js
 ||cdn.recognified.net/rd.loader.php^$domain=winfuture.de
+||cdn.vorsprung-online.de/media/com_rstbox/*/engagebox.
 ||cdn.zomap.de^$domain=ran.de|zappn.tv|kabeleins.de|kabeleinsdoku.de|prosieben.at|prosiebenmaxx.de|sat1.de|sixx.de|the-voice-of-germany.de|wetter.com|sat1.at
 ||cdn0.gamesports.net/sidebar_images/2000/2247.jpg
 ||cdnb.allaboutvision.com/i/slug-ad
