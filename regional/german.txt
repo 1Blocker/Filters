@@ -1868,7 +1868,6 @@ alpacacamping.de##.custom-banner
 alpin.de##.ad-banner-billboard
 alpin.de##.ad-sb
 alpin.de#%#//scriptlet('abort-current-inline-script', 'document.querySelector', 'DisplayAcceptableAdIfAdblocked')
-alps-magazine.com,djz.de,nordisch.info##.code-block
 alps-magazine.com,hebelschein-spekulant.de,lokalo.de,marzahn-hellersdorf.com,mdz-moskau.eu,skynews.ch,werbestandard.de##.widget_media_image
 altertuemliches.at###banner5
 amateurbusters.com##.amod-section
@@ -3116,6 +3115,7 @@ der-farang.com##.page_section_contained > hr
 der-farang.com##.page_spot_item:has(a:not([href^="https://der-farang.com"]))
 der-farang.com##.preview_page_item > a
 der-farang.com##a[href^="http"]:not([href*="der-farang.com"]) > img
+der-farang.com##div:has(> a[rel~="nofollow"][target="_blank"]:not([href*="der-farang.com"]) img)
 der-postillon.com###HTML6
 der-postillon.com###HTML9
 der-postillon.com##.iqd-dynamic-slot
@@ -4061,6 +4061,7 @@ fundresearch.de###partnerCentersLogoBar
 funnygames.eu,spielspiele.de##.slot-container
 funpot.net##.rotdiv_dspnone
 fupa.net###nab_container
+fupa.net##div[data-sentry-component="AdSlotContainer"]
 fupa.net##div[data-sentry-source-file="DistrictMainPage.tsx"] div[data-sentry-component="AdSlotContainer"]
 fupa.net#$##fupa-content > div[data-sentry-component="AdSlotContainer"] { height: 0 !important; }
 furche.at##.default-teaser--ads-teaser
@@ -5106,14 +5107,10 @@ kleinanzeigen.de###vip-sky-atf-right-sidebar
 kleinanzeigen.de###vip_pro-billboard
 kleinanzeigen.de##.j-liberty-wrapper
 kleinanzeigen.de##div[data-liberty-ad-loaded="true"]
-kleinanzeigen.de##div[data-liberty-position-name*="srp"]
-kleinanzeigen.de##div[data-liberty-position-name="home-billboard"]
-kleinanzeigen.de##div[data-liberty-position-name="vip-belly"]
-kleinanzeigen.de##div[data-liberty-position-name="vip-billboard"]
 kleinanzeigen.de##div[data-liberty-position-name]
+kleinanzeigen.de##div[data-liberty-subarea]
 kleinanzeigen.de##div[id="viewad-sidebar-banner"]
 kleinanzeigen.de##div[id^="vip-similar-ads-"]
-kleinanzeigen.de##li[data-liberty-position-name^="home-teaser-ads-"]
 kleinanzeigen.de##li[id^="home-teaser-ads-"]
 kleiner-kalender.de###RecommendationHeader
 kleiner-kalender.de###RecommendationSky
@@ -8617,8 +8614,13 @@ winboard.org,kaffee-netz.de##.message--post:not([data-author])
 windows-10-forum.com###messageList > li:not([id^="post-"]):not(.sectionMain)
 windows-7-forum.net##.section.funbox
 windows-7-forum.net##div[class$="section funbox"]
+windows-faq.de###block-42
+windows-faq.de###block-44
+windows-faq.de###block-45
 windows-faq.de###block-52
 windows-faq.de##.ad_300_300
+windows-faq.de##.code-block
+windows-faq.de##.et_pb_code
 windows-faq.de##.etad
 windows-faq.de##.theiaStickySidebar > #custom_html-4
 windowsarea.de###mgm-middle-ad
@@ -9706,6 +9708,7 @@ zwischengas.com##.zgsky
 ||fundresearch.de^*/partnercenter/
 ||funkbasis.de/_static/ban-
 ||funke.code.outtra.com/outtra-
+||fupa.net/ads/
 ||fupa.net/static/js/fupa_ads-
 ||fussball-em-2020.com/wp-content/uploads/*/Sidebar_11prozent.jpg
 ||fussball.de^*/partner/
