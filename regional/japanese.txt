@@ -9107,7 +9107,8 @@ socialxup.com##a[target][href^="/"]
 socialxup.com##a[target][href^="https://socialxup.com/"]
 socialxup.com##aside *:has(> a:not([href*="/tools/"], [href*="/genre/"], [data-track^="sidebar_"]))
 socialxup.com#%#//scriptlet('prevent-window-open', '_blank')
-socialxup.com#?#a[data-track="related_click"]:not(:has(> div[class="flex flex-col items-center text-center"] > img[src^="/avatar/"][src$=".png"][height="48"][width="48"][style="color: transparent;"] + p + p[class="text-xs text-gray-500 truncate w-full"] + p[class="text-xs text-blue-600 mt-1"]:contains(/^\d+(,\d+)? フォロワー$/)))
+socialxup.com#?#a[data-track="home_popular_tweet_profile_click"]:not(:contains(/^@[0-9A-Z_a-z]+$/)):not(:has(> img:only-child))
+socialxup.com#?#a[data-track="related_click"]:not(:has(> div[class="flex flex-col items-center text-center"] > img[src^="/avatar/"][src$=".png"][height="48"][width="48"][style="color: transparent;"] + p + p[class="text-xs text-gray-500 truncate w-full"] + p[class="text-xs text-blue-600 mt-1"]:contains(/^\d+(,\d+)* フォロワー$/)))
 socialxup.com#?#span:matches-css(cursor:pointer):empty
 soco-st.com##.ad_01
 soco-st.com##.ad_02
