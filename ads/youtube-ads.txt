@@ -9,6 +9,7 @@
 @@||tv.youtube.com^$generichide
 @@||www.youtube.com^$generichide
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
+m.youtube.com##+js(json-edit-fetch-response, ..itemSectionRenderer.contents.*[?.adSlotRenderer], propsToMatch, /get_watch)
 m.youtube.com##a[onclick*='"ping_url":"http://www.google.com/aclk?']
 m.youtube.com##lazy-list > ad-slot-renderer
 m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer

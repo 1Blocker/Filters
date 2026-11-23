@@ -353,6 +353,7 @@
 @@||radarbox.com/static/js/ads*.js
 @@||radsport-news.com/ad/adframe.js
 @@||rangerboard.com/js/*.js
+@@||rangerboard.com^$generichide
 @@||romatoday.it^$generichide
 @@||rp5.by^$generichide
 @@||rp5.kz^$generichide
@@ -859,6 +860,7 @@ filmtotaal.nl###adf-rectangle
 filmtotaal.nl##.ad-centering
 filmtotaal.nl,hoimedia.com,intermediair.nl##.advert
 filmtotaal.nl,lonelyplanet.nl###adf-billboard
+filmvandaag.nl#%#//scriptlet('prevent-fetch', 'securepubads.g.doubleclick.net')
 finance.nl##div[style^="width:300px; height:250px;"]
 financialinvestigator.nl##.c-newsList__story--partnernieuws
 financialinvestigator.nl##.mpu
@@ -912,6 +914,7 @@ geenstijl.nl##.article-premium-promotion-block
 geenstijl.nl##.slajeslag
 geenstijl.nl##a[data-ga-event^="link-tip"]
 geenstijl.nl#%#//scriptlet('adjust-setTimeout', 'function () { [native code] }', '6000', '0.001')
+geenstijl.nl#%#//scriptlet('prevent-element-src-loading', 'script', 'instream/html5/ima3.js')
 geenstijl.nl#?#.article.row.no-image:has(.row.compost-warn:contains(- ingezonden mededeling -))
 gelderlander.nl##.sidelane-filling > a > img
 gewoonvoorhem.nl##div[id^="below-article-"]
@@ -1200,6 +1203,7 @@ motorrijder.be##.elementor-widget-container > a > img
 moviemeter.nl##.leaderboard-bar
 moviemeter.nl##.small-leaderboard
 moviemeter.nl##.vod-widget-container
+moviemeter.nl#%#//scriptlet('trusted-suppress-native-method', 'document.write', '"adswag.nl"', 'prevent')
 moviemeter.nl#?#.footer-artikelen:has(.footer-h6:contains(Partners))
 mr-online.nl##.elementor-element-b8e990e
 mr-online.nl##.elementor-element-da14229
@@ -1243,6 +1247,8 @@ nieuwspaal.nl###abovecontent-widget-area
 nieuwsuitnijmegen.nl##.banner-box-1
 nieuwsuitnijmegen.nl,wijchensnieuws.nl##.banner-slider-item
 nieuwsvandedag.nl,radio10.nl,kijk.nl,hartvannederland.nl,538.nl,vandaaginside.nl#$#body .pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: initial !important; }
+nieuwsvandedag.nl,radio10.nl,kijk.nl,hartvannederland.nl,538.nl,vandaaginside.nl#%#//scriptlet('prevent-element-src-loading', 'script', '/freewheel.js')
+nieuwsvandedag.nl,radio10.nl,kijk.nl,hartvannederland.nl,538.nl,vandaaginside.nl#%#//scriptlet('prevent-xhr', 'assets.prod.webx.talpa.digital/ad/view/')
 ninefornews.nl##.gyehnsh
 ninefornews.nl##.stream-item
 nljug.org###custom_html-7
@@ -1321,6 +1327,8 @@ partyflock.nl##img[width="160"]
 pcmweb.nl##div.block:nth-of-type(1)
 pcmweb.nl##div.block:nth-of-type(2)
 pepper.com##div[id$="AdSlotPortal"]
+play.tv,goplay.be#%#//scriptlet('prevent-fetch', 'pubads.g.doubleclick.net/gampad/ads')
+play.tv,goplay.be#%#//scriptlet('xml-prune', 'Period[id*="-ad-"]', '', '.mpd')
 player.medialaancdn.be,vtm.be#$#.pub300x250.pub300x250m.pub728x90.text-ad.textAd.textad.textads.text-ads.text-ad-links { display: block !important; }
 plus.nl##a[data-link]:has(.sponsored-product)
 podcastluisteren.nl,zeelandnet.nl##.bnr
@@ -1555,6 +1563,7 @@ tweakers.net#$##b_re { display: block !important; min-height: 2px !important; }
 tweakers.net#$#.widebnr { display: block !important; min-height: 2px !important; }
 tweakers.net#$?#.widebnr > * { remove: true; }
 tweakers.net#%#//scriptlet("abort-on-property-read", "Object.prototype.autoRecov")
+tweakers.net#%#//scriptlet('prevent-fetch', '/a[ab]\.tweakers\.nl/')
 twentefans.nl##.content-action
 twentefans.nl##.odd-wrapper
 twentefans.nl##.powered-by-footer
@@ -1629,6 +1638,7 @@ volleyvlaanderen.be##.slider5
 volleyvlaanderen.be##img[width="670"][height="80"]
 vroom.be###divBanneringSlot
 vrouwpedia.nl###gridlove-module-3
+vtmgo.be#%#//scriptlet('prevent-fetch', 'v.fwmrm.net')
 waldnet.nl##.topdesk
 waldnet.nl##.topmob
 waldnet.nl##div[style*="height: 560px;"]
@@ -1643,6 +1653,7 @@ watersport-tv.nl##.pos16
 wattedoen.be###imu_large
 wattedoen.be##.gpt_box
 webcam-aalsmeer.nl,webcam-airport.nl,webcam-binnenvaart.nl,webcam-blokzijl.nl,webcam-brandaris.nl,webcam-delfzijl.nl,webcam-denhelder.nl,webcam-denoever.nl,webcam-dokkum.nl,webcam-dordrecht.nl,webcam-enkhuizen.nl,webcam-friesemeren.nl,webcam-grou.nl,webcam-havenijmuiden.nl,webcam-hindeloopen.nl,webcam-hoekvanholland.nl,webcam-kampen.nl,webcam-lauwersoog.nl,webcam-leeuwarden.nl,webcam-lelystad.nl,webcam-maassluis.nl,webcam-marken.nl,webcam-monnickendam.nl,webcam-rotterdam.nl,webcam-sneek.nl,webcam-terneuzen.nl,webcam-vlaardingen.nl,webcam-volendam.nl,webcam-workum.nl,webcam-zaanzicht.nl,webcam-zoutkamp.nl,webcam-zwartsluis.nl,webcams-ameland.nl,webcams-scheveningen.nl,webcams-texel.nl,webcams-vlissingen.nl,webcamschiermonnikoog.nl,webcamvlieland.nl##.flexslider
+webcam-binnenvaart.nl#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 webcams-texel.nl#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adsbygoogle')
 webcams-vlissingen.nl#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adsbygoogle.js')
 webstick.nl##img[width="220"]

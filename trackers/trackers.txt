@@ -676,6 +676,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_/api/v2/analytics/?
 /_/lite/performance/*
 /_/trace/trace/*
+/__activity.gif?
 /__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
@@ -949,6 +950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/datafast/*
 /api/drpStats
 /api/event-rfkj/*
+/api/event/collect|
 /api/events|$ping,~third-party
 /api/front/v2/observability$ping
 /api/internal/pixel?
@@ -1213,6 +1215,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /chcounter/counter.php
 /check.php?referrer=
 /check.php?t=*&rand=$image,1p
+/checkout/offer/trackShow
 /chicken.gif?*=
 /cio-link.gumlet.com/e/o/*$image
 /ck.m.honto.jp/c/*$image
@@ -3633,6 +3636,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/snowplow-
 /vestigo/v1/measure
 /vglnk.js
 /video-ga.js
@@ -3885,6 +3889,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 4game.com##+js(trusted-set-cookie, trk, , 0, , domain, .4game.com)
 4game.com,4game.ru##+js(set-local-storage-item, /fingerprint|trackingEvents/, $remove$)
 4game.ru##+js(trusted-set-cookie, trk, , 0, , domain, .4game.ru)
+4gamers.com.tw##+js(remove-cookie, _pkc, when, scroll keydown)
 680thefan.com##+js(set-local-storage-item, uuid, $remove$)
 9now.nine.com.au##+js(set, Adkit, noopFunc)
 9to5google.com,9to5mac.com##+js(trusted-rpnt, script, (function($), '(function(){const a=document.createElement("div");document.documentElement.appendChild(a),setTimeout(()=>{a&&a.remove()},100)})(); (function($)')
@@ -4049,6 +4054,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@/mma/?t$image,domain=newsblaze.com
 @@/playvideo.php$frame,domain=myvidster.com
 @@/signup.php?mode=async&action=show_security_code$image,1p
+@@/smartechclient.js^$script,to=netcore.co.in|netcoresmartech.com,from=hdfcfund.com
 @@/wp-content/plugins/popup-builder-$image,css,script,1p
 @@/wp-content/plugins/woocommerce-google-adwords-conversion-tracking-tag/*/admin$1p
 @@_advertisement_$domain=splatoonwiki.org,script,image,css
@@ -5906,8 +5912,11 @@ _webanalytics.
 aamulehti.fi##+js(set-local-storage-item, /^(pe-|sndp-laneitem-impressions)/, $remove$)
 abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwickexpress.com,barnsleychronicle.com,becomingpeculiar.com,bethcakes.com,blogher.com,bluegraygal.com,briefeguru.de,carmagazine.co.uk,cattime.com,cbr.com,chaptercheats.com,collider.com,comingsoon.net,commercialobserver.com,competentedigitale.ro,crafty.house,dailyvoice.com,decider.com,didyouknowfacts.com,dogtime.com,dualshockers.com,dustyoldthing.com,faithhub.net,femestella.com,footwearnews.com,freeconvert.com,frogsandsnailsandpuppydogtail.com,fsm-media.com,funtasticlife.com,fwmadebycarli.com,gamerant.com,gfinityesports.com,givemesport.com,gulflive.com,helloflo.com,homeglowdesign.com,honeygirlsworld.com,hotcars.com,howtogeek.com,insider-gaming.com,insurancejournal.com,jasminemaria.com,kion546.com,lehighvalleylive.com,lettyskitchen.com,lifeinleggings.com,liveandletsfly.com,lizzieinlace.com,localnews8.com,lonestarlive.com,madeeveryday.com,maidenhead-advertiser.co.uk,makeuseof.com,mardomreport.net,melangery.com,milestomemories.com,mlive.com,modernmom.com,momtastic.com,mostlymorgan.com,motherwellmag.com,movieweb.com,muddybootsanddiamonds.com,musicfeeds.com.au,nationalreview.com,nj.com,nordot.app,nothingbutnewcastle.com,nsjonline.com,oakvillenews.org,observer.com,pagesix.com,pennlive.com,pinkonthecheek.com,predic.ro,puckermom.com,qtoptens.com,realgm.com,robbreport.com,royalmailchat.co.uk,samchui.com,sandrarose.com,screenrant.com,sheknows.com,sherdog.com,sidereel.com,simpleflying.com,sloughexpress.co.uk,spacenews.com,sportsgamblingpodcast.com,spotofteadesigns.com,ssnewstelegram.com,stacysrandomthoughts.com,superherohype.com,tablelifeblog.com,thebeautysection.com,thecelticblog.com,thecurvyfashionista.com,thefashionspot.com,thegamer.com,thenerdyme.com,thenonconsumeradvocate.com,thethings.com,timesnews.net,topspeed.com,toyotaklub.org.pl,travelingformiles.com,tvline.com##+js(rmnt, script, '"v4ac1eiZr0"')
 abcya.com##+js(nano-stb, t++, 500)
+abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 abeautifuldominion.com##html:style(visibility: visible !important;)
 abema.tv##+js(rmnt, script, NREUM)
+abs-cbn.com##+js(no-xhr-if, ads.viralize.tv)
+abs-cbn.com##+js(remove-cookie, /^AMP_/)
 abs-cbn.com##+js(set-session-storage-item, VR-INJECTOR-INSTANCES-MAP, $remove$)
 account.bhvr.com##+js(set, Osano, {})
 account.bhvr.com##+js(set, Osano.cm, {})
@@ -5915,38 +5924,58 @@ account.bhvr.com##+js(set, Osano.cm.addEventListener, noopFunc)
 account.bhvr.com##+js(set, Osano.cm.removeEventListener, noopFunc)
 accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com##+js(set, navigator.globalPrivacyControl, false)
+adhs-zentrum.de##+js(no-xhr-if, method:POST body:/"track"|adblock/)
 advocate-news.com,akronnewsreporter.com,bocopreps.com,bostonherald.com,broomfieldenterprise.com,brushnewstribune.com,buffzone.com,burlington-record.com,canoncitydailyrecord.com,chicagotribune.com,chicoer.com,coloradodaily.com,coloradohometownweekly.com,courant.com,dailybreeze.com,dailybulletin.com,dailycamera.com,dailydemocrat.com,dailyfreeman.com,dailylocal.com,dailynews.com,dailypress.com,dailytribune.com,delcotimes.com,denverpost.com,eastbaytimes.com,eastbaytimes.com,eptrail.com,excelsiorcalifornia.com,fortmorgantimes.com,greeleytribune.com,journal-advocate.com,julesburgadvocate.com,lamarledger.com,lowellsun.com,macombdaily.com,mainlinemedianews.com,marinij.com,mcall.com,mendocinobeacon.com,mercurynews.com,mercurynews.com,montereyherald.com,morningjournal.com,nashobavalleyvoice.com,news-herald.com,nydailynews.com,ocregister.com,oneidadispatch.com,orlandosentinel.com,orovillemr.com,paradisepost.com,pasadenastarnews.com,pilotonline.com,pottsmerc.com,pressandguide.com,pressenterprise.com,presstelegram.com,readingeagle.com,record-bee.com,redbluffdailynews.com,redlandsdailyfacts.com,reporterherald.com,sandiegouniontribune.com,santacruzsentinel.com,saratogian.com,sbsun.com,sentinelandenterprise.com,sgvtribune.com,siliconvalley.com,southplattesentinel.com,sun-sentinel.com,themorningsun.com,thenewsherald.com,theoaklandpress.com,thereporter.com,thereporteronline.com,times-standard.com,timescall.com,timesherald.com,timesheraldonline.com,trentonian.com,troyrecord.com,twincities.com,ukiahdailyjournal.com,voicenews.com,whittierdailynews.com,willitsnews.com##+js(set-session-storage-item, nxt_is_incognito, false)
 aihumanizer.ai,humbot.ai##+js(set-local-storage-item, /__anon_id|browserId/, $remove$)
 aikatu.jp,ark-unity.com,cool-style.com.tw,doanhnghiepvn.vn,mykhel.com,mynet.com##+js(nostif, error-report.com)
+airtel.in##+js(no-xhr-if, analytics/bulk-pixel)
+al.com,attackofthefanboy.com,beavertonvalleytimes.com,destructoid.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylive.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,masslive.com,mlive.com,news8000.com,oregonlive.com,pcwelt.de,pennlive.com,portlandtribune.com,primagames.com,progameguides.com,queerty.com,siliconera.com,silive.com,sporcle.com,techcrunch.com,thebeenews.com,themarysue.com,theoutlookonline.com,touchtapplay.com,wegotthiscovered.com##+js(aost, decodeURI, /(?=^(?!.*\.js))/)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
+allrecipes.com##+js(remove-cookie, /_sharedid|_lc2_fpi/)
 allrecipes.com##+js(set-local-storage-item, /_li_duid|_lc2_fpi/, $remove$)
 alltransistors.com###reklama:style(display: block !important;)
 amboss.com##+js(set, ambossAnalytics, {})
 amboss.com##+js(set, ambossAnalytics.getUserAttribution, noopFunc)
 amnews.com###div-gpt-ad-instory-bottom
+androidauthority.com##+js(remove-cookie, _ALGOLIA, when, scroll keydown)
+androidauthority.com,cnet.com,electricteeth.com,hunker.com,insidehook.com,jljbacktoclassic.com,mobygames.com,nbcnews.com,otherweb.com,pcpartpicker.com,pcgamingwiki.com,popularmechanics.com,purewow.com,space.com,sport-passion.fr,thekitchn.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="url=http"]:is([href^="https://cc."][href*=".com/v1/otc/"],[href^="https://go.skimresources.com"],[href^="https://go.redirectingat.com"],[href^="https://invol.co/aff_m?"],[href^="https://shop-links.co/link"],[href^="https://track.effiliation.com/servlet/effi.redir?"],[href^="https://atmedia.link/product?url=http"],[href^="https://track.flexlinks"],[href^="https://www."][href*=".com/t/"],[href*=".prsm1.com/r?"],[href*=".com/click-"],[href*=".net/click-"],a[href*=".com/t/t?a="],[href*=".com/a.ashx?"],a[href*=".dk/t/t?a="])', ?url)
+androidpolice.com,makeuseof.com,movieweb.com,xda-developers.com##+js(cookie-remover, /articlesRead|previousPage/) 
 anikore.jp##html[class^="loading"]:style(visibility: visible !important;)
 api.dock.agacad.com##+js(rpnt, script, /window\.dataLayer.+?(location\.replace\(\S+?\)).*/, $1)
 app.koinly.io##.login-page:style(-webkit-animation: none !important)
+archive.fo,archive.is,archive.li,archive.md,archive.ph,archive.today,archive.vn,btdig.com##+js(nosiif, fetch)
 arsiv.mackolik.com##+js(set, AdmostClient, {})
+as.com,caracol.com.co,los40.com##+js(no-fetch-if, googlesyndication)
 as.com,caracol.com.co,los40.com##+js(set, DTM.trackAsyncPV, noopFunc)
 autoblog.com###ymm-sub-nav:style(top:0px !important)
+azby.fmworld.net##+js(no-xhr-if, /recommendations.)
 baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com##+js(rmnt, script, admiral)
 bandyforbundet.no##+js(set, adn, {})
 bandyforbundet.no##+js(set, adn.clearDivs, noopFunc)
+barstoolsports.com##+js(no-fetch-if, method:HEAD)
 bbc.com##+js(set, dvtag.getTargeting, trueFunc)
 bearteach.com###externalinject-gpt-passback-iframe
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,timesunion.com##+js(cookie-remover, realm.cookiesAndJavascript)
 beckershospitalreview.com##html,body:style(overflow: auto !important)
 begadistrictnews.com.au,bendigoadvertiser.com.au,goulburnpost.com.au,maitlandmercury.com.au,newcastleherald.com.au##.subscribe-article .subscribe-truncate::before:style(background:none!important;)
 begadistrictnews.com.au,bendigoadvertiser.com.au,goulburnpost.com.au,maitlandmercury.com.au,newcastleherald.com.au##.subscribe-article .subscribe-truncate:style(max-height:unset!important;order:unset!important;)
 begadistrictnews.com.au,bendigoadvertiser.com.au,goulburnpost.com.au,maitlandmercury.com.au,newcastleherald.com.au##.subscribe-article .subscriber-hider:style(display:block!important)
+bentasker.co.uk##+js(no-xhr-if, method:POST url:pfanalytics.bentasker.co.uk)
 bikeportland.org##+js(set, gform.utils, noopFunc)
 bikeportland.org##+js(set, gform.utils.trigger, noopFunc)
+bilibili.com,dandanzan.top,v.qq.com##+js(nowebrtc)
+bing.com##+js(href-sanitizer, a[href*="bing.com/ck/a"], ?u /^a1(.*)$/ -base64)
+bing.com##+js(href-sanitizer, body a[href^="/rebates/welcome?url=http"], ?url)
 bing.com##.ins_exp.vsp
+bing.com,microsoft.com,msn.com,web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryDeviceId, when, scroll keydown)
 biologianet.com##+js(set-constant, UOLPD, {})
 biologianet.com##+js(set-constant, UOLPD.dataLayer, {})
 biologianet.com##+js(set-constant, __configuredDFPTags, {})
 bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
+bizjournals.com##+js(remove-cookie, /^AMCVS?_/)
+bizjournals.com,businessinsider.de,computerbild.de##+js(remove-cookie, /^(_pc|cX_)/, when, scroll keydown)
+blog.cloudflare.com,www.cloudflare.com##+js(no-fetch-if, method:POST body:zaraz)
 bluerabbitrx.com##+js(set, _etmc, {})
 bluerabbitrx.com##+js(set, _etmc.push, noopFunc)
 bol.com##+js(json-edit-fetch-request, $[?.operationName=="sendExperimentMeasurementReferences"].*, propsToMatch, /graphql)
@@ -5955,6 +5984,8 @@ book.trivago.com##+js(set, RISKX, {})
 book.trivago.com##+js(set, RISKX.go, noopFunc)
 book.trivago.com##+js(set, RISKX.setSid, noopFunc)
 boredpanda.com##+js(set-local-storage-item, bp-analytics, $remove$)
+bostonscally.com##+js(remove-cookie, /__ta_|_shopify_y/, when, scroll keydown)
+boundless.com##+js(cookie-remover, _boundless_tracking_id)
 br.de##+js(set, akamaiDisableServerIpLookup, noopFunc)
 briefly.co.za##+js(set-local-storage-item, /^recommendation_uuid/, $remove$)
 brillen.de##+js(acs, document.createElement, 'script')
@@ -5963,7 +5994,12 @@ bristan.com##+js(set, stLight.options, noopFunc)
 britannica.com###md-media-overlay-ad
 brother-usa.com##+js(set, utag, {})
 brother-usa.com##+js(set, utag.link, noopFunc)
+buildtheearth.net##+js(remove-cookie, /^_pk_id./, when, scroll keydown)
+businessinsider.com##+js(nosiif, setInterval)
+businessinsider.jp##+js(remove-cookie, /ppid$/)
+cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 calgaryherald.com,calgarysun.com,canada.com,canoe.com,driving.ca,edmontonjournal.com,edmontonsun.com,financialpost.com,leaderpost.com,lfpress.com,montrealgazette.com,nationalpost.com,ontariofarmer.com,ottawacitizen.com,ottawasun.com,thegrowthop.com,theprovince.com,thestarphoenix.com,tj.news,torontosun.com,vancouversun.com,windsorstar.com,winnipegsun.com##+js(set, Object.prototype.adService.initialize, noopFunc)
+camhub.cc,heavyfetish.com,kissjav.*,severeporn.com,shemale6.com,watchporn.to##+js(cookie-remover, kt_ips)
 campusfrance.org##+js(set, pa, {})
 campusfrance.org##+js(set, pa.sendEvent, noopFunc)
 carbuzz.com##.cb-comments__create-form:style(margin-top: 30px !important;)
@@ -5973,56 +6009,91 @@ carbuzz.com##.cb-post-block-images-swiper .collapseable-comments__collapseable:s
 carbuzz.com##.cb-post-block__comments:style(padding-bottom: 0 !important;)
 carparts.com##+js(set-local-storage-item, optimizely-vuid, $remove$)
 cbc.ca##+js(aeld, click, /event_callback=function\(\){window\.location=t\.getAttribute\("href"\)/)
+cbsnews.com##+js(remove-cookie, fly_vid, when, scroll keydown)
 cbsnews.com##+js(set-local-storage-item, /fmscw_resp|intercom/, $remove$)
 cbsnews.com##+js(set-session-storage-item, CBSNEWS.features.fms-params, $remove$)
 cbssports.com,gbatemp.net,news.com.au,pcworld.com,usatoday.com##+js(set, admiral, noopFunc)
+ceramic.or.kr##+js(no-fetch-if, hostingcloud.racing)
 cerbahealthcare.it##+js(set, Object.prototype.setConfigurations, noopFunc)
 cerbahealthcare.it##+js(set, pa, {})
 chan.sankakucomplex.com##iframe[src^="//c.otaserve.net"]
+chatgpt.com##+js(no-fetch-if, method:/post/i url:/\/\/chatgpt\.com\/ces\/v1\/[a-z]$/)
+chatgpt.com##+js(no-fetch-if, method:/post/i url:ab.chatgpt.com/v1/rgstr)
+chollometro.com##+js(href-sanitizer, a[href*="https://www.chollometro.com/visit/"][title^="https://"], [title])
 choose.kaiserpermanente.org##+js(set, _satellite.kpCustomEvent, noopFunc)
 citibank.com.sg##+js(set, populateClientData4RBA, noopFunc)
+civitai.com##+js(no-fetch-if, faro.civitai.com)
+cleveland.com,fox11online.com,oregonlive.com,reuters.com,weartv.com##+js(aost, admiral, .js?)
 click.transactional.agoda.com$image
 clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##+js(set, ga, noopFunc)
 clickjogos.com.br##+js(set, ShowRewards, noopFunc)
 clickorlando.com##+js(set-cookie, bitmovin_analytics_uuid, OK)
+climaaovivo.com.br##+js(nosiif, location.reload)
 cnet.com##+js(set, Object.prototype.updateModifiedCommerceUrl, noopFunc)
+cnet.com,dogfoodadvisor.com,hunker.com,insidehook.com,nbcnews.com,notebookcheck.net,pcgamingwiki.com,pcpartpicker.com,popularmechanics.com,purewow.com,sheknows.com,space.com,streetinsider.com,tomshardware.com,zdnet.com##+js(href-sanitizer, 'body a[href*="?"][href*="u=http"]:is([href*=".com/c/"],[href*=".io/c/"],[href*=".net/c/"],[href*="?subId1="],[href^="https://affportal.bhphoto.com/dl/redventures/?"])', ?u)
+cnn.com,play.discoveryplus.com,play.hbomax.com##+js(no-fetch-if, litix.io)
+cnn.com,play.discoveryplus.com,play.hbomax.com##+js(no-xhr-if, brightline.tv)
 code.world##+js(set, WURFL, {})
+colab.research.google.com##+js(href-sanitizer, a[href^="https://colab.research.google.com/corgiredirector?site=http"], ?site)
+columbian.com,pagesix.com,theverge.com##+js(cookie-remover, /^blaize_/, when, scroll keydown)
 comicleaks.com,ping.gg,nookgaming.com,creatordrop.com,bitdomain.biz,fort-shop.kiev.ua,accuretawealth.com,tracktheta.com,adaptive.marketing,camberlion.com,segops.madisonspecs.com,controlconceptsusa.com,ryaktive.com,tip.etip-staging.etip.io##+js(rmnt, script, /join\(\'\'\)/)
 commande.rhinov.pro##+js(set, Sentry, {})
 commande.rhinov.pro##+js(set, Sentry.init, noopFunc)
+community.fortinet.com##+js(remove-cookie, /LithiumVisitor|ValueSurveyVisitorCount|VISITOR_BEACON/)
 conceptoweb-studio.com##+js(set, initJWPlayerMux, {})
 conceptoweb-studio.com##+js(set, initJWPlayerMux.utils, {})
 conceptoweb-studio.com##+js(set, initJWPlayerMux.utils.now, noopFunc)
 coolmathgames.com##+js(set, network_user_id, '')
 coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausible_ignore, true)
+coursera.org##+js(no-fetch-if, eventing)
 cyclingnews.com##+js(aopr, MONETIZER101.init)
 cyclingnews.com##+js(nano-stb, /outboundLink/)
 cyclingnews.com##.global-banner
 daily.co.jp##+js(trusted-rpnt, script, /(window\.AdObserverManager\.register\('ds[ps][cp]-footer_?r?'\);)/, (()=>{window.addEventListener("load"\,(()=>{const t=document.querySelector("#openwebSection")\,e=document.querySelector("div[data-spot-id]");if(!e||!t)return;const d=e.getAttribute("data-spot-id");if(!d)return;var o;((t\,e\,d)=>{const o=document.createElement("div");o.setAttribute("data-spotim-module"\,"conversation")\,o.setAttribute("data-spot-id"\,t)\,o.dataset.postId=e\,d.appendChild(o)})(d\,Math.abs((o=document.title\,[...o].reduce(((t\,e)=>Math.imul(31\,t)+e.charCodeAt(0)|0)\,0)))\,t);const a=document.createElement("script");a.setAttribute("src"\,`https://launcher.spot.im/spot/${d}`)\,a.setAttribute("async"\,"")\,document.head.appendChild(a)}));})();$1, sedCount, 1)
+dailydot.com##+js(no-fetch-if, url:/undefined method:POST)
 dailypost.co.uk,dailystar.co.uk,mirror.co.uk##+js(nano-stb, (null), 5000, 0.001)
 dailypost.co.uk,dailystar.co.uk,mirror.co.uk##+js(nano-stb, native code, 15000, 0.001)
+dailystar.co.uk,mirror.co.uk##+js(no-xhr-if, cmp.inmobi.com/geoip)
 damndelicious.net##+js(set, Object.prototype._adsDisabled, true)
+damndelicious.net##+js(trusted-replace-argument, Object.defineProperty, 1, json:"_adsEnabled", condition, _adsDisabled)
+danslescoulisses.com##+js(remove-cookie, /^_pubcid/, when, scroll keydown)
+dark-gaming.com##+js(no-xhr-if, lr-ingest.io)
+darntough.com##+js(remove-cookie, /ph_phc|remark_lead/, when, scroll keydown)
 darntough.com##+js(set-local-storage-item, remark_lead, $remove$)
 darntough.com##+js(set-session-storage-item, /^ph_phc/, $remove$)
 dataunlocker.com##+js(rmnt, script, /^Function\(\"/)
 dataunlocker.com,bolighub.dk##+js(set, _hjSettings, undefined)
 dataunlocker.com,bolighub.dk##+js(set, google_tag_manager, undefined)
+dealabs.com##+js(href-sanitizer, a[href*="https://www.dealabs.com/visit/"][title^="https://"], [title])
 decathlon.in##body:style(opacity: 1 !important;)
 delighted.com%2Fe%2F*$image
 delighted.com/e/$image
 demae-can.com##+js(ra, data-trm-action|data-trm-category|data-trm-label, .trm_event, stay)
 detroitnews.com###partner-poster-0
+dev.to##+js(cookie-remover, ahoy_visit)
+dev.to##+js(cookie-remover, ahoy_visitor)
 developer.arm.com##+js(set, Munchkin, {})
 developer.arm.com##+js(set, Munchkin.init, noopFunc)
+deviantart.com##+js(aost, Math.sqrt, update)
+diariovasco.com##+js(remove-cookie, /^(ev|vocuser)_/, when, scroll keydown)
 digg.com###header-banner
 digg.com##.desktop-wrapper.has-header-banner.mt-32:style(margin-top: 8rem !important;)
 digg.com##.single-story > header:style(margin-top: 40px !important)
 digicol.dpm.org.cn##+js(set, dplus, {})
 digicol.dpm.org.cn##+js(set, dplus.track, noopFunc)
+discord.com##+js(no-xhr-if, discord.com/api/v9/science)
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
+disqus.com##+js(remove-cookie, disqus_unique, when, scroll keydown)
 disqus.com##+js(trusted-set-cookie, disqus_unique, 0, , , domain, disqus.com)
 djs.sk##+js(aopr, miner)
+dk.pcpartpicker.com##+js(href-sanitizer, a[href^="https://online.adservicemedia.dk/"][href*="deeplink=http"], ?deeplink)
 dmzj.com##body:style(overflow: auto !important;)
+docs.google.com##+js(no-xhr-if, method:POST url:/logImpressions)
+dogdrip.net##+js(href-sanitizer, body a[href^="/link.php?url=http"], ?url)
+donanimhaber.com##+js(href-sanitizer, body a[href^="/ExternalLinkRedirect?"][href*="url=http"], ?url)
 doodle.com##.AdsLayout__top-container
+douban.com##+js(href-sanitizer, body a[href^="https://www.douban.com/link2/?url=http"], ?url)
 dragonnest.com##+js(rpnt, script, gtag != null, false)
 drstevenlin.com##html:style(overflow: auto !important;)
 druckerchannel.de###DCGA
@@ -6030,6 +6101,7 @@ ds.163.com##+js(set, Sentry, {})
 ds.163.com##+js(set, Sentry.configureScope, noopFunc)
 ds.163.com##+js(set, Sentry.init, noopFunc)
 dukeofed.org##+js(aeld, click, , elements, .dropdown-menu a[href])
+duolingo.com##+js(no-xhr-if, excess.duolingo.com/batch)
 duplichecker.com,plagiarismchecker.co,plagiarismdetector.net,searchenginereports.net,smallseotools.com##.icon_animation samp:style(animation: none !important;)
 dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,echodnia.eu,expressbydgoski.pl,expressilustrowany.pl,gazetakrakowska.pl,gazetalubuska.pl,gazetawroclawska.pl,gk24.pl,gloswielkopolski.pl,gol24.pl,gp24.pl,gra.pl,gs24.pl,kurierlubelski.pl,motofakty.pl,naszemiasto.pl,nowiny24.pl,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,stronakobiet.pl,telemagazyn.pl,to.com.pl,wspolczesna.pl#@#+js(set-constant, pp_adblock_is_off, trueFunc)
 e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !important; opacity: 1 !important;)
@@ -6038,17 +6110,25 @@ ecmweb.com%2Fimages%2Fshim.png$image
 ecmweb.com/images/shim.png$image
 ecom.wixapps.net##+js(set, Sentry, {})
 ecom.wixapps.net##+js(set, Sentry.init, noopFunc)
+edikted.com##+js(remove-cookie, /_shopify_y|yotpo_pixel/, when, scroll keydown)
 eksisozluk.com##.ad-banner:remove()
+elconfidencial.com,journaldemontreal.com##+js(remove-cookie, /_pcid|_pctx|amp_|cX|incap/, when, scroll keydown)
 elconfidencial.com,journaldemontreal.com##+js(set-local-storage-item, /amplitude|lastUtms|gaAccount|cX|_ls_ttl/, $remove$)
 elconfidencial.com,journaldemontreal.com##+js(set-session-storage-item, _cX_S, $remove$)
+electricteeth.com,insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="p=http"], ?p)
+electricteeth.com,insidehook.com,nbcnews.com,shutupandtakemyyen.com,space.com,thisiswhyimbroke.com,xda-developers.com##+js(href-sanitizer, body a[href*="awin1.com/"][href*=".php?"][href*="ued=http"], ?ued)
 elevenlabs.io##+js(set-local-storage-item, IIElevenLabsDubbingResult, $remove$)
+elotrolado.net##+js(href-sanitizer, a[href^="https://go.redirectingat.com?url=http"], ?url)
 email-analytics.meetup.com%2F*$image
 email-analytics.meetup.com/$image
 emailnator.com##[style^="width: 15px; height: 15px; overflow: scroll; visibility: hidden; color: rgb(calc(var(--x2)"]
+endbasic.dev##+js(no-xhr-if, method:POST)
+engadget.com##+js(href-sanitizer, a[href^="https://shopping.yahoo.com/rdlw?"][href*="gcReferrer=http"], ?gcReferrer)
 epson.com.cn##+js(set, _gsDevice, '')
 epson.com.cn##+js(set, _gsq, {})
 epson.com.cn##+js(set, _gsq.push, noopFunc)
 ericdraken.com##+js(aopr, dataLayer)
+erogamescape.org,erogamescape.dyndns.org##+js(href-sanitizer, a[href^="https://dlaf.jp/home/dlaf/=/aid/"][href*="/url/http"], /\/url\/(http.+)/ -uricomponent)
 eservice.directauto.com##+js(set, gtm, {})
 eservice.directauto.com##+js(set, gtm.trackEvent, noopFunc)
 espn.com##+js(json-prune-xhr-response, stream.insertion, , propsToMatch, /video/auth/media)
@@ -6058,17 +6138,25 @@ examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscribe-truncate:style(
 examiner.com.au,theadvocate.com.au,thecourier.com.au##.subscriber-hider:style(display:inherit!important)
 expatexplorer.hsbc.com##+js(trusted-set, HSBC, 'json:{"SITE":{},"DCS":{},"PAGE":{}}')
 f6s.com##+js(aeld, , redirect)
+factable.com##+js(cookie-remover, akaclientip)
+factable.com##+js(cookie-remover, hive_geoloc)
 factable.com##+js(set, googletag.cmd, {})
 factable.com##.pohcontainer
 factable.com##.puicontainer
 fandom.com##+js(set, optimizely, {})
 fandom.com##+js(set, optimizely.initialized, true)
 fandom.com##+js(set-cookie, Geo, OK)
+fap18.net,xxxmom.net,fuck55.net,gofucker.com,sexu.tv,vid123.net,babe8.net,beeg.porn##+js(href-sanitizer, a[href^="/vp/player/to/?u=http"]\, a[href^="/vp/download/goto/?u=http"], ?u)
+farmersjournal.ie##+js(remove-cookie, _vid_t)
 farmersjournal.ie##+js(rmnt, script, /detect|FingerprintJS/)
 farmersjournal.ie##+js(set-local-storage-item, /^_vid_(lr|t)$/, $remove$)
+fcportables.com,filecatchers.com##+js(no-fetch-if, method:POST body:/detect|trigger/)
 fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 filecrypt.co#@?#form > .protection.online ul > li:not(.buttons):-abp-has(> div:not(.circle_captcha))
+fileditchfiles.me##+js(no-fetch-if, method:POST body:/pageview|engagement/)
+flo.com.tr##+js(remove-cookie, bunsar_visitor_id, when, scroll keydown)
 flo.com.tr##+js(set-local-storage-item, /__anon_id|efl-uuid/, $remove$)
+flygbussarna.se##+js(no-fetch-if, /piwik-)
 forbes.com##.recirc-rail
 forbes.com##main div[class][style^="top:"]:has(> div > fbs-video[ad-unit-path])
 forbes.com##main div[class][style^="top:"]:has-text(FORBES’ FEATURED Video)
@@ -6076,6 +6164,7 @@ form.typeform.com##+js(trusted-set-cookie, attribution_user_id, , 0, , domain, .
 forum.blu-ray.com##+js(ra, onclick|oncontextmenu|onmouseover, a[href][onclick*="this.href"], stay)
 forum.dji.com##+js(set, sensorsDataAnalytic201505, {})
 forum.dji.com##+js(set, sensorsDataAnalytic201505.track, noopFunc)
+forums.redflagdeals.com##+js(href-sanitizer, a.autolinker_link[href*=".com/t/"][href*="url=http"], ?url)
 foundit.*##+js(set, freshpaint, {})
 foundit.*##+js(set, freshpaint.track, noopFunc)
 foxbusiness.com,foxnews.com##+js(aeld, /load|error/, \,G=null)\,clearTimeout(K)\,!)
@@ -6083,13 +6172,17 @@ foxbusiness.com,foxnews.com##+js(nostif, \,G=null)\,clearTimeout(K)\,!)
 foxbusiness.com,foxnews.com##+js(set-cookie-reload, admbenefits, 1)
 foxnews.com##+js(set-constant, admrlWpJsonP, emptyObj)
 frogogo.ru##+js(aopw, ADMITAD)
+funradio.fr##+js(trusted-replace-outbound-text, String.prototype.trim, /^STOP_GTM_WARNING$/, IMA_ADS)
 funradio.fr##+js(trusted-set, getUserConsentStatus, json:{"dailymotion":true}, as, function)
 furucombo.app##+js(rmnt, script, /join\(\"\"\)/)
 futura-sciences.com##+js(set, pa, {})
 futura-sciences.com##+js(set, pa.privacy, {})
 gala.com##+js(set-local-storage-item, _gal1, $remove$)
+gala.fr,geo.fr,voici.fr##+js(no-xhr-if, doubleclick)
 gala.fr,geo.fr,voici.fr##+js(set, DD_RUM.addTiming, noopFunc)
+galaxus.de##+js(remove-cookie, /^\.(b|s|xp|ub\.)id/, when, scroll keydown)
 gameplayneo.com##+js(nano-stb, adConfig, *, 0.001)
+gamer.com.tw##+js(href-sanitizer, body a[href^="https://ref.gamer.com.tw/redir.php?url=http"], ?url)
 gamingbible.com##[data-cypress="sticky-ads"]
 gamingbible.com##[data-cypress="sticky-header"]
 gamingbible.com##div[id] > .dfp-ad-unit:upward(1)
@@ -6112,8 +6205,11 @@ gry-online.pl##+js(set, jad, undefined)
 hagerty.com##+js(set, MT, {})
 hagerty.com##+js(set, MT.track, noopFunc)
 hdfcfund.com##+js(set, smartech, noopFunc)
+healf.com##+js(remove-cookie, /^ig-|ph_phc_/, when, scroll keydown)
 healf.com##+js(set-local-storage-item, /^ph_phc_/, $remove$)
 healf.com##+js(set-session-storage-item, /^ph_phc_/, $remove$)
+heavyfetish.com##+js(cookie-remover, kt_qparams)
+heavyfetish.com##+js(cookie-remover, kt_referer)
 heavyfetish.com##+js(set, flashvars.event_reporting, '')
 help.cashctrl.com##+js(set, Origami, {})
 help.cashctrl.com##+js(set, Origami.fastclick, noopFunc)
@@ -6122,15 +6218,20 @@ hikvision.com##+js(set, pa, {})
 hikvision.com##+js(set, pa.getVisitorId, noopFunc)
 hikvision.com##+js(set, pa.sendEvent, noopFunc)
 hindustantimes.com##.rgtWidget.ht-ad-holder-right
+hk01.com##+js(remove-cookie, /_pk_id|hk01_annonymous_id/, when, scroll keydown)
 hktvmall.com##+js(set, Object.prototype.componentInScreen, noopFunc)
 homedepot.ca##body:style(opacity: 1 !important;)
 hopper.com##+js(set-local-storage-item, ld:$anonUserId, $remove$)
 hornoxe.com##.ivycat-post:has(a[href^="https://www.amazon.de/"])
+hotukdeals.com##+js(href-sanitizer, a[href*="https://www.hotukdeals.com/visit/"][title^="https://"], [title])
 hoyolab.com##+js(set-local-storage-item, APMPLUS1000165, $remove$)
 hpplus.jp##+js(set-local-storage-item, /^fw_/, $remove$)
 hpplus.jp##+js(trusted-set-cookie, fw_se, , 0, , domain, .hpplus.jp)
 hpplus.jp##+js(trusted-set-cookie, fw_uid, , 0, , domain, .hpplus.jp)
+html.duckduckgo.com,lite.duckduckgo.com##+js(href-sanitizer, a[href^="//duckduckgo.com/l/?uddg="], ?uddg)
+html5.gamedistribution.com##+js(no-fetch-if, api)
 humanbenchmark.com##+js(set, pubg.unload, noopFunc)
+huntress.com##+js(remove-cookie, /^_sp_id/, when, scroll keydown)
 huntress.com##+js(set-local-storage-item, /builderVisitorId|snowplowOutQueue_cf/, $remove$)
 iceland.co.uk##+js(set, fp, {})
 iceland.co.uk##+js(set, fp.s, noopFunc)
@@ -6138,13 +6239,18 @@ iceland.co.uk##+js(set, fp.t, noopFunc)
 ici.radio-canada.ca##+js(set-local-storage-item, RC_PLAYER_USER_ID, $remove$)
 id.condenast.com##+js(set, appInfo.snowplow.trackSelfDescribingEvent, noopFunc)
 idnes.cz,lidovky.cz##+js(addEventListener-defuser, , /(ping|score)Url)
+igniteseurope.com##+js(no-xhr-if, igniteseurope.com/stats/)
 ilbianconero.com##.no-scroll:style(overflow:auto!important)
 img.promio-connect.com$image
 imgur.com##+js(set, Object.prototype.has_opted_out_tracking, trueFunc)
 indeed.com##+js(set, DD_RUM.addAction, noopFunc)
+independent.co.uk##+js(no-fetch-if, doubleclick)
 indiatimes.com##.nonAppView > div div[class]:not([id]) > div[id^="div-gpt-ad"]:upward(1)
+insidehook.com,jljbacktoclassic.com##+js(href-sanitizer, body a[href*=".com/r.cfm?"][href*="urllink=http"], ?urllink)
+insidehook.com,nbcnews.com,pcpartpicker.com,space.com,tomshardware.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/"][href*="link?id="][href*="&murl=http"], ?murl)
 instagram.com#@#div[style="max-height: inherit; max-width: inherit;"]:has(span:has-text(Paid partnership with ))
 instagram.com#@?#article[role="presentation"] > div[style]:-abp-has(span:-abp-contains(/Anzeige|Gesponsert|Sponsored|Geborg|Sponzorováno|Sponsoreret|Χορηγούμενη|Publicidad|Sponsoroitu|Sponsorisé|Bersponsor|Sponsorizzato|広告|광고|Ditaja|Sponset|Gesponsord|Sponsorowane|Patrocinado|Реклама|Sponsrad|ได้รับการสนับสนุน|May Sponsor|Sponsorlu|赞助内容|贊助|প্রযোজিত|પ્રાયોજિત|स्पॉन्सर्ड|Sponzorirano|ಪ್ರಾಯೋಜಿತ|സ്‌പോൺസർ ചെയ്‌തത്|पुरस्‍कृत|प्रायोजित|ਪ੍ਰਾਯੋਜਿਤ|මුදල් ගෙවා ප්‍රචාරය කරන ලදි|Sponzorované|விளம்பரதாரர்கள்|స్పాన్సర్ చేసింది|Được tài trợ|Спонсорирано|Commandité|Sponsorizat|Спонзорисано/))
+intellischool.id##+js(no-xhr-if, fingerprintjs-pro-react)
 intercity.technology,freelancer.taxmachine.be,adria.gg,fjlaboratories.com,abhijith.page,helpmonks.com##+js(rmnt, script, api.dataunlocker.com)
 investing.com##+js(trusted-set-cookie, inudid, , 0, , domain, .investing.com)
 investing.com##+js(trusted-set-cookie, smd, , 0, , domain, .investing.com)
@@ -6154,7 +6260,10 @@ ioe.vn##+js(set, fingerprint.getCookie, noopFunc)
 iogames.space##+js(set, ramp, undefined)
 iphoneincanada.ca##+js(acs, document.createElement, __apNoHold)
 israelnationalnews.com##+js(rmnt, script, loadTaboola)
+isthereanydeal.com##+js(href-sanitizer, a[href^="http://www.jdoqocy.com/click-"][href*="?URL=http"], ?URL)
+isthereanydeal.com##+js(href-sanitizer, a[href^="https://track.adtraction.com/t/t?"][href*="&url=http"], ?url)
 itmedia.co.jp###ulCommentWidget[style*="display"]:style(display: block !important;)
+itmedia.co.jp##+js(remove-cookie, /cX_P|_pc/)
 itmedia.co.jp##+js(set-local-storage-item, /^_cX_/, $remove$)
 jacksonguitars.com##+js(set, analytics, {})
 javgg.net##.home_iframead:has(> iframe)
@@ -6162,30 +6271,42 @@ jayisgames.com##.widget-topad:style(padding-bottom: 20px !important;)
 job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
 jprime.jp##+js(trusted-rpnt, script, var ISMLIB, !function(){const o={apply:(o\,n\,r)=>(new Error).stack.includes("refreshad")?0:Reflect.apply(o\,n\,r)};window.Math.floor=new Proxy(window.Math.floor\,o)}();var ISMLIB)
 jxoplay.xyz,zorroplay.xyz##+js(rmnt, script, sendFakeRequest)
+katu.com##+js(remove-cookie, /^_pubcid|sbgtvNonce|SUID/)
 katu.com##+js(set-local-storage-item, /^uw-/, $remove$)
 kb.arlo.com##+js(set, _vwo_code, {})
 kb.arlo.com##+js(set, _vwo_code.init, noopFunc)
 kcra.com,wcvb.com##+js(set, google.ima.settings.setDisableFlashAds, noopFunc)
+kick.com##+js(no-fetch-if, litix.io)
 kick.com##+js(nostif, _startBeaconSending)
 kicker.de##+js(set, initializeslideshow, noopFunc)
+kimbino.bg,kimbino.ro##+js(remove-cookie, kim-tracker-uid)
 kino.de##+js(set, adex, {})
 kino.de##+js(set, adex.getAdexUser, noopFunc)
 kleinanzeigen.de###liberty-vip-billboard
+knowyourmeme.com##+js(nosiif, blogherads)
+landian.news##+js(href-sanitizer, body a[href^="https://www.landian.news/go?url=http"], ?url)
 larazon.es##+js(set, gfkS2sExtension, {})
 larazon.es##+js(set, gfkS2sExtension.HTML5VODExtension, noopFunc)
+lared.cl##+js(no-xhr-if, s73cloud.com/metrics/)
+lared.cl##+js(remove-cookie, device_id)
 lastampa.it##+js(nostif, googleFC)
 lastampa.it##gdwc-recommendations.is-hidden:style(display: block !important;)
 laurelberninteriors.com##+js(set, adthrive._components.start, noopFunc)
 laurelberninteriors.com##+js(set-local-storage-item, /adthrive|ccuid|at_sticky_data|geo-location|OPTABLE_/, $remove$)
 laurelberninteriors.com##+js(set-session-storage-item, /previous/, $remove$)
 lebigdata.fr##.background-cover
+letterboxd.com,justwatch.com##+js(href-sanitizer, 'a[href*=".justwatch.com/a?"][href*="&r=http"]', ?r)
 lexpress.fr##+js(set-local-storage-item, etx-settings, $remove$)
 liberation.fr,officedepot.fr,oui.sncf##+js(acs, document.createElement, '.js')
+lifehacker.com##+js(remove-cookie, gtagSessionId)
 link.nzz.ch%2Fv1%2Femailopen%3F*$image
 link.nzz.ch/v1/emailopen?$image
 link.patch.com%2Fimg%2F*.gif$image
 link.patch.com/img/*.gif$image
+linkedin.com##+js(href-sanitizer, a[href^="https://www.linkedin.com/redir/redirect?url=http"], ?url)
 linklog.tiagorangel.com##+js(set, data, true)
+liquipedia.net##+js(remove-cookie, /^_pk_/)
+lit.link##+js(href-sanitizer, a[href^="/redirects/link-ad?redirectUrl=aHR0c"], ?redirectUrl -base64)
 livemint.com##+js(set, dapTracker, {})
 livemint.com##+js(set, dapTracker.track, noopFunc)
 login.asda.com##+js(set, newrelic, {})
@@ -6201,30 +6322,43 @@ los40.com##.publi_luto_vertical
 los40.com##[class^="advertising"]
 los40.com##div[id^="google_ads_iframe_"]:style(max-height: 1px !important;)
 los40.com##iframe[id^="google_ads_iframe"]:style(max-height: 1px !important;)
+losporn.org,streamporn.li,pandamovies.org,bananamovies.org,xopenload.net,adultdvdparadise.com,speedporn.net,mangoporn.net,pandamovie.info,mangoporn.co,mangoparody.com,xxxscenes.net,pornkino.cc,watchxxxfree.pw,pandamovie.in,speedporn.pw,watchfreexxx.net,youwatchporn.com,watchpornfree.info,pandamovies.me,xtapes.me,netflixporno.net,pornwish.org,freeomovie.info,fullxxxmovies.me,watchpornx.com,xxxparodyhd.net,xxxstream.me,pornwatch.ws,xopenload.pw,pandamovies.pw,streamporn.pw,xopenload.me##+js(href-sanitizer, a[href^="https://drivevideo.xyz/link?link=http"], ?link)
 lumens.com##+js(set, _satellite, {})
 lumens.com##+js(set, _satellite.track, noopFunc)
+m.economictimes.com##+js(nosiif, _grx)
 macrotrends.net##+js(set, clicky, {})
 macrotrends.net##+js(set, clicky.goal, noopFunc)
+madewell.com##+js(cookie-remover, dns_cookie)
 mais.sbt.com.br##+js(set-local-storage-item, youbora.youboraDeviceUUID, $remove$)
+makemytrip.com##+js(remove-cookie, dvid, when, scroll keydown)
 makemytrip.com##+js(set-local-storage-item, PERSONAL_FLIGHT_emperiaResponse, $remove$)
 makemytrip.com##+js(set-local-storage-item, marketingCloudVisitorID, $remove$)
 mandai.com##+js(set, adobeDataLayer, {})
 mandai.com##+js(set, adobeDataLayer.push, noopFunc)
 marketplace.nvidia.com##+js(set, ClickOmniPartner, noopFunc)
+mashable.com##+js(href-sanitizer, a[href^="https://zdcs.link/"], ?u)
 mdjonline.com###article-body > .subscriber-only:style(display: block !important;)
 meconomynews.com,brandbrief.co.kr,motorgraph.com##+js(rmnt, script, KCgpPT57bGV0IGU)
+meconomynews.com,brandbrief.co.kr,motorgraph.com,topstarnews.net##+js(noeval-if, /07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/)
 mediaite.com##+js(set-cookie, am-sub, 1)
 mediaite.com##.adthrive-video-player:style(padding-bottom: 0 !important;)
 mediamarkt.de##+js(aopw, ftr__startScriptLoad)
+meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
+mensjournal.com##+js(json-edit, ..props.children.*[?.key=="admiral-script"])
 mercari.com##+js(json-edit-fetch-request, .*[?.operationName=="TrackEvent"], propsToMatch, /v1/api)
 metacritic.com##+js(rpnt, script, adsEnabled:true, adsEnabled:false)
+metager.org##+js(href-sanitizer, a[href^="https://metager.org/partner/r?link=http"], ?link)
 metastats.net###page-wrapper > div.row:nth-of-type(1)
 metastats.net##.col-md-6:style(height: 150px !important;)
+meteoetradar.com##+js(no-xhr-if, doubleclick)
 mg.mail.notion.so%2F*$image
 mg.mail.notion.so/$image
 mgronline.com##[href^="https://www.hotelscombined.co.th/"]
 microsoft.com##+js(trusted-set-cookie, MicrosoftApplicationsTelemetryDeviceId, , 0)
 mindbodygreen.com##+js(set-local-storage-item, segmentDeviceId, $remove$)
+miro.com##+js(no-xhr-if, /eventhub\.\w+\.miro\.com\/api\/stream/)
+miro.com##+js(remove-cookie, ajs_anonymous_id, when, scroll keydown)
+mirror.co.uk##+js(remove-cookie, /_vf|mantisid|pbjs_/)
 mirror.co.uk##+js(set-local-storage-item, /_analytics|ppid/, $remove$)
 mirror.co.uk##+js(trusted-set-cookie, _sharedid, , 0, , domain, .mirror.co.uk)
 mobalytics.gg##+js(set-local-storage-item, /mixpanel/, $remove$)
@@ -6232,33 +6366,48 @@ mobile.de##+js(set, optimizelyDatafile, {})
 mobile.de##+js(set, optimizelyDatafile.featureFlags, [])
 mumuplayer.com##+js(set-local-storage-item, /_user_id$/, $remove$)
 muropaketti.com##body.noImages .content img:style(display: inline-block !important)
+musescore.com##+js(href-sanitizer, a[href^="https://deeplink.musescore.com/redirect?to=http"], ?to)
 musescore.com##+js(set-local-storage-item, /^rt_/, $remove$)
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 mwed.jp##+js(acs, document.createElement, keen-tracking)
+myair.resmed.com##+js(no-xhr-if, 1.1.1.1/cdn-cgi/trace)
+myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
+myanimelist.net##+js(no-fetch-if, method:POST body:/content_view|impression|page_view/)
 myanimelist.net%2Fstatic%2Flogging.gif%3F*$image
 myanimelist.net/pixel?$image
 myanimelist.net/static/logging.gif?$image
+mydealz.de##+js(href-sanitizer, a[href*="https://www.mydealz.de/visit/"][title^="https://"], [title])
 myfitnesspal.com##+js(set, dataLayer.push, noopFunc)
+mykitsch.com##+js(remove-cookie, _shopify_y, when, scroll keydown)
 mykitsch.com##+js(set-local-storage-item, /lc_anon_user_id|_constructorio_search_client_id/, $remove$)
 naszemiasto.pl##+js(trusted-set-cookie, _sharedid, , 0, , domain, .naszemiasto.pl)
+natgeotv.com##+js(no-xhr-if, /VisitorAPI|AppMeasurement/)
 natgeotv.com##+js(set, Visitor, {})
 nbcsports.com##+js(set, mParticle.Identity.getCurrentUser, noopFunc)
 ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
 ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
+netflix.com##+js(no-fetch-if, logs.netflix.com)
 netoff.co.jp##+js(set, _etmc, {})
 netoff.co.jp##+js(set, _etmc.push, noopFunc)
 nettiauto.com##+js(set, listingGoogleEETracking, noopFunc)
 neurotray.com##+js(nano-stb, /EzoIvent|TDELAY/, 5000)
 newsletter.adnz.co%2F*$image
 newsletter.adnz.co/$image
+nicovideo.jp##+js(no-fetch-if, stella)
+nicovideo.jp##+js(no-xhr-if, stella)
+nl.pepper.com##+js(href-sanitizer, a[href*="https://nl.pepper.com/visit/"][title^="https://"], [title])
 northeast.aaa.com##+js(set, _uxa, {})
 northeast.aaa.com##+js(set, _uxa.push, noopFunc)
+notion.so##+js(no-fetch-if, splunkcloud.com/services/collector)
 novelgames.com###gameEtTopRight.commonEt:style(height: 0 !important;)
 novelgames.com###gamelistCategories:style(margin-bottom: auto !important;)
 novelgames.com##+js(nano-sib, skipAdSeconds, , 0.02)
 novelgames.com##.gamelistGame.commonEt
 novelgames.com##div[id^="forums"][id*="Et"]
 nowgoal.com##[href^="/ad/"]
+nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&u=http"], ?u)
+nowinstock.net##+js(href-sanitizer, a[href*="?"][href*="&url=http"], ?url)
+nowinstock.net##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl="], ?murl)
 nvidia.com##+js(trusted-set-cookie, ak_bmsc, , 0, , domain, .nvidia.com)
 nybooks.com##.ad-spacing
 nypost.com,pagesix.com##+js(json-prune, dataLayer.trackingId user.trackingId)
@@ -6269,27 +6418,47 @@ officedepot.*##+js(set, gbTracker, {})
 officedepot.*##+js(set, gbTracker.sendAutoSearchEvent, noopFunc)
 officedepot.co.cr##+js(set, Object.prototype.subscribe, noopFunc)
 officedepot.co.cr##+js(set, mediator, noopFunc)
+oilprice.com##+js(remove-cookie, ga_store_user_id)
+oklivetv.com##+js(no-fetch-if, method:POST body:tracker)
+okteve.com##+js(no-fetch-if, method:POST body:tracker)
+olympics.com##+js(no-fetch-if, event-router.olympics.com)
 omni.soundestlink.com$image
+onual.com##+js(href-sanitizer, a.btn[href^="https://zxro.com/u/?url=http"], ?url)
 optimum.net##+js(set, s, {})
 optimum.net##+js(set, s.tl, noopFunc)
 orange.fr###o_carrepub:style(height: 1px; margin: 0; min-height: auto; visibility: hidden; width: 1px;)
 ozap.com##+js(rpnt, script, WB.defer, 'window.wbads={public:{getDailymotionAdsParamsForScript:function(a,b){b("")},setTargetingOnPosition:function(a,b){return}}};WB.defer', condition, wbads.public.setTargetingOnPosition)
+ozlosleep.com##+js(remove-cookie, /_shopify_(y|sa_)/, when, scroll keydown)
 palatifini.it##.show.fade.modal-backdrop
 palatifini.it##body:style(overflow: auto !important;)
+pandadoc.com##+js(no-fetch-if, segment.io)
 pandadoc.com##+js(rmnt, script, adBlockEnabled)
 pasteboard.co##+js(set, nads.createAd, trueFunc)
+paypal.com##+js(href-sanitizer, a[href^="https://app.adjust.com/"][href*="?fallback=http"], ?fallback)
 pearsonclinical.com##.aligner
+pelando.com.br##+js(href-sanitizer, a[href*="https://www.pelando.com.br/api/redirect?url="], ?url)
+pepper.pl##+js(href-sanitizer, a[href*="https://www.pepper.pl/visit/"][title^="https://"], [title])
+pepper.ru##+js(href-sanitizer, a[href*="https://www.pepper.ru/visit/"][title^="https://"], [title])
+perplexity.ai##+js(aost, window.screen.height, setTimeout)
 personality-database.com##+js(set, freestar.newAdSlots, trueFunc)
 pewresearch.org##+js(set, ga, noopFunc)
 pianoencyclopedia.com%2Fen%2Femail%2Fimages%2F*%2Fpix.gif*$image
 pianoencyclopedia.com/en/email/images/*/pix.gif$image
+pimylifeup.com##+js(no-fetch-if, marmalade)
+pitchfork.com##+js(href-sanitizer, a[href^="https://cna.st/"][data-offer-url^="https://"], [data-offer-url])
+pixabay.com##+js(remove-cookie, anonymous_user_id)
 pixel.patch.com%2F*$image
 platform.autods.com##+js(set, _conv_q, {})
 platform.autods.com##+js(set, _conv_q.push, noopFunc)
 play.diziyou.mx,play.diziyou1.com,play.diziyou2.com,play.diziyou3.com,play.diziyou4.com,play.diziyou5.com,play.diziyou6.com,play.diziyou7.com,play.diziyou8.com,play.diziyou9.com,play.diziyou10.com,play.diziyou11.com,play.diziyou12.com,play.diziyou13.com,play.diziyou14.com,play.diziyou15.com,play.diziyou16.com,play.diziyou17.com,play.diziyou18.com,play.diziyou19.com,play.diziyou20.com,play.diziyou21.com,play.diziyou22.com,play.diziyou23.com,play.diziyou24.com,play.diziyou25.com,play.diziyou26.com,play.diziyou27.com,play.diziyou28.com,play.diziyou29.com,play.diziyou30.com,play.diziyou31.com,play.diziyou32.com,play.diziyou33.com,play.diziyou34.com,play.diziyou35.com,play.diziyou36.com,play.diziyou37.com,play.diziyou38.com,play.diziyou39.com,play.diziyou40.com,play.diziyou41.com,play.diziyou42.com,play.diziyou43.com,play.diziyou44.com,play.diziyou45.com,play.diziyou46.com,play.diziyou47.com,play.diziyou48.com,play.diziyou49.com,play.diziyou50.com##video#diziyou_html5_api:style(display: initial !important;)
+player.amperwave.net##+js(no-xhr-if, live.streamtheworld.com/partnerIds)
 politico.com##+js(set, generateGalleryAd, noopFunc)
+pooembed.eu##+js(no-xhr-if, body:pageview method:POST)
+popularmechanics.com##+js(remove-cookie, /_HFID|mosb/)
 poweredbycovermore.com##+js(set, _satellite, {})
 poweredbycovermore.com##+js(set, _satellite.track, noopFunc)
+preisjaeger.at##+js(href-sanitizer, a[href*="https://www.preisjaeger.at/visit/"][title^="https://"], [title])
+premio.io##+js(no-fetch-if, cloudflare.com/cdn-cgi/trace)
 prisjakt.no##+js(set, apntag.refresh, noopFunc)
 proboards.com,winclassic.net##+js(rmnt, script, vglnk)
 prod.hydra.sophos.com##+js(set, Sentry, {})
@@ -6298,19 +6467,23 @@ profit.ro##.zc_rectangle
 profit.ro##.zc_top
 profit.ro##.zc_top_mobil:style(display: block !important;)
 progressionmbj.ca##.et-waypoint:not(.et_pb_counters):style(opacity: 1 !important;)
+promodescuentos.com##+js(href-sanitizer, a[href*="https://www.promodescuentos.com/visit/"][title^="https://"], [title])
 proxyorb.com##+js(aeld, load, dataset.ready, elements, script[src^="https://www.googletagmanager.com/gtag/js?id="])
 pruefernavi.de##+js(set, elasticApm, {})
 pruefernavi.de##+js(set, elasticApm.init, noopFunc)
+purepeople.com##+js(trusted-replace-argument, document.querySelector, 0, {"value": ".ad-placement-interstitial"}, condition, .easyAdsBox)
 pythonjobshq.com##+js(aopr, Keen)
 r.mail.wowvegas.com%2Ftr%2Fop%2F*$image
 r.mail.wowvegas.com/tr/op/$image
 raider.io##.rio-zone--wrapper
+ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
 rd.remove.bg%2FCI0%2F*$image
 rd.remove.bg/CI0/$image
 realmadryt.pl##.rmpl-adsense-desktop
 reclameaqui.com.br###page-header > header:style(position: absolute !important;)
 reclameaqui.com.br##+js(rpnt, script, !function, 'setTimeout((()=>{document.querySelectorAll("a[href]").forEach((e=>{Object.keys(e).forEach((t=>{t.startsWith("__reactProps")&&"function"==typeof e[t].onClick&&e[t].onClick.toString().includes("preventDefault")&&(e[t].onClick=void 0)}))}))}),3e3);!function')
 reclameaqui.com.br##section#home > #hero.pinned:style(position: absolute !important;)
+redis.io##+js(remove-cookie, rdsTracking, when, scroll keydown)
 researchgate.net##.lite-page__header-navigation--with-ad:style(top: 0 !important;)
 researchgate.net##.research-resources-summary__inner.is-sticky:style(top: 0 !important;)
 reuters.com##ul[class^="cluster__stories"] > li[class^="cluster__cluster-basic"][class*="cluster__column-left"]:style(margin-left: 17.0418006431vw !important;)
@@ -6318,6 +6491,7 @@ reuters.com##ul[class^="cluster__stories"] > li[class^="cluster__cluster-hub"][c
 ridge.com##+js(set, baMet.register, noopFunc)
 roaringapps.com##+js(set, Sentry, {})
 roaringapps.com##+js(set, Sentry.onLoad, noopFunc)
+roblox.com##+js(href-sanitizer, a[href^="https://cts.businesswire.com/ct/CT?"][href*="url=http"], ?url)
 rte.ie###gpt-leaderboard
 rte.ie##.alert.callout
 safeframe.googlesyndication.com##.left-container
@@ -6326,20 +6500,30 @@ scotsman.com##[class*="AdContainer"]
 scotsman.com##[class*="AdLoading"]
 scotsman.com##[class*="Ads__Container"]
 scotsman.com##[class*="Billboard__Root"]
+search.brave.com##+js(no-fetch-if, body:browser)
 search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
+seazon.fr##+js(no-fetch-if, url:ipapi.co)
 seclore.com##+js(trusted-set, _omapp.scripts.geolocation, '{"value": {"status":"loaded","object":null,"data":{"country":{"shortName":"","longName":""},"administrative_area_level_1":{"shortName":"","longName":""},"administrative_area_level_2":{"shortName":"","longName":""},"locality":{"shortName":"","longName":""},"original":{"ip":"","ip_decimal":null,"country":"","country_eu":false,"country_iso":"","city":"","latitude":null,"longitude":null,"user_agent":{"product":"","version":"","comment":"","raw_value":""},"zip_code":"","time_zone":""}},"error":""}}')
+securegames.iwin.com##+js(no-xhr-if, /gtm.js)
 sensacine.com##+js(aopr, JadIds)
 sfr.fr##+js(aopr, _oEa)
+shahid.mbc.net##+js(no-fetch-if, mparticle.com)
 share.hntv.tv##+js(set, sensorsDataAnalytic201505, {})
 share.hntv.tv##+js(set, sensorsDataAnalytic201505.init, noopFunc)
 share.hntv.tv##+js(set, sensorsDataAnalytic201505.quick, noopFunc)
 share.hntv.tv##+js(set, sensorsDataAnalytic201505.track, noopFunc)
 sharpen-free-design-generator.netlify.app##+js(set, fathom, {})
 sharpen-free-design-generator.netlify.app##+js(set, fathom.trackGoal, noopFunc)
+shoebacca.com##+js(remove-cookie, /swym-|yotpo_/, when, scroll keydown)
 shoebacca.com##+js(set-local-storage-item, /^boostSD/, $remove$)
 shrink-service.it##+js(aopr, WebAssembly)
+shutterstock.com##+js(remove-cookie, /sstk_anonymous_id|htjs_anonymous_id/, when, scroll keydown)
 shutterstock.com##+js(set-local-storage-item, /htjs_|stck_|statsig/, $remove$)
 sky.pro##+js(set-local-storage-item, /sales-ninja|snj/, $remove$)
+slant.co##+js(trusted-replace-argument, HTMLAnchorElement.prototype.getAttribute, 0, json:"class", condition, data-direct-ad)
+slickdeals.net##+js(href-sanitizer, a[href*="go.redirectingat.com"][href*="url=http"], ?url)
+slickdeals.net##+js(href-sanitizer, a[href^="https://slickdeals.net/?"][href*="u2=http"], ?u2)
+smallpdf.com##+js(no-fetch-if, pluto.smallpdf.com)
 smartcharts.net##+js(set, WURFL, {})
 smarturl.it##+js(set, linkfire.tracking, {})
 snl.patch.com%2Fimp%3F$image
@@ -6350,26 +6534,39 @@ some.porn###native__skeleton
 some.porn###video-page-player-blocker:style(pointer-events:none)
 some.porn##.skeleton
 sosovalue.com##+js(set, sensors.track, noopFunc)
+soundcloud.com##+js(href-sanitizer, body a[href^="https://gate.sc"][href*="?url=http"], ?url)
+soundcloud.com##+js(remove-cookie, /sc_anonymous_id|sc_tracking_anonymous_id/, when, scroll keydown)
 soundcloud.com##+js(set-local-storage-item, /sc_tracking_anonymous_id|statsig/, $remove$)
+souq-design.com##+js(remove-cookie, /^(_tccl_|_scc_session|fpfid)/)
+space.com,techradar.com,tomshardware.com,zdnet.com##+js(href-sanitizer, body a[href*="/Proxy.ashx?"][href*="GR_URL=http"], ?GR_URL)
 spankbang.*##+js(set, send_gravity_event, noopFunc)
 spankbang.*##+js(set, send_recommendation_event, noopFunc)
+sport-passion.fr##+js(href-sanitizer, body a[rel="sponsored nofollow"][href*=".tradeinn.com/ts/"][href*="trg=http"], ?trg)
+sport-passion.fr##+js(href-sanitizer, body a[rel="sponsored nofollow"][href^="https://fsx.i-run.fr/?"][href*="redir=http"], ?redir)
 spotifydown.com##.semi-transparent:has(ins.adsbygoogle[data-ad-slot])
+spreaker.com##+js(href-sanitizer, body a[href^="https://spreaker.onelink.me/"][href*="&af_web_dp=http"], ?af_web_dp)
+sspai.com##+js(href-sanitizer, body a[href^="https://sspai.com/link?target=http"], ?target)
 standard.co.uk##+js(nano-stb, 'i||(e(),i=!0)', 2500, 0.001)
 standard.co.uk##+js(nano-stb, [native code], 3000, 0.001)
 standard.co.uk##+js(set, JSGlobals.prebidEnabled, false)
+starstyle.com##+js(href-sanitizer, a[href^="https://go.skimresources.com/"][href*="&url=http"], ?url)
 static.adsugar.ch%2Fimg%3Ford%3D*$image
 static.adsugar.ch/img?ord=$image
+steamcommunity.com,store.steampowered.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?u=http"], ?u)
+steamcommunity.com,store.steampowered.com##+js(href-sanitizer, a[href^="https://steamcommunity.com/linkfilter/?url=http"], ?url)
 steamidfinder.com###nn_bfa_wrapper + .container:style(margin-top: 50px !important;)
 steamidfinder.com##.section-advert-banner--top:remove()
 steamplay.*##+js(aopw, CoinNebula)
 sterkinekor.com##+js(set, ttd_dom_ready, noopFunc)
 stories.los40.com##+js(json-prune, config.globalInteractions.[].bsData)
+study.com##+js(no-xhr-if, /eventLog.ajax)
 stylist.co.uk##+js(set, Object.prototype.isInitialLoadDisabled, noopFunc)
 suamusica.com.br##+js(set, _taboola, {})
 suamusica.com.br##+js(set, _taboola.push, noopFunc)
 suamusica.com.br##+js(set, gtag, noopFunc)
 sunshine-live.de##+js(set, cpd_configdata, {})
 sunshine-live.de##+js(set, cpd_configdata.url, '')
+swissotel.com##+js(remove-cookie, /incap_|s_fid/, when, scroll keydown)
 szbz.de##+js(set, iom, {})
 tacobell.com##+js(set, bmak.js_post, false)
 tapewithadblock.org##+js(rmnt, script, /RegExp\(\'/, condition, RegExp)
@@ -6383,17 +6580,20 @@ tele5.de##.break-ads
 telegraph.co.uk##+js(set, _satellite, {})
 telegraph.co.uk##+js(set, _satellite.getVisitorId, noopFunc)
 telegraph.co.uk##.onward-journey
+terra.com.br##+js(remove-cookie, X-XAct-ID)
 thaiairways.com##+js(set, dcsMultiTrack, noopFunc)
 thaiairways.com##+js(set, urlStrArray, noopFunc)
 thedailybeast.com##+js(set, _aps, {})
 thegatewaypundit.com##+js(rmnt, script, Object.getOwnPropertyDescriptor(Document.prototype)
 thegatewaypundit.com##+js(set, String.prototype.allReplace, 1)
+thehindu.com##+js(remove-cookie, _pc_private)
 theonion.com##+js(nano-stb, ads, *)
 theonion.com##+js(nano-stb, b(), 3000)
 thequint.com##._4xQrn:style(max-height:0px)
 thequint.com##span:has-text(ADVERTISEMENT)
 thespruceeats.com##.mntl-leaderboard-spacer
 thethings.com##.adsninja-ad-zone:not(.adsninja-valstream)
+theverge.com##+js(remove-cookie, vmidv1)
 theverge.com##+js(set-local-storage-item, csg_uid, $remove$)
 threads.com,threads.net##+js(json-prune, require.0.3.0.__bbox.define.[].2.is_linkshim_supported)
 tieba.baidu.com##+js(set, passFingerPrint, noopFunc)
@@ -6408,6 +6608,7 @@ tiktok.com##+js(set, AppLogBridge.profileSet, noopFunc)
 tiktok.com##+js(set, AppLogBridge.profileSetOnce, noopFunc)
 tiktok.com##+js(set, AppLogBridge.profileUnset, noopFunc)
 tiktok.com##+js(set-local-storage-item, /__tea_cache_events_.*/, $remove$)
+timesofindia.indiatimes.com##+js(no-fetch-if, tvid.in/log/)
 timesunion.com##div.setHeight.stickyWrapper
 tipranks.com##+js(set, TRC, {})
 tipranks.com##+js(set, TRC._taboolaClone, [])
@@ -6420,9 +6621,12 @@ tmz.com##.ad-header-wrapper:remove()
 tntdrama.com##+js(set, turnerAnalyticsObj, {})
 tntdrama.com##+js(set, turnerAnalyticsObj.getVideoObject4AnalyticsProperty, noopFunc)
 tntdrama.com##+js(set, turnerAnalyticsObj.setVideoObject4AnalyticsProperty, noopFunc)
+tomshardware.com##+js(href-sanitizer, a[href^="https://click.linksynergy.com/deeplink?id="][href*="&murl=http"], ?murl)
 topgear.com##+js(set, _sp_.config.events.onSPPMObjectReady, noopFunc)
 topstarnews.net,islamicfinder.org,secure-signup.net,dramabeans.com,dropgame.jp,manta.com,tportal.hr,tvtropes.org,convertcase.net##+js(rmnt, script, error-report.com)
+touchgal.ink##+js(href-sanitizer, body a[href^="/redirect?url=http"], ?url)
 toureiffel.paris##+js(set, pa, {})
+travelerdoor.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 trendyol.com,trendyol-milla.com##+js(set, process, {})
 trendyol.com,trendyol-milla.com##+js(set, process.env, {})
 trustnet.com##+js(set, googletag.setConfig, noopFunc)
@@ -6431,13 +6635,16 @@ trutv.com##+js(set, turnerAnalyticsObj.setVideoObject4AnalyticsProperty, noopFun
 tubewolf.com##.bnnr
 tubewolf.com##.bnnrs-player
 tunegenie.com##.adcontainer
+tv5mondeplus.com##+js(cookie-remover, didomi_token)
 tv5mondeplus.com##+js(set-local-storage-item, didomi_token, $remove$)
+tweakers.net##+js(aost, btoa, send)
 typingtest.com###ad-container:style(display: block !important;)
 uktvplay.uktv.co.uk##.video-overlay
 uktvplay.uktv.co.uk##.vjs-ad-control-bar.vjs-control-bar
 unionpayintl.com##+js(set, sensorsDataAnalytic201505, {})
 unionpayintl.com##+js(set, sensorsDataAnalytic201505.quick, noopFunc)
 unito.life##+js(acs, KeenTracking)
+unrealengine.com##+js(no-xhr-if, /api/analytics)
 uol.com.br##+js(set, UOLPD, {})
 uol.com.br##+js(set, UOLPD.dataLayer, {})
 uol.com.br##+js(set, URL_VAST_YOUTUBE, {})
@@ -6451,23 +6658,30 @@ uschovna.cz##body:style(background-image:none !important)
 user.guancha.cn##+js(set, sensors, {})
 user.guancha.cn##+js(set, sensors.init, noopFunc)
 usnews.com##+js(set, Object.prototype.vjsPlayer.ads, noopFunc)
+variety.com##+js(href-sanitizer, a[href^="https://clicks.trx-hub.com/"][href*="bn5x.net"], ?q?u)
+vaughn.live##+js(no-fetch-if, method:POST body:zaraz)
 verizon.com##+js(set, newPageViewSpeedtest, noopFunc)
 vidaextra.com##+js(set, hasAdblocker, true)
 videezy.com##+js(ra, onclick, a[onclick="fire_download_click_tracking();"], complete)
 video.gazzetta.it##+js(set, Object.prototype.omidAccessModeRules, {})
 video.gazzetta.it##+js(set, google.ima.OmidVerificationVendor, {})
+view.ceros.com##+js(no-xhr-if, ceros.com/a?data)
 vindobona.org##.adZoneM
 vindobona.org##.adZonePC
 vindobona.org##.sponsored
+virginmediatelevision.ie##+js(no-xhr-if, /froloa.js)
 virginmediatelevision.ie##+js(set, google.ima.dai, {})
 visible.com##+js(set, adobe, {})
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
+viu.com##+js(no-xhr-if, mobileanalytics)
 viu.com##.ad-ph
 viu.com##.banner_ad_label
+vnexpress.net##+js(remove-cookie, /^fosp_|orig_aid/)
 vnexpress.net##+js(set-local-storage-item, /^fosp_|orig_aid/, $remove$)
 vogue.com##+js(set-local-storage-item, /^avoinspector/, $remove$)
 voz.vn%2Fb%2Fimage.gif%3Fp%3D*$image
 voz.vn/b/image.gif?p=$image
+vpnmentor.com##+js(cookie-remover, /_alooma/)
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS, {})
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.addToBasket, noopFunc)
 waitrosecellar.com##+js(set, AnalyticsEventTrackingJS.trackErrorMessage, noopFunc)
@@ -6481,25 +6695,49 @@ warscrap.io##.main-menu-bottom
 warscrap.io##.squareAdContainer
 warszawawpigulce.pl##.eklama
 watcho.com##+js(nano-stb, isPeriodic, *)
+wayfair.com##+js(no-xhr-if, t.wayfair.com/b.php?)
 wayfair.com##+js(set, navigator.sendBeacon, noopFunc)
+wco.tv##+js(no-xhr-if, api)
+web.skype.com##+js(cookie-remover, MicrosoftApplicationsTelemetryFirstLaunchTime)
+webex.com##+js(no-xhr-if, svc.webex.com/metrics)
 whatismyip.com##+js(set, yieldlove_cmd, {})
 whatismyip.com##+js(set, yieldlove_cmd.push, noopFunc)
+windowscentral.com##+js(href-sanitizer, body a[href^="https://go.redirectingat.com/"][href*="&url=http"], ?url)
+wnynewsnow.com##+js(set-attr, ':is(.watch-on-link-logo, li.post) img.ezlazyload[src^="data:image"][data-ezsrc]', src, [data-ezsrc])
 wnynewsnow.com##aside.wp-block-template-part > .wp-block-group-is-layout-constrained > .wp-block-group-is-layout-constrained > figure
 wnynewsnow.com##aside.wp-block-template-part > .wp-block-group-is-layout-constrained > figure
 woman.excite.co.jp##+js(ra, data-woman-ex, a[href][data-woman-ex])
+worldstar.com##+js(remove-cookie, /ana_client_session_id|wshh_uid/)
 worldstar.com##+js(set, Object.prototype.shouldExpectGoogleCMP, false)
+wpde.com##+js(remove-cookie, /bitmovin_analytics_uuid|sbgtvNonce|SUID/, when, scroll keydown)
 wunderground.com##+js(nano-stb, isPeriodic, 2200, 0.001)
 wunderground.com##+js(nano-stb, isPeriodic, 2300, 0.001)
+wunderground.com##+js(no-fetch-if, doubleclick)
+www.bankofamerica.com##+js(no-fetch-if, smetrics.bankofamerica.com)
+www.google.*##+js(href-sanitizer, #main a[href^="/url?q=http"], ?q)
 www.google.*##+js(set, rwt, noopFunc)
+www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
+www.hoyolab.com,www.hoyoverse.com##+js(remove-cookie, /^DEVICEFP/)
+www.lenovo.com##+js(trusted-replace-argument, history.replaceState, 2, "''", condition, ?orgRef)
 www.reddit.com##+js(json-prune, data.*.elements.edges.[].node.outboundLink)
 www.reddit.com##+js(json-prune, data.children.[].data.outbound_link)
 www.reddit.com,sh.reddit.com###main-content:has(>shreddit-title[title$="r/uBlockOrigin"])+#right-sidebar-container [data-slug="pdp_right_rail_related"]
 www.reddit.com,sh.reddit.com##in-feed-community-recommendations:is([subreddit-name="uBlockOrigin"],[subreddit-id="t5_37z6i"])
 www.reddit.com,sh.reddit.com##shreddit-title[title$="r/uBlockOrigin"]~:is([id^="comment-tree-content-anchor-"],shreddit-comment-tree)~div:has(>[id^="answers-suggested-queries"])
+x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/timeline.json)
+x.com##+js(prevent-xhr, /api/1.1/flow/viewer.json)
+x.com##+js(prevent-xhr, /api/1.1/graphql/viewer_context.json)
+xda-developers.com##+js(href-sanitizer, a[href^="https://redirect.viglink.com/?"][href*="ourl=http"], ?ourl)
+xda-developers.com##+js(href-sanitizer, a[href^="https://shop-links.co/link/?"][href*="&url=http"], ?url)
+xhamster.com##+js(no-fetch-if, /hpyjmp|marzaent/)
+xhamster.com##+js(no-xhr-if, /hpyjmp|marzaent/)
 yandex.*#@#+js(aopr, Object.prototype.renderDirect):matches-path(/\/(?:weather\/|pogoda\/|hava\/)/)
 yugioh.com##.cookie-policy-container-invisible.cookie-policy-container
 zee5.com##+js(set, Object.prototype.setDisableFlashAds, noopFunc)
 zefoy.com##+js(set, firebase.analytics, noopFunc)
+zhihu.com##+js(href-sanitizer, body a[href^="https://link.zhihu.com/?target=http"], ?target)
+zhihu.com##+js(no-xhr-if, log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST)
 zillow.com##+js(set, DD_RUM.addAction, noopFunc)
 zillow.com##+js(set, DD_RUM.addError, noopFunc)
 |http://a.pr-cy.ru^$third-party
@@ -6761,6 +6999,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||6pm.com/err.cgi?
 ||6pm.com/onload.cgi?
 ||6pm.com/track.cgi?
+||6s83mz9kbtrj.com^
 ||6sc.co^$third-party
 ||6swu.cpa-france.org^
 ||6ynyejkv0j1s.app.tapmyback.com^
@@ -10550,6 +10789,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||a8x.piece-kaitori.jp^
 ||a9643.actonservice.com^
 ||a9d8e7b6i5s.andgino.jp^
+||a9f3k7z2m1.com^
 ||aa-aem.hamamatsu.com^
 ||aa-metrics.aircard.jp^
 ||aa-metrics.airpayment.jp^
@@ -12697,6 +12937,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||analytics.scorpion.co^
 ||analytics.seagate.com^
 ||analytics.shareaholic.com^
+||analytics.shelbyklein.com^
 ||analytics.shop.hisense.com^
 ||analytics.shopncaasports.com^
 ||analytics.shorte.st^
@@ -14837,6 +15078,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||axp.yourcentralvalley.com^
 ||axp.yourerie.com^
 ||axpjcp.tennis-point.co.uk^
+||ayc0zsm69431gfebd.info.com^
 ||aydtkb.pikabu.ru^
 ||aygccr.eonet.jp^
 ||ayleaf.petersofkensington.com.au^
@@ -16233,6 +16475,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||byteoversea.com/monitor_browser/
 ||byteoversea.com/monitor_web/
 ||bytes.adweek.com/vs.js
+||bytes.media^
 ||byxcbk.ipekevi.com^
 ||bz-berlin.de/_stats/
 ||bzaxgk.ecctur.com^
@@ -16655,7 +16898,6 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||cdn-staging.delivr.ai/pixels/
 ||cdn-vitals.com^
 ||cdn.9gtb.com^
-||cdn.a9f3k7z2m1.com^
 ||cdn.app.cfigroup.com/webmon/$script
 ||cdn.arcstudiopro.com^
 ||cdn.branch.io/branch-latest.min.js$important,domain=nbc.com|pac-12.com
@@ -16686,7 +16928,6 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||cdn.lr-hv-in.com/logger.min.js
 ||cdn.ltba.io^
-||cdn.m2z7r9k4p1.com^
 ||cdn.net.dz.jumia.com^
 ||cdn.net.elogia.net^
 ||cdn.one.store/xdomain_cookie.html
@@ -16696,7 +16937,6 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.polarbyte.com^
 ||cdn.prod.euid.eu^
-||cdn.q4x8n6b2t5.com^
 ||cdn.ravm.tv^
 ||cdn.reverso.net/rumjs/
 ||cdn.seonintelligence.com^
@@ -16711,13 +16951,11 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||cdn.stroeerdigitalgroup.de/metatag/live/$domain=~golem.de
 ||cdn.super.com/remote-event-registry.json
 ||cdn.sy-d.io^
-||cdn.t2037ulzqct5.com^
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app,important
 ||cdn.usefathom.com^
 ||cdn.visits.dqapis.com^
-||cdn.x7k9m2q4z8r1.com^
 ||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.skrill.com^
@@ -20029,6 +20267,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||deprecated-custom-domains.b-cdn.net^$third-party
 ||deqwas.net^$third-party
 ||derbypops.com^
+||derbysoftsec.com^$third-party
 ||derwesten.de/stats/
 ||descarga.veikul.com^
 ||descargar.billeteramango.com^
@@ -23289,6 +23528,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||findthetruth.allergyai.com^
 ||findyourdelight.com^
 ||findyourinfluence.actonservice.com^
+||fingerprint.blockifyapp.com^
 ||fingerprint.com/Vtu1bhY5s/
 ||fingerprint.com/_mintlify/api/v1/e
 ||fingerprint.com/events/
@@ -23936,6 +24176,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||functionalfeather.com^
 ||fundingchoicesmessages.google.com/i/$script,domain=globo.com,important
 ||fundraising.centuryresources.com^
+||funkpit.com^
 ||funnelbox.actonservice.com^
 ||funneld.com^$third-party
 ||funnelserv.systems^
@@ -25379,6 +25620,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||gpsqnl.delsey.com^
 ||gpsvisualizer.com/ip2country.js
 ||gpukye.holabirdsports.com^
+||gpupartner.com/57df8107ae016629/script.js
 ||gpzhcc.lapeyre.fr^
 ||gqhfjr.sizeofficial.es^
 ||gqjppj.rentcafe.com^
@@ -28138,6 +28380,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||insightera.com^$third-party
 ||insightgrit.com^$third-party
 ||insights-mxp-cdn.coursecareers.com^
+||insights-tag.convertkit.com^
 ||insights.53.com^
 ||insights.academy.com^
 ||insights.affilimate.com^
@@ -29026,6 +29269,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||jyyzvb.careerindex.jp^
 ||jzauch.motostorm.it^
 ||jzgfhr.nordicnest.com^
+||jzkdrpijw30voy0.club^
 ||jzoxch.menswearhouse.com^
 ||jzprtb.1stdibs.com^
 ||jzq915.playmobil.com^
@@ -31586,6 +31830,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||m1.stadiumgoods.com^
 ||m2.washmen.com^
 ||m2t.actonservice.com^
+||m2z7r9k4p1.com^
 ||m365.cloud.microsoft/events
 ||m365log.com^$third-party
 ||m3ds.subarumetropolitain.com^
@@ -33653,6 +33898,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||media-lab.ai/ana-sentry.js
 ||media-lab.ai/events
 ||media-platform.com/common/js/lib/cxense/
+||media.audubon.org/js/aud_tracker.min.js
 ||media.claritylabsolutions.com^
 ||media.elementsbehavioralhealth.com^
 ||media.flixcar.com/log/
@@ -37750,6 +37996,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||otclick-adv.ru^$third-party
 ||otel-collector.lenta.tech^
 ||otel-gw.booking.com^
+||otel-hfo.fareharbor.engineering/v1/traces
 ||otel-mobile.doordash.com^
 ||otg.mblycdn.com/bundles/cmp.js
 ||othanasis.openapp.link^
@@ -39430,6 +39677,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||pubbug.com^
 ||pubdream.com^$third-party
 ||pubexchange.com^$third-party
+||pubfluencers.com^$third-party
 ||pubfs.com^
 ||pubimgs.com^
 ||pubimgs.net/main.gif?
@@ -39489,6 +39737,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||puppiesart.com^
 ||purcartz.com^
 ||purebloom.net^
+||pureinfotech.com/media/api/send
 ||purevideo.com^$third-party
 ||purevideo.com^*/pvshim.gif?
 ||purple-hit.com^
@@ -39609,6 +39858,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||q0losid.com^
 ||q20jqurls0y7gk8.info^
 ||q4l5gz6lqog6.www.eventus.io^
+||q4x8n6b2t5.com^
 ||q777.sfchronicle.com^
 ||q88.actonservice.com^
 ||qa-branch-app.liketoknow.it^
@@ -41206,8 +41456,8 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||s.wayfair.com^
 ||s.wellandtribune.ca^
 ||s.wheels.ca^
+||s.yimg.com/cv/apiv2/cv/apiv2/trueanthem/$domain=yahoo.com
 ||s.yimg.com/du/ay/
-||s.yimg.com/rx/ev/*/pframe.html$domain=aol.com
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||s.yimg.com/ss/analytics3.js$domain=~yahoo.com
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
@@ -41539,6 +41789,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||safevisit.online^$third-party
 ||saffronrefuge.com^
 ||sageanalyst.net^$third-party
+||sagemosaicart.com^
 ||sagetrack.net^
 ||sagetrc.com^$third-party
 ||sagxlv.daniellashevel.com^
@@ -46825,6 +47076,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||social.talenttitan.com^
 ||social.tinyview.com^
 ||socialannex.com/c-sale-track/$script
+||socialbackyard.com^
 ||socialflow.branch.rocks^
 ||sociallyscared.com^
 ||socialprofitmachine.com^$third-party
@@ -47461,6 +47713,8 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||squirrel.malaynahocker.com^
 ||squishybears.com^
 ||squishykiosk.com^
+||sr-cdn.shiprocket.in/sr-promise/static/iframe.html
+||sr-cdn.shiprocket.in/sr-promise/static/uc.js
 ||sr59t7wbx5.claricelin.com^
 ||sra-px.cdn-fileserver.com^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
@@ -48200,6 +48454,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||stapewithadblock.monster/stat/
 ||stapewithadblock.xyz/stat/
 ||star-cntr-5.com^$third-party
+||staradmiral.com^
 ||starchild.odencat.com^
 ||starfiles.co/analytics.php
 ||starfurniture.net^
@@ -50151,6 +50406,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||systancia-scp.actonservice.com^
 ||system-beta.b-cdn.net^
 ||system.nefiber.com^
+||systemone.net^
 ||systemssummit.com^
 ||syteapi.com/et?
 ||sytuzk.nissanvimontlaval.com^
@@ -50622,6 +50878,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||t2.hulu.com^
 ||t2.profityi.com/api/visit/
 ||t2.t2b.click^
+||t2037ulzqct5.com^
 ||t3.chat/api/event
 ||t3.chat/js/xt/script.js
 ||t3e.firstchoice.co.uk^
@@ -50640,6 +50897,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||ta.trs.cn^
 ||tab.volces.com/service/2/abtest_config/
 ||tabcarts.com^
+||tableheads.com^
 ||tableleaders.com^
 ||tablesafe.actonservice.com^
 ||taboola.com^$third-party
@@ -51298,6 +51556,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||tennistie.com^
 ||tenping.kr^$third-party
 ||tentaculos.net^$third-party
+||tentpick.com^
 ||tepatonol.com^
 ||terabox.app/api/analytics?
 ||terabox.app/issue/terabox/ts_ad/
@@ -51639,6 +51898,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||tinb.net^$third-party
 ||tinybird.co/v0/events?
 ||tinybluewhale.com^
+||tinybodega.com^
 ||tinyclues.com^$third-party
 ||tinycounter.com^$third-party
 ||tinylytics.app^$third-party
@@ -51945,6 +52205,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||todayintheword.moodybible.org^
 ||todomercadoweb.es/pixel
 ||toeopa.doutornature.com^
+||toffeetribe.com^
 ||tofusquirrel.com^
 ||tokopedia.com/helios-client/client-log
 ||tolt.io^$3p
@@ -55118,6 +55379,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||twelvedawn.com^
 ||twentyerr.com^
 ||twistairclub.net.anwalt.de^
+||twistboat.com^
 ||twistloss.com^
 ||twisty.net^
 ||twitter.com/1.1/attribution
@@ -57637,6 +57899,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||wqudcv.finnishdesignshop.com^
 ||wqytxm.kurly.com^
 ||wrapper.lemde.fr^$third-party
+||wrathsecrets.com^
 ||wrating.com^$third-party
 ||wretchedfloor.com^
 ||wrhv.education.gouv.fr^
@@ -58512,6 +58775,7 @@ zillow.com##+js(set, DD_RUM.addError, noopFunc)
 ||x.timesunion.com^
 ||x.weather.com^
 ||x.xtar.io^
+||x7k9m2q4z8r1.com^
 ||x88s.pandasuite.io^
 ||x9.shinobi.jp^
 ||xaguwy.thomas-muenz.ru^
