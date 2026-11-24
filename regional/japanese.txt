@@ -969,7 +969,9 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||hpplus.jp/ogp/image/ad/$image,~third-party
 @@||hs-exp.jp/ads/$image,font,~third-party
 @@||hs-exp.jp^$generichide
+@@||i.daily.jp/Koukoku/Images/2026_tigers_slogan400x222.webp
 @@||i.daily.jp/Koukoku/Images/ds_noimage.jpg$domain=daily.co.jp
+@@||i.daily.jp/Koukoku/Images/vsc_logo900x136.png
 @@||i2i.jp/view/index.php$domain=erostopics.net
 @@||im.haberturk.com/assets/js/adblock.js
 @@||image.ias.rakuten.co.jp/dst/ec/$image,third-party
@@ -1120,7 +1122,6 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||platform.twitter.com/js/tweet.$script,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 @@||platform.twitter.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
 @@||platform.x.com/widgets.js$domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf.site|xn--o9j0bk1l6d1bnv1as45bb2j.com|yamiisoku.com
-@@||playep.pro/player/vendor/adblock.js
 @@||pm-siken.com^$generichide
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*/300_250_$~third-party
 @@||point-g.rakuten.co.jp/pg_assets/item/contets/*_300x250$image,~third-party
@@ -1139,6 +1140,7 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||pretravel.kawasaki-create.com^$generichide
 @@||prf.hn/source/$image,domain=moppy.jp
 @@||primamedia.ru/media/js/reklama.js
+@@||programiz.com/imads.js
 @@||proto2ad.durasite.net/A-affiliate2/mobile$script,domain=ok.goo-net.com
 @@||ptj.jp/*.cgi
 @@||pubads.g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fvk.sportsbull.jp$domain=imasdk.googleapis.com
@@ -3960,9 +3962,10 @@ famitsu.com##.l-contents-block--article-amazon
 famitsu.com##amp-iframe[width="382"][height="700"]
 famitsu.com##aside[class^="SponsorLink_sponsorLinkContainer_"]
 famitsu.com##div[class$="_adContentItem"]
+famitsu.com##div[class$="_articleMainFooter"] > div[class$="_container"]:has(> div[class$="_rectangle"])
 famitsu.com##div[class$="_articleMainFooter"] > div[class$="_underArticle"]:has(a[href^="https://link.amazon"])
 famitsu.com##div[class$="_container"]:has(> div[class$="_largeRectangle"] > div[id^="ftc_"][id$="_gam"])
-famitsu.com##div[class*="undefined"] > section[class$="_section"]:has(> div > div > h2 > a[href="/ranking/amazon"])
+famitsu.com##div[class$="_leftColumn"] > section:has(> div > div > div > h2 > a[href="/ranking/amazon"])
 famitsu.com##div[class^="ArticleDetailBanner-"]
 famitsu.com##div[class^="ArticleDetailBanner_container_"]
 famitsu.com##div[class^="ArticleDetailBody_adContentItem"]
@@ -8299,7 +8302,6 @@ plus1world.com,panty-kiwami.com,xn--u9j3iub5080abs7bxbc.com##.external
 plusdrive.link##div[style^="position: fixed; bottom: 0px; left: 0px; right: 0px; height: 110px;"]
 po-kaki-to.com###apptemppk2
 po-kaki-to.com##.pkt-adw
-po-kaki-to.com##.sp-post-shita > .widget_block > a[target="_blank"]> img
 po-kaki-to.com,twihub.net,okazuch.site,hozonv.com,search.minna.cc###overlay_area
 poginfo.ddo.jp##.pt-2.col-12[style="height: 105px;"]
 point-game.jp##.rightSSP
@@ -9144,6 +9146,7 @@ soccerdigestweb.com###pc_all_right_1st
 soccerdigestweb.com##.right_ad_c
 soccerdigestweb.com##.towcolumnBan_area
 socialxup.com##.cursor-pointer
+socialxup.com##.promo-card
 socialxup.com##.relative.overflow-hidden:has(> div.mx-auto > section[class] > div.space-y-2 > a:not([href]))
 socialxup.com##[style*="cursor:"]
 socialxup.com##a.bg-yellow-300
@@ -11229,6 +11232,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||daibouken.*/ad-$image
 ||daibouken.jp/ad/
 ||daily.co.jp/kyujinbox/
+||daily.jp/Koukoku/$image
 ||dailyrumor-jp.co.in^$all
 ||daimaoh.co.jp/af/js/af.js
 ||daimaoh.co.jp/cgis_data/af/

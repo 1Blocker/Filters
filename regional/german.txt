@@ -444,7 +444,7 @@
 /banner_woomws.
 /banners/werbung-
 /bannerwerbung-
-/bilder/*/*.jpg$script,domain=24garten.de|hna.de|buzzfeed.de|costanachrichten.com|24rhein.de|24vita.de|brokser-heiratsmarkt.de|echo24.de|in-muenchen.de|ludwigshafen24.de|sauerlandkurier.de
+/bilder/*/*.jpg$script,domain=24garten.de|hna.de|buzzfeed.de|costanachrichten.com|24rhein.de|24vita.de|brokser-heiratsmarkt.de|echo24.de|in-muenchen.de|ludwigshafen24.de|sauerlandkurier.de|ruhr24.de
 /bilder/ads/*
 /bilder/werbung_
 /buchreklame.
@@ -1370,7 +1370,6 @@
 @@||pietsmiet.de^$generichide
 @@||pixelio.de^$generichide
 @@||platform.twitter.com^$script,third-party,domain=gamona.de
-@@||playep.pro/player/vendor/adblock.js
 @@||player.glomex.com/integration^$domain=t-online.de
 @@||playit.ch^$generichide
 @@||pnn.de^$generichide
@@ -1385,6 +1384,7 @@
 @@||primamedia.ru/media/js/reklama.js
 @@||profil.at^$generichide
 @@||profiseller.de/shop-banner/dsl/468x60.html$domain=adhs-zentrum.de
+@@||programiz.com/imads.js
 @@||promiflash.de/static/js/pf-web-*.js$domain=promiflash.de
 @@||promobil.de^$generichide
 @@||promotionbasis.de^$generichide
@@ -1424,7 +1424,6 @@
 @@||rp5.ua^$generichide
 @@||rtl.de^$generichide
 @@||rubiconproject.com/prebid/dynamic/18086.js$domain=4p.de|derwesten.de|futurezone.de|leckerschmecker.me|moin.de|morgenpost.de|news38.de|thueringen24.de|wmn.de
-@@||ruhr24.de/bilder
 @@||ruhr24.de^$generichide
 @@||rundschau-online.de^$generichide
 @@||runnersworld.de^$generichide
@@ -2706,6 +2705,7 @@ carpediem.life#?#.post-overview:has(div:contains(Anzeige))
 carsharing-news.de##.inside-right-sidebar > aside#custom_html-2 > .textwidget > a[href][target="_blank"] > img
 carsharing-news.de#?#.inside-right-sidebar > aside#custom_html-2 > .textwidget > small:contains(Anzeigen)
 carwow.de##.google-ad__disclaimer
+cash-online.de##.promo-area
 cash.ch###partner-teaser-links
 cash.ch##.adm-container
 catplus.de##.asa_async_container
@@ -3361,6 +3361,8 @@ echo-online.de##.vrm-ads__wrapper
 echo-online.de#?#.swiper-wrapper > .swiper-slide:has(> div:not([class],[id]) > div[data-testid="topStories-cardSlider-ad"])
 echo-online.de#?#.teaserGrid > div:not([class],[id]):has(> div[data-testid^="topArticles-teaserGrid-ad-"])
 echo-online.de,allgemeine-zeitung.de###rightbar > .powered
+echo24.de##.id-TBeepSlot--billboard
+echo24.de##article > div.idjs-StoryElements > div.id-TBeepSlot--content:has(> div[id^="trf_ad_"])
 ecomento.de##.external-ad
 ecomento.de##.sidebar-ad-wrap
 economyaustria.at##.ressort_ad
