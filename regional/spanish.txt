@@ -266,6 +266,7 @@ $third-party,script,domain=mangatigre.com
 @@/advert.js$domain=gamevicio.com
 @@/content/aoAdDetect.js
 @@/fuckadblock.js$domain=bemad.es|cuatro.com|divinity.es|energytv.es|factoriadeficcion.com|mitele.es|mtmad.es|telecinco.es
+@@/googleads.g.doubleclick.net/[a-z0-9]*$/$xmlhttprequest,domain=sovetromantica.com
 @@/js/advert.js$~third-party,domain=seo-fast.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
 @@/js/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
 @@/js/prebid-ads.js$domain=files.fm|file.fm
@@ -768,6 +769,7 @@ $third-party,script,domain=mangatigre.com
 @@||static.adsafeprotected.com/skeleton.js?adunitid=
 @@||static.adsafeprotected.com/skeleton.js?bannnerid=
 @@||static.adziff.com/ab/ads.js
+@@||static.ak.crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
 @@||static.classistatic.de/adv/js/nf/adblock_detector.js
 @@||static.criteo.net/images/pixel.gif$domain=diariodenavarra.es|gmx.net
 @@||static.criteo.net/js/px.js$domain=vladan.fr
@@ -2941,7 +2943,6 @@ jkhentai.net##.jk-300
 jkhentai.net,tuhentaionline.com,mangamovil.net###banner_deslizante
 jm-madeira.pt,diez.hn,elcolombiano.com,paginasiete.bo##.adcontainer-portlet
 jmonline.com.br###bannersTopo
-jn.pt##.PreShellPub
 jn.pt##div[class^="t-pub-box-"]
 jn.pt#$#body { background-image: none !important; background-color: unset !important; }
 jn.pt,dn.pt##.tg-adhesion-bar
@@ -4608,8 +4609,8 @@ televalltv.net###floatLayer6
 televisa.com##.bg-stripes-light-iconPromo:has(> div[id^="gpt-top-ad-container-"])
 televisionparatodos.tv##a[href^="http://www.portablemusic.mobi/"]
 televisionparatodos.tv##p > a[href][rel="noopener"][target="_blank"] > img
-tempo.pt,tempo.com,tiempo.com,meteored.*##.meteored-ads
-tempo.pt,tempo.com,tiempo.com,meteored.*##.tappx-ad
+tempo.pt,tiempo.com,meteored.*##.meteored-ads
+tempo.pt,tiempo.com,meteored.*##.tappx-ad
 temporeal.lance.com.br##.tl-item[data-evento="publicidade"]
 terra.cl###ctn-content-sharer-bottom
 terra.cl###ctn-content-sharer-top
@@ -4712,6 +4713,8 @@ trucoswindows.com,cope.es###publiHeader
 tsf.pt##.t-a-pub-1
 tsf.pt##.t-pubbox-bb-1
 tsf.pt##.t-pubbox-mrec-1
+tsf.pt##span[data-lazy-rio-shell="true"]:has(> div[data-comp-id^="pub-slot"])
+tsf.pt,jn.pt##.PreShellPub
 tt18.info#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
 tu.tv###cointainerBanner300
 tu.tv#$#div#banner300x250 { display: none!important; }

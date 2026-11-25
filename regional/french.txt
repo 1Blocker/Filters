@@ -769,6 +769,8 @@
 ##.Middle-Ad
 ##.ad--desk
 ##.ad-blocking-advisor-wrapper
+##.ad-mobileTablet
+##.ad-tabletDesktop
 ##.ad.banner
 ##.ad.billboard
 ##.ad.onlyMobile
@@ -2334,6 +2336,7 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@.shop/*/invoke.js$script,third-party,domain=japscan.*,important
 @@/assets/js/banner-ads_*.js$~third-party,domain=pepperdeals.se|preisjaeger.at|mydealz.de|dealabs.com|promodescuentos.com|pepper.pl|pepper.com|hotukdeals.com
 @@/content/aoAdDetect.js
+@@/googleads.g.doubleclick.net/[a-z0-9]*$/$xmlhttprequest,domain=sovetromantica.com
 @@/js/advert.js$~third-party,domain=seo-fast.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
 @@/js/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
 @@/js/prebid-ads.js$domain=files.fm|file.fm
@@ -2972,6 +2975,7 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@||static.advance.net/static/common/js/adv_gigya.js
 @@||static.advance.net/static/common/js/adv_toprail.js
 @@||static.adziff.com/ab/ads.js
+@@||static.ak.crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
 @@||static.canal-plus.net/resources/adframe.html?adName=$domain=canalplus.com
 @@||static.caradisiac.com/img_site/autopromo/300x90_autopromo_depot_avis.png|$image
 @@||static.classistatic.de/adv/js/nf/adblock_detector.js
@@ -3078,6 +3082,7 @@ $xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.l
 @@||vidsrc.me/watching$subdocument
 @@||vidtube.*/jwplayer.$script,domain=vidtube.cam|vidtube.pro
 @@||viherpeukalot.fi/shop_layout/
+@@||vinteconto.com.br/js/oncc-ad.js$~third-party
 @@||vjav.com/*&ad_tags=
 @@||vjs.zencdn.net/*/video.js$domain=jetload.net
 @@||vjs.zencdn.net^$script,domain=hexload.com|streamcdn.to|streamlive.to|voirfilms.live
@@ -5783,6 +5788,7 @@ vf-film.top##.TPlayer.on::after
 viamichelin.be,viamichelin.ch,viamichelin.com,viamichelin.fr##.itinerary-index-advertising
 viamichelin.be,viamichelin.ch,viamichelin.com,viamichelin.fr##.toggle-adinmap
 vidal.fr##.content-gam
+vide-greniers.org##.agw-banner
 vide-greniers.org##.agw-container
 vide-greniers.org##.iad
 videopornoinceste.xxx###horizontal-banner
@@ -5793,6 +5799,7 @@ vidoza.net##.in-block
 vidoza.net##.wait_buffer
 viewsurf.com###top-ban
 ville-ideale.com###esspub
+vinteconto.com.br#%#//scriptlet('abort-current-inline-script', 'Swal.fire')
 vinyculture.com##.ad2
 vinyculture.com##.addLink
 virginradio.fr###la-promo-showskin-a

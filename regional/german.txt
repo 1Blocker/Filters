@@ -719,6 +719,7 @@
 @@/ad_data/*$image,domain=finanzen.net
 @@/bilder$~third-party,domain=giessener-allgemeine.de|da-imnetz.de|werra-rundschau.de|fnp.de|merkur.de|fr.de|extratipp.com|wetterauer-zeitung.de|hallo-muenchen.de|wlz-online.de|tz.de
 @@/content/aoAdDetect.js
+@@/googleads.g.doubleclick.net/[a-z0-9]*$/$xmlhttprequest,domain=sovetromantica.com
 @@/js/adbl_checkurl.js$domain=cool-web.de|fun-seiten.de|web-spiele.de|gps-cache.de|photo-alben.de|wetter-vorhersage.de|coolsoftware.de|kryptografie.de
 @@/js/advert.js$~third-party,domain=seo-fast.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
 @@/js/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
@@ -1532,6 +1533,7 @@
 @@||static.adsafeprotected.com/skeleton.js?adunitid=
 @@||static.adsafeprotected.com/skeleton.js?bannnerid=
 @@||static.adziff.com/ab/ads.js
+@@||static.ak.crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
 @@||static.cgames.de/gs_cb/assets/core/js/libs/adblockDetection.min.js
 @@||static.classistatic.de/adv/js/nf/adblock_detector.js
 @@||static.classistatic.de/adv/public/js/nf/mobile-detect-adblock.js
@@ -3037,6 +3039,9 @@ dasheimwerkerforum.de##body > #fh-div
 dasheimwerkerforum.de,uhrforum.de,win-10-forum.de,winboard.org,pedelecforum.de###fh-inside-bottom
 dasinvestment.com##.ad-fireplace__wrapper
 dasinvestment.com##.billboard-ad_switcher
+daskochrezept.de##.container > div[style^="min-height:"]:has(> div.OUTBRAIN)
+daskochrezept.de##div.justify-center:has(> div.uppercase + div.slot-mediumRectangle)
+daskochrezept.de,einfachkochen.de,einfachbacken.de##.stf-slot
 daskrankenhaus.de#?#.news-list > .row > div.item > script[src^="https://kohlhammer.schommer-media.de/shared/Data/adserver/"]:upward(1)
 dasoertliche.de###banner-right
 dasoertliche.de###content-billboard
@@ -3395,7 +3400,6 @@ einfachkochen.de##.site__ads-top
 einfachkochen.de##div:has(> #ob_holder:first-child + div[class^="ob-smartfeed"]:last-child)
 einfachkochen.de##div[class^="ad-display"]
 einfachkochen.de,einfachbacken.de##.paragraph--ParagraphSuggestionBox
-einfachkochen.de,einfachbacken.de##.stf-slot
 einfachkochen.de,einfachbacken.de##div[style^="min-height:"][style*="600px"]:has(> .OUTBRAIN:only-child)
 einrichtungsbeispiele.de###rightcolumndiv
 einsteiger-keyboard.de##.affiliate-button

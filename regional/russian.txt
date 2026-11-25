@@ -1778,6 +1778,7 @@ $script,third-party,domain=lafa-site.com
 @@/footerads.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
 @@/fuckadblock.js$domain=animedub.ru
 @@/getCode?$xmlhttprequest,domain=1tv.ru
+@@/googleads.g.doubleclick.net/[a-z0-9]*$/$xmlhttprequest,domain=sovetromantica.com
 @@/imgs_1/banner/*$domain=roe.ru
 @@/informer*.js$domain=ria-m.tv
 @@/js/advert.js$~third-party,domain=seo-fast.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
@@ -2516,6 +2517,7 @@ $script,third-party,domain=lafa-site.com
 @@||static.adsafeprotected.com/skeleton.js?bannnerid=
 @@||static.adtelligent.com/static/jsvpaid.js$domain=stb.ua|novy.tv|ictv.ua|teleportal.ua
 @@||static.adziff.com/ab/ads.js
+@@||static.ak.crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
 @@||static.classistatic.de/adv/js/nf/adblock_detector.js
 @@||static.criteo.net/images/pixel.gif$domain=diariodenavarra.es|gmx.net
 @@||static.criteo.net/js/px.js$domain=vladan.fr
@@ -3134,7 +3136,10 @@ apteka.103.by##div[class^="adfoxBanner"]
 apteka.103.by,apteka.103.ua##.verticalBanner
 apteka.ru##.EshopBannersGrid
 apteka.ru##.EshopShelf
+apteka.ru##.HomeMinishops__scrollbox__list > li:has(> div.MinishopTile > div.PosterAdInfo)
 apteka.ru##.OrderCreatedPopup__banner
+apteka.ru##.PrivateOfficeOrdersCarousel
+apteka.ru##.ViewHomepage__carousel
 apteka.ru##div[class^="banners"]
 apteka.ru#%#//scriptlet('set-cookie', 'mayBeInteresting', '1')
 apteka.ua##main + aside > hr
