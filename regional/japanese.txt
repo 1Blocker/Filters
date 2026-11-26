@@ -917,7 +917,6 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||gaming-city.com/images/ads/$image,~third-party
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=unian.net|unian.ua
 @@||gaua.hit.gemius.pl/gplayer.js$domain=1plus1.video|1plus1.ua|unian.net
-@@||gelbeseiten.de/*/js/components/*.js
 @@||gemeinsamerleben.com/js3caf.js
 @@||genesisowners.com/hyundai-genesis-forum/abp/adblock_detector.js
 @@||geniee.jp^$domain=pointmall.aeon.co.jp
@@ -1114,7 +1113,6 @@ $script,xmlhttprequest,domain=genshin-soku.com|monhan-soku.com|xn--gckdevd5myivf
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=logworker.net
 @@||pagead2.googlesyndication.com/pcs/activeview$domain=allmovie.com|allmusic.com
 @@||passnaviad.durasite.net/A-affiliate2/multiMobile?keywords=netApply_$domain=passnavi.obunsha.co.jp
-@@||pcforum.biz/abp/adblock_detector.js
 @@||pdalife.ru/advertisement.js
 @@||pdn.adingo.jp/asset/close-interstitial.svg$domain=dailynewsonline.jp
 @@||pdn.adingo.jp/p.js$domain=contents-group.work
@@ -2880,6 +2878,7 @@ chunichi.co.jp##.pt-40.ta-c.cscmp-lst002
 chunichi.co.jp##.sub-container-wrp > div.cmp-lst001 > div.l-artlst001 > ul.list > li.item[style^="min-height:9"]:has(> div[id^="div-gpt-"])
 chunichi.co.jp##div[class^="cmp-lst"] > div[class^="l-artlst"] > ul.list > li.item:has(div[id^="div-gpt-"])
 chunichi.co.jp#?#.cmp-hdg005:has(> h2.hdg:contains(【PR】企画特集))
+chunichi.co.jp#?#.sub-container > div.widget:has(> div.cscmp-info:contains(【PR】))
 chunichi.co.jp#?#.sub-container > div[class^="cmp-hdg"]:has(> h2:contains(【PR】))
 chunichi.co.jp,tokyo-np.co.jp##.cmp-misc010
 ciatr.jp##.add-box
@@ -3349,6 +3348,7 @@ deneblog.jp##.intro > center > a[href^="https://www.rs-shop.co.jp/"]
 deneblog.jp##.page_navi > center > a:not([href^="https://deneblog.jp"]):not([href^="/blog-entry-"]):not([href*="fc2.com"]) > img
 deneblog.jp#?#.plugin1_outline:contains(スポンサーバナー)
 dengekionline.com##.histora-top-banner
+dengekionline.com##div[class$="_wrapper"]:has(> div[class$="_banner"] > div[id^="dol"][id$="gam"])
 dengekionline.com##div[class$="rectangleBanner"]
 dengekionline.com##div[class*="_underArticle"]:has(a[href^="https://link.amazon"])
 dengekionline.com##div[class^="ArticleDetailBody_buttonSideBySide_"] > a[class*="ArticleDetailBody_buttonForEC"]
@@ -3361,7 +3361,6 @@ dengekionline.com##div[class^="RightColumn_rectangleBanner_"]
 dengekionline.com##div[class^="SecondRectangle"]
 dengekionline.com##div[class^="TopHeaderBanner_wrapper"]
 dengekionline.com##div[id^="article-body-"] > div#header-1 > div[class*="_underBanner"]
-dengekionline.com##div[id^="article-body-"] > div#header-1 > div[class*="_wrapper"]
 dengekionline.com##div[id^="dol_all_"]
 dengekionline.com##section[class$="_themeOnline"] > div[class$="_mediaScrum"] > div[class$="_wrapper"]
 dengekionline.com##section[class*="topBackgroundJack"]:has(> div[class*="headerBanner"])
@@ -3678,6 +3677,10 @@ ekitan.com###span-homes
 ekitan.com###span-hotel
 ekitan.com###span-job
 ekitan.com##.bnr-item
+ekitan.com##.bottom-anchor-ad
+ekitan.com##.col-2-left-inner > div[style="padding-top: 40px; text-align: center;"]
+ekitan.com##.contents-wrap:has(> div.induction-frame-text-wrap)
+ekitan.com##.ek-route-advertising-no-1
 ekitan.com##.ek-route-advertising-no-2
 ekitan.com##.ek-route-advertising-no-3
 ekitan.com##.na-bottom-wrap
@@ -3687,6 +3690,7 @@ ekitan.com##.sidearea-bnr-wrap > h3.outside:has(+ .contents-tab-wrap > ul > li.e
 ekitan.com##.sidebar-ad-item
 ekitan.com##.sidebar-adv-item
 ekitan.com##.text-center[id^="div-transit_"][id*="_access_result_"][style^="margin: 8px auto"]
+ekitan.com##div[style^="width: 728px;height: 90px"]
 ekitan.com#$#.sidebar-ad[style^="position: fixed; top: 312px;"] { top: auto !important; }
 ekiten.jp##.ll-m-addContainer
 ekme-pk2.hateblo.jp##.entry-content > div[align="center"] > p:has(> script[src^="//xml.affiliate.rakuten.co.jp/"])
@@ -3981,6 +3985,7 @@ famitsu.com##div[class^="Header_superJack"]
 famitsu.com##div[class^="TopHeaderBanner"]
 famitsu.com##div[class^="TopHeaderBanner_wrapper_"]
 famitsu.com##li[class^="SecondaryCardList-"]:has(> div.ad-native-campaign)
+famitsu.com##section[class$="_topBackgroundJack"]
 famitsu.com##section[class^="SecondRightColumn-module-"][class$="_section"]:has(> ol[class^="AmazonRanking-"])
 famitsu.com##section[class^="SecondRightColumn_"] > ol[class^="AmazonRanking_list_"]
 famitsu.com##section[class^="WrapperBackgroundJack-"]
@@ -7812,7 +7817,6 @@ note.affi-sapo-sv.com##.menubox[style="text-align:center;padding:1em;"]
 note.affi-sapo-sv.com##.myh-ads
 note.affi-sapo-sv.com##.topinfeed
 note.cman.jp###tmContHeadAd
-note.com##.external-article-widget--type_shopping
 note.com,note.jp##figure[name][id] > a[href^="https://px.a8.net/svt/ejp"] > img[width="300"][height="250"]
 novel.prcm.jp##.footer__ad
 novel.prcm.jp##.side-ad-wrapper
@@ -11330,6 +11334,7 @@ zyuken.net,syosetu.org,erogamescape.org,erogamescape.dyndns.org,golfdigest.co.jp
 ||eisys-bcs.jp^
 ||ekilog.info/wp-content/uploads/*-1024x768.png
 ||ekispert.net/assets/adRequest-*.js
+||ekitan.com/transit/homes/ajax/getHomesData?
 ||embed.dugout.com^$domain=newsphere.jp|kobe-np.co.jp
 ||emuokunmaster.com/wp-content/uploads/*160_600
 ||encount.press/jobs.json

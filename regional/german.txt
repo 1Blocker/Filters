@@ -1076,7 +1076,6 @@
 @@||gaua.hit.gemius.pl/gemiuslib.js$domain=unian.net|unian.ua
 @@||gaua.hit.gemius.pl/gplayer.js$domain=1plus1.video|1plus1.ua|unian.net
 @@||gearwom.de/mediacenter^
-@@||gelbeseiten.de/*/js/components/*.js
 @@||gemeinsamerleben.com/js3caf.js
 @@||general-anzeiger-bonn.de^$generichide
 @@||genesisowners.com/hyundai-genesis-forum/abp/adblock_detector.js
@@ -1356,7 +1355,6 @@
 @@||partnerads.ysm.yahoo.com/ypa/?ct=*suchmaschine.com$domain=suchmaschine.com
 @@||partners2.das-onlinespiel.de/client.js$domain=games.focus.de
 @@||pbjs.adnz.co/prebid.js?$domain=finanzen.ch
-@@||pcforum.biz/abp/adblock_detector.js
 @@||pcgames.de/screenshots
 @@||pcgames.de^$generichide
 @@||pcgameshardware.de^$generichide
@@ -1700,6 +1698,8 @@
 @@||zeit.de^$generichide
 @@||zertalious.xyz/admitad.js
 @@||zx-pk.ru/abp/adblock_detector.js
+[$path=/ratgeber/verbraucher/]infranken.de#@?#.listing > .listing-item:has(> article > .teaser-inner > .post-content > .post-location:contains(ANZEIGE))
+[$path=/ratgeber/verbraucher/]infranken.de#@?#.listing > .listing-item:has(> article > div[class] > div[class] > .post-location > span:contains(ANZEIGE))
 [$path=/schnaeppchen]nordbayern.de#@?#article:has(> a.box > div > .topline > .modul__teaser__dachzeile:contains([Anzeige]))
 ^utm_medium=popunder^$popup,domain=hilfreich.de
 ^what=zone^$domain=ww3.cad.de|ww4.cad.de
@@ -2413,6 +2413,7 @@ bild.de##img[usemap$="#ConnectMap"]
 bild.de##section[data-block-id="bild-deals"]
 bild.de#$#.eyecatcher { position: absolute!important; left: -3000px!important; }
 bild.de#$#.tea-rectangle { position: absolute!important; left: -3000px!important; }
+bild.de#$?#.ad-wrapper { remove: true; }
 bild.de#$?#.ad-wrapper:not([style*="position"][style*=":-"],div[class*="ad-wrapper--"]) { remove: true; }
 bild.de#?#.layout:has(> .ad-wrapper:only-child)
 bild.de#?#.main-content > .block:has(> h2.block-title + div > .layout > .mtl[data-teaser-position])
@@ -6172,6 +6173,7 @@ nordbayern.de###page_billboard
 nordbayern.de###traffective-ad-Billboard
 nordbayern.de##.article__ad__container
 nordbayern.de##.modul:has(> .modul__header:first-child + .row:last-child > div[class]:only-child > div[class]:only-child > .OUTBRAIN)
+nordbayern.de##.modul:has(> .row:only-child > div:only-child > div[id^="traffective-ad"])
 nordbayern.de##.row:has(> article:first-child + div:last-child > a:only-child > div:only-child > .modul__teaser__anzeige)
 nordbayern.de##a[href^="/schnaeppchen/"]
 nordbayern.de##article:has(> a > .modul__teaser > .modul__teaser__anzeige)
